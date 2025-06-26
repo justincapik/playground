@@ -1,0 +1,55 @@
+{
+    "param_input": "/home/vagrant/Desktop/temp_extract_dir/data",
+    "param_output": "/home/vagrant/Desktop/temp_extract_dir/ALEAPP_Reports_2025-06-26_Thursday_165755",
+    "param_type": "fs",
+    "processing_status": "Complete",
+    "modules": [],
+    "artifacts": {
+        "Device Information": [
+            {
+                "name": "ADB Hosts",
+                "tablename": "adb_hosts",
+                "module": "adb_hosts",
+                "column_map": {
+                    "username": "Username",
+                    "hostname": "Hostname"
+                },
+                "record_count": 1
+            },
+            {
+                "name": "OS Version",
+                "tablename": "os_version",
+                "module": "usagestatsVersion",
+                "column_map": {
+                    "property": "Property",
+                    "property_value": "Property Value"
+                },
+                "record_count": 3
+            }
+        ],
+        "Installed Apps": [
+            {
+                "name": "App Icon",
+                "tablename": "app_icon",
+                "module": "appicons",
+                "column_map": {
+                    "app_name": "App name",
+                    "package_name": "Package name",
+                    "main_icon": "Main icon",
+                    "icons": "Icons"
+                },
+                "record_count": 22,
+                "object_columns": [
+                    {
+                        "name": "main_icon",
+                        "type": "media"
+                    },
+                    {
+                        "name": "icons",
+                        "type": "media"
+                    }
+                ]
+            }
+        ]
+    }
+}
