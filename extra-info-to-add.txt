@@ -1,6 +1,0 @@
-[Aleapp](https://github.com/abrignoni/ALEAPP): Fro Android forensic study
-
-[Windows Credentials Editor](https://www.ampliasecurity.com/research/windows-credentials-editor/): catching credentials in logon network traffic 
-
-[MalwareBazaar](https://bazaar.abuse.ch): for finding YARA signatures of a malware
-[ThreatFox](https://threatfox.abuse.ch): good for identifying IOCs (ip, malware alias...)
