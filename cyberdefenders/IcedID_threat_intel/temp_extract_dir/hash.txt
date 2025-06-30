@@ -1,0 +1,4 @@
+191eda0c539d284b29efe556abb05cd75a9077a0
+
+
+Use this hash on online threat intel platforms (e.g., VirusTotal, Hybrid Analysis) to complete the lab analysis.

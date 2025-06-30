@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Directory listing for /</title>
+</head>
+<body>
+<h1>Directory listing for /</h1>
+<hr>
+<ul>
+<li><a href="32.exe">32.exe</a></li>
+<li><a href="64.exe">64.exe</a></li>
+<li><a href="checking.ps1">checking.ps1</a></li>
+<li><a href="del.ps1">del.ps1</a></li>
+<li><a href="dropper.ps1">dropper.ps1</a></li>
+<li><a href="extracted_hosts.txt">extracted_hosts.txt</a></li>
+<li><a href="ichigo-lite.ps1">ichigo-lite.ps1</a></li>
+<li><a href="Invoke-Mimikatz.ps1">Invoke-Mimikatz.ps1</a></li>
+<li><a href="Invoke-PowerDump.ps1">Invoke-PowerDump.ps1</a></li>
+<li><a href="Invoke-SMBExec.ps1">Invoke-SMBExec.ps1</a></li>
+<li><a href="Invoke-TheHash.ps1">Invoke-TheHash.ps1</a></li>
+<li><a href="javaw.exe">javaw.exe</a></li>
+<li><a href="rx.exe">rx.exe</a></li>
+</ul>
+<hr>
+</body>
+</html>
