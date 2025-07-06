@@ -1,0 +1,217 @@
+00000000  0909              or [rcx],ecx
+00000002  0909              or [rcx],ecx
+00000004  0909              or [rcx],ecx
+00000006  0909              or [rcx],ecx
+00000008  0909              or [rcx],ecx
+0000000A  0E                db 0x0e
+0000000B  B105              mov cl,0x5
+0000000D  A4                movsb
+0000000E  A33C966B97D01803  mov [qword 0x400318d0976b963c],eax
+         -40
+00000017  A99E2FAEB0        test eax,0xb0ae2f9e
+0000001C  5E                pop rsi
+0000001D  8EBFFFFFF709      mov segr7,[rdi+0x9f7ffff]
+00000023  59                pop rcx
+00000024  89999C3FD38A      mov [rcx-0x752cc064],ebx
+0000002A  99                cdq
+0000002B  99                cdq
+0000002C  99                cdq
+0000002D  91                xchg eax,ecx
+0000002E  2D99512E98        sub eax,0x982e5199
+00000033  53                push rbx
+00000034  412D99112411      sub eax,0x11241199
+0000003A  2EAA              cs stosb
+0000003C  51                push rcx
+0000003D  2ED87E19          fdivr dword [cs:rsi+0x19]
+00000041  A6                cmpsb
+00000042  A12E7B99A6212D78  mov eax,[qword 0xda782d21a6997b2e]
+         -DA
+0000004B  A7                cmpsd
+0000004C  4CFC              o64 cld
+0000004E  EC                in al,dx
+0000004F  812A69A62126      sub dword [rdx],0x2621a669
+00000055  BF397C06A3        mov edi,0xa3067c39
+0000005A  FE                db 0xfe
+0000005B  D91C0C            fstp dword [rsp+rcx]
+0000005E  61                db 0x61
+0000005F  A5                movsd
+00000060  E9DDC7B70C        jmp 0xcb7c842
+00000065  0C6C              or al,0x6c
+00000067  7125              jno 0x8e
+00000069  412DFBD9A5A4      sub eax,0xa4a5d9fb
+0000006F  8789A58AA50F      xchg ecx,[rcx+0xfa58aa5]
+00000075  F1                int1
+00000076  2911              sub [rcx],edx
+00000078  2DF859A5A5        sub eax,0xa5a559f8
+0000007D  8789B9A58129      xchg ecx,[rcx+0x2981a5b9]
+00000083  99                cdq
+00000084  A5                movsd
+00000085  A1263126E1A5F971  mov eax,[qword 0x2471f9a5e1263126]
+         -24
+0000008E  9F                lahf
+0000008F  39AC0711E99999    cmp [rdi+rax-0x666616ef],ebp
+00000096  91                xchg eax,ecx
+00000097  A5                movsd
+00000098  F9                stc
+00000099  4CBCF66CE65C3124  mov rsp,0x391f24315ce66cf6
+         -1F39
+000000A3  CC                int3
+000000A4  07                db 0x07
+000000A5  1E                db 0x1e
+000000A6  D999999C9C9C      fstp dword [rcx-0x63636367]
+000000AC  9C                pushf
+000000AD  9F                lahf
+000000AE  398F39B66CE7      cmp [rdi-0x189349c7],ecx
+000000B4  51                push rcx
+000000B5  2415              and al,0x15
+000000B7  E9E9B999E3        jmp 0xffffffffe399baa5
+000000BC  CAA591            retf 0x91a5
+000000BF  0DE9DF389C        or eax,0x9c38dfe9
+000000C4  EC                in al,dx
+000000C5  A6                cmpsb
+000000C6  6C                insb
+000000C7  E69F              out 0x9f,al
+000000C9  398CA66CE6DC9C    cmp [rsi-0x63231994],ecx
+000000D0  9C                pushf
+000000D1  A6                cmpsb
+000000D2  6C                insb
+000000D3  E611              out 0x11,al
+000000D5  2491              and al,0x91
+000000D7  A7                cmpsd
+000000D8  5D                pop rbp
+000000D9  D126              shl dword [rsi],1
+000000DB  DAA59F389C01      fisub dword [rbp+0x19c389f]
+000000E1  09D1              or ecx,edx
+000000E3  77B6              ja 0x9b
+000000E5  210CFA            and [rdx+rdi*8],ecx
+000000E8  110CFA            adc [rdx+rdi*8],ecx
+000000EB  51                push rcx
+000000EC  0CFD              or al,0xfd
+000000EE  9F                lahf
+000000EF  F5                cmc
+000000F0  ED                in eax,dx
+000000F1  FB                sti
+000000F2  59                pop rcx
+000000F3  89814DE89C9C      mov [rcx-0x636317b3],eax
+000000F9  FA                cli
+000000FA  A5                movsd
+000000FB  0C8C              or al,0x8c
+000000FD  8C8F398C8C85      mov [rdi-0x7a7373c7],cs
+00000103  ED                in eax,dx
+00000104  EA                db 0xea
+00000105  5F                pop rdi
+00000106  AF                scasd
+00000107  4FD9914DEA5C9C    o64 fst dword [r9-0x63a315b3]
+0000010E  866CE79C          xchg ch,[rdi-0x64]
+00000112  B66C              mov dh,0x6c
+00000114  E65C              out 0x5c,al
+00000116  A6                cmpsb
+00000117  6C                insb
+00000118  E65C              out 0x5c,al
+0000011A  96                xchg eax,esi
+0000011B  6C                insb
+0000011C  E7DA              out 0xda,eax
+0000011E  A5                movsd
+0000011F  93                xchg eax,ebx
+00000120  51                push rcx
+00000121  C5                db 0xc5
+00000122  9E                sahf
+00000123  C6                db 0xc6
+00000124  0C8C              or al,0x8c
+00000126  BCFCA664BC        mov esp,0xbc64a6fc
+0000012B  3C03              cmp al,0x3
+0000012D  27                db 0x27
+0000012E  B77A              mov bh,0x7a
+00000130  A5                movsd
+00000131  95                xchg eax,ebp
+00000132  A7                cmpsd
+00000133  17                db 0x17
+00000134  667666            o16 jna 0x19d
+00000137  6D                insd
+00000138  EF                out dx,eax
+00000139  CE                db 0xce
+0000013A  DC9EBF6FAD8F      fcomp qword [rsi-0x70529041]
+00000140  DF                db 0xdf
+00000141  DEBFCEAEA99D      fidivr word [rdi-0x62565132]
+00000147  AE                scasb
+00000148  BFCF8EDFCC        mov edi,0xccdf8ecf
+0000014D  9E                sahf
+0000014E  BF6FAFCEAE        mov edi,0xaeceaf6f
+00000153  AD                lodsd
+00000154  899DCE1F0EDC      mov [rbp-0x23f1e032],ebx
+0000015A  DF1E              fistp word [rsi]
+0000015C  BFCF8FD99D        mov edi,0x9dd98fcf
+00000161  5F                pop rdi
+00000162  6F                outsd
+00000163  8F                db 0x8f
+00000164  DD5F0F            fstp qword [rdi+0xf]
+00000167  BEBF8EBE0D        mov esi,0xdbe8ebf
+0000016C  899EEEAABC6A      mov [rsi+0x6abcaaee],ebx
+00000172  AA                stosb
+00000173  B99CECAD8C        mov ecx,0x8cadec9c
+00000178  AF                scasd
+00000179  6F                outsd
+0000017A  AF                scasd
+0000017B  2F                db 0x2f
+0000017C  CE                db 0xce
+0000017D  DD899FBF0F7F      fisttp qword [rcx+0x7f0fbf9f]
+00000183  D99F5F0EAEDF      fstp dword [rdi-0x2051f1a1]
+00000189  CF                iret
+0000018A  799F              jns 0x12b
+0000018C  8F                db 0x8f
+0000018D  AF                scasd
+0000018E  AF                scasd
+0000018F  CE                db 0xce
+00000190  9E                sahf
+00000191  D99FAF5F6EAF      fstp dword [rdi-0x5091a051]
+00000197  CE                db 0xce
+00000198  AF                scasd
+00000199  6F                outsd
+0000019A  AF                scasd
+0000019B  2F                db 0x2f
+0000019C  CE                db 0xce
+0000019D  D99909090909      fstp dword [rcx+0x9090909]
+000001A3  0909              or [rcx],ecx
+000001A5  0909              or [rcx],ecx
+000001A7  0909              or [rcx],ecx
+000001A9  0909              or [rcx],ecx
+000001AB  0909              or [rcx],ecx
+000001AD  0909              or [rcx],ecx
+000001AF  0909              or [rcx],ecx
+000001B1  0909              or [rcx],ecx
+000001B3  0909              or [rcx],ecx
+000001B5  0909              or [rcx],ecx
+000001B7  0909              or [rcx],ecx
+000001B9  0909              or [rcx],ecx
+000001BB  0909              or [rcx],ecx
+000001BD  0909              or [rcx],ecx
+000001BF  0909              or [rcx],ecx
+000001C1  0909              or [rcx],ecx
+000001C3  0909              or [rcx],ecx
+000001C5  0909              or [rcx],ecx
+000001C7  0909              or [rcx],ecx
+000001C9  0909              or [rcx],ecx
+000001CB  0909              or [rcx],ecx
+000001CD  0909              or [rcx],ecx
+000001CF  0909              or [rcx],ecx
+000001D1  0909              or [rcx],ecx
+000001D3  0909              or [rcx],ecx
+000001D5  0909              or [rcx],ecx
+000001D7  0909              or [rcx],ecx
+000001D9  0909              or [rcx],ecx
+000001DB  0909              or [rcx],ecx
+000001DD  0909              or [rcx],ecx
+000001DF  0909              or [rcx],ecx
+000001E1  0909              or [rcx],ecx
+000001E3  0909              or [rcx],ecx
+000001E5  0909              or [rcx],ecx
+000001E7  0909              or [rcx],ecx
+000001E9  0909              or [rcx],ecx
+000001EB  0909              or [rcx],ecx
+000001ED  0909              or [rcx],ecx
+000001EF  0909              or [rcx],ecx
+000001F1  0909              or [rcx],ecx
+000001F3  0909              or [rcx],ecx
+000001F5  0909              or [rcx],ecx
+000001F7  0909              or [rcx],ecx
+000001F9  0909              or [rcx],ecx
