@@ -1,0 +1,2139 @@
+Delivered-To: jasonlongfield@edny.net
+Return-Path: <1axcdhg8jjhh0qqawcrv4go0xjyajjfv1h1uu4-jasonlongfield=edny.net@44101848m.techcrunch.com>
+Received: from bc1qr7d.44101848m.techcrunch.com (bc1qr7d.44101848m.techcrunch.com [139.180.17.183])
+	by in.mail.tm (Haraka/3.0.2) with ESMTPS id 7577A06F-DCB7-4C87-A92E-6AB62F79BCDA.1
+	envelope-from <1axcdhg8jjhh0qqawcrv4go0xjyajjfv1h1uu4-jasonlongfield=edny.net@44101848m.techcrunch.com>
+	tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384;
+	Fri, 28 Feb 2025 16:29:40 +0000
+Received: by 172.16.7.6 with SMTP id a0b2377bl4ybydseq1yhjk7kp5wfshwye1c9qbrf3bc;
+        Fri, 28 Feb 2025 16:29:39 GMT
+DKIM-Signature: v=1; s=hs2; d=44101848m.techcrunch.com; 
+        i=@44101848m.techcrunch.com; 
+        h=sender:from:from:reply-to:to:to:cc:cc:subject:subject:list-unsubscribe:form-sub:feedback-id:list-unsubscribe-post; 
+        a=rsa-sha256; c=relaxed/relaxed; 
+        bh=3oyvVeB1DUrHI2KMw9VrYJfskK8BY9gJ4BZBXfN0prc=; 
+        b=B08vO3eF1W3N4R0vWuYqlaJf+vEuLTy2bPr49+9mOY9GsXplv2jgW8phA6pdCj
+         m+167h/gIazQ1N4uAkoIMUyPlrks2JrUXBmCtoWCD0F35of4p9uzC3UTCNAJThp
+         fKreFjY0LoHTW6KbZzZcqqTx6PnAouF+/9TTLPujmhB94Qsbkdzgm9wwrERT3OQ
+         xuoTCMDPZRWT4X1+DQ4dUwaKnHRF0jIEe1Zym+RSUIhe2EJ796uB5NnfxwDDpPq
+         u1L86vT0vJhtMVQyVSGTRO3aZoerfN/kK2vz5K4HypsG90sIk4gHMh1BvWzTGB1
+         DfgwZuQZzXXxg7HLnTGEP4KDnp3w==; q=dns/txt; t=1740760179; 
+        x=1741022979;
+DKIM-Signature: v=1; s=hs1-44101848; d=techcrunch.com; 
+        i=@techcrunch.com; 
+        h=sender:from:from:reply-to:to:to:cc:cc:subject:subject:list-unsubscribe:form-sub:feedback-id:list-unsubscribe-post; 
+        a=rsa-sha256; c=relaxed/relaxed; 
+        bh=3oyvVeB1DUrHI2KMw9VrYJfskK8BY9gJ4BZBXfN0prc=; 
+        b=Z7H0MIcFdT2UU7IDsJ3hsVSMWKQ8QCJ6bBWrzUkbBJ8jsl3x1y8ZHIsJr9WKjk
+         HJT7HemXgqnTgASPxRucST7PCcLFYiBXgezUETAu+hqVQKOGh2xrTdASdXX1OeY
+         6oQVuH3WmudzEefUjaO6RtfODyw1+zQbi4+fYdU4GqLA1ZmkXbH7Zx7g1gMoUoz
+         yFiY1BLd6TvetkSoM18SsGNKcpspxXq49v5qCgYpIGsThLupcrXFmrT29SzY6qM
+         Sa14ZxYrIBRcD8XcTkYUL25tzx3Z/VhYYdmXq2I6A1Cw8F5Hz0jhucqO1DE4mM2
+         963Vngu1pTp9Y0MhN19W3LhO3jpg==; q=dns/txt; t=1740760179; 
+        x=1741022979;
+Return-Path: <1axcdhg8jjhh0qqawcrv4go0xjyajjfv1h1uu4-jasonlongfield=edny.net@44101848m.techcrunch.com>
+X-HS-Cid: 1axflrm69rvxmbcpqs2iguzdf3geojxi1x88cg
+List-Unsubscribe: <mailto:1axdqqwpl20ewixe3q9jdrtl820ui1bo8kxqio-jasonlongfield=edny.net@44101848m.techcrunch.com?subject=unsubscribe>, <https://email.techcrunch.com/hs/subscription-preferences/v2/unsubscribe-all?data=W2nXS-N30h-L-W3K5PTy3_D9R4W2vP83W49mKdbW2r3_b61BtJK_W4mdpQv4fr0JxW3LXbKx3gy704W2t7yK243VR92W1Vv_4c4hgxYKW41qf884pb9xFW3gj8Z92sBBKXW30KTjV2zWVfyW3NR1L93LGv1dW4crgpl1S59VQW4cMQvw4pylqgW43QCrz3NHbbxW1BNb0C22X-XZW1NDvJS1NgnLgW3GHk9723rsN_W1Lp_ZR2TQw5lW3b2vh049mLmpW4rBdkY3QVbbNW2sMgNZ3H3_V9W4pJ__v38mkyBW2vzw6-4hMk33W2FKXd_2xXYkFW32rdsP2CvwYDW3ZsK4Y25lmyBW2MT6cc36xH-gW3K8pHQ2x_bfVW4pJcl21VhS9LW2FK3Zs4hgXWZW4cSmdc3JVmPrW2TSBtm1VqVd6W32ljVv24VPBbW23fYHX24SfgfW2HKHdM32FzKHW1Sz6P23QK2F2W2p3m7L2nTtyyW3f-l294mJ47ZW2CH7cp2HQ_SvW41sMl53C8b2gW366BbF36yxsVW45Dqfl2My1g6W2YqBXf4hd4KXW3yZ7JG3M920JW2TqbJf3ZG2TCf2FTJSw04>
+Date: Fri, 28 Feb 2025 08:29:39 -0800
+From: TechCrunch <newsletters@techcrunch.com>
+Reply-To: newsletters@techcrunch.com
+To: jasonlongfield@edny.net
+Message-ID: <1740760179522.e63bf2c5-dca2-42a5-a2d8-ecf080cdd15c@44101848m.techcrunch.com>
+Subject: Microsoft will pull the plug on Skype in May
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_704257_1003500576.1740760179619"
+X-Report-Abuse-To: abuse@hubspot.com (see
+ https://policy.hubspot.com/abuse-complaints)
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+
+
+------=_Part_704257_1003500576.1740760179619
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Also: US SEC rules that memecoins aren=E2=80=99t securities
+
+View this email online in your browser (https://email.techcrunch.com/e3t/Ct=
+c/ZX+113/d5b44W04/VX6Yws7dpsSdW62QX_Y8PxLFNW3mxgk35sBDm_N2qdv1C5m_5PW6N1X8z=
+6lZ3pjW6Lt5_p3vp-DXW7bLjrH7_YT8cW5thx3p6LvgfPW37vNdg6zsVj5W2Y6td_2vJDsmW24-=
+Ybb76gbTZW6KBfDf1_lsXcW6ng1X02Pqt_TW4xNdHj36sCqtW36sc442LJ-v2W979mNJ4VKf_cV=
+pBjCv8gs_K_W2X53HW17Nh8QVKC4z912VHHPW1sz5xV29zXF9W6Pbx9q2k_3wGVDrD8P3S6GwpW=
+8h-y7Y2S4wx9W72Rxlh3PlHLkVCKNGx7pFx2WW6MS_l95qg5h7W9kXYKb3hlb23W6tWFZx85t4j=
+_W936-1M83qtD1W4C6yKv4Jrf7tW53N_5z6D1kx0W3HRWxS42NzswW1q8srS2_YBNMW99wfRG84=
+fZ5jW2PXM4y2TnMWgW5HCZM64t7VZbN1PL_Qbx7vpdVL60Vq66YQqpW2z5GDh8zR1_DW97p0hD4=
+SGK1HW5fT-_R9h08lsW7BRr2890BqKcW4Jl13h2p3RMWf1gqms-04 )
+
+By Dominic-Madori Davis (https://email.techcrunch.com/e3t/Ctc/ZX+113/d5b44W=
+04/VX6Yws7dpsSdW62QX_Y8PxLFNW3mxgk35sBDm_N2qdv1C3gP0xW6N1vHY6lZ3q7W7SnSzz8l=
+hPxmW78NN1j5V4g6yW1VlmpY4M7kbPW7QrWwL8ltw_SW4FyjKJ7XgSbsW965zRh3vZrbnW5rZ77=
+p8hCpXtW6BNY0Y4Fxy6mW6RgnHy6l0GddW3s-cHS21ljjkW1J9mV_3cYfVtW4xr3s27G_RyLW2s=
+yCc-8rxsCyN3C2YtLk_W_3W5mNhvn3mQJ79N3X8jqNwk5fLW6t5-5d4n-lmtW8wHCr45CnWj9W3=
+T9wLc7Jc_xjW2Y83qP7xS8bVN16GHH6cM0tHW76MYRs3rB3Hgf5qpG-H04 )
+
+Friday, February 28, 2025
+
+=E2=80=8A
+
+Welcome to TechCrunch AM! This morning, we have notes on Microsoft shutting=
+ down Skype, Airbnb co-founder Joe Gebbia=E2=80=99s role at DOGE, and the S=
+EC=E2=80=99s new stance on cryptocurrency. We=E2=80=99re also looking at Be=
+lgium investigating a data breach at its intelligence service, a spyware ap=
+p ridden with bugs, Snowflake=E2=80=99s attempt to foster AI development on=
+ its platform, and more. Let=E2=80=99s dive in!
+
+TechCrunch Top 3
+
+Image Credits:Sheldon Cooper/SOPA Images/LightRocket / Getty Images
+
+1. End of an era: Microsoft is officially shutting down once-beloved video =
+messaging service Skype on May 5 to instead focus on Teams. Skype, which on=
+ce had 300 million users, only had around 36 million when Microsoft last re=
+leased numbers in 2023. Read More (https://email.techcrunch.com/e3t/Ctc/ZX+=
+113/d5b44W04/VX6Yws7dpsSdW62QX_Y8PxLFNW3mxgk35sBDm_N2qdv2v3gP0xW8wLKSR6lZ3n=
+JW6mbsXV92W9_dW6S12N53T5KdsW6QN8dB8f6dCPW6TN1rc6YMS20N7-tlpW9KN9bN6S4Z2hNl8=
+dxW6r3MtJ5YWnpyW3m956M5SBNfhW6QkFSv7r429KN5vSCjchs6WzW6_9TrQ4QfxhtW6mRBsc7H=
+38m1W8r7mFq6Xxh30W5XJf4W5L44y9W38FPLN4XnmyZV5J83_2R8x3_W1-K4--7-D94tW683nhj=
+1dwM-JW40PQ6b3HmJyDVd0s8793s3Q5W7B9pry6W_Dy8W2Ntsnw90z4BPW51dqlP5rr8Z8W7QDg=
+pG78F0WVVvRf694hy7wQW1JK38_8Rq_1rW3QvtMs4H_ncnW4nGNcb1_hCWLf5b6Pvd04 )
+
+2. More techies in the government: Airbnb co-founder Joe Gebbia says he pla=
+ns to help out at DOGE by leveraging his background in design to overhaul t=
+he government's paper-heavy retirement process. Read More (https://email.te=
+chcrunch.com/e3t/Ctc/ZX+113/d5b44W04/VX6Yws7dpsSdW62QX_Y8PxLFNW3mxgk35sBDm_=
+N2qdv2P3gP0xW95jsWP6lZ3nfW22fLyY5l8wm5W2wGstz5jM2btW8hM5dk2B160ZW1jby4P2bC1=
+GtW5wD7TQ7rnXrnW7mc0nc4gvzQjW8R5lN84FxF1gN3WnTq2m88q_VBdCVr5d6H4MW1T-wQn30W=
+2DTW1J9-kC5XVk8DN3qj7BMNVYcmVyr5Wv4dw6qhW8VRZhw5DvKgfW7tGyXX6By8YwW1dhQhL3S=
+h9FCW2_QMW28t85m9W2tlmyP5gqB0bW7P4RcH5zL-Q2W55NxnP1SfTGyW8BQplH3nNWKTW3TZ2j=
+F84215CW5_7w9p38mvsPVMvQMq52DKRFW6N89DX6_g9mKW27-BBN4XY3t7W7-1WhH1DHgyHW1xh=
+Bp_4KMLTPW3R2n5694JRVCW6y2CTD68_XzHf87YlNY04 )
+
+3. Crypto scams ahoy! The SEC says that meme coins are not securities, and =
+that the people who buy them will not be protected by federal securities la=
+w. It also means people who buy them don=E2=80=99t need to register them wi=
+th the Commission. Read More (https://email.techcrunch.com/e3t/Ctc/ZX+113/d=
+5b44W04/VX6Yws7dpsSdW62QX_Y8PxLFNW3mxgk35sBDm_N2qdv2b3gP0xW7Y8-PT6lZ3nhMkVt=
+Clv6sCrW3WzqnP2jRQYnN6zWC_0-dWYHW5bHtlL5y2F-HW1vF69W6XVTStW7mZlY7547SvLW421=
+pvq95gl29W6BKzRf79m9KDW66_LqT4bly1qW5gYBzY2x9TcmW2TLG0K6Rk-1RW2K8gzv5hbMTKW=
+785VyH3cqk1-W8GQQX55YD8fQW6fJ4yl3KP6kKW7kyWn_8ZJMzFW1TgwZP227NRDW5L4Pq65RSN=
+VlW6-bT4P6wDpYyW3qsdPv3HS4ycV33_jM6wcgbFW2t0TrK96d5QyW7TMg-C2hy57CW3wWxWZ8T=
+p8XyW8YDkRG70tF1nW6DYXv97N1kBHf1BdKYR04 )
+
+=E2=80=8A
+
+A Message from TechCrunch (https://email.techcrunch.com/e3t/Ctc/ZX+113/d5b4=
+4W04/VX6Yws7dpsSdW62QX_Y8PxLFNW3mxgk35sBDm_N2qdv1j3gP0xW69sMD-6lZ3lMW44jXZC=
+1nGvDLW7cSCwq5nyL9nW4XvGPb1-vXslN6z0PF_PVnk6W8mlQ2r6MVq6bW4R28F_2Rmz9DW1_wn=
+6W750dKVN8-xWPFN_p2xW20pdnj6FcVtjVYN1wV2m_sBmW3d5y0p49LQ8lW4P6nR43fFg6cW6C8=
+_cX8C2t2yW8xnHhG1FRH0NW15lJRX56VgcjW1jyd1w2M3WgHW4xdcKb3n4hWRW2QwfJ666NsrQW=
+3srzQD7MV5vcW943yQN3Dpy6sf4Dv8Zz04 )
+
+Unlock Access to Startups & Investors at TechCrunch All Stage (https://emai=
+l.techcrunch.com/e3t/Ctc/ZX+113/d5b44W04/VX6Yws7dpsSdW62QX_Y8PxLFNW3mxgk35s=
+BDm_N2qdv1j3gP0xW69sMD-6lZ3lMW44jXZC1nGvDLW7cSCwq5nyL9nW4XvGPb1-vXslN6z0PF_=
+PVnk6W8mlQ2r6MVq6bW4R28F_2Rmz9DW1_wn6W750dKVN8-xWPFN_p2xW20pdnj6FcVtjVYN1wV=
+2m_sBmW3d5y0p49LQ8lW4P6nR43fFg6cW6C8_cX8C2t2yW8xnHhG1FRH0NW15lJRX56VgcjW1jy=
+d1w2M3WgHW4xdcKb3n4hWRW2QwfJ666NsrQW3srzQD7MV5vcW943yQN3Dpy6sf4Dv8Zz04 )
+
+TechCrunch All Stage sponsorships offer unparalleled access to tech's top i=
+nnovators. Through speaking opportunities, interactive roundtables, and cus=
+tomizable activations, position your brand at the forefront of the industry=
+. Gain valuable leads, media exposure and lasting ROI. (https://email.techc=
+runch.com/e3t/Ctc/ZX+113/d5b44W04/VX6Yws7dpsSdW62QX_Y8PxLFNW3mxgk35sBDm_N2q=
+dv1j3gP0xW69sMD-6lZ3lMW44jXZC1nGvDLW7cSCwq5nyL9nW4XvGPb1-vXslN6z0PF_PVnk6W8=
+mlQ2r6MVq6bW4R28F_2Rmz9DW1_wn6W750dKVN8-xWPFN_p2xW20pdnj6FcVtjVYN1wV2m_sBmW=
+3d5y0p49LQ8lW4P6nR43fFg6cW6C8_cX8C2t2yW8xnHhG1FRH0NW15lJRX56VgcjW1jyd1w2M3W=
+gHW4xdcKb3n4hWRW2QwfJ666NsrQW3srzQD7MV5vcW943yQN3Dpy6sf4Dv8Zz04 )
+
+Learn More (https://email.techcrunch.com/e3t/Ctc/ZX+113/d5b44W04/VX6Yws7dps=
+SdW62QX_Y8PxLFNW3mxgk35sBDm_N2qdv1j3gP0xW69sMD-6lZ3lMW44jXZC1nGvDLW7cSCwq5n=
+yL9nW4XvGPb1-vXslN6z0PF_PVnk6W8mlQ2r6MVq6bW4R28F_2Rmz9DW1_wn6W750dKVN8-xWPF=
+N_p2xW20pdnj6FcVtjVYN1wV2m_sBmW3d5y0p49LQ8lW4P6nR43fFg6cW6C8_cX8C2t2yW8xnHh=
+G1FRH0NW15lJRX56VgcjW1jyd1w2M3WgHW4xdcKb3n4hWRW2QwfJ666NsrQW3srzQD7MV5vcW94=
+3yQN3Dpy6sf4Dv8Zz04 )
+
+=E2=80=8A
+
+Morning must-reads
+
+Image Credits: Geraint Rowland Photography / Getty Images
+
+Belgium suffers a major data breach: Belgium is looking into whether hacker=
+s linked to the Chinese government breached the data of its state security =
+service. The investigation was opened in November 2023 after the country fi=
+rst learned of the attack. Read More (https://email.techcrunch.com/e3t/Ctc/=
+ZX+113/d5b44W04/VX6Yws7dpsSdW62QX_Y8PxLFNW3mxgk35sBDm_N2qdv0K5fkwKW50kH_H6l=
+Z3pPW909zp637yp_9N7yskqwYF6bHN320v3G9c0cBW6wyY7d7jVt-tW2B4rcx8z6GXNW8NF9mC7=
+7BJQnW6MTLhV3BXjnRN1JzWfy-prQLW5tp8Tn6d510_W5pR02z8FzHQZW3C86_M734Qh3W2xYcT=
+q5bgqmKW1Dcq5p24nsKpW2KytDB3q1T38W7f7Q_N5QlxzPW99vdc25r1M3kW3SZ8VW39ljwyV4x=
+qd62pJNr4W44Vhht1ssPb2W907Hr71dqNy6W3H-XQJ1P1NldW3-rJHj7cwx-FW7Y2w8N1KhMBnM=
+WdPYVMcrCxVHYbmq1j3GPXW28SKl17Fzx-8VprbVG7jsHnQW3mwCPM7xvgQSW8CpRjY846YKFW2=
+gZChq8NgdhQW5QW50W2gQyr9W8g3TCM3tgZ6yf51gS--04 )
+
+Yet another example of why spyware is bad: Stalkerware app Spyzie apparentl=
+y suffers from a bug that has exposed the email information of thousands of=
+ people who signed up to use the app. Thousands of Android smartphones and =
+iPhones are affected, but many users have no idea their devices have been h=
+acked. Read More (https://email.techcrunch.com/e3t/Ctc/ZX+113/d5b44W04/VX6Y=
+ws7dpsSdW62QX_Y8PxLFNW3mxgk35sBDm_N2qdv2P3gP0xW95jsWP6lZ3mQW6stlHB5KmBGyW3m=
+w3L33tTvl-W8-XkqR1NlYkLW1qz_FF3-nh-nW18gBD27DcTHHW8rCS_y2-rfttW7vWt_G1yHBkn=
+W45qt8b7YXNHzW2Wyvmm7RrCBpVhYJPd2WKB6nW8JSTjw1BrmTwW1lSwfR9bSFm_W8PCFhL3fdz=
+rVW1Dsp4337p59lV-_PRb6nSHYkW6QPTHJ5kYwGbN6qbFmnm__xmW6FCFsk3PvVV-W1LZcfJ98G=
+7d-W7t5yTJ1RfgXYVzhvZw5GZg8VW1B8LCs6RlbSkW1Qsv5k48XwNLW4zBhBC8T4vxvN97f6D57=
+vxWPW3R86yK5FZ6wvN4tXqR9kH2JYW5Kk24H36Pv8lW3X1fQp4cx-3hW3ttr6l2WY90Vf1NLBLl=
+04 )
+
+Get them while they=E2=80=99re young: Snowflake is setting aside an extra $=
+200 million for its startup accelerator, which invests in early-stage start=
+ups building AI on top of Snowflake. Startups in the program also receive t=
+echnical support and cloud credits for AWS. Read More (https://email.techcr=
+unch.com/e3t/Ctc/ZX+113/d5b44W04/VX6Yws7dpsSdW62QX_Y8PxLFNW3mxgk35sBDm_N2qd=
+v2v3gP0xW8wLKSR6lZ3m4W4ypg1D8LjcgJW6llr341lvZgyN7KtXw-D_W-QVK8NTb6XNk9GW3YZ=
+Df48HhSDpN8HRS49Qm_gXW3gxB2f4xQJgWW5tsx3_1j6xLVW2Fld2l1J0KglW4sq9434TvK21W5=
+fRc3w7QYVxXW36r3hK6q599hW1rwhdf4FLtXNMjYwpDFYkLRW7XhZ1F2Z_rz6W3xW08J8ybpRRV=
+83QfP6lRP8gW1G5LDP2sYSyVW4d4Fn189GpV1W6QqhVr7XlY37W4-4Vtq2lLXqrVgSV_l2KCJVh=
+W6vbxDX7hpC52W6lVXGP3l3bv-VpvHkJ8Fp5nfN6Gsdyt_VMDGN4txtvrnyPz6W5PvmbC2QJNVL=
+f3p6Dsd04 )
+
+Change of plans: Twitch plans to open up its monetization tools to most cre=
+ators, regardless of how many followers they have. Previously only affiliat=
+es and partners on Twitch had access to subscriptions or had to meet a cert=
+ain eligibility criteria. Read More (https://email.techcrunch.com/e3t/Ctc/Z=
+X+113/d5b44W04/VX6Yws7dpsSdW62QX_Y8PxLFNW3mxgk35sBDm_N2qdv2v3gP0xW8wLKSR6lZ=
+3lSW4ZnN4T62M7cNW3s8pB-7XYpdlW3Gg0fc476RhjW5PV9197DqlQzVH5ngD3TGDgDW5NNCdH1=
+FyLSzW6_gjw38zt58_W2G3RYS8KDkvmW2j9JgN5slVGMW7kCjZv1Dk61GW2CxLpy5RltYkW2Qpg=
+f28qMHlNW3yKyfX6ZQhb4N861f4gpB--CN20phr-fwcSpV1wFVM73S3LjW7wBYYR2KM48YW4m7m=
+QQ8hKz5MW5TY2Jk9ccJ-NW1clmbr4rYxvfN8_KS7W5sBVMW2VRJqV8lt2PfVwkKMj79VJ9fW5nb=
+mQN2SXjMRW2vrP-Y78DHMxN62pyHMKr-rTW84-jFR39MR8HW3L-6Qw66fR-0dbMHSl04 )
+
+=E2=80=8A
+
+Around the web
+
+What work-life balance? Google=E2=80=99s co-founder Sergey Brin feels that =
+60 hours per week is the =E2=80=9Csweet spot=E2=80=9D for productivity, and=
+ in a memo, is urging employees to go back to office, the New York Times re=
+ports. The sentiment driving this is obviously the AI arms race, and Brin b=
+elieves artificial general intelligence is not far off. Read More (https://=
+email.techcrunch.com/e3t/Ctc/ZX+113/d5b44W04/VX6Yws7dpsSdW62QX_Y8PxLFNW3mxg=
+k35sBDm_N2qdv2v3gP0xW8wLKSR6lZ3kXW3qf0YP8fqbw7W2Yjnjr5HL0fnW3c4W4q6Yynt2W9l=
+jmJs6R51DXW5NsNtq7Bk4JZW8kTcLT7fb298W1p4y985MQgllW1f3Ycv25w3THN91bWvGDY0LcN=
+1TFcPYM8sKpV2N1771Dd9KNW3SVQG37bmGH8W2Zr9MG6T0b-yW6LY8mC1hzlXmW47wSYX5r6Mjm=
+W16hwMQ21d6qWW63s1Ks5nBmg5W3prx_z5yh5WnW8Yq5r45N17LtW2mKHjC8T56YcW1z5np34cN=
+GmrW8FXGHQ5BlT5GN1Lf-mTMn87TN7C9ww5rD6svW6FNf0F6h9gfRVfw0dS1fNxg7W8NmlLs9dl=
+KLJN4001y6FDZK-f2sYmM-04 )
+
+No talking back: A Tesla employee who publicly criticized Elon Musk for mak=
+ing Nazi jokes has been fired, the New York Times reports. The employee has=
+ reportedly been flagging Musk=E2=80=99s behavior since 2022, but said Tesl=
+a has remained silent. Read More (https://email.techcrunch.com/e3t/Ctc/ZX+1=
+13/d5b44W04/VX6Yws7dpsSdW62QX_Y8PxLFNW3mxgk35sBDm_N2qdv2b3gP0xW7Y8-PT6lZ3nq=
+W7P6fJX8QLTkdW4crh7F2wNR8qW4NjVw86G3mGYVzdpkt5gGVd2W51-G892RHRfWW1pmZvL2jCl=
+hpW1QGzTp3wcMH1W97lzvW5cLDw1W73GlNb3Z__n7W5yjqCr4J-TKbW1YF2yt1VxZMDW1BkzKr8=
+qNVYbW4CGgS76Fc_78W9b20wT4ldLGTW8pd2SN1F3Gb7N5Xb9JFFvLwBW6FLljt7BZf5CW8C136=
+03bzv3KW3n-qY68PDB0NN7TD2nz4xRc5W6lpTT68NW2WMW5kLhFl2kJsx1N80K6L5qwfwzN8KqW=
+Z1b-ymdW3JYhrS3tLx3YW2CByh68DLy15dt4PSP04 )
+
+=E2=80=8A
+
+Before you go
+
+Image Credits: Stefan Wermuth/Bloomberg / Getty Images
+
+If it looks too good to be true, it probably is: A managing partner at Sequ=
+oia is warning against following investor hype and putting money into speci=
+al-purpose vehicles, which let investors sell their startup equity, but the=
+ buyers get shares in the vehicle, not the startup. It=E2=80=99s a risky pr=
+oposition, because to see any profit, the startup=E2=80=99s valuation would=
+ have to skyrocket, and that=E2=80=99s never a guarantee. Read More (https:=
+//email.techcrunch.com/e3t/Ctc/ZX+113/d5b44W04/VX6Yws7dpsSdW62QX_Y8PxLFNW3m=
+xgk35sBDm_N2qdv2v3gP0xW8wLKSR6lZ3pBW3H3kM23gVD85VZQpW544n_7QW71SQYw713CMzV5=
+N2cg8Wt_sSW6SgrrV4qkgsPN8yRLk9wMVnzW6nB_v17CTc5ZW6w_2fX1pP3-gV5dC5f5ZZbyGW6=
+_Kc2f8JkC1fN3V4P5k7RM0TW40GgFj2JT2YKW5H56WT1nszN_W6ftpkv9gwy4YN9523jqGj5GlW=
+9gCYdR5fqnJCW8yLYpd4mTFNfW8xtznL4y9xG3W2mrDw87xn-TPN4qpH3h4HbynW5PvPxH3kQ_k=
+8W4wkCnl5pzTckW9bc6j07xy6YfW5gfBKS6C29P4N32kQ0cn8ybyW1SJpCh7T__rYW4BXt458fd=
+c4LW74L9MN66mM24f4DkNqW04 )
+
+=E2=80=8A
+
+Featured jobs from CrunchBoard
+
+BizOps Lead, Elayne (New York, NY) (https://email.techcrunch.com/e3t/Ctc/ZX=
++113/d5b44W04/VX6Yws7dpsSdW62QX_Y8PxLFNW3mxgk35sBDm_N2qdv0K5fkwKW50kH_H6lZ3=
+lsVtXnjM3Ds0fKVHPNqh9gfkgGM5KlpPyyF3vW66MzW87-7PJVW3pJC-p47qHT7W8Bp7WZ1SQ15=
+1W384J2s5ywRZNW2mzh038c4q9dN8WbMsCLXdyJVDTPqw1HCv5HW8BR68Z6ymt3HW3YmM7W4-Hf=
+fNW2vt96g6LyldqW8b71F14WFYwMW3GJ7184zt_2QW5Nx0RW7sYMCPVtYkFM74dbCLW4-6mHW7g=
+1DbJW69NrZd8JVm6QVTmYpS44wmzBW9h0VQ81GxJzpVTmTSx1w6Wz1W60ZsGq5rqq1LN8JHCCg8=
+YGR9W7sSrlm6HQvPQW5KmZxD1nDrL4W7n-Wl71kCnN6W2cFmm91NDMcbW5X2WW_19ZwSVVWllfD=
+28rdM3VbFH3D4447KZW1VvHnG70KxQRdQB8WM04 )
+
+Staff Software Engineer, Murmuration (Remote) (https://email.techcrunch.com=
+/e3t/Ctc/ZX+113/d5b44W04/VX6Yws7dpsSdW62QX_Y8PxLFNW3mxgk35sBDm_N2qdv2b3gP0x=
+W7Y8-PT6lZ3m2V673kP5YtPCrW1r-Ss24T6KmhW13t1yy25pys4W4jQZsG50kSc7N2pKzB9bpDx=
+YW27xbGH74q1fgW7mBhRG7yWRwrVk-WhN3jdH9jW3GL1h-6DBlw0W3PVcQF8X64wJN52xHcS8q7=
+jcV9Z9GM3vBrtMW94F-873rjL_9W7NLkb12SW3SNW6GgNT88ffdWcF8HWrrdYZnSW4NyLS01wHg=
+V9W9lHDGY5Bh_gbVvM-gQ2jrhZQW1_LJgP4ZhYMXW4TMWkY8pJyS8W2nfx_L5XsPLKN2nL_74G4=
+HgzMLWTrDP0YnTW1SfgJv4d41rTW3P7xM72TbwLldD13YC04 )
+
+Founding Sales Development Representative, Clerkie (Remote) (https://email.=
+techcrunch.com/e3t/Ctc/ZX+113/d5b44W04/VX6Yws7dpsSdW62QX_Y8PxLFNW3mxgk35sBD=
+m_N2qdv2v3gP0xW8wLKSR6lZ3m9W142_Kl77FN9vW60lyJz5cC8TPN45G-VhqWXl0W1slG6C57z=
+JcsN1GXN3ywqV2kW41V9kW2RR05rW3KZDzY4kzJCvW21dX_9440SPDW86KLv-9kXSDgW1FZfcG5=
+ymbdVW8fRKRC2g4CQbW7hbk-d242r5NW6brQXV2Xhsm_W58W32j1BGqt1W5m1rb93PVjqtW5m0x=
+z74cpTk_W5Tn--J81-28WW6w7cp1947rjHW3JWD0x3GNt03W8-4L8F7HGgVlW7Sxt8V1ZPr7cW1=
+QYP7g97Gy9NW3MrDnB5nSwTSVm-5Yl16zfvwW5cM8md3vNK0LW8D3qsH1mKSJcW2f9G_z2LpYVg=
+W8cC28p1ZtJxQf2NSRt204 )
+
+Business Analyst, Air Line Pilots Association (Tysons, VA) (https://email.t=
+echcrunch.com/e3t/Ctc/ZX+113/d5b44W04/VX6Yws7dpsSdW62QX_Y8PxLFNW3mxgk35sBDm=
+_N2qdv0K5fkwKW50kH_H6lZ3mHVMYT-Y5s8K1WW3DbGNg2tXK0TW8zKxq-2w4q90W17KQwc2zJK=
+x1W7QH7WX2gy-2HVfdwjb7nk-n6VgnysZ3cJ7zwW3tlFG14HV_sjVQJx1r5R8xy3W2yglV18qdk=
+CnN4ynR4q9JnV0W4hsX4r6K4L4YW5JVFDD1lwFHtW4Kf1kT9lj8GHW31wKxV5nzSJ6W1TH-N11T=
+10brW5Dpx728dMD57VFM8ww4JjMJrW8gTdJl5Klb9sW3KZrNN833xPhW7QNzXS6R30M6W90bCVy=
+67B0CZVV43YY4T5jsZW7YryMb1QBjZsN95n6kWtDhNcW1_sdfN9flXndW3Vq0_140RSDLW8ZsnF=
+_591Kv8W9gB3hb39MsTmV1llJl8zPZF3W6GS9y22FBSZxW7MvL246CT40cf5SZkZF04 )
+
+CAD Technician, Sinacola (Dallas, TX) (https://email.techcrunch.com/e3t/Ctc=
+/ZX+113/d5b44W04/VX6Yws7dpsSdW62QX_Y8PxLFNW3mxgk35sBDm_N2qdv2b3gP0xW7Y8-PT6=
+lZ3phW4L-X_988bmx8W81Cmb27GjH65W65qD3T4t54V9N8gg7f5rn4QrW14Xmgg88Dj7_W5yKb-=
+k15P6d0N471D5c40tjZMBFs0LRC0SXW3ZJZmw6xz0VkW421K3x2z0w6cW8CQNL53Y-pr8VWvWDn=
+8g018fW2JLBJ11X6zRRW6Vhbtl4nTBQ1W8SZr0q3SHlRsVF5jX48q_6cxW562mlw8KG-VrW7nXJ=
+5D5pkZ-mW1C_YGL85GjzDW6cV2Df3bXy3QW84m-L39bd6LrW1RhFbP1s7dg1W96k_WS1xmT36VQ=
+RLcW1H-2SBF2wqyLx-s6DW8F0NGM1T_PSjdyRxy204 )
+
+See more jobs on CrunchBoard (https://email.techcrunch.com/e3t/Ctc/ZX+113/d=
+5b44W04/VX6Yws7dpsSdW62QX_Y8PxLFNW3mxgk35sBDm_N2qdv107cV0WW5BWSxg6lZ3mzW23y=
+NgJ23bj99W6Wsp278p-v7dW91p4Xy8JCYRgW8F_Tct4cbZ1KW2nKjFc2bYY25W7Zr7Bb7Tmhw7W=
+8RjZNS22-_P0N7BCzmthzGq_W5LHVZg21s-Z7W8CL3wW97nXLWW1y58Vb3DyRH4W6QXltx5cbJJ=
+LW5j0dnB5XdN1ZW5-p12q6dDrGpW5tT2022_7dZRVm8dyK5YmG_xW1BJ3b37py1djV4K4Qg5X9w=
+wDW7-d3p47xKdZJW3FpkNX4TcVk0W9hKGD632RHdTW2JMnqd6z6-3VW7DT-g01NlT1HW49nm881=
+BYvgZW5n_0798NClHgW7KBzZp57vFzmW5JfPxB2PcCDgW7D0nML2B7mgkVdq-1X8M5T4FW7NRk1=
+t70nGqZW8QY4G26jBQH5W46c7sQ3ghd3lW1h7pGr1Ptw2BW5VVnXf59VqhKN2BChPny7kLHW94g=
+hy05zBncKW7HykxY3XvLXxW4fYgww73nVp-W7HKTzY6gg2hdN4WqzNdCqN3FW5Vp7n86jZ5RmN6=
+4bGS_L-fCMW8Z-l6k12M3WYW3LjsNg5WKLqHN3gMPZDBy6DjW2rJByF2NxcnYVY8zBh1Hn04YW7=
+FFt2D7mhKNNN5c0lpQNKgNDW7tVYq95BSB75f1MSCzn04 )
+
+Post your tech jobs  (https://email.techcrunch.com/e3t/Ctc/ZX+113/d5b44W04/=
+VX6Yws7dpsSdW62QX_Y8PxLFNW3mxgk35sBDm_N2qdv1j7cV0WW69tBBd6lZ3lpV1rwFP9k2rrs=
+W40Y-tZ2997XCW1_db4194lLc6W5-s7fl2HnyLyW68GpF38ml1S4W6X-fV78fCzNXW8qkKf48WM=
+4DFW5CjqvK1dvh28W4RSfWh8M6cM6W7lsV7h6ncty4W4BLBtH3rVlrkW8YwzTF9lNv8GW6VDD08=
+3YnDtqW4s_GM625Gv85VbjDV75PWh1bW4pt6322vC9bTW3hLjGz5bYPfHW7-PsJK6Qw81zW16Cc=
+PT7DRZ7bN6jYnlHtw_ZRVQx83_2M3qG0N2dHxP5RWqjWW4pWwxl5gm6xCW7P_JJ43cRP-9VjzPj=
+v4cCYpcW2ZF9pz3TKTKVW7zmpn_2P9z-bN8Gy73hLx7nKW6Rjhk85dfDMvW7V9gSg11fNsrN3lF=
+KNLmtbj4VKQ-J11qh9dnW2X2lNB1fVK5FW1v5FfJ1c-qklW369gB63F5GbYW48Ps4H7-zvyxW7z=
+c9pc4WQ7xrW8SlMHQ3Z09_cW8v3Kj-5M30mYVHLHq02b1LrhW2h0rfp3dRpgWW7RWt8C1MvGFwW=
+6nCYXS1h0B1jW6gylgF77RnHjW4WHzFq90FVJlW7t3wMP263bkJW83QVGx8_ZLW0W1yrS56189L=
+2KW8Rn8_q1Vs6P9W4hFzl81dGyMcW2P53CJ3Jy_KMN1sKGs6xYDz9f5lgGDg04 ) and reach =
+millions of TechCrunch readers for only $349 per month.
+
+=E2=80=8A
+
+Check out some of our other newsletters:
+
+Startups Weekly (https://email.techcrunch.com/e3t/Ctc/ZX+113/d5b44W04/VX6Yw=
+s7dpsSdW62QX_Y8PxLFNW3mxgk35sBDm_N2qdv1C3gP0xW6N1vHY6lZ3nHW94KPhr8CbWbGW8ss=
+rCm4rZTB6W6ZXXXC3KYpmLW832B6N26KTxXW5bRTmM4RMklkW63YpBj5pHvRtW9hLYlL15C3-4W=
+4LTq053PNq5CW8yz8TC59zKDVW1v8ln_6YyfysN3Crv7bnlM6FW895R0s6K7rMrW4_mjt8714lj=
+HW7Dcq-J4jhbFgN2d38j_mP6wMW6jNRmm7kdrRQW2KjX7y61G6T0W3K0Sbd7JB3V7W8ZbgWX3c-=
+3G9VSpMHq3CLJ5jW4hKGLK3pVgz-W439hgQ1J5MsTf41gpx404 )
+
+TechCrunch AI (https://email.techcrunch.com/e3t/Ctc/ZX+113/d5b44W04/VX6Yws7=
+dpsSdW62QX_Y8PxLFNW3mxgk35sBDm_N2qdv1C3gP0xW6N1vHY6lZ3mQW5mRN252_Q-8tMK1FGk=
+xxJ-GW5ZjxWT3BVxXSW8W659j52hywrW1536yf6Z8chGW8G5nbR5lHqxHW2MxLtZ2PPkyVN6tVH=
+xpQd6L2W7vQ8n-6m28G3W3TBRjB5vkW7tW5RF06x4SgdCQW644S4w5GfQwbW35fhwm8WslPkW10=
+xvnj7tBtGYW6dqC-93bdhF3VvhYfP2m70BsW7TD6nj5619JMV80qG82TTd6-W1qLFgb8nlwkgW2=
+Rnvsb3Yv3QqW1fVgPG2Ws7QVW7Q0mht5m9h8Hf8d6PFx04 )
+
+TechCrunch Mobility (https://email.techcrunch.com/e3t/Ctc/ZX+113/d5b44W04/V=
+X6Yws7dpsSdW62QX_Y8PxLFNW3mxgk35sBDm_N2qdv1W3gP0xW7lCdLW6lZ3lCW1twB0976YQdy=
+W5_yZl_1tW8sdW2fqzL23_V7hTW6hXGng9jWWDtW4-tCGJ3p1lpzW41tTB_5HKC-7W1BVqGl8cb=
+T7XW3s01-65wQkySW1TFsm16G6FY2W1MfcZ91-6Yj6N1bcTz8-36wSW1kkRd-4Zw-NSW3Ph7BH1=
+tmzbdN2rxr4cgDpj0N1qlz_8p95JgVBSkqt1KMXqXW7MhN7_8c7HPPW5bFpw51dSv0ZW5gMmPJ3=
+1S8PmVpj17_7XZfhhW2RqQkJ8Q8ZztW5TQCfw5lXkS-W2w0LvG849jKqW2WK5wr5rJ652f4S3Pl=
+-04 )
+
+Got a tip?
+
+Get in touch securely. (https://email.techcrunch.com/e3t/Ctc/ZX+113/d5b44W0=
+4/VX6Yws7dpsSdW62QX_Y8PxLFNW3mxgk35sBDm_N2qdv1j3gP0xW69sMD-6lZ3lLW2LPx3H3vN=
+-RFW6rl42m8fjQXhW6W15gh8X1RWFW4ynr7s1fkc3cW9chG388gmHvfW8YWwrJ4Qps9qN6nnPgB=
+jVXyRN4VWv5K-hSjnW9gkNQf4tGcYMW999k3X8dmWq4W8npRnb8TVryvW3NgbRB3C04_kW7mQqk=
+x4pfRVfW83wKzW6kW0jHW56_0m18Rfp6wW43HB0P83FkXrN2S5fbzwCsyBW7TsX9z8mxW2mW86_=
+HKV8hRTPhW6w6DT588PCbbf2mfmjd04 )
+
+Want to advertise on TechCrunch? advertise@techcrunch.com (mailto:advertise=
+@techcrunch.com)
+
+Has this been forwarded to you? Click here (https://email.techcrunch.com/e3=
+t/Ctc/ZX+113/d5b44W04/VX6Yws7dpsSdW62QX_Y8PxLFNW3mxgk35sBDm_N2qdv1j3gP0xW69=
+sMD-6lZ3ltVKK8QS3NF5shW72nCgb5_YSSnW69KbTR4zWLSdW5MgL5P26ZZ9sW2PMPMS76nn0HW=
+2NyTXc3wtwvNW2LFsPL4VKrFpW4379xt3vJQxfW8ktcLJ6fDdFQVSrq6C6sjkVLW7BrnDM2yYsP=
+8W1k13735G0kt2W1sx-486-6PF6VvGflq40dxJkW1jcmC75V-ytGN6srqJzPjFy0W7RZTSv4Wvm=
+FZW4MrTgl37Sk6CN82N905GwVdjW2n0Tc17nqgVddsTpVl04 ) to subscribe to this new=
+sletter.
+
+=E2=80=8A
+
+Update your preferences here (https://email.techcrunch.com/hs/preferences-c=
+enter/en/page?data=3DW2nXS-N30h-MkW1V0MXY1LxgjdW1BmwB73D_x-JW3Cf9cr2qTk6rW3=
+P3nRT3C2hsjW38kh-Q1X7H-tW4kt6yf4fNQ1MW3F5rB94rm_fyW3857254ms8RtW3NNXpy21rGk=
+sW2D04xP2FHRfKW38h69-3P0smpW2sQ_cP3g2tnKW49jm224fvP5nW30LM4R4rnn3VW49vnPs49=
+VbTVW4tpTGj3gdYq7W3gmYJp1NxTT8W2zMwpd3jqht2W45DRhr4tGx96W36g8zW2WMJFHW1Z8KW=
+F3_GmgNW4mbqsH3P9dg9W2y3Qds2TJdGNW3VRF8C2B1t8qW2YD2dS1S4MKnW3ZYWBP32npQhW1B=
+MmdY4cqSMGW25pBLk1V0r4gW2Yf2S82Hs4SxW4fHMsk41FjLpW3P3KLB36d58HW41PyRs3ZW0Yd=
+W2MF4tz3QCc_8W1Zm-8p1BL2w8W383wPm3bdYCSW3R5CS03ZMzt_W30FkGg30p1NgW1BKbkm24_=
+xtrW3C0JdT23nDvsW4rh09V3W0HhkW23nbTg1BGmzCW38vqwh3ggbn3W1--6zR1BszK4W3W3ySp=
+32BZX6W3BQ1C62qQqtQW2HPlFy4pgKFt0&_hsenc=3Dp2ANqtz-8382D9zSBbP-LNnWs1uRJQJa=
+XzE3LGBQh3ciiAJOrOyyzzLSKm93olhFkYoikj5CEo3-_pNIZye4STzA-EjbHNGRd7Ew&_hsmi=
+=3D349547771 ) at any time
+
+Copyright =C2=A9 2024 TechCrunch, All rights reserved.Yahoo Inc. 110 5th St=
+,San Francisco,CA
+
+Privacy Policy (https://email.techcrunch.com/e3t/Ctc/ZX+113/d5b44W04/VX6Yws=
+7dpsSdW62QX_Y8PxLFNW3mxgk35sBDm_N2qdv1W3gP0xW7lCdLW6lZ3kHW4vDy3_3sgY5qW1xdN=
+Gm5PRV5xN8gTmSZKb5dVW6_qM5b77KrDbW8ZClql853Z7pW7qyTC0830BdlVGrNCB4WX3SpW8jK=
+-jK8fn0GzW4Q_JnS5GjdX8N8Hpvxh8NRcqW50RrCw7ldsg9W5zBBYS5hZH6HW32DjkD315fDRN8=
+bjN1pgzN8HW6gVBDp6kSJmHW2DZF-F8HzNzvW7ttrP94pTS3PW8pDvts6dvn8XW6fjMb79hpbQX=
+W4DQ3py7-zq9FW7DFLgT6PCY3PW7mq7PP8FSLFPW4WvDLv59t-FjW5pPLsF85BJ0Rf8mG_NT04 =
+)
+------=_Part_704257_1003500576.1740760179619
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!doctype html><html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"u=
+rn:schemas-microsoft-com:office:office" lang=3D"en"><head>
+=09<title></title>
+=09<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8"=
+>
+=09<meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=
+=3D1.0"><!--[if mso]><xml><o:OfficeDocumentSettings><o:PixelsPerInch>96</o:=
+PixelsPerInch><o:AllowPNG/></o:OfficeDocumentSettings></xml><![endif]--><!-=
+-[if !mso]><!--><!--<![endif]-->
+=09<style>
+=09=09* {
+=09=09=09box-sizing: border-box;
+=09=09}
+=09=09body {
+=09=09=09margin: 0;
+=09=09=09padding: 0;
+=09=09}
+=09=09a[x-apple-data-detectors] {
+=09=09=09color: inherit !important;
+=09=09=09text-decoration: inherit !important;
+=09=09}
+=09=09#MessageViewBody a {
+=09=09=09color: inherit;
+=09=09=09text-decoration: none;
+=09=09}
+=09=09p {
+=09=09=09line-height: inherit
+=09=09}
+=09=09.desktop_hide,
+=09=09.desktop_hide table {
+=09=09=09mso-hide: all;
+=09=09=09display: none;
+=09=09=09max-height: 0px;
+=09=09=09overflow: hidden;
+=09=09}
+=09=09.image_block img+div {
+=09=09=09display: none;
+=09=09}
+=09=09sup,
+=09=09sub {
+=09=09=09font-size: 75%;
+=09=09=09line-height: 0;
+=09=09}
+=09=09@media (max-width:620px) {
+=09=09=09.row-7 .column-1 .block-5.button_block .alignment .button {
+=09=09=09=09display: inline-block !important;
+=09=09=09}
+=09=09=09.image_block div.fullWidth {
+=09=09=09=09max-width: 100% !important;
+=09=09=09}
+=09=09=09.mobile_hide {
+=09=09=09=09display: none;
+=09=09=09}
+=09=09=09.row-content {
+=09=09=09=09width: 100% !important;
+=09=09=09}
+=09=09=09.stack .column {
+=09=09=09=09width: 100%;
+=09=09=09=09display: block;
+=09=09=09}
+=09=09=09.mobile_hide {
+=09=09=09=09min-height: 0;
+=09=09=09=09max-height: 0;
+=09=09=09=09max-width: 0;
+=09=09=09=09overflow: hidden;
+=09=09=09=09font-size: 0px;
+=09=09=09}
+=09=09=09.desktop_hide,
+=09=09=09.desktop_hide table {
+=09=09=09=09display: table !important;
+=09=09=09=09max-height: none !important;
+=09=09=09}
+=09=09=09.row-1 .column-1 .block-2.paragraph_block td.pad {
+=09=09=09=09padding: 0 10px 24px !important;
+=09=09=09}
+=09=09=09.row-2 .column-1 .block-1.paragraph_block td.pad {
+=09=09=09=09padding: 30px 10px 10px !important;
+=09=09=09}
+=09=09=09.row-12 .column-1 .block-1.paragraph_block td.pad,
+=09=09=09.row-15 .column-1 .block-3.paragraph_block td.pad,
+=09=09=09.row-19 .column-1 .block-3.paragraph_block td.pad,
+=09=09=09.row-4 .column-1 .block-1.paragraph_block td.pad,
+=09=09=09.row-6 .column-1 .block-3.paragraph_block td.pad,
+=09=09=09.row-7 .column-1 .block-4.paragraph_block td.pad,
+=09=09=09.row-9 .column-1 .block-3.paragraph_block td.pad {
+=09=09=09=09padding: 10px 20px !important;
+=09=09=09}
+=09=09=09.row-11 .column-1 .block-1.heading_block h1,
+=09=09=09.row-14 .column-1 .block-1.heading_block h1,
+=09=09=09.row-17 .column-1 .block-1.heading_block h1,
+=09=09=09.row-20 .column-1 .block-1.paragraph_block td.pad>div,
+=09=09=09.row-20 .column-2 .block-1.paragraph_block td.pad>div,
+=09=09=09.row-23 .column-1 .block-1.paragraph_block td.pad>div,
+=09=09=09.row-23 .column-2 .block-1.paragraph_block td.pad>div,
+=09=09=09.row-23 .column-3 .block-1.paragraph_block td.pad>div,
+=09=09=09.row-5 .column-1 .block-1.heading_block h1,
+=09=09=09.row-7 .column-1 .block-5.button_block .alignment,
+=09=09=09.row-8 .column-1 .block-1.heading_block h1 {
+=09=09=09=09text-align: center !important;
+=09=09=09}
+=09=09=09.row-11 .column-1 .block-1.heading_block td.pad,
+=09=09=09.row-14 .column-1 .block-1.heading_block td.pad,
+=09=09=09.row-17 .column-1 .block-1.heading_block td.pad,
+=09=09=09.row-5 .column-1 .block-1.heading_block td.pad,
+=09=09=09.row-8 .column-1 .block-1.heading_block td.pad {
+=09=09=09=09padding: 25px 10px 0 !important;
+=09=09=09}
+=09=09=09.row-7 .column-1 .block-3.heading_block td.pad {
+=09=09=09=09padding: 20px 20px 10px !important;
+=09=09=09}
+=09=09=09.row-7 .column-1 .block-5.button_block td.pad {
+=09=09=09=09padding: 25px 10px 45px !important;
+=09=09=09}
+=09=09=09.row-7 .column-1 .block-5.button_block span {
+=09=09=09=09line-height: 32px !important;
+=09=09=09}
+=09=09=09.row-18 .column-1 .block-1.paragraph_block td.pad,
+=09=09=09.row-18 .column-1 .block-2.paragraph_block td.pad {
+=09=09=09=09padding: 10px 20px 40px !important;
+=09=09=09}
+=09=09=09.row-20 .column-1 .block-1.paragraph_block td.pad,
+=09=09=09.row-20 .column-2 .block-1.paragraph_block td.pad {
+=09=09=09=09padding: 10px !important;
+=09=09=09}
+=09=09=09.row-23 .column-3 .block-1.paragraph_block td.pad {
+=09=09=09=09padding: 5px 10px 30px !important;
+=09=09=09}
+=09=09=09.row-23 .column-2 .block-1.paragraph_block td.pad {
+=09=09=09=09padding: 0 0 10px !important;
+=09=09=09}
+=09=09=09.row-23 .column-1 .block-1.paragraph_block td.pad {
+=09=09=09=09padding: 5px 0 0 !important;
+=09=09=09}
+=09=09=09.row-4 .column-1 {
+=09=09=09=09padding: 0 0 35px !important;
+=09=09=09}
+=09=09}
+=09</style><!--[if mso ]><style>sup, sub { font-size: 100% !important; } su=
+p { mso-text-raise:10% } sub { mso-text-raise:-10% }</style> <![endif]-->
+<meta name=3D"generator" content=3D"HubSpot"><meta property=3D"og:url" cont=
+ent=3D"https://email.techcrunch.com/microsoft-will-pull-the-plug-on-skype-i=
+n-may"><meta name=3D"x-apple-disable-message-reformatting"><meta name=3D"ro=
+bots" content=3D"noindex,follow"></head>
+<body class=3D"body" style=3D"background-color: #ffffff; margin: 0; padding=
+: 0; -webkit-text-size-adjust: none; text-size-adjust: none;"><div id=3D"pr=
+eview_text" style=3D"display:none;font-size:1px;color:#333333;line-height:1=
+px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;">Also: US SEC ru=
+les that memecoins aren=E2=80=99t securities</div>
+=09<table class=3D"nl-container" width=3D"100%" border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace: 0pt;=
+ mso-table-rspace: 0pt; background-color: #ffffff;">
+=09=09<tbody>
+=09=09=09<tr>
+=09=09=09=09<td>
+=09=09=09=09=09<table class=3D"row row-1" align=3D"center" width=3D"100%" b=
+order=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=
+=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09<td>
+=09=09=09=09=09=09=09=09=09<table class=3D"row-content stack" align=3D"cent=
+er" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" =
+style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-radius: 0; co=
+lor: #000000; width: 600px; margin: 0 auto;" width=3D"600">
+=09=09=09=09=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09<td class=3D"column column-1" width=3D"=
+100%" style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 4=
+00; text-align: left; vertical-align: top;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09<table class=3D"image_block block-1"=
+ width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"pr=
+esentation" style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tbody><tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td class=3D"pad" style=3D"wid=
+th:100%;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<div class=3D"alignment" al=
+ign=3D"center" style=3D"line-height:10px">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<div style=3D"max-width:=
+ 600px;"><img src=3D"https://d15k2d11r6t6rl.cloudfront.net/pub/bfra/16fcjip=
+y/4w5/kwy/jbs/am-newsletter-24.png" style=3D"display: block; height: auto; =
+border: 0; width: 100%;" width=3D"600" alt=3D"TechCrunch AM Logo" title=3D"=
+TechCrunch AM Logo"></div>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</div>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09</tbody></table>
+=09=09=09=09=09=09=09=09=09=09=09=09=09<table class=3D"paragraph_block bloc=
+k-2" width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=
+=3D"presentation" style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt; wo=
+rd-break: break-word;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tbody><tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td class=3D"pad" style=3D"pad=
+ding-bottom:12px;padding-left:10px;padding-right:10px;padding-top:5px;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<div style=3D"color:#101112=
+;direction:ltr;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;f=
+ont-size:13px;font-weight:400;letter-spacing:0px;line-height:120%;text-alig=
+n:center;mso-line-height-alt:15.6px;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<p style=3D"margin-botto=
+m: 1em; margin: 0;"><a href=3D"https://email.techcrunch.com/e3t/Ctc/ZX+113/=
+d5b44W04/VX6Yws7dpsSdW62QX_Y8PxLFNW3mxgk35sBDm_N2qdv1C5nR32W6N1X8z6lZ3pbW20=
+chqy82t2TPW315R3Z7496W3W5w7lpK5NQr87W6_0PqN8lHmwFN3Bz2GGLLLhRW7r69-h8TlrX-W=
+7lCSQl4zz3H_W5DHSRM1qF66rN8VWyT88xD36W2fSCD22ln19mW7kCGvy6fP7RNW3pMsrQ5mtBl=
+gW7wXRdc1Zl3dhW4c7MJ97mt8CRW3PJZps6KzwF2N45z2nG1cSD-W4Bhhyk194LlTN1vhKY3cXn=
+RRVgv5X22kyl-RW6G0rn976g_t3W5s6_XK2jJTr7W1DfMDp6Y3f23W5HzK7s3QPw-WVQNzDw5qv=
+W-hW2dyMyT5x3Qp5W7WG9cc3k3sqsW4m4WdW3kX0jRVx31Ct3HnfFPW3Hml3v2wWl4RW4kjqvJ4=
+W-dKlW4L5LVc7c4ZrKW76H2TJ83m-PtW355Ngv4sZzRVW37cHgm617hJ1W8ND-0B2YZvZRVTSQh=
+j31XJqGW93Y1cK6NQ1S0W7SRBNs3hnsrKf8XZ_cF04" target=3D"_blank" style=3D"text=
+-decoration: underline; color: #0aa43e;" rel=3D"noopener" data-hs-link-id=
+=3D"0">View this email online in your browser</a><u><u></u></u></p>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</div>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09</tbody></table>
+=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09</tbody>
+=09=09=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09</tbody>
+=09=09=09=09=09</table>
+=09=09=09=09=09<table class=3D"row row-2" align=3D"center" width=3D"100%" b=
+order=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=
+=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09<td>
+=09=09=09=09=09=09=09=09=09<table class=3D"row-content stack" align=3D"cent=
+er" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" =
+style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-radius: 0; co=
+lor: #000000; width: 600px; margin: 0 auto;" width=3D"600">
+=09=09=09=09=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09<td class=3D"column column-1" width=3D"=
+100%" style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 4=
+00; text-align: left; vertical-align: top;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09<table class=3D"paragraph_block bloc=
+k-1" width=3D"100%" border=3D"0" cellpadding=3D"10" cellspacing=3D"0" role=
+=3D"presentation" style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt; wo=
+rd-break: break-word;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tbody><tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td class=3D"pad">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<div style=3D"color:#101112=
+;direction:ltr;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;f=
+ont-size:16px;font-weight:400;letter-spacing:0px;line-height:120%;text-alig=
+n:center;mso-line-height-alt:19.2px;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<p style=3D"margin-botto=
+m: 1em; margin: 0;">By <a href=3D"https://email.techcrunch.com/e3t/Ctc/ZX+1=
+13/d5b44W04/VX6Yws7dpsSdW62QX_Y8PxLFNW3mxgk35sBDm_N2qdv1C3hCZPW6N1vHY6lZ3pV=
+VngJPG88v909N73FBW1wXLr-W5q2-M35MkD5QW2pQZsZ4cp3SZVRCsPt8ks0mVW2cMHK-47TZBk=
+W1NyYF5141SylW4QWyQS47DntzW5Gv2XJ3Qc-9vW84_pzk2HqskWMn2547g2SN_W941h0j147st=
+GW6TdKkn9hHD5mVMQkjv4-_7BBN2b5qxyrByCYW3cxLLH7hRrjKW6J1Nqn98NRFNW1rNlGm2Rfw=
+sbW2dCQD21kzCgfW7RrXlP8T7JzdW4sdBkV4rs2gsW7XSSsS8L4Bvtf7zBynd04" style=3D"t=
+ext-decoration: underline; color: #0aa43e;" data-hs-link-id=3D"0" target=3D=
+"_blank"><strong>Dominic-Madori Davis</strong></a></p>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</div>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09</tbody></table>
+=09=09=09=09=09=09=09=09=09=09=09=09=09<table class=3D"paragraph_block bloc=
+k-2" width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=
+=3D"presentation" style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt; wo=
+rd-break: break-word;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tbody><tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td class=3D"pad" style=3D"pad=
+ding-left:10px;padding-right:10px;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<div style=3D"color:#101112=
+;direction:ltr;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;f=
+ont-size:16px;font-weight:400;letter-spacing:0px;line-height:120%;text-alig=
+n:center;mso-line-height-alt:19.2px;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<p style=3D"margin-botto=
+m: 1em; margin: 0;"><strong>Friday, February 28, 2025</strong></p>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</div>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09</tbody></table>
+=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09</tbody>
+=09=09=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09</tbody>
+=09=09=09=09=09</table>
+=09=09=09=09=09<table class=3D"row row-3" align=3D"center" width=3D"100%" b=
+order=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=
+=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09<td>
+=09=09=09=09=09=09=09=09=09<table class=3D"row-content stack" align=3D"cent=
+er" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" =
+style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-radius: 0; co=
+lor: #000000; width: 600px; margin: 0 auto;" width=3D"600">
+=09=09=09=09=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09<td class=3D"column column-1" width=3D"=
+100%" style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 4=
+00; text-align: left; padding-bottom: 5px; padding-top: 5px; vertical-align=
+: top;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09<table class=3D"divider_block block-=
+1" width=3D"100%" border=3D"0" cellpadding=3D"10" cellspacing=3D"0" role=3D=
+"presentation" style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tbody><tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td class=3D"pad">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<div class=3D"alignment" al=
+ign=3D"center">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<table border=3D"0" cell=
+padding=3D"0" cellspacing=3D"0" role=3D"presentation" width=3D"85%" style=
+=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tbody><tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td class=3D"divid=
+er_inner" style=3D"font-size: 1px; line-height: 1px; border-top: 1px solid =
+#EBF0EE;"><span style=3D"word-break: break-word;">=E2=80=8A</span></td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tbody></table>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</div>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09</tbody></table>
+=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09</tbody>
+=09=09=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09</tbody>
+=09=09=09=09=09</table>
+=09=09=09=09=09<table class=3D"row row-4" align=3D"center" width=3D"100%" b=
+order=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=
+=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09<td>
+=09=09=09=09=09=09=09=09=09<table class=3D"row-content stack" align=3D"cent=
+er" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" =
+style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-radius: 0; co=
+lor: #000000; width: 600px; margin: 0 auto;" width=3D"600">
+=09=09=09=09=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09<td class=3D"column column-1" width=3D"=
+100%" style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 4=
+00; text-align: left; padding-bottom: 20px; vertical-align: top;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09<table class=3D"paragraph_block bloc=
+k-1" width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=
+=3D"presentation" style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt; wo=
+rd-break: break-word;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tbody><tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td class=3D"pad" style=3D"pad=
+ding-bottom:10px;padding-left:35px;padding-right:35px;padding-top:10px;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<div style=3D"color:#101112=
+;direction:ltr;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;f=
+ont-size:16px;font-weight:400;letter-spacing:0px;line-height:150%;text-alig=
+n:left;mso-line-height-alt:24px;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<p style=3D"margin-botto=
+m: 1em; margin: 0;">Welcome to <strong>TechCrunch AM!</strong> This morning=
+, we have notes on Microsoft shutting down Skype, Airbnb co-founder Joe Geb=
+bia=E2=80=99s role at DOGE, and the SEC=E2=80=99s new stance on cryptocurre=
+ncy. We=E2=80=99re also looking at Belgium investigating a data breach at i=
+ts intelligence service, a spyware app ridden with bugs, Snowflake=E2=80=99=
+s attempt to foster AI development on its platform, and more. Let=E2=80=99s=
+ dive in!</p>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</div>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09</tbody></table>
+=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09</tbody>
+=09=09=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09</tbody>
+=09=09=09=09=09</table>
+=09=09=09=09=09<table class=3D"row row-5" align=3D"center" width=3D"100%" b=
+order=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=
+=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-size: auto;">
+=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09<td>
+=09=09=09=09=09=09=09=09=09<table class=3D"row-content stack" align=3D"cent=
+er" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" =
+style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #f=
+afafa; background-size: auto; border-left: 1px solid #0aa43e; border-radius=
+: 0; border-right: 1px solid #0aa43e; border-top: 1px solid #0aa43e; color:=
+ #000000; width: 600px; margin: 0 auto;" width=3D"600">
+=09=09=09=09=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09<td class=3D"column column-1" width=3D"=
+100%" style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 4=
+00; text-align: left; padding-bottom: 5px; padding-top: 5px; vertical-align=
+: top;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09<table class=3D"heading_block block-=
+1" width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"=
+presentation" style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tbody><tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td class=3D"pad" style=3D"pad=
+ding-bottom:15px;padding-left:30px;padding-right:10px;padding-top:15px;text=
+-align:center;width:100%;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<h1 style=3D"margin: 0; col=
+or: #101112; direction: ltr; font-family: 'Helvetica Neue', Helvetica, Aria=
+l, sans-serif; font-size: 28px; font-weight: 700; letter-spacing: normal; l=
+ine-height: 120%; text-align: left; margin-top: 0; margin-bottom: 0; mso-li=
+ne-height-alt: 33.6px;"><span class=3D"tinyMce-placeholder" style=3D"word-b=
+reak: break-word;">TechCrunch Top 3</span></h1>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09</tbody></table>
+=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09</tbody>
+=09=09=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09</tbody>
+=09=09=09=09=09</table>
+=09=09=09=09=09<table class=3D"row row-6" align=3D"center" width=3D"100%" b=
+order=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=
+=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09<td>
+=09=09=09=09=09=09=09=09=09<table class=3D"row-content stack" align=3D"cent=
+er" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" =
+style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #f=
+afafa; border-bottom: 1px solid #02BD6F; border-left: 1px solid #02BD6F; bo=
+rder-radius: 0; border-right: 1px solid #02BD6F; color: #000000; width: 600=
+px; margin: 0 auto;" width=3D"600">
+=09=09=09=09=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09<td class=3D"column column-1" width=3D"=
+100%" style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 4=
+00; text-align: left; padding-bottom: 5px; vertical-align: top;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09<table class=3D"image_block block-1"=
+ width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"pr=
+esentation" style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tbody><tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td class=3D"pad" style=3D"wid=
+th:100%;padding-right:0px;padding-left:0px;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<div class=3D"alignment" al=
+ign=3D"center" style=3D"line-height:10px">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<div class=3D"fullWidth"=
+ style=3D"max-width: 598px;"><a href=3D"https://email.techcrunch.com/e3t/Ct=
+c/ZX+113/d5b44W04/VX6Yws7dpsSdW62QX_Y8PxLFNW3mxgk35sBDm_N2qdv2v3hCZPW8wLKSR=
+6lZ3nXW3K617B4fjY69W3dDM2b1VWNr5W1yl1Hr9dT9bdN4cfJlP8jfbHW1lkwWw6KXNwhW7pVK=
+dV1_PSXPW1byVjh7yKz-bW39xV9k6clfwLW6fFbqw8JV8SZW5tZxQp52TrKqW8wTdp04cqlPFN6=
+dR_bdnSgRQN2zVsBxM0Y9PVlDq-_8_0H7xW8zsNLN4Vxlp4W3NLZzQ4dFW4-W4-B_l82YDb_gW3=
+dG47P1gRhnlW1bSTVW1WWRHSW6VmlWS5FWmjQW54tyVB4XtZDKW7ZCVCV527-ZDW9dM-L-26Z2w=
+pW2fjf7w355HzQW21X93H64-GYtVypCSr302NNPVlXJyh87_5tzN1rCHd2B7HmWf6M0VTW04" t=
+arget=3D"_blank" style=3D"outline:none" tabindex=3D"-1" data-hs-link-id=3D"=
+0"><img src=3D"https://techcrunch.com/wp-content/uploads/2025/02/GettyImage=
+s-1532812302.jpg?resize=3D1200,800" style=3D"display: block; height: auto; =
+border: 0; width: 100%;" width=3D"598" alt title></a></div>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</div>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09</tbody></table>
+=09=09=09=09=09=09=09=09=09=09=09=09=09<table class=3D"paragraph_block bloc=
+k-2" width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=
+=3D"presentation" style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt; wo=
+rd-break: break-word;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tbody><tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td class=3D"pad" style=3D"pad=
+ding-bottom:10px;padding-left:10px;padding-right:10px;padding-top:7px;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<div style=3D"color:#393d47=
+;direction:ltr;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;f=
+ont-size:10px;font-weight:400;letter-spacing:0px;line-height:120%;text-alig=
+n:center;mso-line-height-alt:12px;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<p style=3D"margin-botto=
+m: 1em; margin: 0;"><strong>Image Credits:</strong>Sheldon Cooper/SOPA Imag=
+es/LightRocket / Getty Images</p>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</div>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09</tbody></table>
+=09=09=09=09=09=09=09=09=09=09=09=09=09<table class=3D"paragraph_block bloc=
+k-3" width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=
+=3D"presentation" style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt; wo=
+rd-break: break-word;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tbody><tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td class=3D"pad" style=3D"pad=
+ding-bottom:10px;padding-left:30px;padding-right:20px;padding-top:10px;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<div style=3D"color:#101112=
+;direction:ltr;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;f=
+ont-size:16px;font-weight:400;letter-spacing:0px;line-height:150%;text-alig=
+n:left;mso-line-height-alt:24px;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<p aria-level=3D"1" styl=
+e=3D"margin: 0; margin-bottom: 16px;"><strong>1. End of an era: </strong>Mi=
+crosoft is officially shutting down once-beloved video messaging service Sk=
+ype on May 5 to instead focus on Teams. Skype, which once had 300 million u=
+sers, only had around 36 million when Microsoft last released numbers in 20=
+23. <a href=3D"https://email.techcrunch.com/e3t/Ctc/ZX+113/d5b44W04/VX6Yws7=
+dpsSdW62QX_Y8PxLFNW3mxgk35sBDm_N2qdv2v3hCZPW8wLKSR6lZ3n0W3S4q8R7-GfDhVpLJVY=
+5HS-0YW49Tj2S506F1bW870v2g4CBlP2W8T6Xym1hJ5NyW1zG8wZ4_PW-6VP9sJK6GtJBFW1-kR=
+Fy7X_vnmW1dwcn36D4X8zW7_xGFR6bSYVkN27BLVNWg3LbW1KvYB744bv2NW6FdX8y8h6K1qW6y=
+FZHQ41BtD9W2CvRgx391sQhVMYTzY46r2S7W5JtdKY3ngm7yW5BxZq36mFTR-N7xpf0ZpB3lrW5=
+zZMcQ2SZ2tQW75K4HD82TLy1N2pRNQMNdYbcW1gdd601DppQ7W6VBBy-3sf9-bW1vZ2h84sTJXf=
+W16tjQs1fvqphW42zNbD2d4JXHW53_jz-5hhl-ld1Tmhb04" style=3D"text-decoration: =
+underline; color: #0aa43e;" data-hs-link-id=3D"1" target=3D"_blank"><strong=
+>Read More</strong></a></p>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<p aria-level=3D"1" styl=
+e=3D"margin: 0; margin-bottom: 16px;"><strong>2. More techies in the govern=
+ment: </strong>Airbnb co-founder Joe Gebbia says he plans to help out at DO=
+GE by leveraging his background in design to overhaul the government's pape=
+r-heavy retirement process. <a href=3D"https://email.techcrunch.com/e3t/Ctc=
+/ZX+113/d5b44W04/VX6Yws7dpsSdW62QX_Y8PxLFNW3mxgk35sBDm_N2qdv2P3hCZPW95jsWP6=
+lZ3lmMWr-Cb483ZgW54F6Rv67m-ScW33hKXc3NRwZdW2jxZ-M8zTj0sW3mjZ-989JblgW7j4N82=
+2kHjsQVkDLy_8vmD3_W1Qc1r112WPSHW7RNBf01YfsWbW1yFS0h3VTnX1W5jHh7r8WBpmQW3mXq=
+wq4d3hLvW1CrcS357XTdPW3rJK7392nXXxW4pRjlH7h4FrxW4tLsWb2nss__W5Q7JD26qDqf3VF=
+Xs9d65fkD7W5SlKYs6kqfrQV6Bg0z3pJPn1W7nHF5c5PdDK4W5BHbDP1BQnvLW2-0lwF2csTr5W=
+2BPpZS28nkRqW2M0D993KwPvTW6K1C3x8QdXw3W6VpWW_62hZSTVc5bzH3gh-KxW2KB_Yq5RRC9=
+0F2Vg9t-cBKHf42MxSY04" style=3D"text-decoration: underline; color: #0aa43e;=
+" data-hs-link-id=3D"0" target=3D"_blank"><strong>Read More</strong></a></p=
+>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<p style=3D"margin-botto=
+m: 1em; margin: 0;"><strong>3. Crypto scams ahoy! </strong>The SEC says tha=
+t meme coins are not securities, and that the people who buy them will not =
+be protected by federal securities law. It also means people who buy them d=
+on=E2=80=99t need to register them with the Commission. <a href=3D"https://=
+email.techcrunch.com/e3t/Ctc/ZX+113/d5b44W04/VX6Yws7dpsSdW62QX_Y8PxLFNW3mxg=
+k35sBDm_N2qdv2b3hCZPW7Y8-PT6lZ3pVW1MqBHD1C--KTW2vbWdS5lQhDkW1Qj3LH4DT6lfW6X=
+dB5515_GklW8BWQS47xZkRlW3NGPFy4ywM5qVCzs7f82cgplVJ-ksH3-ck4pW6rbd1Z5-mTpNW7=
+p641M18NgJWW6B-rGl2GPDgNW7kjwPY7NK_ChV4DBCw6xLrh9W6nkYD22ckJRDW5-0hJV6dYWtR=
+N4phJjd-pG7jW3_npVT2rLp0QW4BK0v-4Qmk1mW51n_cx2bp6mpW30w5G4257537W3YxdWR6Y7F=
+gyVH-Hg81Dpzl3W5z7VKr1mNqS3W2DnLPZ981N8QN2wtN51vghVVW7YfwCB7SCSX8f470flW04"=
+ style=3D"text-decoration: underline; color: #0aa43e;" data-hs-link-id=3D"0=
+" target=3D"_blank"><strong>Read More</strong></a></p>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</div>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09</tbody></table>
+=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09</tbody>
+=09=09=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09</tbody>
+=09=09=09=09=09</table>
+=09=09=09=09=09<table class=3D"row row-7" align=3D"center" width=3D"100%" b=
+order=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=
+=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09<td>
+=09=09=09=09=09=09=09=09=09<table class=3D"row-content stack" align=3D"cent=
+er" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" =
+style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-radius: 0; co=
+lor: #000000; width: 600px; margin: 0 auto;" width=3D"600">
+=09=09=09=09=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09<td class=3D"column column-1" width=3D"=
+100%" style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 4=
+00; text-align: left; padding-bottom: 5px; padding-top: 5px; vertical-align=
+: top;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09<div class=3D"spacer_block block-1" =
+style=3D"height:15px;line-height:15px;font-size:1px;">=E2=80=8A</div>
+=09=09=09=09=09=09=09=09=09=09=09=09=09<table class=3D"paragraph_block bloc=
+k-2" width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=
+=3D"presentation" style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt; wo=
+rd-break: break-word;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tbody><tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td class=3D"pad" style=3D"pad=
+ding-bottom:5px;padding-left:10px;padding-right:10px;padding-top:5px;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<div style=3D"color:#0aa43e=
+;direction:ltr;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;f=
+ont-size:15px;font-weight:400;letter-spacing:0px;line-height:120%;text-alig=
+n:left;mso-line-height-alt:18px;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<p style=3D"margin-botto=
+m: 1em; margin: 0;"><strong><a href=3D"https://email.techcrunch.com/e3t/Ctc=
+/ZX+113/d5b44W04/VX6Yws7dpsSdW62QX_Y8PxLFNW3mxgk35sBDm_N2qdv1j3hCZPW69sMD-6=
+lZ3nZW4_Rr227YXB6pVgh2HN8sdY5mW4v5Cj99kpdv2W7Dk7dw3LCXtQV3GX4Q1X5Mt2W3r4L6R=
+1TvnjbW82qKXX84w5N7W6t5zGk5jRhc7W4HVGB18TL_XYW15TyZ97WhxtxW7N0wlm4S3tMFVL5f=
+PL2KQh0sV1LKTg6mQY72W3WmL431fzj-SVpt58-29Xd4xW5jB1_H6B0BqBW4P0Jcn3FM-cSW8c_=
+_Df4sP-CQW3BD7q06HXgDJW6tZ1FK8WbX6kd5zhPM04" target=3D"_blank" style=3D"tex=
+t-decoration: none; color: #0aa43e;" rel=3D"noopener" data-hs-link-id=3D"0"=
+><strong>A Message from TechCrunch</strong></a></strong></p>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</div>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09</tbody></table>
+=09=09=09=09=09=09=09=09=09=09=09=09=09<table class=3D"heading_block block-=
+3" width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"=
+presentation" style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tbody><tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td class=3D"pad" style=3D"pad=
+ding-bottom:5px;padding-left:10px;padding-right:20px;padding-top:5px;text-a=
+lign:center;width:100%;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<h1 style=3D"margin: 0; col=
+or: #101112; direction: ltr; font-family: 'Helvetica Neue', Helvetica, Aria=
+l, sans-serif; font-size: 24px; font-weight: 700; letter-spacing: normal; l=
+ine-height: 120%; text-align: left; margin-top: 0; margin-bottom: 0; mso-li=
+ne-height-alt: 28.799999999999997px;"><a href=3D"https://email.techcrunch.c=
+om/e3t/Ctc/ZX+113/d5b44W04/VX6Yws7dpsSdW62QX_Y8PxLFNW3mxgk35sBDm_N2qdv1j3hC=
+ZPW69sMD-6lZ3m9W5GNCd57LmMLyVqGW0j5K1PDmW4grY192vw8ftW7t5jZR4GqcBWW5Yfkkm94=
+_Dv4W1C5rTj2LDv-WW28xZbn6Zk07yN50Gmlgqd9V5W5x7Rnd4BQ-XtVN3zl82c5Y4GW1b2Hrh7=
+-bd-hW2bfQxD859PVmMlZLlKgDPHtW7rWYr93v6QYwW95KLT599ZRZ9N4JsGTtN8mvgW1f8wXk6=
+HB0hXW8fFYMC7FrwrfW7J2Trd3CQLj2W2sG3xL6dS2t_f6KDNFs04" target=3D"_blank" st=
+yle=3D"text-decoration: none; color: #101112;" rel=3D"noopener" data-hs-lin=
+k-id=3D"1"><span class=3D"mce-content-body mce-edit-focus" style=3D"word-br=
+eak: break-word; position: relative;" id=3D"64b0d513-6054-4c87-8909-42533ad=
+d3296" data-position=3D"180-0-2" data-qa=3D"tinyeditor-root-element">Unlock=
+ Access to Startups &amp; Investors at TechCrunch All Stage</span></a></h1>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09</tbody></table>
+=09=09=09=09=09=09=09=09=09=09=09=09=09<table class=3D"paragraph_block bloc=
+k-4" width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=
+=3D"presentation" style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt; wo=
+rd-break: break-word;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tbody><tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td class=3D"pad" style=3D"pad=
+ding-bottom:10px;padding-left:10px;padding-right:30px;padding-top:5px;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<div style=3D"color:#101112=
+;direction:ltr;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;f=
+ont-size:16px;font-weight:400;letter-spacing:0px;line-height:150%;text-alig=
+n:left;mso-line-height-alt:24px;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<p style=3D"margin-botto=
+m: 1em; margin: 0;"><a href=3D"https://email.techcrunch.com/e3t/Ctc/ZX+113/=
+d5b44W04/VX6Yws7dpsSdW62QX_Y8PxLFNW3mxgk35sBDm_N2qdv1j3hCZPW69sMD-6lZ3kGW91=
+lfB03qY3bLN4rrHtDdHxCmMQJ7r06bPgXW5Z976w5cQC4WW2cB8F03sJX11N2b_YTLg2WpnW55N=
+hWy4kjwKfW2C5LX950CHQFW4J77g63VGMDLVYgQw957v0vvW3J0lWL4hgsF_W6r-p257sH76xVC=
+TcMq8mbtbYW8lWcZH8KBPf3W5kVxwL4GDtttW4dB38x8fyp0NW35GPH-7xZj91W5F7vzP60z9NF=
+W2d7D863ndhx5W6d2Vnt4PNXx-f1bVvtP04" target=3D"_blank" style=3D"text-decora=
+tion: none; color: #101112;" rel=3D"noopener" data-hs-link-id=3D"2">TechCru=
+nch All Stage sponsorships offer unparalleled access to tech's top innovato=
+rs. Through speaking opportunities, interactive roundtables, and customizab=
+le activations, position your brand at the forefront of the industry. Gain =
+valuable leads, media exposure and lasting ROI.</a></p>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</div>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09</tbody></table>
+=09=09=09=09=09=09=09=09=09=09=09=09=09<table class=3D"button_block block-5=
+" width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"p=
+resentation" style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tbody><tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td class=3D"pad" style=3D"pad=
+ding-bottom:15px;padding-left:10px;padding-right:10px;padding-top:5px;text-=
+align:left;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<div class=3D"alignment" al=
+ign=3D"left"><a href=3D"https://email.techcrunch.com/e3t/Ctc/ZX+113/d5b44W0=
+4/VX6Yws7dpsSdW62QX_Y8PxLFNW3mxgk35sBDm_N2qdv1j3hCZPW69sMD-6lZ3pgV8mLtf40RD=
+6DW4gCf8J2vR_pYW75y4xQ7zb4Z9W98cPTm3FSx0YW5GjRW363sT1-W641gSB2-bnpxW4bpXwF3=
+Blx_dW7cC6vF8Ls5jSW48x-wl5m_lvtMjSHGGsCz4cN2YlTcmhp-MRW2vDW8B5VGFJnW2nLKS71=
+0ct7kW529H_M8zCZLhW4T1V153ghGkjW56MyP23V_GcZW50m_f98bvYDSW5Yyd4d7ChZ0TW2D29=
+8_952rDMW3BS1N17KcNy4f6yTdV604" target=3D"_blank" style=3D"color:#ffffff;te=
+xt-decoration:none;" data-hs-link-id=3D"3"><!--[if mso]>
+<v:roundrect xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:w=3D"urn:schem=
+as-microsoft-com:office:word"  href=3D"https://techcrunch.com/advertise/?ut=
+m_medium=3Dnewsletter&utm_source=3Dtc&utm_campaign=3Dtc_daily_am"  style=3D=
+"height:42px;width:146px;v-text-anchor:middle;" arcsize=3D"0%" fillcolor=3D=
+"#0aa43e">
+<v:stroke dashstyle=3D"Solid" weight=3D"0px" color=3D"#0aa43e"/>
+<w:anchorlock/>
+<v:textbox inset=3D"0px,0px,0px,0px">
+<center dir=3D"false" style=3D"color:#ffffff;font-family:sans-serif;font-si=
+ze:16px">
+<![endif]--><span class=3D"button" style=3D"background-color: #0aa43e; bord=
+er-bottom: 0px solid transparent; border-left: 0px solid transparent; borde=
+r-radius: 0px; border-right: 0px solid transparent; border-top: 0px solid t=
+ransparent; color: #ffffff; display: inline-block; font-family: 'Helvetica =
+Neue', Helvetica, Arial, sans-serif; font-size: 16px; font-weight: 700; mso=
+-border-alt: none; padding-bottom: 5px; padding-top: 5px; padding-left: 30p=
+x; padding-right: 30px; text-align: center; width: auto; word-break: keep-a=
+ll; letter-spacing: normal;"><span style=3D"word-break: break-word; line-he=
+ight: 32px;">Learn More</span></span><!--[if mso]></center></v:textbox></v:=
+roundrect><![endif]--></a></div>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09</tbody></table>
+=09=09=09=09=09=09=09=09=09=09=09=09=09<div class=3D"spacer_block block-6" =
+style=3D"height:15px;line-height:15px;font-size:1px;">=E2=80=8A</div>
+=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09</tbody>
+=09=09=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09</tbody>
+=09=09=09=09=09</table>
+=09=09=09=09=09<table class=3D"row row-8" align=3D"center" width=3D"100%" b=
+order=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=
+=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-size: auto;">
+=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09<td>
+=09=09=09=09=09=09=09=09=09<table class=3D"row-content stack" align=3D"cent=
+er" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" =
+style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #f=
+afafa; background-size: auto; border-left: 1px solid #0aa43e; border-radius=
+: 0; border-right: 1px solid #0aa43e; border-top: 1px solid #0aa43e; color:=
+ #000000; width: 600px; margin: 0 auto;" width=3D"600">
+=09=09=09=09=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09<td class=3D"column column-1" width=3D"=
+100%" style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 4=
+00; text-align: left; padding-bottom: 5px; padding-top: 5px; vertical-align=
+: top;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09<table class=3D"heading_block block-=
+1" width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"=
+presentation" style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tbody><tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td class=3D"pad" style=3D"pad=
+ding-bottom:15px;padding-left:30px;padding-right:10px;padding-top:15px;text=
+-align:center;width:100%;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<h1 style=3D"margin: 0; col=
+or: #101112; direction: ltr; font-family: 'Helvetica Neue', Helvetica, Aria=
+l, sans-serif; font-size: 28px; font-weight: 700; letter-spacing: normal; l=
+ine-height: 120%; text-align: left; margin-top: 0; margin-bottom: 0; mso-li=
+ne-height-alt: 33.6px;"><span class=3D"tinyMce-placeholder" style=3D"word-b=
+reak: break-word;">Morning must-reads</span></h1>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09</tbody></table>
+=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09</tbody>
+=09=09=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09</tbody>
+=09=09=09=09=09</table>
+=09=09=09=09=09<table class=3D"row row-9" align=3D"center" width=3D"100%" b=
+order=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=
+=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09<td>
+=09=09=09=09=09=09=09=09=09<table class=3D"row-content stack" align=3D"cent=
+er" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" =
+style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #f=
+afafa; border-bottom: 1px solid #0aa43e; border-left: 1px solid #0aa43e; bo=
+rder-radius: 0; border-right: 1px solid #0aa43e; color: #000000; width: 600=
+px; margin: 0 auto;" width=3D"600">
+=09=09=09=09=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09<td class=3D"column column-1" width=3D"=
+100%" style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 4=
+00; text-align: left; padding-bottom: 5px; vertical-align: top;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09<table class=3D"image_block block-1"=
+ width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"pr=
+esentation" style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tbody><tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td class=3D"pad" style=3D"wid=
+th:100%;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<div class=3D"alignment" al=
+ign=3D"center" style=3D"line-height:10px">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<div style=3D"max-width:=
+ 598px;"><a href=3D"https://email.techcrunch.com/e3t/Ctc/ZX+113/d5b44W04/VX=
+6Yws7dpsSdW62QX_Y8PxLFNW3mxgk35sBDm_N2qdv0K5g8s-W50kH_H6lZ3lZW2VVjfB2hWllkW=
+4MrV_Z3Q8qTwW2yfVBJ8b9R4PW897tXF6D5LxXW7DdRWX6dy02jN1T4x4nPxrmxW1CbmLQ1F_Nr=
+dW7_JJF-8HtnbLV1P6fK2kq7LLW4msdHc2fV8YYW8PVhY77JbwZWN3F-cLR9_R_pVmB1mq6B_Wb=
+6VkzsK17GXTPZW4CtV6q116wPlW6QMm5S3M6vPfV3d_jh4TK-R8W6C8_dG59pMk0W4T62dL32pr=
+v-N4wM09ymH_43W1h2RH-8Jl-K2N7LXfXY-JqlhW76pVgL96ZdPtV9sxBb83grKhW6kf0yN3Nf6=
+QbW3kw6gy2JHk24W6S_b9L3c-Fs4W8KQxVB6cfT5tN8_Qm_GK2j8rW50XKMs5Y3bqrW60rpm889=
+6GFCN3F8HZMPQHztf1Xqb7z04" target=3D"_blank" style=3D"outline:none" tabinde=
+x=3D"-1" data-hs-link-id=3D"0"><img src=3D"https://techcrunch.com/wp-conten=
+t/uploads/2025/02/Belgium-flag-Getty.jpg?resize=3D1200,800" style=3D"displa=
+y: block; height: auto; border: 0; width: 100%;" width=3D"598" alt title></=
+a></div>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</div>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09</tbody></table>
+=09=09=09=09=09=09=09=09=09=09=09=09=09<table class=3D"paragraph_block bloc=
+k-2" width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=
+=3D"presentation" style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt; wo=
+rd-break: break-word;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tbody><tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td class=3D"pad" style=3D"pad=
+ding-bottom:10px;padding-left:10px;padding-right:10px;padding-top:7px;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<div style=3D"color:#000000=
+;direction:ltr;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;f=
+ont-size:10px;font-weight:400;letter-spacing:0px;line-height:120%;text-alig=
+n:center;mso-line-height-alt:12px;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<p style=3D"margin-botto=
+m: 1em; margin: 0;"><strong>Image Credits:</strong> Geraint Rowland Photogr=
+aphy / Getty Images</p>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</div>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09</tbody></table>
+=09=09=09=09=09=09=09=09=09=09=09=09=09<table class=3D"paragraph_block bloc=
+k-3" width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=
+=3D"presentation" style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt; wo=
+rd-break: break-word;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tbody><tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td class=3D"pad" style=3D"pad=
+ding-bottom:10px;padding-left:30px;padding-right:20px;padding-top:10px;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<div style=3D"color:#000000=
+;direction:ltr;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;f=
+ont-size:16px;font-weight:400;letter-spacing:0px;line-height:150%;text-alig=
+n:left;mso-line-height-alt:24px;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<p style=3D"margin: 0; m=
+argin-bottom: 16px;"><strong>Belgium suffers a major data breach: </strong>=
+Belgium is looking into whether hackers linked to the Chinese government br=
+eached the data of its state security service. The investigation was opened=
+ in November 2023 after the country first learned of the attack. <a href=3D=
+"https://email.techcrunch.com/e3t/Ctc/ZX+113/d5b44W04/VX6Yws7dpsSdW62QX_Y8P=
+xLFNW3mxgk35sBDm_N2qdv0K5g8s-W50kH_H6lZ3nwW8622j03K82syW6TQv2_4F5kPmN1hFgpG=
+Hzs6CW8k3Wfv2tnX3zW7y_4bL2XNrqmW7JtX6G5pjwSGW5lJSSf3PpzypW37vljX1YR0BvW1zQf=
+fT6gmVvnW8wGDVq5jQ6vJW4yHPnD3t8pRtW6YPlbj7SCM64W76X9wy8DzV5wW9l6ymk5BFgtmW7=
+mMbJD4_mQchW3VYBpT2B4y_0W5xQHqY5Xhb-rW5vQRXk5bmHW9W3mn8dM3f6RFBW7yyLpy78mJ5=
+CW3GD3NH4FHm4RW75StzL8YVLcJW7ZQfV_4YHtwdVCMrw73sfG95W1FjLK-5dw2k6W2P_Bc_6fg=
+tCdW36sgMM6K4cxDW9gpGlx4FJ9XWN23M9jP79KZtN1Yj_p-2dG0NW8cXzLK7z31Z3W5STs_g6v=
+KcXDf7zFXh204" style=3D"text-decoration: underline; color: #0aa43e;" data-h=
+s-link-id=3D"1" target=3D"_blank"><strong>Read More</strong></a></p>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<p style=3D"margin: 0; m=
+argin-bottom: 16px;"><strong>Yet another example of why spyware is bad: </s=
+trong>Stalkerware app Spyzie apparently suffers from a bug that has exposed=
+ the email information of thousands of people who signed up to use the app.=
+ Thousands of Android smartphones and iPhones are affected, but many users =
+have no idea their devices have been hacked. <a href=3D"https://email.techc=
+runch.com/e3t/Ctc/ZX+113/d5b44W04/VX6Yws7dpsSdW62QX_Y8PxLFNW3mxgk35sBDm_N2q=
+dv2P3hCZPW95jsWP6lZ3p6W8TPwJM3gfZ7PW8gG0_r2jrqdCW8rqxjq98TjwrW9354nq2KWKQbW=
+8KdJCq58nj4vW3QKbx62Hd6RPW2WhlNb3dMmJ1VJ-DqY1hkw0zW8QGw0v1m1Y0jVkKLSb7nf0jR=
+W90pLn416mRY7W47z5wC5BRpG2W3yVZWH1_Lt2sN36sG0khpH2xW4LnvM156-FZxW96Ty2F92J7=
+lbW5HKq9Y2ddPvkW8PzQHd7dz95ZW1J63zM8bkryfN4N8LJdPg6P5W5CQL601VtB3ZW1nyhFB7t=
+YB5GW7H4gwD8w0gNXW84JJ1Z3NB0SbVJVwS2703RyfW5DcHdq29552fW5WLqyp4BqF2PW86Wwmf=
+9kdZz1W4P6GQK8KBpGWW567_265t8X8Nf4dh7H404" style=3D"text-decoration: underl=
+ine; color: #0aa43e;" data-hs-link-id=3D"0" target=3D"_blank"><strong>Read =
+More</strong></a></p>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<p style=3D"margin: 0; m=
+argin-bottom: 16px;"><strong>Get them while they=E2=80=99re young: </strong=
+>Snowflake is setting aside an extra $200 million for its startup accelerat=
+or, which invests in early-stage startups building AI on top of Snowflake. =
+Startups in the program also receive technical support and cloud credits fo=
+r AWS. <a href=3D"https://email.techcrunch.com/e3t/Ctc/ZX+113/d5b44W04/VX6Y=
+ws7dpsSdW62QX_Y8PxLFNW3mxgk35sBDm_N2qdv2v3hCZPW8wLKSR6lZ3mXW4SD00M8wLPBSW80=
+Xzw52g6rgFW1mHL1t2ksJNKW7CgXbZ4nNMtrVY1Jlw3GVRtfTVrZl5tb8L7N5dQNMvmvLGmW67R=
+GzQ1r8tZKW38Km207rlpjMW2c3Hn76ZyjHCW5DgLPr9kJ0mcW5vD1pl7BlfHTW4MQf_Z8yYKdtN=
+42nLBWp_dm1W4qZFtp2L03ZWW8B58dB1wNnRrW5MG1714NRJmPW3KB3v75dDwcjW3F7Ydp2Qp-G=
+JN5f1rXkhx0M-W1KzmgM4t_C-FW3JVzf96VM-RYN2DwtC9p1wTyW8gk7hx3yC_TdVmDpfF4mnqT=
+pW179XKf2ZcFbWW3GW1Wp4hdXw9W4bKTcK4v4yRvf48cb0j04" style=3D"text-decoration=
+: underline; color: #0aa43e;" data-hs-link-id=3D"0" target=3D"_blank"><stro=
+ng>Read More</strong></a></p>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<p style=3D"margin-botto=
+m: 1em; margin: 0;"><strong>Change of plans: </strong>Twitch plans to open =
+up its monetization tools to most creators, regardless of how many follower=
+s they have. Previously only affiliates and partners on Twitch had access t=
+o subscriptions or had to meet a certain eligibility criteria. <a href=3D"h=
+ttps://email.techcrunch.com/e3t/Ctc/ZX+113/d5b44W04/VX6Yws7dpsSdW62QX_Y8PxL=
+FNW3mxgk35sBDm_N2qdv2v3hCZPW8wLKSR6lZ3lSW5TN7125qsbSvW5RjYf57V581QW89WBmC9g=
+9MJHW7ldNZx3my-WLW30gy1M802D7PN3MlBgMfCPbdW770gqq6qyyn_W2nM0DC2wqTf4N1H5H5r=
+V6FdTW7Nkbdd42n9W8W8WLjr29jSFhGW8DHD5g2wxb_zW6-4GR43P783PW6H9B9q89GChbV7c9G=
+x1hB0s7W8W9ZgJ9jPBYLW2nLfcM2zjNGbVZ96pc40D2G4W8ljWvB3mrtPYW5CYRRP1Xj1WBW8k5=
+S2429QrBZW6-nJzJ6PLQ1NVqTVBv22ByG1N6v380NQWHj8W2L9llC5JbRJDW4myW9549FZ0KN4p=
+vhZfjsLWrVz_4RY9jC6w1f5_vHWW04" style=3D"text-decoration: underline; color:=
+ #0aa43e;" data-hs-link-id=3D"0" target=3D"_blank"><strong>Read More</stron=
+g></a></p>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</div>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09</tbody></table>
+=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09</tbody>
+=09=09=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09</tbody>
+=09=09=09=09=09</table>
+=09=09=09=09=09<table class=3D"row row-10" align=3D"center" width=3D"100%" =
+border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" styl=
+e=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09<td>
+=09=09=09=09=09=09=09=09=09<table class=3D"row-content stack" align=3D"cent=
+er" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" =
+style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-radius: 0; co=
+lor: #000000; width: 600px; margin: 0 auto;" width=3D"600">
+=09=09=09=09=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09<td class=3D"column column-1" width=3D"=
+100%" style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 4=
+00; text-align: left; vertical-align: top;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09<div class=3D"spacer_block block-1" =
+style=3D"height:20px;line-height:20px;font-size:1px;">=E2=80=8A</div>
+=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09</tbody>
+=09=09=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09</tbody>
+=09=09=09=09=09</table>
+=09=09=09=09=09<table class=3D"row row-11" align=3D"center" width=3D"100%" =
+border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" styl=
+e=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-size: auto;">
+=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09<td>
+=09=09=09=09=09=09=09=09=09<table class=3D"row-content stack" align=3D"cent=
+er" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" =
+style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #f=
+afafa; background-size: auto; border-left: 1px solid #0aa43e; border-radius=
+: 0; border-right: 1px solid #0aa43e; border-top: 1px solid #0aa43e; color:=
+ #000000; width: 600px; margin: 0 auto;" width=3D"600">
+=09=09=09=09=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09<td class=3D"column column-1" width=3D"=
+100%" style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 4=
+00; text-align: left; padding-bottom: 5px; padding-top: 5px; vertical-align=
+: top;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09<table class=3D"heading_block block-=
+1" width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"=
+presentation" style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tbody><tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td class=3D"pad" style=3D"pad=
+ding-bottom:15px;padding-left:30px;padding-right:10px;padding-top:15px;text=
+-align:center;width:100%;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<h1 style=3D"margin: 0; col=
+or: #000000; direction: ltr; font-family: 'Helvetica Neue', Helvetica, Aria=
+l, sans-serif; font-size: 27px; font-weight: 700; letter-spacing: normal; l=
+ine-height: 120%; text-align: left; margin-top: 0; margin-bottom: 0; mso-li=
+ne-height-alt: 32.4px;"><span class=3D"tinyMce-placeholder" style=3D"word-b=
+reak: break-word;">Around the web<br></span></h1>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09</tbody></table>
+=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09</tbody>
+=09=09=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09</tbody>
+=09=09=09=09=09</table>
+=09=09=09=09=09<table class=3D"row row-12" align=3D"center" width=3D"100%" =
+border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" styl=
+e=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09<td>
+=09=09=09=09=09=09=09=09=09<table class=3D"row-content stack" align=3D"cent=
+er" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" =
+style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #f=
+afafa; border-bottom: 1px solid #0aa43e; border-left: 1px solid #0aa43e; bo=
+rder-radius: 0; border-right: 1px solid #0aa43e; color: #000000; width: 600=
+px; margin: 0 auto;" width=3D"600">
+=09=09=09=09=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09<td class=3D"column column-1" width=3D"=
+100%" style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 4=
+00; text-align: left; padding-bottom: 5px; vertical-align: top;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09<table class=3D"paragraph_block bloc=
+k-1" width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=
+=3D"presentation" style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt; wo=
+rd-break: break-word;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tbody><tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td class=3D"pad" style=3D"pad=
+ding-bottom:10px;padding-left:30px;padding-right:20px;padding-top:10px;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<div style=3D"color:#000000=
+;direction:ltr;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;f=
+ont-size:16px;font-weight:400;letter-spacing:0px;line-height:150%;text-alig=
+n:left;mso-line-height-alt:24px;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<p style=3D"margin: 0; m=
+argin-bottom: 16px;"><strong>What work-life balance? </strong>Google=E2=80=
+=99s co-founder Sergey Brin feels that 60 hours per week is the =E2=80=9Csw=
+eet spot=E2=80=9D for productivity, and in a memo, is urging employees to g=
+o back to office, the New York Times reports. The sentiment driving this is=
+ obviously the AI arms race, and Brin believes artificial general intellige=
+nce is not far off. <a href=3D"https://email.techcrunch.com/e3t/Ctc/ZX+113/=
+d5b44W04/VX6Yws7dpsSdW62QX_Y8PxLFNW3mxgk35sBDm_N2qdv2v3hCZPW8wLKSR6lZ3kCN16=
+npRKlH9rFW3QYGxl35T2tbW72jM4G7rDWLFW54CrKh1J371QW6r9C3H1TlhXbW7Jmh2M3vJZ-xW=
+4GyDF173qLTSW6Cnn2d7RnjrCVz4Dhn5bXQsRW2jXyKJ1Ql5nxW2wMgYT1gd1lSN7syRfLlWcD6=
+W7dXqD560bM59W2fwHqj407FW0N1PG_HNTxdcRW2YJdWR8KJQ4MW5pJSTs81VDP9W6rrXhj2l5m=
+0fW7W8C8b56ZY4WW58SkNC8LnVJgW1Nl2zY4S3G48W6_NfH998CVCcW7mShbh8nb80-W5-KKx08=
+cJ-TGVyc9GH1kpJX2N2pgc_RR76kvW9k-lg01WBWTZW2_3XRV169xCvdnhvF404" style=3D"t=
+ext-decoration: underline; color: #0aa43e;" data-hs-link-id=3D"0" target=3D=
+"_blank"><strong>Read More</strong></a></p>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<p style=3D"margin-botto=
+m: 1em; margin: 0;"><strong>No talking back: </strong>A Tesla employee who =
+publicly criticized Elon Musk for making Nazi jokes has been fired, the New=
+ York Times reports. The employee has reportedly been flagging Musk=E2=80=
+=99s behavior since 2022, but said Tesla has remained silent. <a href=3D"ht=
+tps://email.techcrunch.com/e3t/Ctc/ZX+113/d5b44W04/VX6Yws7dpsSdW62QX_Y8PxLF=
+NW3mxgk35sBDm_N2qdv2b3hCZPW7Y8-PT6lZ3mcW2mFVRt7Q-Q5GW8J5v4g9g9QL-W8xL0041bj=
+P4yVMKHps7w7JfsW8vRxtM7vGPRnW6JxBjB6MydqWW1Pm_Nn8SGQWPMtCv06_FvJYW1rV9mt5wf=
+LP0W1bVt0h2jvHN_V1bSNl15NfpcN7cyTJ5rYpkPW4sTscZ6ZJxxpW4qvshg7b37lbW2NRNCr9g=
+Vz_pW2ysdSv2hLZ2FW88gV19786qbfW2NvhDd6CpbW3N5XPWhnDdk1nW7hYYY83HvKbXW2QHs4j=
+5GGLGbW5zD5Gy9jsJj_W3Mcr1j6sHJlYW1qHZpL7XF7YgVh_wX140pp2KW4-kxgt4Mxlw1f765Z=
+MR04" style=3D"text-decoration: underline; color: #0aa43e;" data-hs-link-id=
+=3D"0" target=3D"_blank"><strong>Read More</strong></a></p>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</div>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09</tbody></table>
+=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09</tbody>
+=09=09=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09</tbody>
+=09=09=09=09=09</table>
+=09=09=09=09=09<table class=3D"row row-13" align=3D"center" width=3D"100%" =
+border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" styl=
+e=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09<td>
+=09=09=09=09=09=09=09=09=09<table class=3D"row-content stack" align=3D"cent=
+er" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" =
+style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-radius: 0; co=
+lor: #000000; width: 600px; margin: 0 auto;" width=3D"600">
+=09=09=09=09=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09<td class=3D"column column-1" width=3D"=
+100%" style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 4=
+00; text-align: left; vertical-align: top;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09<div class=3D"spacer_block block-1" =
+style=3D"height:20px;line-height:20px;font-size:1px;">=E2=80=8A</div>
+=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09</tbody>
+=09=09=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09</tbody>
+=09=09=09=09=09</table>
+=09=09=09=09=09<table class=3D"row row-14" align=3D"center" width=3D"100%" =
+border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" styl=
+e=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-size: auto;">
+=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09<td>
+=09=09=09=09=09=09=09=09=09<table class=3D"row-content stack" align=3D"cent=
+er" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" =
+style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #f=
+afafa; background-size: auto; border-left: 1px solid #0aa43e; border-radius=
+: 0; border-right: 1px solid #0aa43e; border-top: 1px solid #0aa43e; color:=
+ #000000; width: 600px; margin: 0 auto;" width=3D"600">
+=09=09=09=09=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09<td class=3D"column column-1" width=3D"=
+100%" style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 4=
+00; text-align: left; padding-bottom: 5px; padding-top: 5px; vertical-align=
+: top;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09<table class=3D"heading_block block-=
+1" width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"=
+presentation" style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tbody><tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td class=3D"pad" style=3D"pad=
+ding-bottom:15px;padding-left:30px;padding-right:10px;padding-top:15px;text=
+-align:center;width:100%;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<h1 style=3D"margin: 0; col=
+or: #101112; direction: ltr; font-family: 'Helvetica Neue', Helvetica, Aria=
+l, sans-serif; font-size: 28px; font-weight: 700; letter-spacing: normal; l=
+ine-height: 120%; text-align: left; margin-top: 0; margin-bottom: 0; mso-li=
+ne-height-alt: 33.6px;"><span class=3D"tinyMce-placeholder" style=3D"word-b=
+reak: break-word;">Before you go</span></h1>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09</tbody></table>
+=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09</tbody>
+=09=09=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09</tbody>
+=09=09=09=09=09</table>
+=09=09=09=09=09<table class=3D"row row-15" align=3D"center" width=3D"100%" =
+border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" styl=
+e=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09<td>
+=09=09=09=09=09=09=09=09=09<table class=3D"row-content stack" align=3D"cent=
+er" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" =
+style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #f=
+afafa; border-bottom: 1px solid #02BD6F; border-left: 1px solid #02BD6F; bo=
+rder-radius: 0; border-right: 1px solid #02BD6F; color: #000000; width: 600=
+px; margin: 0 auto;" width=3D"600">
+=09=09=09=09=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09<td class=3D"column column-1" width=3D"=
+100%" style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 4=
+00; text-align: left; padding-bottom: 5px; vertical-align: top;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09<table class=3D"image_block block-1"=
+ width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"pr=
+esentation" style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tbody><tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td class=3D"pad" style=3D"wid=
+th:100%;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<div class=3D"alignment" al=
+ign=3D"center" style=3D"line-height:10px">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<div style=3D"max-width:=
+ 598px;"><a href=3D"https://email.techcrunch.com/e3t/Ctc/ZX+113/d5b44W04/VX=
+6Yws7dpsSdW62QX_Y8PxLFNW3mxgk35sBDm_N2qdv2v3hCZPW8wLKSR6lZ3nfW728Pq-8_JSljW=
+1L1dbz6GnlxHW3mnZxL64sh7CW3dMxd762X15gW37Rqms47ZRFCW54f9d15H6Jm3W8vmwrr74hV=
+kWW609VPB5qpJyvW3MfVxg4Zgxd5W5DCJ4m8tC-X_N9fMqyfV19_9W6mY23l6Xc3YsW4BVkct1L=
+L5HdW6vqVyk4MTQy6W6-r01w6NcdnNW2H0hvp97jSp_W31ydzP5QqtJnW58VKdM4TNcRFW3ZH7w=
+T8wZgs4W18X31P2ywfnHW1NtF-t4xNHlZW84x3k76mTfTvW847NjJ73LdTBW5kJ6Vj7mVrhzW3k=
+BZ807XND5KW8VvzvC5qgDMZW63zvRf45Xw04W22pyNQ8ncN3jf6hBtDT04" target=3D"_blan=
+k" style=3D"outline:none" tabindex=3D"-1" data-hs-link-id=3D"0"><img src=3D=
+"https://techcrunch.com/wp-content/uploads/2025/02/GettyImages-1246324935.j=
+pg" style=3D"display: block; height: auto; border: 0; width: 100%;" width=
+=3D"598" alt title></a></div>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</div>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09</tbody></table>
+=09=09=09=09=09=09=09=09=09=09=09=09=09<table class=3D"paragraph_block bloc=
+k-2" width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=
+=3D"presentation" style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt; wo=
+rd-break: break-word;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tbody><tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td class=3D"pad" style=3D"pad=
+ding-bottom:10px;padding-left:10px;padding-right:10px;padding-top:7px;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<div style=3D"color:#393d47=
+;direction:ltr;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;f=
+ont-size:10px;font-weight:400;letter-spacing:0px;line-height:120%;text-alig=
+n:center;mso-line-height-alt:12px;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<p style=3D"margin-botto=
+m: 1em; margin: 0;"><strong>Image Credits: </strong>Stefan Wermuth/Bloomber=
+g / Getty Images</p>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</div>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09</tbody></table>
+=09=09=09=09=09=09=09=09=09=09=09=09=09<table class=3D"paragraph_block bloc=
+k-3" width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=
+=3D"presentation" style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt; wo=
+rd-break: break-word;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tbody><tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td class=3D"pad" style=3D"pad=
+ding-bottom:10px;padding-left:30px;padding-right:20px;padding-top:10px;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<div style=3D"color:#101112=
+;direction:ltr;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;f=
+ont-size:16px;font-weight:400;letter-spacing:0px;line-height:150%;text-alig=
+n:left;mso-line-height-alt:24px;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<p style=3D"margin-botto=
+m: 1em; margin: 0;"><strong>If it looks too good to be true, it probably is=
+:</strong> A managing partner at Sequoia is warning against following inves=
+tor hype and putting money into special-purpose vehicles, which let investo=
+rs sell their startup equity, but the buyers get shares in the vehicle, not=
+ the startup. It=E2=80=99s a risky proposition, because to see any profit, =
+the startup=E2=80=99s valuation would have to skyrocket, and that=E2=80=99s=
+ never a guarantee. <a href=3D"https://email.techcrunch.com/e3t/Ctc/ZX+113/=
+d5b44W04/VX6Yws7dpsSdW62QX_Y8PxLFNW3mxgk35sBDm_N2qdv2v3hCZPW8wLKSR6lZ3p0W5j=
+Drzk136kscW4HnC8v2-72rPW5rlfPB6c8f0SW6n7G7k5vYxfCVPKxHB1Xr8n5V6MYKH2Hc0gLN4=
+fn4ZTtpcW6W1NRDvc4tQQh_W8cJcNV1tXZMnW9dKNgG6vK8yRW3Tjfks42SWd7W8--LG-6rlQsb=
+W7nlDbB4KZfcwW3n49rF8JDwrhW220sBW7YNDc-W4pSl6r6-PWHyN7X6MwTlqlCRW8qFcwQ67hk=
+pTW4BWwcL725qB_W296Ppf8BVGb5W8lfDX56kJQxMW1fWLbd1YMqqpW6BPCZd3sd2JPW2cs6rD7=
+_WP_qW1S_rCj40P_L5W5tpRQJ8z5GkFW37zyhW55HGW2N4MztXkgpm6Jf3fHFcq04" style=3D=
+"text-decoration: underline; color: #0aa43e;" data-hs-link-id=3D"1" target=
+=3D"_blank"><strong>Read More</strong></a></p>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</div>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09</tbody></table>
+=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09</tbody>
+=09=09=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09</tbody>
+=09=09=09=09=09</table>
+=09=09=09=09=09<table class=3D"row row-16" align=3D"center" width=3D"100%" =
+border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" styl=
+e=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09<td>
+=09=09=09=09=09=09=09=09=09<table class=3D"row-content stack" align=3D"cent=
+er" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" =
+style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-radius: 0; co=
+lor: #000000; width: 600px; margin: 0 auto;" width=3D"600">
+=09=09=09=09=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09<td class=3D"column column-1" width=3D"=
+100%" style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 4=
+00; text-align: left; vertical-align: top;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09<div class=3D"spacer_block block-1" =
+style=3D"height:20px;line-height:20px;font-size:1px;">=E2=80=8A</div>
+=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09</tbody>
+=09=09=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09</tbody>
+=09=09=09=09=09</table>
+=09=09=09=09=09<table class=3D"row row-17" align=3D"center" width=3D"100%" =
+border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" styl=
+e=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-size: auto;">
+=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09<td>
+=09=09=09=09=09=09=09=09=09<table class=3D"row-content stack" align=3D"cent=
+er" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" =
+style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #f=
+afafa; background-size: auto; border-left: 1px solid #0aa43e; border-radius=
+: 0; border-right: 1px solid #0aa43e; border-top: 1px solid #0aa43e; color:=
+ #000000; width: 600px; margin: 0 auto;" width=3D"600">
+=09=09=09=09=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09<td class=3D"column column-1" width=3D"=
+100%" style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 4=
+00; text-align: left; padding-bottom: 5px; padding-top: 5px; vertical-align=
+: top;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09<table class=3D"heading_block block-=
+1" width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"=
+presentation" style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tbody><tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td class=3D"pad" style=3D"pad=
+ding-bottom:5px;padding-left:30px;padding-right:10px;padding-top:25px;text-=
+align:center;width:100%;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<h1 style=3D"margin: 0; col=
+or: #101112; direction: ltr; font-family: 'Helvetica Neue', Helvetica, Aria=
+l, sans-serif; font-size: 28px; font-weight: 700; letter-spacing: normal; l=
+ine-height: 120%; text-align: left; margin-top: 0; margin-bottom: 0; mso-li=
+ne-height-alt: 33.6px;"><strong>Featured jobs from CrunchBoard</strong></h1=
+>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09</tbody></table>
+=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09</tbody>
+=09=09=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09</tbody>
+=09=09=09=09=09</table>
+=09=09=09=09=09<table class=3D"row row-18" align=3D"center" width=3D"100%" =
+border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" styl=
+e=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09<td>
+=09=09=09=09=09=09=09=09=09<table class=3D"row-content stack" align=3D"cent=
+er" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" =
+style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #f=
+afafa; border-bottom: 1px solid #0aa43e; border-left: 1px solid #0aa43e; bo=
+rder-radius: 0; border-right: 1px solid #0aa43e; color: #000000; width: 600=
+px; margin: 0 auto;" width=3D"600">
+=09=09=09=09=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09<td class=3D"column column-1" width=3D"=
+100%" style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 4=
+00; text-align: left; padding-bottom: 5px; vertical-align: top;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09<table class=3D"paragraph_block bloc=
+k-1" width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=
+=3D"presentation" style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt; wo=
+rd-break: break-word;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tbody><tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td class=3D"pad" style=3D"pad=
+ding-bottom:10px;padding-left:30px;padding-right:20px;padding-top:20px;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<div style=3D"color:#101112=
+;direction:ltr;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;f=
+ont-size:16px;font-weight:400;letter-spacing:0px;line-height:150%;text-alig=
+n:left;mso-line-height-alt:24px;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<p style=3D"margin: 0; m=
+argin-bottom: 16px;"><a href=3D"https://email.techcrunch.com/e3t/Ctc/ZX+113=
+/d5b44W04/VX6Yws7dpsSdW62QX_Y8PxLFNW3mxgk35sBDm_N2qdv0K5g8s-W50kH_H6lZ3pVW5=
+6J_2d6KlVmFW3vpJc216yn3NW4VDwPv5hp_j_W3TJTkD4S-N79V2plY55qhJHhN4NM1fh66sH0W=
+6ZQl2y9jcglGW16GT4S3nW2T0W55yzyw3sC-lbW5LKkn_5XN6bjW8kj1ry4S6rsRN3YsKW3qdhr=
+RVXMjbt8xy5DtW5GgbWH1xfv6rW2f4vz659lt13W2BCYMP2-C1-KW6z9Ppz93nl_kN3Vxb8N3CD=
+vtW4XcFhv2XL2QhVTfp8m5xZ_M-VbVL288k41TNW799XGh4mn6DgW91nbH52TSrDSVFX9LK8yqW=
+TTVMk1ps6JdfqsN6Vydg871SjzW5Gsd2y7mxYCNVZCRRT3s3DnwVqBkXd8gzJfjW1ZmSPY7DKjw=
+LW14NDrj8x1WZQW62_C1C28zcMhf70kzmg04" target=3D"_blank" style=3D"text-decor=
+ation: none; color: #101112;" rel=3D"noopener" data-hs-link-id=3D"0">BizOps=
+ Lead, Elayne (New York, NY)</a></p>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<p style=3D"margin: 0; m=
+argin-bottom: 16px;"><a href=3D"https://email.techcrunch.com/e3t/Ctc/ZX+113=
+/d5b44W04/VX6Yws7dpsSdW62QX_Y8PxLFNW3mxgk35sBDm_N2qdv2b3hCZPW7Y8-PT6lZ3p3W6=
+XdqN41brM21W5nTt393SSQP_V44xXP753VHBW24rrK64FqqpJW5TWs-t8Mf9L8W3VZlgP606y_q=
+W2ThKM46bP8CvW8tC_DJ7w467NW1z8dVk34HJ20W1LjnQt7msyFjW9gj8Qf7zS8gPW5XLym7763=
+-KKW41r3qT20k2MNW5cfQ4L4GlG_cW60MGFZ4xHW8sW3N7f_S7VCzMKVpz3WS1lrFt8W8cb8ZJ2=
+WXtsQW8KVLGv6kP-SrW153SRN13Pl58W71TXj65CV3S2W3Cb3322yfMhxW33C7WW5SFZTjW6VVL=
+qD7kCmLqW31PT0k5MQmLLW3C1DyD3n8q9kf6P1yT004" target=3D"_blank" style=3D"tex=
+t-decoration: none; color: #101112;" rel=3D"noopener" data-hs-link-id=3D"0"=
+>Staff Software Engineer, Murmuration (Remote)</a></p>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<p style=3D"margin: 0; m=
+argin-bottom: 16px;"><a href=3D"https://email.techcrunch.com/e3t/Ctc/ZX+113=
+/d5b44W04/VX6Yws7dpsSdW62QX_Y8PxLFNW3mxgk35sBDm_N2qdv2P3hCZPW95jsWP6lZ3nDW2=
+L_0ds636qkdW4zDh6K7xL4sPW15H1gj8Rwq5XW64sBg03ZKRwBW8v9h8T6GwXGpVswcr899w0Wv=
+N3_wSjWMP35_W2Kyqmb4CVQVjW65_gzZ5xyShtW471MCn1163DpN4cKnFJMyCQxW5qHR6d8jzVy=
+ZW5vTKn355_C5JW51DvVS5QScBkW2swj8H4-hc-sW3-PdP-3ZzBSWV4hWD028ZVNbW4RYLLY4Xq=
+zVcN3lbwCyLyKbnW2jdgdJ6gk_X2W7cnTNS5JHq-5W5fSXWV83dNLmVCGBwW166ZrnM52N0GztN=
+zqN4mjWCXG7h3TN6fQYTLlFTMvW2VZVpV475XgzW17jQZn2MFRW4W8v3bzR6Q-ZpYW5CCl-n2ln=
+FKhf2kTQxR04" target=3D"_blank" style=3D"text-decoration: none; color: #101=
+112;" rel=3D"noopener" data-hs-link-id=3D"0">Founding Sales Development Rep=
+resentative, Clerkie (Remote)</a></p>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<p style=3D"margin: 0; m=
+argin-bottom: 16px;"><a href=3D"https://email.techcrunch.com/e3t/Ctc/ZX+113=
+/d5b44W04/VX6Yws7dpsSdW62QX_Y8PxLFNW3mxgk35sBDm_N2qdv0K5g8s-W50kH_H6lZ3mcW1=
+pd5dV4vYy-GW2WKHZk2D_c50W7QNhh43JjtY0N84Gg5NjGpNQW49jj8c40vBZtW85rM4R6Z491s=
+W4kkqjK5xDFT_W3p92_S5B0bnxW3y1R7f15cyTpMjMF-7GfVF4W43wX2C6Yf9TlN4R5JzCmqHkx=
+W8_BnzT5BlKcFW5dJ4FZ6JccjRW7PHtR542gVhVW18D6X24d3SKSW4XLR-q3-C5yQVFLmRm2BZC=
+2MW5fY-8q7lJbpHW8JRwz646f1tlN3PhVY4h67rXW39-Fdn8n5SdGN7VVtCf677ffN6sYHF8mRk=
+PDW2d8c469fGcJXW7VXtjT32-77dW1YfBPd6R5N4qW3qNr088Q5HzlW7SSg2P1fTnn1W2TgRdM1=
+tS_2HW1nmpm33KcV9zW1d6Ttj9hCSqgf8j52Y-04" target=3D"_blank" style=3D"text-d=
+ecoration: none; color: #101112;" rel=3D"noopener" data-hs-link-id=3D"0">Bu=
+siness Analyst, Air Line Pilots Association (Tysons, VA)</a></p>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<p style=3D"margin-botto=
+m: 1em; margin: 0;"><a href=3D"https://email.techcrunch.com/e3t/Ctc/ZX+113/=
+d5b44W04/VX6Yws7dpsSdW62QX_Y8PxLFNW3mxgk35sBDm_N2qdv2b3hCZPW7Y8-PT6lZ3m3W9h=
+-w6f1NdcMZW6mnm_W3ZjCL4W2b2G_w7T7BzBW6kwp6l7Rn2HjW4lCyKD7yXG5mW73c3D12ddmkN=
+W5kM4mw1zWWPbW3631Cw3k8XMPW1YKy-L3ClBy8W8y7Z0b76_6yfW2Yb3tS3YSJThVf30kn96kd=
+xSW3MSRpt5TK0xBW4TPlb27RXnCRW8s2Bw43qMdB1W4MdQdk53LClLW7N6Pt_7NSTH3W82T7wt2=
+YQq-sW7QckD-1MGmXyW8ccH6g6N_YjkW27n0307kCw-kVbWGD04VcJf9W1GBCrZ1pWdYNN6bz9F=
+Mv8JxxW3Rs3hk2k28bxW2FFQml66HCRcf44lFt204" target=3D"_blank" style=3D"text-=
+decoration: none; color: #101112;" rel=3D"noopener" data-hs-link-id=3D"0">C=
+AD Technician, Sinacola (Dallas, TX)</a></p>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</div>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09</tbody></table>
+=09=09=09=09=09=09=09=09=09=09=09=09=09<table class=3D"paragraph_block bloc=
+k-2" width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=
+=3D"presentation" style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt; wo=
+rd-break: break-word;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tbody><tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td class=3D"pad" style=3D"pad=
+ding-bottom:5px;padding-left:30px;padding-right:20px;padding-top:10px;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<div style=3D"color:#101112=
+;direction:ltr;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;f=
+ont-size:16px;font-weight:400;letter-spacing:0px;line-height:150%;text-alig=
+n:center;mso-line-height-alt:24px;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<p style=3D"margin: 0; m=
+argin-bottom: 16px;"><strong><a href=3D"https://email.techcrunch.com/e3t/Ct=
+c/ZX+113/d5b44W04/VX6Yws7dpsSdW62QX_Y8PxLFNW3mxgk35sBDm_N2qdv107dJ-8W5BWSxg=
+6lZ3lqW8Bl94h8NMrZ1W7tG6nZ3c_Q5MW1hcK1G79WPQ2W14XpMr6DxYwqW2lbjw89dt19hVQ1M=
+5b7jsqZVW31S_d07tPMWWW3n7BPD1fw_cqW6Bmb8J3zCDBqW57ZrZq547SCsW6MMfJF4VB0wPW3=
+7XWg85tB_ljW18v2xV1dtpvkW6t0VLM95mHVYMRwy60QR0qzW2hfjzj6dvsNVW2pzSkm4BGrStW=
+7FzLGW8jPGTNW4clRHT8PJbbsW3RMpw-5gM87hW1dpd5x2ChB_-W2kWL4Z81VNB6W2kb1fk1P4G=
+-PW7hrF0R5r1TtbW4vRwQZ6jJcL0W6Q6r5D6P7_bNW25p6CC8Pj6nDW99zCwC2K6NpnW5vMyY04=
+HfGCBW2B84Yv2jNrlFW84KzQx3TtRqcW7WFv967LD6kcN19dGNm2zlbwW4mkPdr2Cqc2mW3vH-r=
+n1ZW-QTW64sR2y3gnmlDW5K8ZC97K8hP2W1K_lQL8wVRPwW3kB2D74DxNZ_W8x_Y3-5DzBblW3Z=
+-sq37Zf194W3rD_nB76HZX5N7Pzpr3PC1DcN8nqK4jfp99VW8R2f6p3TYbpfW5vHlng8QB6vdW4=
+rBwgT7-tSPPW1HWTfp8BMdQNW9ccRXY8JSQYsW5tlFNz2xlZ2Jf61ycN604" target=3D"_bla=
+nk" style=3D"text-decoration: underline; color: #0aa43e;" rel=3D"noopener" =
+data-hs-link-id=3D"0"><strong>See more jobs on CrunchBoard</strong></a></st=
+rong></p>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<p style=3D"margin-botto=
+m: 1em; margin: 0;"><strong><a href=3D"https://email.techcrunch.com/e3t/Ctc=
+/ZX+113/d5b44W04/VX6Yws7dpsSdW62QX_Y8PxLFNW3mxgk35sBDm_N2qdv1j7dJ-8W69tBBd6=
+lZ3lZW6cLt4h76Cc8tW6n0zgz12y4XdW23Z47W1k7mfXN4k7C097QPJlW54KHnF5d04dxW3HSGy=
+z5nfxSnW4mglfk42RNMkMp58mhqBF2jW5cblRY73p2DnW780Q8M913WXtW1ds6vn8_36cQW8JdY=
+fr6b6vLWW7fvk686cc1gHW7d_wQ16m13h1W2HWZp38t7SvlN6_-PXcx3DwhW36Ly-m6Wt05qW4w=
+kCvH7yVPpmW81TBHd6vd-BDW40v4f63rFRlmN5gR1rHV5cVYW1xJxm064T4QRW65NdlJ8DpjqfV=
+WxhCx441yL9F4_9N1PJw3-W8vlN1B8dM495W7gG6fb86xTwvW498K0c8VzHX7W2N_P6y3G3dvhW=
+2gLbML8ZM89yW58plbn3WJvwxW6qQP_F228jlJW3GC5dD51z23LW7SddYh7xNNXMN80lvDTnVZH=
+YW1k0R1p4G09-QW8-x7rb6BmLfJW1qdZVx1Y2GvCW72bgS124MKSXW14XywK5hnYclVrmQSF169=
+QMGW41FHgp6ntstxW86CC2W5-y212W327v456vSm9lN6zWfQqS1yyXW3J68KH94JxB3W6dySG87=
+5vt8mW1hMg0Y3M6zxsW3qpnl25DyS8JW8bNH3-7sS_f0W787GqQ2m6qg3W6X3B-r3jH2v6f8JKn=
+_F04" target=3D"_blank" style=3D"text-decoration: underline; color: #0aa43e=
+;" rel=3D"noopener" data-hs-link-id=3D"0">Post your tech jobs </a></strong>=
+and reach millions of TechCrunch readers for only $349 per month.</p>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</div>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09</tbody></table>
+=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09</tbody>
+=09=09=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09</tbody>
+=09=09=09=09=09</table>
+=09=09=09=09=09<table class=3D"row row-19" align=3D"center" width=3D"100%" =
+border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" styl=
+e=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09<td>
+=09=09=09=09=09=09=09=09=09<table class=3D"row-content stack" align=3D"cent=
+er" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" =
+style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-radius: 0; co=
+lor: #000000; width: 600px; margin: 0 auto;" width=3D"600">
+=09=09=09=09=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09<td class=3D"column column-1" width=3D"=
+100%" style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 4=
+00; text-align: left; padding-bottom: 5px; vertical-align: top;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09<div class=3D"spacer_block block-1" =
+style=3D"height:15px;line-height:15px;font-size:1px;">=E2=80=8A</div>
+=09=09=09=09=09=09=09=09=09=09=09=09=09<table class=3D"image_block block-2"=
+ width=3D"100%" border=3D"0" cellpadding=3D"10" cellspacing=3D"0" role=3D"p=
+resentation" style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tbody><tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td class=3D"pad">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<div class=3D"alignment" al=
+ign=3D"center" style=3D"line-height:10px">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<div class=3D"fullWidth"=
+ style=3D"max-width: 360px;"><img src=3D"https://d15k2d11r6t6rl.cloudfront.=
+net/pub/bfra/16fcjipy/s1x/l64/tn7/TechCrunch%20Newsletter%20Footer%20Redesi=
+gn%20Resize.png" style=3D"display: block; height: auto; border: 0; width: 1=
+00%;" width=3D"360" alt title></div>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</div>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09</tbody></table>
+=09=09=09=09=09=09=09=09=09=09=09=09=09<table class=3D"paragraph_block bloc=
+k-3" width=3D"100%" border=3D"0" cellpadding=3D"10" cellspacing=3D"0" role=
+=3D"presentation" style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt; wo=
+rd-break: break-word;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tbody><tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td class=3D"pad">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<div style=3D"color:#101112=
+;direction:ltr;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;f=
+ont-size:16px;font-weight:400;letter-spacing:0px;line-height:150%;text-alig=
+n:center;mso-line-height-alt:24px;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<p aria-level=3D"1" styl=
+e=3D"margin-bottom: 1em; margin: 0;"><strong>Check out some of our other ne=
+wsletters:<br></strong><a href=3D"https://email.techcrunch.com/e3t/Ctc/ZX+1=
+13/d5b44W04/VX6Yws7dpsSdW62QX_Y8PxLFNW3mxgk35sBDm_N2qdv1W3hCZPW7lCdLW6lZ3pK=
+W3Rt9nB3gT0zKW71YP5H6rK5xYW8R8YgN3Lfr_TW16scNQ6xb1qwW6kD-5-5lqn23W8BjySp6wq=
+z02N9bfrWnpNjR3W76S7wY5KCSSxW2RTh0m73-WF5W2PrJds5y5p2wW8sjX592ZrDg4N5DHQ5w1=
+nRrcW1kJyVg2HPX8pW8l-7FJ4XwRjTW4X9y4N76fzGmN8g5XsGn8774W5Dl-f77v0544W390sp2=
+7zSk0QW7fQqzT9ctc4sW5t8Ks51jmcW1W8mW14G6HpystW4QHgvx94YjSrW4kXsd_3vYrDWW2gt=
+s2w6CNKfWf2qCbxj04" target=3D"_blank" style=3D"text-decoration: underline; =
+color: #0aa43e;" rel=3D"noopener" data-hs-link-id=3D"0">Startups Weekly</a>=
+<br><a href=3D"https://email.techcrunch.com/e3t/Ctc/ZX+113/d5b44W04/VX6Yws7=
+dpsSdW62QX_Y8PxLFNW3mxgk35sBDm_N2qdv1C3hCZPW6N1vHY6lZ3pqW9jMMVt6bQTvGV4tgZR=
+2rx7s8W60Ys2H5hqgfpW5FX18z7F48mQW4jSR-x5Zl2GBW6W22Py2ndS4sW8xn95068KKVzW3vy=
+T8n1P6N1RW6_ymXy98pnfqW3h-3NP35WWpmW6Q5twl6Cdx38W6_d89q6bTy5RW1lDT6V96_rmPW=
+71j3hy9hHG_kN6wjDx0m9jntW4-mYRm6h_q74W8dHtS43-kV_fW1w9p6C4B97hwW2jd4ZG7tm6_=
+zW1mbJBs3s-pWYW2JGRfP4WlSHLW5srb0r8ytjx6f3HVVP004" target=3D"_blank" style=
+=3D"text-decoration: underline; color: #0aa43e;" rel=3D"noopener" data-hs-l=
+ink-id=3D"0">TechCrunch AI</a><br><a href=3D"https://email.techcrunch.com/e=
+3t/Ctc/ZX+113/d5b44W04/VX6Yws7dpsSdW62QX_Y8PxLFNW3mxgk35sBDm_N2qdv1W3hCZPW7=
+lCdLW6lZ3nwW6Nc-Ng42JdlZW4w2sH84ztQknW5XwR111ZYRR7W7Ph7ls1jM7P8W8mzN4x8nBDt=
+-W8rCNPV7tG19GVRW6VT8rsqBrW1Vs8q42H48y6W8rDbRT8yGzXPW3LCwFk2gBzk3VxTnjv2pl1=
+w4W2g2lsX6Bdpt4V-_fXj1M0310W2Zh3H_3PksvwW9gy0zf6g4_TMW6Gskl82GVK0vW4zsFsf8-=
+tXC3W2nmDW879X8PKW5XmJ-m6hww16W1f2zH45mPFYNVj-00n52Pd0JW98Zql64JhsjHW418x9X=
+4X8-v1N92rkR0cfL_3f44TBl804" target=3D"_blank" style=3D"text-decoration: un=
+derline; color: #0aa43e;" rel=3D"noopener" data-hs-link-id=3D"0">TechCrunch=
+ Mobility</a></p>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</div>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09</tbody></table>
+=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09</tbody>
+=09=09=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09</tbody>
+=09=09=09=09=09</table>
+=09=09=09=09=09<table class=3D"row row-20" align=3D"center" width=3D"100%" =
+border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" styl=
+e=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09<td>
+=09=09=09=09=09=09=09=09=09<table class=3D"row-content stack" align=3D"cent=
+er" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" =
+style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #f=
+fffff; border-radius: 0; color: #000000; width: 600px; margin: 0 auto;" wid=
+th=3D"600">
+=09=09=09=09=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09<td class=3D"column column-1" width=3D"=
+50%" style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 40=
+0; text-align: left; vertical-align: top;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09<table class=3D"paragraph_block bloc=
+k-1" width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=
+=3D"presentation" style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt; wo=
+rd-break: break-word;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tbody><tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td class=3D"pad" style=3D"pad=
+ding-bottom:10px;padding-left:60px;padding-right:10px;padding-top:10px;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<div style=3D"color:#101112=
+;direction:ltr;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;f=
+ont-size:15px;font-weight:400;letter-spacing:0px;line-height:150%;text-alig=
+n:left;mso-line-height-alt:22.5px;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<p style=3D"margin-botto=
+m: 1em; margin: 0;">Got a tip?<br><a href=3D"https://email.techcrunch.com/e=
+3t/Ctc/ZX+113/d5b44W04/VX6Yws7dpsSdW62QX_Y8PxLFNW3mxgk35sBDm_N2qdv1j3hCZPW6=
+9sMD-6lZ3lmW2tTzg199XfmJW8Cv9Wc3j5RnhW8HLNHF7Y5wxsW5RFqKb4Wg8thW6nsFsF21jq1=
+5W7yNB9h6J2ygyW6q_DYc49ShN1W47ZR2w6Q3CWnN8rS4J4B1FsgW8z2FNb29-3WTW6ksy9S8yS=
+jXPVNgMGc8PK9PkVHKmdZ1pmrYSW8xg6sT91Sb9xW3WSq-K7n__cxW6Wpbdg80D8DqW86fx2658=
+C0xLW4XfZLP35Djn9Vfcb-442DgRqW5VqhPL4dR3cgf7xhJkT04" rel=3D"noopener norefe=
+rrer" rev=3D"en_rl_none" style=3D"text-decoration: underline; color: #0aa43=
+e;" data-hs-link-id=3D"0" target=3D"_blank">Get in touch securely.</a><br><=
+span style=3D"word-break: break-word; color: #0aa433;"></span></p>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</div>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09</tbody></table>
+=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09=09<td class=3D"column column-2" width=3D"=
+50%" style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 40=
+0; text-align: left; vertical-align: top;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09<table class=3D"paragraph_block bloc=
+k-1" width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=
+=3D"presentation" style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt; wo=
+rd-break: break-word;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tbody><tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td class=3D"pad" style=3D"pad=
+ding-bottom:10px;padding-left:40px;padding-right:10px;padding-top:10px;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<div style=3D"color:#0aa43e=
+;direction:ltr;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;f=
+ont-size:15px;font-weight:400;letter-spacing:0px;line-height:150%;text-alig=
+n:left;mso-line-height-alt:22.5px;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<p style=3D"margin-botto=
+m: 1em; margin: 0;"><span style=3D"word-break: break-word; color: #000000;"=
+>Want to advertise on TechCrunch?</span> <span style=3D"word-break: break-w=
+ord; color: #0aa433;"><u><a href=3D"mailto:advertise@techcrunch.com" target=
+=3D"_blank" title=3D"advertise@techcrunch.com" style=3D"text-decoration: un=
+derline; color: #0aa43e;" rel=3D"noopener" data-hs-link-id=3D"0"><span styl=
+e=3D"word-break: break-word; color: #0aa433;"><u>advertise@techcrunch.com</=
+u></span></a></u></span></p>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</div>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09</tbody></table>
+=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09</tbody>
+=09=09=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09</tbody>
+=09=09=09=09=09</table>
+=09=09=09=09=09<table class=3D"row row-21" align=3D"center" width=3D"100%" =
+border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" styl=
+e=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09<td>
+=09=09=09=09=09=09=09=09=09<table class=3D"row-content stack" align=3D"cent=
+er" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" =
+style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #f=
+fffff; border-radius: 0; color: #000000; width: 600px; margin: 0 auto;" wid=
+th=3D"600">
+=09=09=09=09=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09<td class=3D"column column-1" width=3D"=
+100%" style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 4=
+00; text-align: left; vertical-align: top;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09<table class=3D"paragraph_block bloc=
+k-1" width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=
+=3D"presentation" style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt; wo=
+rd-break: break-word;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tbody><tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td class=3D"pad" style=3D"pad=
+ding-bottom:15px;padding-left:10px;padding-right:10px;padding-top:15px;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<div style=3D"color:#101112=
+;direction:ltr;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;f=
+ont-size:12px;font-weight:400;letter-spacing:0px;line-height:150%;text-alig=
+n:center;mso-line-height-alt:18px;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<p style=3D"margin-botto=
+m: 1em; margin: 0;">Has this been forwarded to you? Click <strong><u><a hre=
+f=3D"https://email.techcrunch.com/e3t/Ctc/ZX+113/d5b44W04/VX6Yws7dpsSdW62QX=
+_Y8PxLFNW3mxgk35sBDm_N2qdv1j3hCZPW69sMD-6lZ3kRVwsvXV285JjNW95b65R6yQ6pDW8h5=
+zwg72-f27W7f19yp3S8MjbW2z14nM86PmmJW4kG8dl5_TNybW81QDYf7jvvNHW8V9kLP2cxqr5N=
+58HyqWCglLKW3LDx7Y6bZSBfW71R_5w5Gp-LhW8nVMn11b3Z5mW4202b471QBKFN43GjcHH99HY=
+W2p_LFv7q8NJ8N5SWPv5KsbSQM1QR4ghS7mRVLVt0L43NNgQW1N1ZqJ7zxCgwN41_dx1tszS4f3=
+Sx7YM04" target=3D"_blank" style=3D"text-decoration: underline; color: #0aa=
+43e;" rel=3D"noopener" data-hs-link-id=3D"0"><strong><u>here</u></strong></=
+a></u></strong> to subscribe to this newsletter.</p>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</div>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09</tbody></table>
+=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09</tbody>
+=09=09=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09</tbody>
+=09=09=09=09=09</table>
+=09=09=09=09=09<table class=3D"row row-22" align=3D"center" width=3D"100%" =
+border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" styl=
+e=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09<td>
+=09=09=09=09=09=09=09=09=09<table class=3D"row-content stack" align=3D"cent=
+er" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" =
+style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #f=
+fffff; border-radius: 0; color: #000000; width: 600px; margin: 0 auto;" wid=
+th=3D"600">
+=09=09=09=09=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09<td class=3D"column column-1" width=3D"=
+100%" style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 4=
+00; text-align: left; vertical-align: top;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09<table class=3D"divider_block block-=
+1" width=3D"100%" border=3D"0" cellpadding=3D"10" cellspacing=3D"0" role=3D=
+"presentation" style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tbody><tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td class=3D"pad">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<div class=3D"alignment" al=
+ign=3D"center">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<table border=3D"0" cell=
+padding=3D"0" cellspacing=3D"0" role=3D"presentation" width=3D"100%" style=
+=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tbody><tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td class=3D"divid=
+er_inner" style=3D"font-size: 1px; line-height: 1px; border-top: 1px solid =
+#101112;"><span style=3D"word-break: break-word;">=E2=80=8A</span></td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tbody></table>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</div>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09</tbody></table>
+=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09</tbody>
+=09=09=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09</tbody>
+=09=09=09=09=09</table>
+=09=09=09=09=09<table class=3D"row row-23" align=3D"center" width=3D"100%" =
+border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" styl=
+e=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09<td>
+=09=09=09=09=09=09=09=09=09<table class=3D"row-content stack" align=3D"cent=
+er" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" =
+style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #f=
+fffff; border-radius: 0; color: #000000; width: 600px; margin: 0 auto;" wid=
+th=3D"600">
+=09=09=09=09=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09<td class=3D"column column-1" width=3D"=
+41.666666666666664%" style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt;=
+ font-weight: 400; text-align: left; padding-bottom: 10px; vertical-align: =
+top;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09<table class=3D"paragraph_block bloc=
+k-1" width=3D"100%" border=3D"0" cellpadding=3D"10" cellspacing=3D"0" role=
+=3D"presentation" style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt; wo=
+rd-break: break-word;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tbody><tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td class=3D"pad">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<div style=3D"color:#000000=
+;direction:ltr;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;f=
+ont-size:10px;font-weight:400;letter-spacing:0px;line-height:120%;text-alig=
+n:left;mso-line-height-alt:12px;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<p style=3D"margin-botto=
+m: 1em; margin: 0;">Update your preferences <a href=3D"https://email.techcr=
+unch.com/hs/preferences-center/en/page?data=3DW2nXS-N30h-MkW1V0MXY1LxgjdW1B=
+mwB73D_x-JW3Cf9cr2qTk6rW3P3nRT3C2hsjW38kh-Q1X7H-tW4kt6yf4fNQ1MW3F5rB94rm_fy=
+W3857254ms8RtW3NNXpy21rGksW2D04xP2FHRfKW38h69-3P0smpW2sQ_cP3g2tnKW49jm224fv=
+P5nW30LM4R4rnn3VW49vnPs49VbTVW4tpTGj3gdYq7W3gmYJp1NxTT8W2zMwpd3jqht2W45DRhr=
+4tGx96W36g8zW2WMJFHW1Z8KWF3_GmgNW4mbqsH3P9dg9W2y3Qds2TJdGNW3VRF8C2B1t8qW2YD=
+2dS1S4MKnW3ZYWBP32npQhW1BMmdY4cqSMGW25pBLk1V0r4gW2Yf2S82Hs4SxW4fHMsk41FjLpW=
+3P3KLB36d58HW41PyRs3ZW0YdW2MF4tz3QCc_8W1Zm-8p1BL2w8W383wPm3bdYCSW3R5CS03ZMz=
+t_W30FkGg30p1NgW1BKbkm24_xtrW3C0JdT23nDvsW4rh09V3W0HhkW23nbTg1BGmzCW38vqwh3=
+ggbn3W1--6zR1BszK4W3W3ySp32BZX6W3BQ1C62qQqtQW2HPlFy4pgKFt0&amp;utm_campaign=
+=3DTechCrunch%20Daily&amp;utm_source=3Dhs_email&amp;utm_medium=3Demail&amp;=
+utm_content=3D349547771&amp;_hsenc=3Dp2ANqtz-83-PEMuzW74EXSuNwKZcXjGAfVoxaw=
+PhwO5fstNrjkkImftQAOfl5yIzA2sWMCwY4HbeI4MTYkOAh8ZZer-LgKUsiqdQ&amp;_hsmi=3D=
+349547771" target=3D"_blank" style=3D"text-decoration: underline; color: #0=
+aa43e;" rel=3D"noopener" data-hs-link-id=3D"0">here</a> at any time</p>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</div>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09</tbody></table>
+=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09=09<td class=3D"column column-2" width=3D"=
+41.666666666666664%" style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt;=
+ font-weight: 400; text-align: left; vertical-align: top;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09<table class=3D"paragraph_block bloc=
+k-1" width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=
+=3D"presentation" style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt; wo=
+rd-break: break-word;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tbody><tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td class=3D"pad" style=3D"pad=
+ding-bottom:10px;padding-top:10px;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<div style=3D"color:#000000=
+;direction:ltr;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;f=
+ont-size:10px;font-weight:400;letter-spacing:0px;line-height:120%;text-alig=
+n:left;mso-line-height-alt:12px;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<p style=3D"margin-botto=
+m: 1em; margin: 0;">Copyright =C2=A9 2024 TechCrunch, All rights reserved.Y=
+ahoo Inc. 110 5th St,San Francisco,CA</p>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</div>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09</tbody></table>
+=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09=09<td class=3D"column column-3" width=3D"=
+16.666666666666668%" style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt;=
+ font-weight: 400; text-align: left; vertical-align: top;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09<table class=3D"paragraph_block bloc=
+k-1" width=3D"100%" border=3D"0" cellpadding=3D"10" cellspacing=3D"0" role=
+=3D"presentation" style=3D"mso-table-lspace: 0pt; mso-table-rspace: 0pt; wo=
+rd-break: break-word;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<tbody><tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td class=3D"pad">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<div style=3D"color:#000000=
+;direction:ltr;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;f=
+ont-size:10px;font-weight:400;letter-spacing:0px;line-height:120%;text-alig=
+n:right;mso-line-height-alt:12px;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<p style=3D"margin-botto=
+m: 1em; margin: 0;"><u><a href=3D"https://email.techcrunch.com/e3t/Ctc/ZX+1=
+13/d5b44W04/VX6Yws7dpsSdW62QX_Y8PxLFNW3mxgk35sBDm_N2qdv1W3hCZPW7lCdLW6lZ3q2=
+W4pSQPt5vPFzLW27m9tL63x8-MW60Bs0n5N3B6nVTMtFp92hLv_W1GMXtm8QTMh7W1nn0RS8CC_=
+5fW3bKYXs1F6H-TW24xgRB8zPCQcN1x298sZ--ptW8kJQt63mtmdLW14vnnP6wXg4dW6R4bN04Z=
+WnG-N2XV3yTkb_ZVW1PvFtS1DM3ZxW6kWQQT80BvNRW9152yM51dr0KW1QHM8_3xsTlzVdQPBp7=
+rHFVVW3b1B2d4ZSF3mW7lf3_q4TVp9RW14M8lh5SBNvYW2tzZ-d2cR1gNW2kvK0P1h5sRqW5XMs=
+yN1Fd27lf8LXPMC04" target=3D"_blank" style=3D"text-decoration: underline; c=
+olor: #0aa43e;" rel=3D"noopener" data-hs-link-id=3D"0"><u>Privacy Policy</u=
+></a></u></p>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</div>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09</tbody></table>
+=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09</tbody>
+=09=09=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09</tbody>
+=09=09=09=09=09</table>
+=09=09=09=09</td>
+=09=09=09</tr>
+=09=09</tbody>
+=09</table><!-- End -->
+<img src=3D"https://email.techcrunch.com/e3t/Cto/ZX+113/d5b44W04/VX6Yws7dps=
+SdW62QX_Y8PxLFNW3mxgk35sBDm_W2qdtPJ3D1QGf1p2" alt=3D"" width=3D"1" height=
+=3D"1" border=3D"0" style=3D"display:none!important;min-height:1px!importan=
+t;width:1px!important;border-width:0!important;margin-top:0!important;margi=
+n-bottom:0!important;margin-right:0!important;margin-left:0!important;paddi=
+ng-top:0!important;padding-bottom:0!important;padding-right:0!important;pad=
+ding-left:0!important"></body></html>
+------=_Part_704257_1003500576.1740760179619--
+

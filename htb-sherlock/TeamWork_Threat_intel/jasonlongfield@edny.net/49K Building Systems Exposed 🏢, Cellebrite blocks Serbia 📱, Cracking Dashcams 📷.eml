@@ -1,0 +1,1446 @@
+Delivered-To: jasonlongfield@edny.net
+Return-Path: <010001954ce603a4-70b29be4-c319-4ed5-9b9d-a2d4fcdd19ec-000000@dailyupdate.tldrnewsletter.com>
+Received: from a77-25.smtp-out.amazonses.com (a77-25.smtp-out.amazonses.com [54.240.77.25])
+	by in.mail.tm (Haraka/3.0.2) with ESMTPS id 2066D789-0346-44A5-8100-BEB65A8E8C5A.1
+	envelope-from <010001954ce603a4-70b29be4-c319-4ed5-9b9d-a2d4fcdd19ec-000000@dailyupdate.tldrnewsletter.com>
+	tls TLS_AES_256_GCM_SHA384;
+	Fri, 28 Feb 2025 14:11:38 +0000
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=sioo5ufy44q7kswoxqlcbgcwkczxbk64; d=tldrnewsletter.com;
+	t=1740751897;
+	h=From:To:Subject:List-Unsubscribe:List-Unsubscribe-Post:MIME-Version:Date:Message-ID:Content-Type;
+	bh=/uPh3zx9SameJEAKueWJZS1gKZ4vO5Ow2zd4ihQluz8=;
+	b=uWqVyY43v62t5bv40n0Ckro/w3abZX9COmoWqn544FwyyEJLw9dkNrIJSGvzcm1n
+	HWthMlHqKJEhuXvQCxOuHJC6W+FfahreWWP6S+NDSsMS7xJzyIvinX+SFmwTNjDx3/k
+	EaSWv54jxRyFLhmuN+lD4ix6qHUo2EcUf+hGoo1g=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=ug7nbtf4gccmlpwj322ax3p6ow6yfsug; d=amazonses.com; t=1740751897;
+	h=From:To:Subject:List-Unsubscribe:List-Unsubscribe-Post:MIME-Version:Date:Message-ID:Content-Type:Feedback-ID;
+	bh=/uPh3zx9SameJEAKueWJZS1gKZ4vO5Ow2zd4ihQluz8=;
+	b=UcoN+Vd8s7r2eQZacsGFLjfmbmTWjdEcObfp+8jPgx2FF/LT9lf/l5H5s1x61ATB
+	kPLc39BGdmQaGlOLQXZzhuyEMXwtMUXWChdTKltQynJVTVXnfFodGTFCNPspMUSQcIa
+	825n2F3daxzIMT18nYwhzguz2CIMsoxWmwwBdsi8=
+From: TLDR InfoSec <dan@tldrnewsletter.com>
+To: jasonlongfield@edny.net
+Subject: 49K Building Systems Exposed =?utf-8?Q?=F0=9F=8F=A2=2C?= Cellebrite
+ blocks Serbia =?utf-8?Q?=F0=9F=93=B1=2C?= Cracking Dashcams
+ =?utf-8?Q?=F0=9F=93=B7?=
+X-Entity-Ref-Id: 2f7672a4-8dbb-4d02-a203-192f56369e3d
+X-EmailOctopus-Parent-Id: ebd7c2c6-f5b7-11ef-aea3-23ed803a2b38
+X-EmailOctopus-Parent-Type-Id: campaign
+X-EmailOctopus-List-Id: 8d9cea11-3e94-11ed-9a32-0241b9615763
+X-EmailOctopus-List-Contact-Id: 9a201310-f5b8-11ef-a61d-a3fa25028a66
+X-EmailOctopus-Started-Preparing-At: 2025-02-28T14:01:39+00:00
+X-EmailOctopus-Sent-At: 2025-02-28T14:11:37+00:00
+X-EmailOctopus-Team-Id: 66987ef2-4f4c-11e9-a3c9-06b79b628af2
+X-EmailOctopus-Version: 4
+List-Unsubscribe: <https://a.tldrnewsletter.com/unsubscribe?ep=1&l=8d9cea11-3e94-11ed-9a32-0241b9615763&lc=9a201310-f5b8-11ef-a61d-a3fa25028a66&p=ebd7c2c6-f5b7-11ef-aea3-23ed803a2b38&pt=campaign&pv=4&spa=1740751299&t=1740751897&s=b7c66c64f8ab9da9979c7cc830447b89d4ee540ec507438626401078e2319d5e>
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+X-EmailOctopus-Ses-Configuration-Set-Name: emailoctopus-a9f7b12f74f3c968d9408897fb35539c
+MIME-Version: 1.0
+Date: Fri, 28 Feb 2025 14:11:37 +0000
+Message-ID: <010001954ce603a4-70b29be4-c319-4ed5-9b9d-a2d4fcdd19ec-000000@email.amazonses.com>
+Content-Type: multipart/alternative; boundary=7KaXAhqt
+Feedback-ID: ::1.us-east-1.Dj5/7DYmgk+n1sSGGXSQSLIthSjNQ0MGtV5Dro1Tr8U=:AmazonSES
+X-SES-Outgoing: 2025.02.28-54.240.77.25
+
+
+--7KaXAhqtContent-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Researchers from Modat discovered 49K exposed Access Management
+Systems t=
+hat were not correctly configured for secure
+authentication=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=
+=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=
+=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=
+=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=
+=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=
+=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=
+=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=
+=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=
+=A0
+
+
+ Sign Up [1] |Advertise [2]|View Online [3]=20
+
+=09=09TLDR
+=
+
+=09=09TOGETHER WITH [Obsidian Security9] [4]
+
+TLDR INFORMATION SECUR=
+ITY 2025-02-28
+
+ MICROSOFT FACES 600M DAILY ATTACKS - HOW SECURE IS YOU=
+R MICROSOFT
+ENVIRONMENT? (SPONSOR) [4]=20
+
+ Microsoft reports their cus=
+tomers face 600 million attacks daily from
+cybercriminals and nation-stat=
+e actors. Despite Microsoft 365 apps
+sharing a common authentication laye=
+r, each app within the suite
+presents unique security challenges. Analysi=
+s by Obsidian Security
+reveals 70% of integrations are inactive, yet many=
+ retain privileged
+access=E2=80=94a key vector in the Midnight Blizzard b=
+reach.
+
+Get your free Microsoft 365 Risk Assessment [4] to:
+
+ =09* =
+Discover your complete Microsoft security posture with prioritized
+fixes=
+
+ =09* Verify compliance with NIST 800-53 and CIS 3.0
+ =09* Map your Mi=
+crosoft app ecosystem and identify dormant threats
+ =09* Detect attacks u=
+sing ML models trained on Microsoft-specific TTPs
+
+Or want to learn mor=
+e about the SaaS Security Threat Landscape in
+2025? Read the report. [5]=
+
+
+=F0=9F=94=93=20
+
+ATTACKS & VULNERABILITIES
+
+ NEW ANUBIS RANSOMW=
+ARE COULD POSE MAJOR THREAT TO ORGANIZATIONS (2
+MINUTE READ) [6]=20
+
+ T=
+hreat intelligence firm Kela has identified a new ransomware group
+that s=
+tarted as recently as late 2024. The group offers classic
+ransomware, dat=
+a ransom, and access monetization services with
+different profit sharing =
+agreements for each. So far, Anubis has
+claimed responsibility for 3 hack=
+s and lists a fourth as =E2=80=9CNew - Top
+secret.=E2=80=9D=20
+
+ OVER 4=
+9K MISCONFIGURED BUILDING MANAGEMENT SYSTEMS EXPOSED ONLINE (2
+MINUTE REA=
+D) [7]=20
+
+ Researchers from Modat discovered 49K exposed Access Manageme=
+nt
+Systems that were not correctly configured for secure authentication.=
+
+Anyone could view unencrypted employee data such as names, email
+addre=
+sses, phone numbers, biometrics, photos, work schedules, and
+access logs.=
+ In some cases, Modat could even edit employee records,
+add fake employee=
+s, change access credentials, restrict access to
+legitimate employees, an=
+d grant access to malicious actors.=20
+
+ SOUTHERN WATER SAYS BLACK BASTA =
+RANSOMWARE ATTACK COST =C2=A34.5M IN
+EXPENSES (2 MINUTE READ) [8]=20
+
+ =
+UK water supplier Southern Water disclosed in its financial report
+that a=
+ Black Basta ransomware attack from February 2024 cost the
+company roughl=
+y =C2=A34.5M. Leaked chat logs from the Black Basta
+ransomware gang show =
+that the company offered to pay =C2=A3750K after the
+attackers demanded $=
+3.5M. Representatives from the company refused to
+clarify whether they pa=
+id the ransomware gang.=20
+
+=F0=9F=A7=A0=20
+
+STRATEGIES & TACTICS
+
+=
+ DOES CLAUDE 3.7 SONNET GENERATE INSECURE CODE? (3 MINUTE READ) [9]=20
+
+ =
+Claude 3.7 Sonnet generated a CRUD application with notably secure
+code b=
+ut still with a potential denial-of-service vulnerability in the
+email va=
+lidation regex, which uses greedy quantifiers that could lead
+to exponent=
+ial processing time. Despite this issue, Claude 3.7 Sonnet
+outperformed p=
+revious models and competitors that generated code with
+XSS vulnerabiliti=
+es.=20
+
+ HOW DOES SENDBIRD SECURE AWS? (8 MINUTE READ) [10]=20
+
+ Sendbi=
+rd improved AWS security by utilizing a holistic cloud security
+model, tr=
+ansitioning to SSO with Okta, managing access requests for
+EC2 and databa=
+ses, and setting up SIEM for cloud security. They also
+focused on secure =
+container management and plan to continue enhancing
+security measures for=
+ their evolving infrastructure.=20
+
+ MINIMAL LLM-BASED FUZZ HARNESS GENER=
+ATOR (5 MINUTE READ) [11]=20
+
+ Researchers from AdaLogics experimented wi=
+th using their Fuzz
+Introspector tool along with an LLM to generate fuzz =
+testing
+harnesses. The fuzzing workflow that they created takes a project=
+ link
+and function name and uses Fuzz Inspector to extract the necessary=
+
+data for the LLM. This data is then converted into a prompt that is
+se=
+nt to the LLM and then the LLM's output is extracted and manually
+verifie=
+d for correctness.=20
+
+=F0=9F=A7=91=E2=80=8D=F0=9F=92=BB=20
+
+LAUNCHES &=
+ TOOLS
+
+ REPORT: THE EVOLUTION OF GRC AS A REVENUE DRIVER (SPONSOR) [12=
+]=20
+
+ Drata partnered with Wakefield Research to survey 300 U.S. IT and=
+
+security professionals for the new State of GRC 2025 report [12]. The
+=
+data shows that GRC programs, traditionally viewed as cost centers,
+are n=
+ow increasingly being seen as revenue drivers. AI is poised to
+deliver fu=
+rther transformation in compliance. Read the full report =E2=86=92
+[12] =
+
+
+ RANSOMWHEN (GITHUB REPO) [13]=20
+
+ RansomWhen is a tool to enumera=
+te identities that can lock S3 buckets
+with KMS resulting in ransomware. =
+
+
+ KEYCRED (GITHUB REPO) [14]=20
+
+ keycred is a tool for managing Key=
+CredentialLinks and certificate key
+pairs in Active Directory environment=
+s. It supports various
+authentication mechanisms and strict compliance wi=
+th rules for
+validated writes.=20
+
+ ARCHIPELO (PRODUCT LAUNCH) [15]=20
+=
+
+ Archipelo aims to improve software security and compliance by
+trackin=
+g the Software Development Lifecycle (SDLC) and tracking AI
+usage during =
+the process.=20
+
+=F0=9F=8E=81=20
+
+MISCELLANEOUS
+
+ SQUIDOOR: SUSPECT=
+ED CHINESE THREAT ACTOR'S BACKDOOR TARGETS GLOBAL
+ORGANIZATIONS (10 MINUT=
+E READ) [16]=20
+
+ In this post, PAN's Unit42 analyzes a sophisticated bac=
+kdoor named
+Squidoor targeting Windows and Linux systems. The suspected C=
+hinese
+threat actors exploited vulnerabilities in IIS servers to deploy w=
+eb
+shells for persistent access and lateral movement. Squidoor allows
+a=
+ttackers to maintain access, execute commands, and communicate
+stealthily=
+ with their operators across different networks using the
+Outlook API or =
+tunnels over ICMP or DNS.=20
+
+ CELLEBRITE BLOCKED SERBIA FROM USING ITS S=
+OLUTION BECAUSE MISUSE OF
+THE EQUIPMENT FOR POLITICAL REASONS (5 MINUTE R=
+EAD) [17]=20
+
+ Amnesty International discovered that Serbian authorities =
+covertly
+infected phones during police interviews using Cellebrite tools =
+and a
+newly found spyware called NoviSpy. The spyware allowed for extensi=
+ve
+surveillance, leading to Cellebrite suspending its services in Serbia=
+
+and calls for independent investigations and safeguards against misuse=
+
+of digital technologies.=20
+
+ FEDS FINE WARBY PARKER $1.5M FOR FAILING=
+ TO PROTECT CUSTOMER HEALTH
+DATA (2 MINUTE READ) [18]=20
+
+ The Departme=
+nt of Health and Human Services has fined Warby Parker
+$1.5M for HIPAA fa=
+ilures. The fines are levied due to a 2018 data
+breach in which data of 2=
+00K customers was stolen as well as two other
+smaller data breaches in 20=
+20 and 2022. According to the HHS' Office
+of Civil Rights as of September=
+ 2024, Warby Parker still had not
+conducted an assessment of potential ri=
+sks and vulnerabilities or
+taken appropriate steps to improve their secur=
+ity posture.=20
+
+=E2=9A=A1=20
+
+QUICK LINKS
+
+ U.S. SOLDIER CHARGED I=
+N AT&T HACK SEARCHED =E2=80=9CCAN HACKING BE
+TREASON=E2=80=9D (4 MINUTE R=
+EAD) [19]=20
+
+ The U.S. Army soldier who admitted to leaking officials' p=
+hone
+records had researched countries without U.S. extradition and if
+h=
+acking could be treason.=20
+
+ NORTH KOREA RESPONSIBLE FOR $1.5 BILLION BY=
+BIT HACK (2 MINUTE READ)
+[20]=20
+
+ The FBI reported that North Korean h=
+ackers stole $1.5 billion from
+Bybit exchange on February 21 - the hacker=
+s are rapidly laundering the
+cryptocurrency.=20
+
+ HACKERS CAN CRACK INT=
+O CAR CAMERAS IN MINUTES FLAT (3 MINUTE READ)
+[21]=20
+
+ Researchers hav=
+e discovered a "drivethru hacking" vulnerability
+affecting over two dozen=
+ dashcam models.=20
+
+Want to advertise in TLDR? =F0=9F=93=B0
+
+ If you=
+r company is interested in reaching an audience of
+cybersecurity professi=
+onals and decision makers, you may want to
+ADVERTISE WITH US [22].=20
+
+=
+Want to work at TLDR? =F0=9F=92=BC
+
+ APPLY HERE [23] or send a friend's=
+ resume to jobs@tldr.tech and get
+$1k if we hire them!=20
+
+ If you have=
+ any comments or feedback, just respond to this email!=20
+
+Thanks for rea=
+ding,=20
+Prasanna Gautam [24], Eric Fernandez [25] & Sammy Tbeile [26]=20
+=
+
+ Manage your subscriptions [27] to our other newsletters on tech,
+star=
+tups, and programming. Or if TLDR Information Security isn't for
+you, ple=
+ase unsubscribe [28].=20
+
+=20
+
+Links:
+------
+[1] https://tldr.tech/=
+infosec?utm_source=3Dtldrinfosec
+[2] https://advertise.tldr.tech/?utm_sou=
+rce=3Dtldrinfosec&utm_medium=3Dnewsletter&utm_campaign=3Dadvertisetopnav
+=
+[3] https://a.tldrnewsletter.com/web-version?ep=3D1&lc=3D9a201310-f5b8-11ef=
+-a61d-a3fa25028a66&p=3Debd7c2c6-f5b7-11ef-aea3-23ed803a2b38&pt=3Dcampaign&t=
+=3D1740751897&s=3Dcf38dab853ee4faa1bb85d82c47b615a9dc24ebdb6f75a7c585e0466c=
+df98b3e
+[4] https://www.obsidiansecurity.com/complimentary-risk-assessmen=
+t-for-microsoft-365/?utm_source=3Dtldr&utm_medium=3Dnewsletter&utm_campaign=
+=3Do365offer&utm_content=3Dnewsletter3
+[5] https://www.obsidiansecurity.c=
+om/saas-security-threat-report/?utm_source=3Dtldr&utm_medium=3Dnewsletter&u=
+tm_campaign=3Dthreatreport25&utm_content=3Dnewsletter3
+[6] https://www.se=
+curityweek.com/new-ransomware-anubis-could-pose-major-threat-to-organizatio=
+ns/?utm_source=3Dtldrinfosec
+[7] https://www.bleepingcomputer.com/news/se=
+curity/over-49-000-misconfigured-building-access-systems-exposed-online/?ut=
+m_source=3Dtldrinfosec
+[8] https://www.bleepingcomputer.com/news/security=
+/southern-water-says-black-basta-ransomware-attack-cost-45m-in-expenses/?ut=
+m_source=3Dtldrinfosec
+[9] https://snyk.io/blog/does-claude-3-7-sonnet-ge=
+nerate-insecure-code/?utm_source=3Dtldrinfosec
+[10] https://sendbird.com/=
+blog/aws-security?utm_source=3Dtldrinfosec
+[11] https://adalogics.com/blo=
+g/minimal-llm-based-fuzz-harness-generator?utm_source=3Dtldrinfosec
+[12] =
+https://drata.com/resources/reports/grc-trends?utm_source=3DTLDR_InfoSec&ut=
+m_medium=3Ddisplay&utm_campaign=3D573430328_tldrinfosec_stateofgrc_feb2025_=
+DG_all_ALL
+[13] https://github.com/Permiso-io-tools/RansomWhen?utm_source=
+=3Dtldrinfosec
+[14] https://github.com/RedTeamPentesting/keycred?utm_sour=
+ce=3Dtldrinfosec
+[15] https://archipelo.com/?utm_source=3Dtldrinfosec
+[=
+16] https://unit42.paloaltonetworks.com/advanced-backdoor-squidoor/?utm_sou=
+rce=3Dtldrinfosec
+[17] https://securityaffairs.com/174707/intelligence/ce=
+llebrite-blocked-serbia-from-using-its-solution-because-misuse-of-the-equip=
+ment-for-political-reasons.html?utm_source=3Dtldrinfosec
+[18] https://the=
+record.media/feds-fine-warby-parker-health-data?utm_source=3Dtldrinfosec
+=
+[19] https://krebsonsecurity.com/2025/02/u-s-soldier-charged-in-att-hack-se=
+arched-can-hacking-be-treason/?utm_source=3Dtldrinfosec
+[20] https://www.=
+ic3.gov/PSA/2025/PSA250226?utm_source=3Dtldrinfosec
+[21] https://links.tl=
+drnewsletter.com/PRiKlr
+[22] https://advertise.tldr.tech/?utm_source=3Dtl=
+drinfosec&utm_medium=3Dnewsletter&utm_campaign=3Dadvertisecta
+[23] https:=
+//jobs.ashbyhq.com/tldr.tech
+[24] https://www.linkedin.com/in/prasannagau=
+tam/
+[25] https://www.linkedin.com/in/ericfernandezdelcampo/
+[26] https=
+://www.linkedin.com/in/sammy-tbeile/
+[27] https://tldr.tech/infosec/manag=
+e?email=3Djasonlongfield%40edny.net
+[28] https://a.tldrnewsletter.com/uns=
+ubscribe?ep=3D1&l=3D8d9cea11-3e94-11ed-9a32-0241b9615763&lc=3D9a201310-f5b8=
+-11ef-a61d-a3fa25028a66&p=3Debd7c2c6-f5b7-11ef-aea3-23ed803a2b38&pt=3Dcampa=
+ign&pv=3D4&spa=3D1740751299&t=3D1740751897&s=3Db7c66c64f8ab9da9979c7cc83044=
+7b89d4ee540ec507438626401078e2319d5e
+--7KaXAhqt
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html><html lang=3D"en"><head><meta http-equiv=3D"Content-Type" co=
+ntent=3D"text/html charset=3DUTF-8"><meta charset=3D"UTF-8"><meta name=3D"v=
+iewport" content=3D"width=3Ddevice-width"><meta name=3D"x-apple-disable-mes=
+sage-reformatting"><title>TLDR InfoSec</title><meta name=3D"color-scheme" c=
+ontent=3D"light dark"><meta name=3D"supported-color-schemes" content=3D"lig=
+ht dark"><style type=3D"text/css">
+=09=09=09:root {
+=09=09=09=09color-scheme: light dark; supported-color-schemes: light dark;
+=09=09=09}
+=09=09=09
+=09=09=09*,
+=09=09=09*:after,
+=09=09=09*:before {
+=09=09=09=09-webkit-box-sizing: border-box; -moz-box-sizing: border-box; bo=
+x-sizing: border-box;
+=09=09=09}
+=09=09=09
+=09=09=09* {
+=09=09=09=09-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;
+=09=09=09}
+=09=09=09
+=09=09=09html,
+=09=09=09body,
+=09=09=09.document {
+=09=09=09=09width: 100% !important; height: 100% !important; margin: 0; pad=
+ding: 0;
+=09=09=09}
+=09=09=09
+=09=09=09body {
+=09=09=09=09-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: g=
+rayscale; text-rendering: optimizeLegibility;
+=09=09=09}
+=09=09=09
+=09=09=09div[style*=3D"margin: 16px 0"] {
+=09=09=09=09margin: 0 !important;
+=09=09=09}
+=09=09=09
+=09=09=09table,
+=09=09=09td {
+=09=09=09=09mso-table-lspace: 0pt; mso-table-rspace: 0pt;
+=09=09=09}
+=09=09=09
+=09=09=09table {
+=09=09=09=09border-spacing: 0; border-collapse: collapse; table-layout: fix=
+ed; margin: 0 auto;
+=09=09=09}
+=09=09=09
+=09=09=09img {
+=09=09=09=09-ms-interpolation-mode: bicubic; max-width: 100%; border: 0;
+=09=09=09}
+=09=09=09
+=09=09=09*[x-apple-data-detectors] {
+=09=09=09=09color: inherit !important; text-decoration: none !important;
+=09=09=09}
+=09=09=09
+=09=09=09.x-gmail-data-detectors,
+=09=09=09.x-gmail-data-detectors *,
+=09=09=09.aBn {
+=09=09=09=09border-bottom: 0 !important; cursor: default !important;
+=09=09=09}
+=09=09=09
+=09=09=09.btn {
+=09=09=09=09-webkit-transition: all 200ms ease; transition: all 200ms ease;
+=09=09=09}
+=09=09=09
+=09=09=09.btn:hover {
+=09=09=09=09background-color: #f67575; border-color: #f67575;
+=09=09=09}
+=09=09=09
+=09=09=09* {
+=09=09=09=09font-family: Arial, Helvetica, sans-serif; font-size: 18px;
+=09=09=09}
+=09=09=09
+=09=09=09@media screen and (max-width: 600px) {
+=09=09=09=09.container {
+=09=09=09=09=09width: 100%; margin: auto;
+=09=09=09=09}
+=09=09=09=09.stack {
+=09=09=09=09=09display: block!important; width: 100%!important; max-width: =
+100%!important;
+=09=09=09=09}
+=09=09=09=09.btn {
+=09=09=09=09=09display: block; width: 100%; text-align: center;
+=09=09=09=09}
+=09=09=09}
+=09=09=09
+=09=09=09body,
+=09=09=09p,
+=09=09=09td,
+=09=09=09tr,
+=09=09=09.body,
+=09=09=09table,
+=09=09=09h1,
+=09=09=09h2,
+=09=09=09h3,
+=09=09=09h4,
+=09=09=09h5,
+=09=09=09h6,
+=09=09=09div,
+=09=09=09span {
+=09=09=09=09background-color: #FEFEFE !important; color: #010101 !important=
+;
+=09=09=09}
+=09=09=09
+=09=09=09@media (prefers-color-scheme: dark) {
+=09=09=09=09body,
+=09=09=09=09p,
+=09=09=09=09td,
+=09=09=09=09tr,
+=09=09=09=09.body,
+=09=09=09=09table,
+=09=09=09=09h1,
+=09=09=09=09h2,
+=09=09=09=09h3,
+=09=09=09=09h4,
+=09=09=09=09h5,
+=09=09=09=09h6,
+=09=09=09=09div,
+=09=09=09=09span {
+=09=09=09=09=09background-color: #27292D !important; color: #FEFEFE !import=
+ant;
+=09=09=09=09}
+=09=09=09}
+=09=09=09
+=09=09=09a {
+=09=09=09=09color: inherit !important; text-decoration: underline !importan=
+t;
+=09=09=09}
+
+=09=09</style><!--[if mso | ie]>
+=09=09<style type=3D"text/css">
+=09=09=09a {
+=09=09=09=09background-color: #FEFEFE !important; color: #010101 !important=
+;
+=09=09=09}
+=09=09=09@media (prefers-color-scheme: dark) {
+=09=09=09=09a {
+=09=09=09=09=09background-color: #27292D !important; color: #FEFEFE !import=
+ant;
+=09=09=09=09}
+=09=09=09}
+=09 </style>
+=09=09=09<![endif]--></head><body class=3D"">
+
+
+
+
+
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">Researcher=
+s from Modat discovered 49K exposed Access Management Systems that were not=
+ correctly configured for secure authentication&nbsp;=E2=80=8C&nbsp;=E2=80=
+=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=
+=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=
+=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=
+=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=
+=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;&nbsp;=
+=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=
+=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=
+=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=
+=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=
+=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=
+=E2=80=8C&nbsp;</div>
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+<br>
+</div>
+
+<table align=3D"center" class=3D"document"><tbody><tr><td valign=3D"top">
+
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" cl=
+ass=3D"container" width=3D"600"><tbody><tr class=3D"inner-body"><td>
+
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"100%"><tbody><tr class=3D"header"><td bgcolor=3D"" class=3D"containe=
+r">
+
+<table width=3D"100%"><tbody><tr><td class=3D"container">
+
+<table align=3D"center" bgcolor=3D"" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" style=3D"margin-top: 0px;" width=3D"100%"><tbody><tr><td style=
+=3D"padding: 0px;">
+
+<table align=3D"center" bgcolor=3D"" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" width=3D"100%"><tbody><tr><td class=3D"container" style=3D"paddi=
+ng: 15px 15px;">
+<div style=3D"text-align: center;">
+<span style=3D"margin-right: 0px;"><a href=3D"https://tracking.tldrnewslett=
+er.com/CL0/https:%2F%2Ftldr.tech%2Finfosec%3Futm_source=3Dtldrinfosec/1/010=
+001954ce603a4-70b29be4-c319-4ed5-9b9d-a2d4fcdd19ec-000000/CN2GFvtxvOX2LBXa2=
+EZiU3GeYIptlHbh_tK5KvdiBwY=3D394" rel=3D"noopener noreferrer" target=3D"_bl=
+ank"><span>Sign Up</span></a>
+|<span style=3D"margin-right: 2px; margin-left: 2px;"><a href=3D"https://tr=
+acking.tldrnewsletter.com/CL0/https:%2F%2Fadvertise.tldr.tech%2F%3Futm_sour=
+ce=3Dtldrinfosec%26utm_medium=3Dnewsletter%26utm_campaign=3Dadvertisetopnav=
+/1/010001954ce603a4-70b29be4-c319-4ed5-9b9d-a2d4fcdd19ec-000000/cudqW7iNQM1=
+rBA0_5RFUU-4nzCL-wxsyeYSwQfCO6Vk=3D394" rel=3D"noopener noreferrer" target=
+=3D"_blank"><span>Advertise</span></a></span>|<span style=3D"margin-left: 2=
+px;"><a href=3D"https://tracking.tldrnewsletter.com/CL0/https:%2F%2Fa.tldrn=
+ewsletter.com%2Fweb-version%3Fep=3D1%26lc=3D9a201310-f5b8-11ef-a61d-a3fa250=
+28a66%26p=3Debd7c2c6-f5b7-11ef-aea3-23ed803a2b38%26pt=3Dcampaign%26t=3D1740=
+751897%26s=3Dcf38dab853ee4faa1bb85d82c47b615a9dc24ebdb6f75a7c585e0466cdf98b=
+3e/1/010001954ce603a4-70b29be4-c319-4ed5-9b9d-a2d4fcdd19ec-000000/Z9cCUmOCy=
+7_gRAdestFJaK-etSuzdFPDvncrTGMXLl0=3D394"><span>View Online</span></a></spa=
+n>
+<br>
+</span></div>
+</td></tr></tbody></table>
+
+<table align=3D"center" bgcolor=3D"" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" width=3D"100%"><tbody><tr><td class=3D"container" style=3D"text-=
+align: center;"><span data-darkreader-inline-color=3D"" style=3D"--darkread=
+er-inline-color:#3db3ff; color: rgb(51, 175, 255) !important; font-size: 30=
+px;">T</span><span style=3D"font-size: 30px;"><span data-darkreader-inline-=
+color=3D"" style=3D"color: rgb(232, 192, 96) !important; --darkreader-inlin=
+e-color:#e8c163; font-size:30px;">L</span><span data-darkreader-inline-colo=
+r=3D"" style=3D"color: rgb(101, 195, 173) !important; --darkreader-inline-c=
+olor:#6ec7b2; font-size:30px;">D</span></span><span data-darkreader-inline-=
+color=3D"" style=3D"--darkreader-inline-color:#dd6e6e; color: rgb(220, 107,=
+ 107) !important; font-size: 30px;">R</span></td></tr></tbody></table>
+<br>
+
+<table align=3D"center" bgcolor=3D"" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" width=3D"100%"><tbody><tr id=3D"together-with"><td align=3D"cent=
+er" height=3D"20" style=3D"vertical-align:middle !important;" valign=3D"mid=
+dle" width=3D"100%"><strong style=3D"vertical-align:middle !important; heig=
+ht: 100%;">Together With </strong>
+<a href=3D"https://tracking.tldrnewsletter.com/CL0/https:%2F%2Fwww.obsidian=
+security.com%2Fcomplimentary-risk-assessment-for-microsoft-365%2F%3Futm_sou=
+rce=3Dtldr%26utm_medium=3Dnewsletter%26utm_campaign=3Do365offer%26utm_conte=
+nt=3Dnewsletter3/1/010001954ce603a4-70b29be4-c319-4ed5-9b9d-a2d4fcdd19ec-00=
+0000/vLzd4dmYUqd0oyBJdEAlkmZJI3mZZk-ZoClqd0Ys_uw=3D394"><img src=3D"https:/=
+/images.tldr.tech/obsidiansecurity.png" valign=3D"middle" style=3D"vertical=
+-align: middle !important; height: 100%;" alt=3D"Obsidian Security9"></a></=
+td></tr></tbody></table>
+
+<table style=3D"table-layout: fixed; width:100%;" width=3D"100%"><tbody><tr=
+><td style=3D"padding:0;border-collapse:collapse;border-spacing:0;margin:0;=
+">
+<div style=3D"text-align: center;">
+
+<h1><strong>TLDR Information Security <span id=3D"date">2025-02-28</span></=
+strong></h1>
+</div>
+</td></tr>
+<tr id=3D"sponsy-copy"><td class=3D"container" style=3D"padding: 15px 15px;=
+">
+<div class=3D"text-block">
+<span>
+                                <a href=3D"https://tracking.tldrnewsletter.=
+com/CL0/https:%2F%2Fwww.obsidiansecurity.com%2Fcomplimentary-risk-assessmen=
+t-for-microsoft-365%2F%3Futm_source=3Dtldr%26utm_medium=3Dnewsletter%26utm_=
+campaign=3Do365offer%26utm_content=3Dnewsletter3/2/010001954ce603a4-70b29be=
+4-c319-4ed5-9b9d-a2d4fcdd19ec-000000/kBczA7lUFkXx6PUsj669pBKhQrL8rB16mUWnl9=
+E7PQo=3D394">
+                                    <span>
+                                        <strong>Microsoft faces 600M daily =
+attacks - How secure is your Microsoft environment? (Sponsor)</strong>
+                                    </span>
+</a>
+<br>
+<br>
+<span style=3D"font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, V=
+erdana, sans-serif;">
+                                    Microsoft reports their customers face =
+600 million attacks daily from cybercriminals and nation-state actors. Desp=
+ite Microsoft 365 apps sharing a common authentication layer, each app with=
+in the suite presents unique security challenges. Analysis by Obsidian Secu=
+rity reveals 70% of integrations are inactive, yet many retain privileged a=
+ccess=E2=80=94a key vector in the Midnight Blizzard breach.<p></p><p>Get yo=
+ur free <a href=3D"https://tracking.tldrnewsletter.com/CL0/https:%2F%2Fwww.=
+obsidiansecurity.com%2Fcomplimentary-risk-assessment-for-microsoft-365%2F%3=
+Futm_source=3Dtldr%26utm_medium=3Dnewsletter%26utm_campaign=3Do365offer%26u=
+tm_content=3Dnewsletter3/3/010001954ce603a4-70b29be4-c319-4ed5-9b9d-a2d4fcd=
+d19ec-000000/eKWrzOZGUZhQlSjgUkYaymgSpFCLHWcKs4IwS65M5AI=3D394" rel=3D"noop=
+ener noreferrer nofollow" target=3D"_blank"><span>Microsoft 365 Risk Assess=
+ment</span></a> to:</p>
+
+<ul>
+<li>Discover your complete Microsoft security posture with prioritized fixe=
+s</li>
+<li>Verify compliance with NIST 800-53 and CIS 3.0</li>
+<li>Map your Microsoft app ecosystem and identify dormant threats</li>
+<li>Detect attacks using ML models trained on Microsoft-specific TTPs</li>
+</ul>
+
+<p>Or want to learn more about the SaaS Security Threat Landscape in 2025? =
+<a href=3D"https://tracking.tldrnewsletter.com/CL0/https:%2F%2Fwww.obsidian=
+security.com%2Fsaas-security-threat-report%2F%3Futm_source=3Dtldr%26utm_med=
+ium=3Dnewsletter%26utm_campaign=3Dthreatreport25%26utm_content=3Dnewsletter=
+3/1/010001954ce603a4-70b29be4-c319-4ed5-9b9d-a2d4fcdd19ec-000000/10sONYkcqX=
+Nz4Tt4ZRRaSlkujFSze3ag8-Suf3OIY3I=3D394" rel=3D"noopener noreferrer nofollo=
+w" target=3D"_blank"><span>Read the report.</span></a>
+
+
+</p>
+</span></span></div>
+</td></tr></tbody></table>
+</td></tr></tbody></table>
+</td></tr></tbody></table>
+</td></tr>
+<tr bgcolor=3D""><td class=3D"container">
+
+<table align=3D"center" bgcolor=3D"" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" width=3D"100%"><tbody><tr><td style=3D"padding: 0px;">
+
+<table align=3D"center" bgcolor=3D"" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" width=3D"100%"><tbody><tr><td class=3D"container" style=3D"paddi=
+ng-top: 0px; padding-bottom: 0px;">
+<div class=3D"text-block">
+<div style=3D"text-align: center;"><span style=3D"font-size: 36px;">=F0=9F=
+=94=93</span></div></div>
+</td></tr></tbody></table>
+
+<table align=3D"center" bgcolor=3D"" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" width=3D"100%"><tbody><tr><td class=3D"container" style=3D"paddi=
+ng-top: 0px; padding-bottom: 0px;">
+<div class=3D"text-block">
+<div style=3D"text-align: center;">
+
+<h1><strong>Attacks &amp; Vulnerabilities</strong></h1>
+</div>
+</div>
+</td></tr></tbody></table>
+
+<table style=3D"table-layout: fixed; width: 100%;" width=3D"100%"><tbody><t=
+r><td style=3D"padding:0;border-collapse:collapse;border-spacing:0;margin:0=
+;" valign=3D"top">
+
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"100%"><tbody><tr><td class=3D"container" style=3D"padding: 15px 15px=
+;">
+<div class=3D"text-block">
+<span>
+                                <a href=3D"https://tracking.tldrnewsletter.=
+com/CL0/https:%2F%2Fwww.securityweek.com%2Fnew-ransomware-anubis-could-pose=
+-major-threat-to-organizations%2F%3Futm_source=3Dtldrinfosec/1/010001954ce6=
+03a4-70b29be4-c319-4ed5-9b9d-a2d4fcdd19ec-000000/RHWQpnks2qUKwhWD8YEp_6_IFk=
+PCHylp25vOkGa2c_0=3D394">
+                                    <span>
+                                        <strong>New Anubis Ransomware Could=
+ Pose Major Threat to Organizations (2 minute read)</strong>
+                                    </span>
+</a>
+<br>
+<br>
+<span style=3D"font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, V=
+erdana, sans-serif;">
+                                    Threat intelligence firm Kela has ident=
+ified a new ransomware group that started as recently as late 2024. The gro=
+up offers classic ransomware, data ransom, and access monetization services=
+ with different profit sharing agreements for each. So far, Anubis has clai=
+med responsibility for 3 hacks and lists a fourth as =E2=80=9CNew - Top sec=
+ret.=E2=80=9D
+                                </span>
+</span>
+</div>
+</td></tr></tbody></table>
+
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"100%"><tbody><tr><td class=3D"container" style=3D"padding: 15px 15px=
+;">
+<div class=3D"text-block">
+<span>
+                                <a href=3D"https://tracking.tldrnewsletter.=
+com/CL0/https:%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fsecurity%2Fover-49-00=
+0-misconfigured-building-access-systems-exposed-online%2F%3Futm_source=3Dtl=
+drinfosec/1/010001954ce603a4-70b29be4-c319-4ed5-9b9d-a2d4fcdd19ec-000000/ar=
+Sb7jhhCxA03ryhQMCGOHwSXHSS_leGlJVMeAqr77Y=3D394">
+                                    <span>
+                                        <strong>Over 49K Misconfigured Buil=
+ding Management Systems Exposed Online (2 minute read)</strong>
+                                    </span>
+</a>
+<br>
+<br>
+<span style=3D"font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, V=
+erdana, sans-serif;">
+                                    Researchers from Modat discovered 49K e=
+xposed Access Management Systems that were not correctly configured for sec=
+ure authentication. Anyone could view unencrypted employee data such as nam=
+es, email addresses, phone numbers, biometrics, photos, work schedules, and=
+ access logs. In some cases, Modat could even edit employee records, add fa=
+ke employees, change access credentials, restrict access to legitimate empl=
+oyees, and grant access to malicious actors.
+                                </span>
+</span>
+</div>
+</td></tr></tbody></table>
+
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"100%"><tbody><tr><td class=3D"container" style=3D"padding: 15px 15px=
+;">
+<div class=3D"text-block">
+<span>
+                                <a href=3D"https://tracking.tldrnewsletter.=
+com/CL0/https:%2F%2Fwww.bleepingcomputer.com%2Fnews%2Fsecurity%2Fsouthern-w=
+ater-says-black-basta-ransomware-attack-cost-45m-in-expenses%2F%3Futm_sourc=
+e=3Dtldrinfosec/1/010001954ce603a4-70b29be4-c319-4ed5-9b9d-a2d4fcdd19ec-000=
+000/oQpJVJ6wzf7b1wXuCtoHZpq3ixT5JRQakYX3YggK07M=3D394">
+                                    <span>
+                                        <strong>Southern Water Says Black B=
+asta Ransomware Attack Cost =C2=A34.5M in Expenses (2 minute read)</strong>
+                                    </span>
+</a>
+<br>
+<br>
+<span style=3D"font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, V=
+erdana, sans-serif;">
+                                    UK water supplier Southern Water disclo=
+sed in its financial report that a Black Basta ransomware attack from Febru=
+ary 2024 cost the company roughly =C2=A34.5M. Leaked chat logs from the Bla=
+ck Basta ransomware gang show that the company offered to pay =C2=A3750K af=
+ter the attackers demanded $3.5M. Representatives from the company refused =
+to clarify whether they paid the ransomware gang.
+                                </span>
+</span>
+</div>
+</td></tr></tbody></table>
+</td></tr></tbody></table>
+
+<table align=3D"center" bgcolor=3D"" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" width=3D"100%"><tbody><tr><td class=3D"container" style=3D"paddi=
+ng-top: 0px; padding-bottom: 0px;">
+<div class=3D"text-block">
+<div style=3D"text-align: center;"><span style=3D"font-size: 36px;">=F0=9F=
+=A7=A0</span></div>
+</div>
+</td></tr></tbody></table>
+
+<table align=3D"center" bgcolor=3D"" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" width=3D"100%"><tbody><tr><td class=3D"container" style=3D"paddi=
+ng-top: 0px; padding-bottom: 0px;">
+<div class=3D"text-block">
+<div style=3D"text-align: center;">
+
+<h1><strong>Strategies &amp; Tactics</strong></h1>
+</div>
+</div>
+</td></tr></tbody></table>
+
+<table style=3D"table-layout: fixed; width: 100%;" width=3D"100%"><tbody><t=
+r><td style=3D"padding:0;border-collapse:collapse;border-spacing:0;margin:0=
+;" valign=3D"top">
+
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"100%"><tbody><tr><td class=3D"container" style=3D"padding: 15px 15px=
+;">
+<div class=3D"text-block">
+<span>
+                                <a href=3D"https://tracking.tldrnewsletter.=
+com/CL0/https:%2F%2Fsnyk.io%2Fblog%2Fdoes-claude-3-7-sonnet-generate-insecu=
+re-code%2F%3Futm_source=3Dtldrinfosec/1/010001954ce603a4-70b29be4-c319-4ed5=
+-9b9d-a2d4fcdd19ec-000000/kwgYv6m_mjw4KUXhsZ1o3iSwwRqhnrIfPN1dXYF4YZg=3D394=
+">
+                                    <span>
+                                        <strong>Does Claude 3.7 Sonnet Gene=
+rate Insecure Code? (3 minute read)</strong>
+                                    </span>
+</a>
+<br>
+<br>
+<span style=3D"font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, V=
+erdana, sans-serif;">
+                                    Claude 3.7 Sonnet generated a CRUD appl=
+ication with notably secure code but still with a potential denial-of-servi=
+ce vulnerability in the email validation regex, which uses greedy quantifie=
+rs that could lead to exponential processing time. Despite this issue, Clau=
+de 3.7 Sonnet outperformed previous models and competitors that generated c=
+ode with XSS vulnerabilities.
+                                </span>
+</span>
+</div>
+</td></tr></tbody></table>
+
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"100%"><tbody><tr><td class=3D"container" style=3D"padding: 15px 15px=
+;">
+<div class=3D"text-block">
+<span>
+                                <a href=3D"https://tracking.tldrnewsletter.=
+com/CL0/https:%2F%2Fsendbird.com%2Fblog%2Faws-security%3Futm_source=3Dtldri=
+nfosec/1/010001954ce603a4-70b29be4-c319-4ed5-9b9d-a2d4fcdd19ec-000000/TAxGq=
+lNGneKUq4WizdTwqBCC9REI6om70Seaq0sLQ6I=3D394">
+                                    <span>
+                                        <strong>How does Sendbird secure AW=
+S? (8 minute read)</strong>
+                                    </span>
+</a>
+<br>
+<br>
+<span style=3D"font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, V=
+erdana, sans-serif;">
+                                    Sendbird improved AWS security by utili=
+zing a holistic cloud security model, transitioning to SSO with Okta, manag=
+ing access requests for EC2 and databases, and setting up SIEM for cloud se=
+curity. They also focused on secure container management and plan to contin=
+ue enhancing security measures for their evolving infrastructure.
+                                </span>
+</span>
+</div>
+</td></tr></tbody></table>
+
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"100%"><tbody><tr><td class=3D"container" style=3D"padding: 15px 15px=
+;">
+<div class=3D"text-block">
+<span>
+                                <a href=3D"https://tracking.tldrnewsletter.=
+com/CL0/https:%2F%2Fadalogics.com%2Fblog%2Fminimal-llm-based-fuzz-harness-g=
+enerator%3Futm_source=3Dtldrinfosec/1/010001954ce603a4-70b29be4-c319-4ed5-9=
+b9d-a2d4fcdd19ec-000000/GQP3cNGara0MiUXC0gyzbS9lATxt47ZOr1foSHBU08M=3D394">
+                                    <span>
+                                        <strong>Minimal LLM-Based Fuzz Harn=
+ess Generator (5 minute read)</strong>
+                                    </span>
+</a>
+<br>
+<br>
+<span style=3D"font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, V=
+erdana, sans-serif;">
+                                    Researchers from AdaLogics experimented=
+ with using their Fuzz Introspector tool along with an LLM to generate fuzz=
+ testing harnesses. The fuzzing workflow that they created takes a project =
+link and function name and uses Fuzz Inspector to extract the necessary dat=
+a for the LLM. This data is then converted into a prompt that is sent to th=
+e LLM and then the LLM's output is extracted and manually verified for corr=
+ectness.
+                                </span>
+</span>
+</div>
+</td></tr></tbody></table>
+</td></tr></tbody></table>
+
+<table align=3D"center" bgcolor=3D"" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" width=3D"100%"><tbody><tr><td class=3D"container" style=3D"paddi=
+ng-top: 0px; padding-bottom: 0px;">
+<div class=3D"text-block">
+<div style=3D"text-align: center;"><span style=3D"font-size: 36px;">=F0=9F=
+=A7=91=E2=80=8D=F0=9F=92=BB</span></div>
+</div>
+</td></tr></tbody></table>
+
+<table align=3D"center" bgcolor=3D"" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" width=3D"100%"><tbody><tr><td class=3D"container" style=3D"paddi=
+ng-top: 0px; padding-bottom: 0px;">
+<div class=3D"text-block">
+<div style=3D"text-align: center;">
+
+<h1><strong>Launches &amp; Tools</strong></h1>
+</div>
+</div>
+</td></tr></tbody></table>
+
+<table style=3D"table-layout: fixed; width: 100%;" width=3D"100%"><tbody><t=
+r><td style=3D"padding:0;border-collapse:collapse;border-spacing:0;margin:0=
+;" valign=3D"top">
+
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"100%"><tbody><tr><td class=3D"container" style=3D"padding: 15px 15px=
+;">
+<div class=3D"text-block">
+<span>
+                                <a href=3D"https://tracking.tldrnewsletter.=
+com/CL0/https:%2F%2Fdrata.com%2Fresources%2Freports%2Fgrc-trends%3Futm_sour=
+ce=3DTLDR_InfoSec%26utm_medium=3Ddisplay%26utm_campaign=3D573430328_tldrinf=
+osec_stateofgrc_feb2025_DG_all_ALL/1/010001954ce603a4-70b29be4-c319-4ed5-9b=
+9d-a2d4fcdd19ec-000000/ifIZuKsdQmaYM5OlU3wbsLJk1BrcBxQkYGMkdQJd1uY=3D394">
+                                    <span>
+                                        <strong>Report: The evolution of GR=
+C as a revenue driver (Sponsor)</strong>
+                                    </span>
+</a>
+<br>
+<br>
+<span style=3D"font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, V=
+erdana, sans-serif;">
+                                    Drata partnered with Wakefield Research=
+ to survey 300 U.S. IT and security professionals for the new <a href=3D"ht=
+tps://tracking.tldrnewsletter.com/CL0/https:%2F%2Fdrata.com%2Fresources%2Fr=
+eports%2Fgrc-trends%3Futm_source=3DTLDR_InfoSec%26utm_medium=3Ddisplay%26ut=
+m_campaign=3D573430328_tldrinfosec_stateofgrc_feb2025_DG_all_ALL/2/01000195=
+4ce603a4-70b29be4-c319-4ed5-9b9d-a2d4fcdd19ec-000000/LlznnhjcjDNtcxzCk0t3eK=
+c8VAEMwtFidOBIRz0s4ao=3D394" rel=3D"noopener noreferrer nofollow" target=3D=
+"_blank"><span>State of GRC 2025 report</span></a>. The data shows that GRC=
+ programs, traditionally viewed as cost centers, are now increasingly being=
+ seen as revenue drivers. AI is poised to deliver further transformation in=
+ compliance. <a href=3D"https://tracking.tldrnewsletter.com/CL0/https:%2F%2=
+Fdrata.com%2Fresources%2Freports%2Fgrc-trends%3Futm_source=3DTLDR_InfoSec%2=
+6utm_medium=3Ddisplay%26utm_campaign=3D573430328_tldrinfosec_stateofgrc_feb=
+2025_DG_all_ALL/3/010001954ce603a4-70b29be4-c319-4ed5-9b9d-a2d4fcdd19ec-000=
+000/zaI6YL9am0_TB6tcek7O60wSKhKF7zs01mdlH4_r7JY=3D394" rel=3D"noopener nore=
+ferrer nofollow" target=3D"_blank"><span>Read the full report =E2=86=92</sp=
+an></a>
+</span>
+</span>
+</div>
+</td></tr></tbody></table>
+
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"100%"><tbody><tr><td class=3D"container" style=3D"padding: 15px 15px=
+;">
+<div class=3D"text-block">
+<span>
+                                <a href=3D"https://tracking.tldrnewsletter.=
+com/CL0/https:%2F%2Fgithub.com%2FPermiso-io-tools%2FRansomWhen%3Futm_source=
+=3Dtldrinfosec/1/010001954ce603a4-70b29be4-c319-4ed5-9b9d-a2d4fcdd19ec-0000=
+00/PPSxPEbvaLB4HT6PYqomonVMFZHEb7TyF0gZ8nFolys=3D394">
+                                    <span>
+                                        <strong>RansomWhen (GitHub Repo)</s=
+trong>
+                                    </span>
+</a>
+<br>
+<br>
+<span style=3D"font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, V=
+erdana, sans-serif;">
+                                    RansomWhen is a tool to enumerate ident=
+ities that can lock S3 buckets with KMS resulting in ransomware.
+                                </span>
+</span>
+</div>
+</td></tr></tbody></table>
+
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"100%"><tbody><tr><td class=3D"container" style=3D"padding: 15px 15px=
+;">
+<div class=3D"text-block">
+<span>
+                                <a href=3D"https://tracking.tldrnewsletter.=
+com/CL0/https:%2F%2Fgithub.com%2FRedTeamPentesting%2Fkeycred%3Futm_source=
+=3Dtldrinfosec/1/010001954ce603a4-70b29be4-c319-4ed5-9b9d-a2d4fcdd19ec-0000=
+00/hS_3W_fkJyphMAUUXn7UWyWDYyEW5SOCLjIcmbWvrL4=3D394">
+                                    <span>
+                                        <strong>keycred (GitHub Repo)</stro=
+ng>
+                                    </span>
+</a>
+<br>
+<br>
+<span style=3D"font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, V=
+erdana, sans-serif;">
+                                    keycred is a tool for managing KeyCrede=
+ntialLinks and certificate key pairs in Active Directory environments. It s=
+upports various authentication mechanisms and strict compliance with rules =
+for validated writes.
+                                </span>
+</span>
+</div>
+</td></tr></tbody></table>
+
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"100%"><tbody><tr><td class=3D"container" style=3D"padding: 15px 15px=
+;">
+<div class=3D"text-block">
+<span>
+                                <a href=3D"https://tracking.tldrnewsletter.=
+com/CL0/https:%2F%2Farchipelo.com%2F%3Futm_source=3Dtldrinfosec/1/010001954=
+ce603a4-70b29be4-c319-4ed5-9b9d-a2d4fcdd19ec-000000/7jaOdNfUy2SSFOyDIFOxpv5=
+2eETKKG3srh_ex5br5iA=3D394">
+                                    <span>
+                                        <strong>Archipelo (Product Launch)<=
+/strong>
+                                    </span>
+</a>
+<br>
+<br>
+<span style=3D"font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, V=
+erdana, sans-serif;">
+                                    Archipelo aims to improve software secu=
+rity and compliance by tracking the Software Development Lifecycle (SDLC) a=
+nd tracking AI usage during the process.
+                                </span>
+</span>
+</div>
+</td></tr></tbody></table>
+</td></tr></tbody></table>
+
+<table align=3D"center" bgcolor=3D"" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" width=3D"100%"><tbody><tr><td class=3D"container" style=3D"paddi=
+ng-top: 0px; padding-bottom: 0px;">
+<div class=3D"text-block">
+<div style=3D"text-align: center;"><span style=3D"font-size: 36px;">=F0=9F=
+=8E=81</span></div></div>
+</td></tr></tbody></table>
+
+<table align=3D"center" bgcolor=3D"" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" width=3D"100%"><tbody><tr><td class=3D"container" style=3D"paddi=
+ng-top: 0px; padding-bottom: 0px;">
+<div class=3D"text-block">
+<div style=3D"text-align: center;"><strong><h1>Miscellaneous</h1></strong><=
+/div>
+</div>
+</td></tr></tbody></table>
+
+<table bgcolor=3D"" style=3D"table-layout: fixed; width: 100%;" width=3D"10=
+0%"><tbody><tr><td style=3D"padding:0;border-collapse:collapse;border-spaci=
+ng:0;margin:0;" valign=3D"top">
+
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"100%"><tbody><tr><td class=3D"container" style=3D"padding: 15px 15px=
+;">
+<div class=3D"text-block">
+<span>
+                                <a href=3D"https://tracking.tldrnewsletter.=
+com/CL0/https:%2F%2Funit42.paloaltonetworks.com%2Fadvanced-backdoor-squidoo=
+r%2F%3Futm_source=3Dtldrinfosec/1/010001954ce603a4-70b29be4-c319-4ed5-9b9d-=
+a2d4fcdd19ec-000000/yo8FPtNXMZ4LTigObULTpdpWmZ_SwkpSuHEzQnM5vZ0=3D394">
+                                    <span>
+                                        <strong>Squidoor: Suspected Chinese=
+ Threat Actor's Backdoor Targets Global Organizations (10 minute read)</str=
+ong>
+                                    </span>
+</a>
+<br>
+<br>
+<span style=3D"font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, V=
+erdana, sans-serif;">
+                                    In this post, PAN's Unit42 analyzes a s=
+ophisticated backdoor named Squidoor targeting Windows and Linux systems. T=
+he suspected Chinese threat actors exploited vulnerabilities in IIS servers=
+ to deploy web shells for persistent access and lateral movement. Squidoor =
+allows attackers to maintain access, execute commands, and communicate stea=
+lthily with their operators across different networks using the Outlook API=
+ or tunnels over ICMP or DNS.
+                                </span>
+</span>
+</div>
+</td></tr></tbody></table>
+
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"100%"><tbody><tr><td class=3D"container" style=3D"padding: 15px 15px=
+;">
+<div class=3D"text-block">
+<span>
+                                <a href=3D"https://tracking.tldrnewsletter.=
+com/CL0/https:%2F%2Fsecurityaffairs.com%2F174707%2Fintelligence%2Fcellebrit=
+e-blocked-serbia-from-using-its-solution-because-misuse-of-the-equipment-fo=
+r-political-reasons.html%3Futm_source=3Dtldrinfosec/1/010001954ce603a4-70b2=
+9be4-c319-4ed5-9b9d-a2d4fcdd19ec-000000/7yMBZ0TyYRZBqbuvmTXDOobEhRSiWFFVmlo=
+06OlrbDE=3D394">
+                                    <span>
+                                        <strong>Cellebrite blocked Serbia f=
+rom using its solution because misuse of the equipment for political reason=
+s (5 minute read)</strong>
+                                    </span>
+</a>
+<br>
+<br>
+<span style=3D"font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, V=
+erdana, sans-serif;">
+                                    Amnesty International discovered that S=
+erbian authorities covertly infected phones during police interviews using =
+Cellebrite tools and a newly found spyware called NoviSpy. The spyware allo=
+wed for extensive surveillance, leading to Cellebrite suspending its servic=
+es in Serbia and calls for independent investigations and safeguards agains=
+t misuse of digital technologies.
+                                </span>
+</span>
+</div>
+</td></tr></tbody></table>
+
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"100%"><tbody><tr><td class=3D"container" style=3D"padding: 15px 15px=
+;">
+<div class=3D"text-block">
+<span>
+                                <a href=3D"https://tracking.tldrnewsletter.=
+com/CL0/https:%2F%2Ftherecord.media%2Ffeds-fine-warby-parker-health-data%3F=
+utm_source=3Dtldrinfosec/1/010001954ce603a4-70b29be4-c319-4ed5-9b9d-a2d4fcd=
+d19ec-000000/cjdTz2MXC9Af_J5rHdR74CHVtoEtETNOlEJzxyNXbIY=3D394">
+                                    <span>
+                                        <strong>Feds Fine Warby Parker $1.5=
+M for Failing to Protect Customer Health Data (2 minute read)</strong>
+                                    </span>
+</a>
+<br>
+<br>
+<span style=3D"font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, V=
+erdana, sans-serif;">
+                                    The Department of Health and Human Serv=
+ices has fined Warby Parker $1.5M for HIPAA failures. The fines are levied =
+due to a 2018 data breach in which data of 200K customers was stolen as wel=
+l as two other smaller data breaches in 2020 and 2022. According to the HHS=
+' Office of Civil Rights as of September 2024, Warby Parker still had not c=
+onducted an assessment of potential risks and vulnerabilities or taken appr=
+opriate steps to improve their security posture.
+                                </span>
+</span>
+</div>
+</td></tr></tbody></table>
+</td></tr></tbody></table>
+
+<table align=3D"center" bgcolor=3D"" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" width=3D"100%"><tbody><tr><td class=3D"container" style=3D"paddi=
+ng-top: 0px; padding-bottom: 0px;">
+<div class=3D"text-block">
+<div style=3D"text-align: center;"><span style=3D"font-size: 36px;">=E2=9A=
+=A1</span></div></div>
+</td></tr></tbody></table>
+
+<table align=3D"center" bgcolor=3D"" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" width=3D"100%"><tbody><tr><td class=3D"container" style=3D"paddi=
+ng-top: 0px; padding-bottom: 0px;">
+<div class=3D"text-block">
+<div style=3D"text-align: center;">
+
+<h1><strong>Quick Links</strong></h1>
+</div>
+</div>
+</td></tr></tbody></table>
+
+<table bgcolor=3D"" style=3D"table-layout: fixed; width: 100%;" width=3D"10=
+0%"><tbody><tr><td style=3D"padding:0;border-collapse:collapse;border-spaci=
+ng:0;margin:0;" valign=3D"top">
+
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"100%"><tbody><tr><td class=3D"container" style=3D"padding: 15px 15px=
+;">
+<div class=3D"text-block">
+<span>
+                                <a href=3D"https://tracking.tldrnewsletter.=
+com/CL0/https:%2F%2Fkrebsonsecurity.com%2F2025%2F02%2Fu-s-soldier-charged-i=
+n-att-hack-searched-can-hacking-be-treason%2F%3Futm_source=3Dtldrinfosec/1/=
+010001954ce603a4-70b29be4-c319-4ed5-9b9d-a2d4fcdd19ec-000000/8wX06Ce-_4WV4A=
+JKQzqdFtyIIr90Cql3YToz9YGirkk=3D394">
+                                    <span>
+                                        <strong>U.S. Soldier Charged in AT&=
+amp;T Hack Searched =E2=80=9CCan Hacking Be Treason=E2=80=9D (4 minute read=
+)</strong>
+                                    </span>
+</a>
+<br>
+<br>
+<span style=3D"font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, V=
+erdana, sans-serif;">
+                                    The U.S. Army soldier who admitted to l=
+eaking officials' phone records had researched countries without U.S. extra=
+dition and if hacking could be treason.
+                                </span>
+</span>
+</div>
+</td></tr></tbody></table>
+
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"100%"><tbody><tr><td class=3D"container" style=3D"padding: 15px 15px=
+;">
+<div class=3D"text-block">
+<span>
+                                <a href=3D"https://tracking.tldrnewsletter.=
+com/CL0/https:%2F%2Fwww.ic3.gov%2FPSA%2F2025%2FPSA250226%3Futm_source=3Dtld=
+rinfosec/1/010001954ce603a4-70b29be4-c319-4ed5-9b9d-a2d4fcdd19ec-000000/svW=
+j6N7vqUX1AJNxhECnBfHWc8Q0Pbknt_wU0G1fQBQ=3D394">
+                                    <span>
+                                        <strong>North Korea Responsible for=
+ $1.5 Billion Bybit Hack (2 minute read)</strong>
+                                    </span>
+</a>
+<br>
+<br>
+<span style=3D"font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, V=
+erdana, sans-serif;">
+                                    The FBI reported that North Korean hack=
+ers stole $1.5 billion from Bybit exchange on February 21 - the hackers are=
+ rapidly laundering the cryptocurrency.
+                                </span>
+</span>
+</div>
+</td></tr></tbody></table>
+
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"100%"><tbody><tr><td class=3D"container" style=3D"padding: 15px 15px=
+;">
+<div class=3D"text-block">
+<span>
+                                <a href=3D"https://tracking.tldrnewsletter.=
+com/CL0/https:%2F%2Flinks.tldrnewsletter.com%2FPRiKlr/1/010001954ce603a4-70=
+b29be4-c319-4ed5-9b9d-a2d4fcdd19ec-000000/HHVHQCjiLgMOTg94zOWKodQI0oFEqGc0A=
+gWaxXujA8A=3D394">
+                                    <span>
+                                        <strong>Hackers Can Crack Into Car =
+Cameras in Minutes Flat (3 minute read)</strong>
+                                    </span>
+</a>
+<br>
+<br>
+<span style=3D"font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, V=
+erdana, sans-serif;">
+                                    Researchers have discovered a "drivethr=
+u hacking" vulnerability affecting over two dozen dashcam models.
+                                </span>
+</span>
+</div>
+</td></tr></tbody></table>
+</td></tr></tbody></table>
+
+
+
+
+
+<table align=3D"center" bgcolor=3D"" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" width=3D"100%"><tbody><tr><td align=3D"left" style=3D"word-break=
+: break-word; vertical-align: top; padding: 5px 10px;">
+
+<p style=3D"padding: 0; margin: 0; font-size: 22px; color: #000000; line-he=
+ight: 1.6; font-weight: bold;">
+Want to advertise in TLDR? =F0=9F=93=B0
+</p>
+<div class=3D"text-block" style=3D"margin-top: 10px;">
+If your company is interested in reaching an audience of cybersecurity prof=
+essionals and decision makers, you may want to <a href=3D"https://tracking.=
+tldrnewsletter.com/CL0/https:%2F%2Fadvertise.tldr.tech%2F%3Futm_source=3Dtl=
+drinfosec%26utm_medium=3Dnewsletter%26utm_campaign=3Dadvertisecta/1/0100019=
+54ce603a4-70b29be4-c319-4ed5-9b9d-a2d4fcdd19ec-000000/q8uXomJIrycFdZmK4IdC2=
+6bTOdI9knbVnifA9Lk7_VY=3D394"><strong><span>advertise with us</span></stron=
+g></a>.
+</div>
+<br>
+<!-- New "Want to work at TLDR?" section -->
+
+<p style=3D"padding: 0; margin: 0; font-size: 22px; color: #000000; line-he=
+ight: 1.6; font-weight: bold;">
+Want to work at TLDR? =F0=9F=92=BC
+</p>
+<div class=3D"text-block" style=3D"margin-top: 10px;">
+<a href=3D"https://tracking.tldrnewsletter.com/CL0/https:%2F%2Fjobs.ashbyhq=
+.com%2Ftldr.tech/1/010001954ce603a4-70b29be4-c319-4ed5-9b9d-a2d4fcdd19ec-00=
+0000/M3EOKPS6nPkbIx3upDmNPufP7Y3OlEEsLH1eWatRH0w=3D394" rel=3D"noopener nor=
+eferrer" style=3D"color: #0000EE; text-decoration: underline;" target=3D"_b=
+lank"><strong>Apply here</strong></a> or send a friend's resume to <a href=
+=3D"mailto:jobs@tldr.tech" style=3D"color: #0000EE; text-decoration: underl=
+ine;">jobs@tldr.tech</a> and get $1k if we hire them!
+</div>
+<br>
+<div class=3D"text-block">
+If you have any comments or feedback, just respond to this email!
+<br>
+<br> Thanks for reading,
+<br>
+<a href=3D"https://tracking.tldrnewsletter.com/CL0/https:%2F%2Fwww.linkedin=
+.com%2Fin%2Fprasannagautam%2F/1/010001954ce603a4-70b29be4-c319-4ed5-9b9d-a2=
+d4fcdd19ec-000000/GFGcsFoZ67BePNC-hRwKD3ye0vaadptKIdKB6jKgzZk=3D394"><span>=
+Prasanna Gautam</span></a>, <a href=3D"https://tracking.tldrnewsletter.com/=
+CL0/https:%2F%2Fwww.linkedin.com%2Fin%2Fericfernandezdelcampo%2F/1/01000195=
+4ce603a4-70b29be4-c319-4ed5-9b9d-a2d4fcdd19ec-000000/iA_KD8c2GXq1M3Ok3Z1pl1=
+v5njzay49ESwr8BbDvOkk=3D394"><span>Eric Fernandez</span></a> &amp; <a href=
+=3D"https://tracking.tldrnewsletter.com/CL0/https:%2F%2Fwww.linkedin.com%2F=
+in%2Fsammy-tbeile%2F/1/010001954ce603a4-70b29be4-c319-4ed5-9b9d-a2d4fcdd19e=
+c-000000/Sr9s9OvUGcDMnCEVbzM_avN4ISJut-Oll6N02ECFSDo=3D394"><span>Sammy Tbe=
+ile</span></a>
+<br>
+<br>
+</div>
+<br>
+</td></tr></tbody></table>
+
+<table align=3D"center" bgcolor=3D"" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" width=3D"100%"><tbody><tr><td class=3D"container" style=3D"paddi=
+ng: 15px 15px;">
+<div class=3D"text-block" id=3D"testing-id">
+<a href=3D"https://tracking.tldrnewsletter.com/CL0/https:%2F%2Ftldr.tech%2F=
+infosec%2Fmanage%3Femail=3Djasonlongfield%2540edny.net/1/010001954ce603a4-7=
+0b29be4-c319-4ed5-9b9d-a2d4fcdd19ec-000000/fq_mp4E2iX-pqFYwEJ8_f31lkQLIRCKh=
+-DpGisejpwA=3D394">Manage your subscriptions</a> to our other newsletters o=
+n tech, startups, and programming. Or if TLDR Information Security isn't fo=
+r you, please <a href=3D"https://tracking.tldrnewsletter.com/CL0/https:%2F%=
+2Fa.tldrnewsletter.com%2Funsubscribe%3Fep=3D1%26l=3D8d9cea11-3e94-11ed-9a32=
+-0241b9615763%26lc=3D9a201310-f5b8-11ef-a61d-a3fa25028a66%26p=3Debd7c2c6-f5=
+b7-11ef-aea3-23ed803a2b38%26pt=3Dcampaign%26pv=3D4%26spa=3D1740751299%26t=
+=3D1740751897%26s=3Db7c66c64f8ab9da9979c7cc830447b89d4ee540ec50743862640107=
+8e2319d5e/1/010001954ce603a4-70b29be4-c319-4ed5-9b9d-a2d4fcdd19ec-000000/CZ=
+Az0elrGVIUcLEjU6zZ2xRQxFUbwLhtjmCz4RqSDJg=3D394">unsubscribe</a>.
+<br>
+</div>
+</td></tr></tbody></table>
+</td></tr></tbody></table>
+</td></tr></tbody></table>
+</td></tr></tbody></table>
+</td></tr></tbody></table>
+<img alt=3D"" src=3D"http://tracking.tldrnewsletter.com/CI0/010001954ce603a=
+4-70b29be4-c319-4ed5-9b9d-a2d4fcdd19ec-000000/8UO-xUJLN7dNHvvSt7PQ1Iof_d4s2=
+bFzm2rpmrFo4MQ=3D394" style=3D"display: none; width: 1px; height: 1px;">
+</body></html>
+--7KaXAhqt--

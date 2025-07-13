@@ -1,0 +1,664 @@
+Delivered-To: jasonlongfield@edny.net
+Return-Path: <msprvs1=20154b5AO-83M=bounces-1873-40819@eom.uxdesign.cc>
+Received: from mta-15-226-186.emailoctopus.com.sparkpostmail.com (mta-15-226-186.emailoctopus.com.sparkpostmail.com [199.15.226.186])
+	by in.mail.tm (Haraka/3.0.2) with ESMTPS id 8F888954-6E35-480F-99D4-2D9FB0467081.1
+	envelope-from <msprvs1=20154b5AO-83M=bounces-1873-40819@eom.uxdesign.cc>
+	tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384;
+	Fri, 28 Feb 2025 13:33:04 +0000
+Return-Path: <msprvs1=20154b5AO-83M=bounces-1873-40819@eom.uxdesign.cc>
+X-MSFBL: HIDBgubk6flYqPWQLeu2l8ZaFIqsL/qB/tSVwS7uvCQ=|eyJyIjoiamFzb25sb25
+	nZmllbGRAZWRueS5uZXQiLCJjdXN0b21lcl9pZCI6IjE4NzMiLCJtZXNzYWdlX2l
+	kIjoiNjdiZDBmYmJjMTY3ZTM5NjczMzUiLCJzdWJhY2NvdW50X2lkIjoiNDA4MTk
+	iLCJ0ZW5hbnRfaWQiOiJzcGNldSJ9
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=uxdesign.cc; s=eo;
+	t=1740749583; i=@uxdesign.cc;
+	bh=ASs/35jskFrcvNVLBG+8jc+V9Zt3mCRKgrtgHkoo7aM=;
+	h=From:To:Subject:List-Unsubscribe:List-Unsubscribe-Post:Date:
+	 Message-ID:Content-Type:From:To:Cc:Subject;
+	b=GTF9Sva7aeFYqn8M5bHlTlta9lHOUPq1EWqWydcEELp4jnG2tk6WT0rE0y8NPqzd+
+	 7fmtdqzVbZ4ju+fiYZ2tvE5xU7PZNnoCKvy+1CPt8OuwBdA5U8ZsAA0Fe74//17dPW
+	 RFvq7lboGCG7NZvf/Lf7pQ8CTJ+t0sGDBB/5FoYs=
+Received: from [10.95.193.16] ([10.95.193.16])
+	by i-0bbe8a3d9a14d01ae.mta3vrest.sd.prd.sparkpost (ecelerity 4.8.0.74368 r(msys-ecelerity:tags/4.8.0.17)) with REST
+	id 53/37-24050-F0BB1C76; Fri, 28 Feb 2025 13:33:03 +0000
+From: "Sidebar.io" <hello@uxdesign.cc>
+To: jasonlongfield@edny.net
+Subject: A reference manual for people who design and build software
+X-Entity-Ref-Id: f062a0ba-8bbe-4377-b31c-af1c713c12bd
+X-EmailOctopus-Parent-Id: 14ea0be2-f5c2-11ef-ba20-1d2b9e543c78
+X-EmailOctopus-Parent-Type-Id: campaign
+X-EmailOctopus-List-Id: 9d8a27c6-991e-11ef-b3b0-c58138121b74
+X-EmailOctopus-List-Contact-Id: 8145cb50-f5b8-11ef-b098-69f85ffd37e6
+X-EmailOctopus-Started-Preparing-At: 2025-02-28T13:30:43+00:00
+X-EmailOctopus-Sent-At: 2025-02-28T13:33:03+00:00
+X-EmailOctopus-Team-Id: 26dec74e-991e-11ef-8a39-d381e84aa174
+X-EmailOctopus-Version: 4
+List-Unsubscribe: <https://alecto.eomail4.com/unsubscribe?ep=2&l=9d8a27c6-991e-11ef-b3b0-c58138121b74&lc=8145cb50-f5b8-11ef-b098-69f85ffd37e6&p=14ea0be2-f5c2-11ef-ba20-1d2b9e543c78&pt=campaign&pv=4&spa=1740749443&t=1740749583&s=4d0a4e68bb3d0711e5fa1b88da13a3d77bd2236a51f930a00158d0901fa7b1f5>
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+MIME-Version: 1.0
+Date: Fri, 28 Feb 2025 13:33:03 +0000
+Message-ID: <1912334e815c5d423c2b0b1e4fe78074@uxdesign.cc>
+Content-Type: multipart/alternative; boundary=B3IHYMeT
+
+
+--B3IHYMeTContent-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset="utf-8"
+
+5 design links a day to fill the void in your=0D=0Asoul.=C2=A0=E2=80=8C=C2=
+=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=
+=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=
+=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=
+=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=
+=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=
+=A0=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=
+=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=
+=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=
+=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=
+=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=
+=8C=C2=A0=E2=80=8C=C2=A0=0D=0A=0D=0A The 5 best design links, every day. Cu=
+rated by a selection of great=0D=0Aeditors. =0D=0A=0D=0AEmail not displayin=
+g properly=3F View browser version. [1]=0D=0A=0D=0A =09=09 [Sidebar] [2] =
+=0D=0A=0D=0AFebruary 28 2025=0D=0A=0D=0AI didn't. [3] =0D=0A=0D=0A MAKING S=
+OFTWARE [4] =0D=0A=0D=0A =09=09 makingsoftware.co [4] =0D=0A=0D=0AA referen=
+ce manual for people who design and build software.=0D=0A=0D=0A =09=09 UX [=
+5] Resources [6] =0D=0A=0D=0A 50K COPYRIGHT FREE ICONS [7] =0D=0A=0D=0A =09=
+=09 figma.com [7] =0D=0A=0D=0AAn open-source set of 50k+ high-quality icons=
+, containing Outline and=0D=0AFilled formats, editable and easy to insert i=
+n the Figma editor.=0D=0A=0D=0A =09=09 Icons [8] Resources [6] Figma [9] =
+=0D=0A=0D=0A THE PROFITABLE STARTUP [10] =0D=0A=0D=0A =09=09 linear.app [10=
+] =0D=0A=0D=0AFor years, startups have been taught to prioritize growth ove=
+r=0D=0Aeverything else. But that thinking was always flawed.=0D=0A=0D=0A =
+=09=09 Business [11] Reflections [12] =0D=0A=0D=0A THE ICEBREAKER KEYBOARD =
+[13] =0D=0A=0D=0A =09=09 serene.industries [13] =0D=0A=0D=0AA superheavy 65=
+% keyboard, made from a solid block of aluminum ft.=0D=0Afullmetal keycaps.=
+=0D=0A=0D=0A =09=09 Hardware [14] =0D=0A=0D=0A OKLCH COLOR PICKER & CONVERT=
+ER [15] =0D=0A=0D=0A =09=09 oklch.com [15] =0D=0A=0D=0AThe new CSS Color 4 =
+specification has added the new oklch() notation=0D=0Afor declaring colors.=
+ This tools help with conversions.=0D=0A=0D=0A =09=09 CSS [16] Color Theory=
+ [17] Tools [18] =0D=0A=0D=0A =09=09 =C2=A0 =0D=0A=0D=0AYou=E2=80=99re rece=
+iving this email because you signed up on sidebar.io=0D=0A[19]. Unsubscribe=
+ [20]=0D=0A=0D=0AFabricio Teixeira, Brooklyn, NY, 11201, United States of A=
+merica=0D=0A=0D=0A =0D=0A=0D=0ALinks:=0D=0A------=0D=0A[1] https://eot.uxde=
+sign.cc/f/a/15AqllpBvSURDwKReOm0xg~~/AAAHURA~/serXV_JDm-UXS90NLBIR1m7MWGr2I=
+Klkjvzz-wdikEF6Gnf941gSjflvWTFj_u6ip3h3zfKS5IqD82F9XcyHhKX4Eib1Tks--tT5Zq2G=
+R3XRLX29_-PcWp0DFiboMbIPkISPN7hL867cctAPHixkhORDpvw5ZJIDoU1hxVpmbRr7vNwXXl7=
+1t2P9pKzDf2Pys1FM9C32Byg_FKaCmmvuVA6ktnTLFqjyRWAA0iKPuUZv7x4L8qFbZGEC4ZYxC5=
+a2lq6Uiv_v9nygoS_WrxmGCvnpG5JboPWcPCytmlxouoZbDUlwaE2knoL7nLhAOgJQzPHyvcX8d=
+3zLIQ0N3dqWenxsr5GyIJA8WqdBW8pmjj0ZSQFvZTNn-e85xiZbO1_6=0D=0A[2] https://eo=
+t.uxdesign.cc/f/a/o2322MyH1yrfCzf8OkmRcw~~/AAAHURA~/hFfx1cqXMLkvqP_jDCCcpAa=
+v82rsoi8JusXomr_8Eslt0UYfXppoFjGjtg-7lhY6EZro2EA9N3ozkClaqeIeMgiqzl1lElu3-u=
+kdiubR2OI~=0D=0A[3] https://eot.uxdesign.cc/f/a/B9muLIX_hoeAFoSFvkFrFg~~/AA=
+AHURA~/PotoIoohDaAOfz0W2hb3phFgAhcD_iZf0t4eUOROYxp4uuJkGNyF8tyhKZkocYCwPG8r=
+417kGTZMxyct7qYD7jAnveJ8zio30YLUEtLczcJgcfEV0PEhzuDHcySYmFlgZNSP-qIDzTRNWPO=
+-kFNJkYhE_QoDf0UK1u1zSxt_XdWdEzIUYw65ah76KhWoElf1hjSPAGtSSLO3CHPDG_z0XjE-kO=
+oFmNdpMglIDwfZ0r0~=0D=0A[4] https://eot.uxdesign.cc/f/a/3MtDeoOGd7MhmiKhTdw=
+zpA~~/AAAHURA~/gJnx-aktc_R3Ixsrdn70yN4C-O7nIthphlROuhtugWalfa9kpqsNQ5-DJ_O1=
+f6eTt2TyPRCI_73z6FyPIfjgdmm_QBDhpVt2asd6NlIpHq-ALyj-QviHR3mo45G6jNz2Nh9s7J_=
+oR_SyEQPi3xqujNlLS17xN6KapFah5yw1rEjxKzvX3juKhO2jOWnKYuL8=0D=0A[5] https://=
+eot.uxdesign.cc/f/a/NiR5roc4f-KwHwR6gycWEA~~/AAAHURA~/JP9AnFoZKFCz0gshmeyly=
+tWg6Ad3am17eCwjk9-EYu_Z6uR_ADxTI8T2vBKDBEF808ineZls7SN3ktTYFE6niC3lQuJ3U9Tt=
+YWXpZZcFQ1TzGA5tInjvrGN1aNvkkY5E8D3SwbqKk5GymgnHT0Lhbg~~=0D=0A[6] https://e=
+ot.uxdesign.cc/f/a/5r64tU8C-omatgewLDqY3g~~/AAAHURA~/jeTEYaCgeNpiVnzqVjgrCh=
+N19Ue4Kt1QshNdos-n3i3t7TuI94WhRGunGhZZyMuZBj3hn943AA_JrzK89B0yMvqnxXwYjLHXG=
+eoL_QudIQdosEM-lmAOIdbhrgvLBZ5MKXirC_EuZFEdfr8WCnV6ddXN7uMezt4Zf-yLZpiWw2o~=
+=0D=0A[7] https://eot.uxdesign.cc/f/a/3pXiUFvQm2xNKwv6xtjxpw~~/AAAHURA~/jrv=
+ZS1S_VFZcb2nRT7AcIlYM6O6yporxeTIpK5m30Ix9yXnQRALUA0bFKifEX5zLYCasLT5whU2YxL=
+mjtK0Fh9-LJBn0qULb8us4RzZESkurN4XZI-347IDZmcoszlvzJpRWDcbiByVA0Gs-3HwhOprvE=
+k63SZOGDKzfqOseCLWv4FfgYICzPacX4953lmOmPzDWxYiZvLP-q46x5BFh5RvUJwNYHi0Zs7Sj=
+ReOJdR4t9N4BPmeoXvr2g4B93LE_O-JC23IaWsgxBUSUpCvVOA~~=0D=0A[8] https://eot.u=
+xdesign.cc/f/a/YMjs2L9qNKlDOj8wz1IpIg~~/AAAHURA~/rxoijKA8PIAmtw96lsXC0pQVmi=
+vqeHt5P9HNh-Ba9Nqen0O0OlNAn94d1XDwqC7c4Z0T5Wo6wnmWidbZ-mSZyaCizaRt8m2HIYahi=
+M6bBgQirC2UGrIs3EjvyfYe_UVeCKVgE-CvvxJvx4BYvShPZw~~=0D=0A[9] https://eot.ux=
+design.cc/f/a/Z8luufH0kBm3ekXUqRlOqA~~/AAAHURA~/rxoijKA8PIAmtw96lsXC0pQVmiv=
+qeHt5P9HNh-Ba9NqGSBOIOwwbeNP_MVc1TRqyocU826E8FLByOHOllHHW513bheTrmO1HIshrcz=
+JaLHczFGXJR5dvsHc_GpVNu69It-Jrzc-B0-UV0HDSBI4KHA~~=0D=0A[10] https://eot.ux=
+design.cc/f/a/8r0PJYE5WqgUnncXIERzCw~~/AAAHURA~/nK0WvdcxsNZnwjwUZUAY5OuYiXw=
+T8fYqcsPQ_gXyHnaVYp-7dFja6b-Ox-7uezVYc-HCUkMis7SUup2vL5PRkh8T1b2nyj69ygnl5t=
+HfZzRd85QqZi1r9iPO6LuuBUEi1NQ8TlOmhK7YsDq6N2qA8hvjpNrN1rQ0F3iN81eWohYy_RnwO=
+77I76450KT1yOFt0e2rj9euByoZitJBPfo9bA~~=0D=0A[11] https://eot.uxdesign.cc/f=
+/a/Q5efm4KLOfpFtuOmYgclmQ~~/AAAHURA~/g2uFEv79V7DuerQMdGol0kBtwD7lEz4W-NfDmV=
+Q_gI-ZpTtt1a8C0ssuupYt9OJSWIga8cGa7cnLaI8pV-63U1l1BXhUseIL3GNML2ARxkupxhP7_=
+XU4TQujWge9YUNTSO0P3pw9V6RKKaPNFgvHEUoCmzs24QbjDvyVC4c0_mo~=0D=0A[12] https=
+://eot.uxdesign.cc/f/a/RJRA5qJ-DGMPjlPgk-bfNQ~~/AAAHURA~/3zF_Ofhdsc4DKf38C-=
+TxvFHRBS1gKcBTJ4spXmRtYynMxeNsZRtzUiLegdZapW2YiEN34iGSLXc5GlJQs1MEFLkZ2hBSc=
+okky25NHdDqVPwfDR53-4EuJ66NB4P3LW7B2ZXBxrxNZZrLVgGW44INGEDl6AWWFOEACkUO4HNH=
+Puc~=0D=0A[13] https://eot.uxdesign.cc/f/a/DQd1ecoHExC-cWBpIDl7OQ~~/AAAHURA=
+~/hAsd4DHl33o6SYckpYzkIvbwaPLZDu7WyBsyzv_Gohl6JfAoDDs6AgMXICJMeQASqqsYjKWY1=
+TILy-U5hQyBEyGfN4At_OXNI0QSrwFrgtQ3AF8ozNOnGG_6TPeKZFLC7F9a2oJQuN6mkEVHJP0o=
+30Zfhfs_ab6gBCbh8S5HZoDYzIo_rH4ENjXfsvUBzp9stHOdbWVPZc5mH3yWv8xbkzfZ3a0xHPw=
+xBblLbvyIvHk~=0D=0A[14] https://eot.uxdesign.cc/f/a/0Fr4yopfLM_134OrXHCe0g~=
+~/AAAHURA~/g2uFEv79V7DuerQMdGol0kBtwD7lEz4W-NfDmVQ_gI8q-ppQLPti52oQEknP-F4W=
+JwX03vlWZaan_nahLU04_3NfJxvZzTBdDrh_M9YspYEU3VSQDFfzcv0AcqMR1kQOxBR-Jl7ZJaP=
+7_xN5f8ax7fmgaDiptAhhOwkyDj9IWQ0~=0D=0A[15] https://eot.uxdesign.cc/f/a/wsn=
+uaEvzPOSbfB8NwUcTEQ~~/AAAHURA~/OkWGc4DXO3lSCWtsmb7ff1SH-hLxShEQ8qEtlPHYKvXx=
+I-Wy5DumjZWXi6kP6rrnrlAKmCA4PKgTXOxV6vjSCU9zfvaZ71jAvh4mrLVCilz2vMw-hj0Ozac=
+A6FPlOFhclgA0KZqJAnhsbcAlkJ9aBVFx6fTRaLjobkX_jnuOfgPATxqVci8VONZEfEsPyZrwuh=
+IOSHVeFBmJnYqiZJB5eg~~=0D=0A[16] https://eot.uxdesign.cc/f/a/Vc1LLy9XqbfXuo=
+8hKTBR1g~~/AAAHURA~/_UilXw3ALn-5HE1ffUvJ_RAQUfcpbGQ_GGo-fYaqSDxUejcL0v9SESJ=
+HaIK-gcWk2J15oC41FngP6XZysOTAx-hSOko3nQeCrj0gAYsdlC5TGPTOfqQ-VW6EwYMIozkUSo=
+e7CA8K6S1gTWk9EnC-0Q~~=0D=0A[17] https://eot.uxdesign.cc/f/a/41PKwuiGoSp8Uk=
+ib7Rnv5Q~~/AAAHURA~/0QHNoF-AoBe9tfYtZCEa5l5ZaOM7dl4sMKxB3Kr27Qb-BeaZ7no3zic=
+ZDqlm6xti5fY2bKnOgfCAs1ciRCK-e2GyvpXMXjaEjwCbeXd4BTVxHiJcB-WWUMI7wI-_jUvr3o=
+rSxGMypf-T89g52HBWPYTYfbnySIRUMDDEbYthpIA~=0D=0A[18] https://eot.uxdesign.c=
+c/f/a/RMx5zat3GcQOv34z7QqsEg~~/AAAHURA~/rxoijKA8PIAmtw96lsXC0pQVmivqeHt5P9H=
+Nh-Ba9No64mhLiZIDNYWNgESC0xNbuq6rn73KBDNuNSecmvvQwO7M6z82haQq3dQOOborx8CEPv=
+SAaWBgHc3Z4TlVD2J2H98J281UDZVR-12Ro1yr8g~~=0D=0A[19] https://eot.uxdesign.c=
+c/f/a/691BcmYmvpMfmQyg3jNE-g~~/AAAHURA~/VWCLtjyX_VPHGpzuGNYf-SmbGcRPq1L-9U6=
+F906NJCXCLB7RpJ28dHFc5737L4QUtwl9cKm9HPBic3qyCkdmOXkvdhoqCqEZ0iC-X40cSwc~=
+=0D=0A[20] https://eot.uxdesign.cc/f/a/n5mswC0MRpp2OpMXjO5_KA~~/AAAHURA~/iJ=
+NiO1B7gbrpr_ezILmGhy4E2ffScuy6uB1nOvGgwFmRRR9FluKycgbn1VKkbY3mbyy5HFVMmh9uG=
+gTLoCj-DLTi6qsqjUhQ-p8jsAi73yAuF0lZ-iFcxVFB7pmjoZhtHKdeqtWyj0xxENbYdEpvLIiG=
+3lfKixDLZ6gitvM9AIhqqalLz8ZRPModnuyTrJLN7lGZBVCtuZFOz2QZCwqcmM40wQYbwPbASKz=
+EmFXq__ZrItQf2z2nd7a5b9wO0zjiCGNmsn0NQhT0BIqN_RJ_7bkfAlq7WzTOVVlIwAmiELyjgQ=
+JrhxLuia-e4rfEOJCk9DM89oiXg0KhflQVE66fxXj54hbmyA7pNgRDJkLzCJvaatdZNYmhZP4sr=
+VSDYdnFRbd_OjXRO-ypUyAKEjIx48n7AE4qgu4zQRGg8YjyKifaZXUZ6Ii-i_0jur0Y2Iue=0D=
+=0A
+--B3IHYMeT
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="utf-8"
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.=
+w3.org/TR/html4/loose.dtd"><!DOCTYPE html>=0D=0A<html>=0D=0A<head>=0D=0A<ti=
+tle>Sidebar</title>=0D=0A<meta http-equiv=3D"Content-Type" content=3D"text/=
+html; charset=3Dutf-8">=0D=0A<meta name=3D"viewport" content=3D"width=3Ddev=
+ice-width, initial-scale=3D1">=0D=0A<meta http-equiv=3D"X-UA-Compatible" co=
+ntent=3D"IE=3Dedge">=0D=0A<style type=3D"text/css">=0D=0A@media {=0D=0A  bo=
+dy,=0D=0Atable,=0D=0Atd,=0D=0Aa {=0D=0A    -webkit-text-size-adjust: 100%;=
+=0D=0A    -ms-text-size-adjust: 100%;=0D=0A  }=0D=0A=0D=0A  table,=0D=0Atd =
+{=0D=0A    mso-table-lspace: 0pt;=0D=0A    mso-table-rspace: 0pt;=0D=0A  }=
+=0D=0A=0D=0A  img {=0D=0A    -ms-interpolation-mode: bicubic;=0D=0A  }=0D=
+=0A=0D=0A  img {=0D=0A    border: 0;=0D=0A    height: auto;=0D=0A    line-h=
+eight: 100%;=0D=0A    outline: none;=0D=0A    text-decoration: none;=0D=0A =
+ }=0D=0A=0D=0A  table {=0D=0A    border-collapse: collapse !important;=0D=
+=0A  }=0D=0A=0D=0A  body {=0D=0A    height: 100% !important;=0D=0A    margi=
+n: 0 !important;=0D=0A    padding: 0 !important;=0D=0A    width: 100% !impo=
+rtant;=0D=0A  }=0D=0A=0D=0A  a[x-apple-data-detectors] {=0D=0A    color: in=
+herit !important;=0D=0A    text-decoration: none !important;=0D=0A    font-=
+size: inherit !important;=0D=0A    font-family: inherit !important;=0D=0A  =
+  font-weight: inherit !important;=0D=0A    line-height: inherit !important=
+;=0D=0A  }=0D=0A=0D=0A  .text-source a {=0D=0A    color: #999999;=0D=0A    =
+text-decoration: none;=0D=0A  }=0D=0A=0D=0A  .thumbnail {=0D=0A    overflow=
+: visible !important;=0D=0A    float: none !important;=0D=0A    display: bl=
+ock !important;=0D=0A    line-height: 100% !important;=0D=0A  }=0D=0A}=0D=
+=0A@media screen {=0D=0A  @font-face {=0D=0A    font-family: 'GT Eesti Text=
+ ULight';=0D=0A    src: url('http://webfonts.sidebar.io/fonts/GT-Eesti-Text=
+-ULight-web/GT-Eesti-Text-ULight.woff') format('woff');=0D=0A    font-weigh=
+t: 100;=0D=0A    font-style: normal;=0D=0A  }=0D=0A=0D=0A  @font-face {=0D=
+=0A    font-family: 'GT Eesti Text Light';=0D=0A    src: url('http://webfon=
+ts.sidebar.io/fonts/GT-Eesti-Text-Light-web/GT-Eesti-Text-Light.woff') form=
+at('woff');=0D=0A    font-weight: 300;=0D=0A    font-style: normal;=0D=0A  =
+}=0D=0A=0D=0A  @font-face {=0D=0A    font-family: 'GT Eesti Text Medium';=
+=0D=0A    src: url('http://webfonts.sidebar.io/fonts/GT-Eesti-Text-Medium-w=
+eb/GT-Eesti-Text-Medium.woff') format('woff');=0D=0A    font-weight: bold;=
+=0D=0A    font-style: normal;=0D=0A  }=0D=0A}=0D=0A.link-title {=0D=0A  col=
+or: #ffffff;=0D=0A  font-family: 'GT Eesti Text Medium', Helvetica, Arial, =
+sans-serif;=0D=0A  font-size: 32px;=0D=0A  font-weight: bold;=0D=0A  letter=
+-spacing: 4px;=0D=0A  line-height: 22px;=0D=0A  text-decoration: none;=0D=
+=0A  text-transform: uppercase;=0D=0A}=0D=0A.link-link {}=0D=0A.link-primar=
+y {=0D=0A  color: #F56C33;=0D=0A  font-family: 'GT Eesti Text Medium', Helv=
+etica, Arial, sans-serif;=0D=0A  font-weight: bold;=0D=0A  text-decoration:=
+ none;=0D=0A}=0D=0A.link-secondary {=0D=0A  color: #555555;=0D=0A  font-fam=
+ily: 'GT Eesti Text Medium', Helvetica, Arial, sans-serif;=0D=0A  font-weig=
+ht: bold;=0D=0A  text-decoration: none;=0D=0A}=0D=0A.link-tertiary {=0D=0A =
+ color: #777777;=0D=0A  font-family: 'GT Eesti Text Light', Helvetica, Aria=
+l, sans-serif;=0D=0A  font-weight: 100;=0D=0A  text-decoration: none;=0D=0A=
+}=0D=0A.link-action {=0D=0A  border: 1px solid #eaeaea;=0D=0A  border-radiu=
+s: 3px;=0D=0A  padding: 15px;=0D=0A  display: inline-block;=0D=0A}=0D=0A@me=
+dia screen and (max-width: 640px) {=0D=0A  .date {=0D=0A    font-size: 16px=
+ !important;=0D=0A    letter-spacing: 2px !important;=0D=0A  }=0D=0A=0D=0A =
+ .thumbnail {=0D=0A    overflow: hidden !important;=0D=0A    float: left !i=
+mportant;=0D=0A    display: none !important;=0D=0A    line-height: 0 !impor=
+tant;=0D=0A  }=0D=0A=0D=0A  .share {=0D=0A    overflow: hidden !important;=
+=0D=0A    float: left !important;=0D=0A    display: none !important;=0D=0A =
+   line-height: 0 !important;=0D=0A  }=0D=0A=0D=0A  .pad {=0D=0A    padding=
+-left: 0px !important;=0D=0A    padding-right: 0px !important;=0D=0A  }=0D=
+=0A}=0D=0A.sponsored-link-table {=0D=0A  font-family: 'GT Eesti Text Light'=
+, Helvetica, Arial, sans-serif;=0D=0A  border: 1px solid #ddd;=0D=0A  margi=
+n: 20px 0;=0D=0A}=0D=0A.sponsored-link-table strong {=0D=0A  font-family: '=
+GT Eesti Text Medium', Helvetica, Arial, sans-serif;=0D=0A}=0D=0A.sponsored=
+-link-table td {=0D=0A  padding: 10px;=0D=0A}=0D=0A</style>=0D=0A</head>=0D=
+=0A<body style=3D"background-color: #ebebeb; margin: 0 !important; padding:=
+ 0 !important;">=0D=0A<div style=3D"color:transparent;visibility:hidden;opa=
+city:0;font-size:0px;border:0;max-height:1px;width:1px;margin:0px;padding:0=
+px;border-width:0px!important;display:none!important;line-height:0px!import=
+ant;"><img border=3D"0" width=3D"1" height=3D"1" src=3D"https://eot.uxdesig=
+n.cc/q/KCFfV_aislyRG-L4KRKwkA~~/AAAHURA~/SGOSUoxx0ZXTRNPE7hs_gyNYSOIeaYyKDS=
+0gka-azUyk3U5idyUFM7kK8oHFDD7N0V-eBmGXd3myQZ8zwGNTpA~~" alt=3D""/></div>=0D=
+=0A<div style=3D"display: none; max-height: 0px; overflow: hidden;">5 desig=
+n links a day to fill the void in your soul.&nbsp;=E2=80=8C&nbsp;=E2=80=8C&=
+nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&=
+nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&=
+nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&=
+nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&=
+nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;</div>=0D=0A=0D=0A<!-- HIDDEN PREHEADER TEXT -->=0D=0A<div styl=
+e=3D"display: none; font-size: 1px; color: #fefefe; line-height: 1px; font-=
+family: Helvetica, Arial, sans-serif; max-height: 0px; max-width: 0px; opac=
+ity: 0; overflow: hidden;">=0D=0A    The 5 best design links, every day. Cu=
+rated by a selection of great editors.=0D=0A</div>=0D=0A=0D=0A<table border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">=0D=0A=0D=0A    <=
+!-- HEADER -->=0D=0A    <tr>=0D=0A        <td bgcolor=3D"#ebebeb" align=3D"=
+center" style=3D"padding: 0px 10px 0px 10px;">=0D=0A            <!--[if (gt=
+e mso 9)|(IE)]>=0D=0A            <table align=3D"center" border=3D"0" cells=
+pacing=3D"0" cellpadding=3D"0" width=3D"720">=0D=0A            <tr>=0D=0A  =
+          <td align=3D"center" valign=3D"top" width=3D"720">=0D=0A         =
+   <![endif]-->=0D=0A            <table border=3D"0" cellpadding=3D"0" cell=
+spacing=3D"0" width=3D"100%" style=3D"max-width: 720px;">=0D=0A            =
+      <tr>=0D=0A                      <td align=3D"center" valign=3D"top" s=
+tyle=3D"padding: 40px 20px 20px 20px;">=0D=0A                          <!--=
+ SHARING -->=0D=0A                          <p class=3D"text-secondary" sty=
+le=3D"color: #777777; font-family: 'GT Eesti Text Light', Helvetica, Arial,=
+ sans-serif; font-size: 14px; font-weight: 100; line-height: 18px; margin: =
+0;">Email not displaying properly=3F <a href=3D"https://eot.uxdesign.cc/f/a=
+/15AqllpBvSURDwKReOm0xg~~/AAAHURA~/serXV_JDm-UXS90NLBIR1m7MWGr2IKlkjvzz-wdi=
+kEF6Gnf941gSjflvWTFj_u6ip3h3zfKS5IqD82F9XcyHhKX4Eib1Tks--tT5Zq2GR3XRLX29_-P=
+cWp0DFiboMbIPkISPN7hL867cctAPHixkhORDpvw5ZJIDoU1hxVpmbRr7vNwXXl71t2P9pKzDf2=
+Pys1FM9C32Byg_FKaCmmvuVA6ktnTLFqjyRWAA0iKPuUZv7x4L8qFbZGEC4ZYxC5a2lq6Uiv_v9=
+nygoS_WrxmGCvnpG5JboPWcPCytmlxouoZbDUlwaE2knoL7nLhAOgJQzPHyvcX8d3zLIQ0N3dqW=
+enxsr5GyIJA8WqdBW8pmjj0ZSQFvZTNn-e85xiZbO1_6" class=3D"link-secondary" targ=
+et=3D"_blank" style=3D"color: #555555; font-family: 'GT Eesti Text Medium',=
+ Helvetica, Arial, sans-serif; font-weight: bold; text-decoration: none;">V=
+iew browser version.</a></p>=0D=0A                      </td>=0D=0A        =
+          </tr>=0D=0A                <tr>=0D=0A                    <td bgco=
+lor=3D"#F56C33" align=3D"left" valign=3D"top" style=3D"border-radius: 0px 0=
+px 0 0; padding: 0px 0px 0px 0px;">=0D=0A                        <table wid=
+th=3D"100%">=0D=0A                          <tr>=0D=0A                     =
+       <td align=3D"left">=0D=0A                              <!-- LOGO OR =
+SITE NAME -->=0D=0A                              <a href=3D"https://eot.uxd=
+esign.cc/f/a/VMMAcQBABjmDr0iTL1zNnA~~/AAAHURA~/g6EtzJx1P7ZigTBP15nYIJON_LYf=
+gpa-UAtDpkC8qvF8LrCoYqz8qI5IThuwjuZlZjt44ALDZ7yj-AE1VuwmOk6XH2fu0revcoB1OxS=
+RjdO-30CzoHJEqtFMfz-XryN__7zxur-kKvUG9qi-UQLOZA~~" ><img alt=3D"Sidebar" sr=
+c=3D"https://sidebar.io/img/sidebar-logo-white-transparent.png" width=3D"60=
+px" height=3D"60px" style=3D"color: #ffffff; display: block; font-family: H=
+elvetica, Arial, sans-serif; font-size: 18px; line-height: 20px;" border=3D=
+"0"></a>=0D=0A                            </td>=0D=0A                      =
+      <td align=3D"right" valign=3D"center" style=3D"padding: 0px 20px;">=
+=0D=0A                                <p class=3D"date" style=3D"color: #ae=
+aeae; color: #ffffff; font-family: 'GT Eesti Text Light', Helvetica, Arial,=
+ sans-serif; font-size: 14px; font-weight: 100; letter-spacing: 6px; line-h=
+eight: 20px; margin: 0; text-transform: uppercase;">February 28 2025</p>=0D=
+=0A                            </td>=0D=0A                          </tr>=
+=0D=0A                        </table>=0D=0A                    </td>=0D=0A=
+                </tr>=0D=0A=0D=0A                <!-- TAGLINE -->=0D=0A    =
+            <!-- <tr>=0D=0A                    <td bgcolor=3D"#F56C33" alig=
+n=3D"center" valign=3D"top" style=3D"padding: 20px 20px 40px 20px;">=0D=0A =
+                       <h1>The five best design links, every weekday.</h1>=
+=0D=0A                    </td>=0D=0A                </tr> -->=0D=0A       =
+         =0D=0A                <tr>=0D=0A                    <td>=0D=0A    =
+                    <!-- MAIN CONTENT -->=0D=0A                        <tab=
+le border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">=0D=0A=
+=0D=0A  <tr>=0D=0A    <td bgcolor=3D"#ffffff" align=3D"left" valign=3D"top"=
+ style=3D"padding: 20px 40px 20px 40px;">=0D=0A      <table width=3D"100%">=
+=0D=0A        <tr>=0D=0A          <td><div class=3D"message text-primary-la=
+rge" style=3D"color: #333333; font-family: 'GT Eesti Text Light', Helvetica=
+, Arial, sans-serif; font-size: 16px; font-weight: 100; line-height: 26px; =
+margin: 0; padding: 20px; background: #f2f2f2; text-align: center; margin-b=
+ottom: 10px;"><a href=3D"https://eot.uxdesign.cc/f/a/EyX-fqwvBU7l7bHclWBJXA=
+~~/AAAHURA~/-k_rIxHTEOTjsfx-FxvFxZXg1JycOTOPzB2taiwsuDSKlrzCL3bRF3Askl7_WWq=
+5DmDkbK20B-R82F-Eu6BgkFWBA0rIxFtZc4GTnk1Dgx2lwujkgnGoRhedstMSu0rBzALYpmMp7H=
+TZpBY37fwaFsgX7N_NQbOJIL6e6GEejpzZYyt52zWnrGDQWZ3fsJaRL7ieeIlpjDOQcWJQgiaUa=
+cXub2xfL_BjG3xXNr8jHoLK3IF_X_V7k-IL5wiCkIy8d7p3SYN77Sf1CGm4hyglNQ~~" style=
+=3D"color:black; text-underline-offset: 3px;">I didn't.</a></div></td>=0D=
+=0A        </tr>=0D=0A      </table>=0D=0A    </td>=0D=0A  </tr>=0D=0A=0D=
+=0A=0D=0A  <!-- ARTICLE BLOCK -->=0D=0A  <tr>=0D=0A    <td bgcolor=3D"#ffff=
+ff" align=3D"left" valign=3D"top" style=3D"border-top: 1px solid #eaeaea; p=
+adding: 20px 20px 20px 20px;">=0D=0A=0D=0A      <table width=3D"100%">=0D=
+=0A        <tr>=0D=0A          <!-- CENTER COLUMN -->=0D=0A          <td al=
+ign=3D"left" valign=3D"top" width=3D"100%">=0D=0A            <table>=0D=0A =
+             <tr>=0D=0A                <td bgcolor=3D"#ffffff" align=3D"lef=
+t" valign=3D"top" style=3D"padding: 0px 20px 0px 20px;" class=3D"pad">=0D=
+=0A                  <!-- TITLE -->=0D=0A                  <h2 style=3D"col=
+or: #333333; font-family: 'GT Eesti Text Medium', Helvetica, Arial, sans-se=
+rif; font-size: 18px; font-weight: bold; line-height: 27px; margin: 0;">=0D=
+=0A                    <a href=3D"https://eot.uxdesign.cc/f/a/I5tMa7ftgBINY=
+mUCWIs-pg~~/AAAHURA~/DfIpBT2ZXPuOHJo-0B1arprzkkwLxjuRmap75QmF_6VeK9kEL4WNzN=
+8SyvHcV7XPGP5aUcacBaLJ6e5ZoncbLb2fKdSKTNXz0mJkKvgDr8DSkXvoSFrzzjEi1SaRRSGTh=
+R_miMKo7J2zOuXeOmdnEFeD8GEXipPPN-Uchl6XxzGEJQtLzJqe_yu_H3yRduCegcyCT_Q637R7=
+8MMXTmjAylVmt5i0sbi6JfcJx8CvGFQ~" style=3D"color: #333333; margin: 0; text-=
+decoration: none;">Making software</a>=0D=0A                  </h2>=0D=0A  =
+              </td>=0D=0A              </tr>=0D=0A              <tr>=0D=0A =
+               <td bgcolor=3D"#ffffff" align=3D"left" valign=3D"top" style=
+=3D"padding: 5px 20px 0px 20px;" class=3D"pad">=0D=0A                  <!--=
+ DOMAIN -->=0D=0A                  <a href=3D"https://eot.uxdesign.cc/f/a/I=
+5tMa7ftgBINYmUCWIs-pg~~/AAAHURA~/DfIpBT2ZXPuOHJo-0B1arprzkkwLxjuRmap75QmF_6=
+VeK9kEL4WNzN8SyvHcV7XPGP5aUcacBaLJ6e5ZoncbLb2fKdSKTNXz0mJkKvgDr8DSkXvoSFrzz=
+jEi1SaRRSGThR_miMKo7J2zOuXeOmdnEFeD8GEXipPPN-Uchl6XxzGEJQtLzJqe_yu_H3yRduCe=
+gcyCT_Q637R78MMXTmjAylVmt5i0sbi6JfcJx8CvGFQ~" class=3D"text-source" style=
+=3D"color: #999999; font-family: 'GT Eesti Text Light', Helvetica, Arial, s=
+ans-serif; font-size: 14px; font-weight: 100; line-height: 16px; text-decor=
+ation: none;">makingsoftware.co</a>=0D=0A                </td>=0D=0A       =
+       </tr>=0D=0A              <tr>=0D=0A                <td bgcolor=3D"#f=
+fffff" align=3D"left" valign=3D"top" style=3D"padding: 0px 20px 0px 20px;" =
+class=3D"pad">=0D=0A                  <!-- EXCERPT -->=0D=0A               =
+   <div class=3D"posts-item-body text-primary-large" style=3D"color: #33333=
+3; font-family: 'GT Eesti Text Light', Helvetica, Arial, sans-serif; font-s=
+ize: 16px; font-weight: 100; line-height: 26px; margin: 0;"><p style=3D"mar=
+gin: 5px 0;">A reference manual for people who design and build software.</=
+p>=0D=0A</div>=0D=0A                </td>=0D=0A              </tr>=0D=0A   =
+           <tr>=0D=0A                <td bgcolor=3D"#ffffff" align=3D"left"=
+ valign=3D"top" style=3D"padding: 10px 20px 10px 20px;" class=3D"pad">=0D=
+=0A                  <!-- CATEGORIES -->=0D=0A                  <a href=3D"=
+https://eot.uxdesign.cc/f/a/tIBom4yrIimSdDpfHfijhA~~/AAAHURA~/31y0qr37vPNYo=
+fS1YokDXC_satKm_bL0q4f0WIXcRbCfMVwSyD9XQ3S_nQS6vwjBQiOf4G_2_vrMPKDrvROButhV=
+Tsr_vbs0wUGy3qROg09qtyXvJhcfxCrTQ1nwefQTalibWbXAutA6iIUlLlN70Y3ZUUMyD2_2-ni=
+Z18ETI1bgeAs4Cd31ororkW5qivc2" class=3D"tag" style=3D"background-color: #f6=
+f2ef; border-radius: 2px; color: #AF9D95; font-family: 'GT Eesti Text Light=
+', Helvetica, Arial, sans-serif; font-size: 14px; font-weight: 100; padding=
+: 4px 8px 4px 8px; text-decoration: none; margin-right: 5px;">=0D=0A       =
+             <!--[if mso]>&nbsp;<![endif]-->UX=0D=0A                    <!-=
+-[if mso]>&nbsp;<![endif]--></a>=0D=0A                  <a href=3D"https://=
+eot.uxdesign.cc/f/a/H4uiBdX2LBcpAAinn7fhxg~~/AAAHURA~/zhkc7mVq_G0M12C1n11pI=
+_Hq036PKHkt78xheRdvVDZh-Ge3U83oTPnpHFZvtIydUP16vkc77je7Lt5K2_s9BVNhafMdPJsQ=
+9nXuaRpAJus4OxHr_AIZ5J6-LB3r6lbf0JUBNS1mqSMeQJ3wQ-wEau1n8BsSNB7yuYxKQA9_Ivt=
+UKPggRYioqcHQyp1WIS7yHA_rmZQadT_6_s3sa3DJFg~~" class=3D"tag" style=3D"backg=
+round-color: #f6f2ef; border-radius: 2px; color: #AF9D95; font-family: 'GT =
+Eesti Text Light', Helvetica, Arial, sans-serif; font-size: 14px; font-weig=
+ht: 100; padding: 4px 8px 4px 8px; text-decoration: none; margin-right: 5px=
+;">=0D=0A                    <!--[if mso]>&nbsp;<![endif]-->Resources=0D=0A=
+                    <!--[if mso]>&nbsp;<![endif]--></a>=0D=0A              =
+  </td>=0D=0A              </tr>=0D=0A             =0D=0A            </tabl=
+e>=0D=0A          </td>=0D=0A          =0D=0A        </tr>=0D=0A      </tab=
+le>=0D=0A    </td>=0D=0A  </tr>=0D=0A  <!-- END ARTICLE BLOCK -->=0D=0A=0D=
+=0A  <!-- ARTICLE BLOCK -->=0D=0A  <tr>=0D=0A    <td bgcolor=3D"#ffffff" al=
+ign=3D"left" valign=3D"top" style=3D"border-top: 1px solid #eaeaea; padding=
+: 20px 20px 20px 20px;">=0D=0A=0D=0A      <table width=3D"100%">=0D=0A     =
+   <tr>=0D=0A          <!-- CENTER COLUMN -->=0D=0A          <td align=3D"l=
+eft" valign=3D"top" width=3D"100%">=0D=0A            <table>=0D=0A         =
+     <tr>=0D=0A                <td bgcolor=3D"#ffffff" align=3D"left" valig=
+n=3D"top" style=3D"padding: 0px 20px 0px 20px;" class=3D"pad">=0D=0A       =
+           <!-- TITLE -->=0D=0A                  <h2 style=3D"color: #33333=
+3; font-family: 'GT Eesti Text Medium', Helvetica, Arial, sans-serif; font-=
+size: 18px; font-weight: bold; line-height: 27px; margin: 0;">=0D=0A       =
+             <a href=3D"https://eot.uxdesign.cc/f/a/3z7n0NJE3y4j3LVHVRngcw~=
+~/AAAHURA~/2Q-lGmWDdRTntBTQyZ0RH2iAm1cMldRclVwgEhZGuzdzHR17aUzH842WSyJ0KVJF=
+mJRT1agggtMgQZseQdIQuXhLHgTKNvfr4bGdDGbPkREidiI6v4hh8sfiVXLYZCBQ5xYmGyukAyP=
+i8uX02SS16fucbY1d8LPG1ZtddQc5h0o_5wwBIkxiioIdGM-BBTcyGf--hdU30bqbrGKZ5o05Bk=
+ea5ATvbjBLIGW3h2DS6tJoS6F7kjOq4o3SN7PYk46VZlF7r7rxmfNki9Lf3TyZguSla0EMxv9wy=
+pkbamz8Ks-LGUZtVchmG4us_VGurgdi64w-mFhbZEoxDeopjD4pbQ~~" style=3D"color: #3=
+33333; margin: 0; text-decoration: none;">50k copyright free icons</a>=0D=
+=0A                  </h2>=0D=0A                </td>=0D=0A              </=
+tr>=0D=0A              <tr>=0D=0A                <td bgcolor=3D"#ffffff" al=
+ign=3D"left" valign=3D"top" style=3D"padding: 5px 20px 0px 20px;" class=3D"=
+pad">=0D=0A                  <!-- DOMAIN -->=0D=0A                  <a href=
+=3D"https://eot.uxdesign.cc/f/a/3z7n0NJE3y4j3LVHVRngcw~~/AAAHURA~/2Q-lGmWDd=
+RTntBTQyZ0RH2iAm1cMldRclVwgEhZGuzdzHR17aUzH842WSyJ0KVJFmJRT1agggtMgQZseQdIQ=
+uXhLHgTKNvfr4bGdDGbPkREidiI6v4hh8sfiVXLYZCBQ5xYmGyukAyPi8uX02SS16fucbY1d8LP=
+G1ZtddQc5h0o_5wwBIkxiioIdGM-BBTcyGf--hdU30bqbrGKZ5o05Bkea5ATvbjBLIGW3h2DS6t=
+JoS6F7kjOq4o3SN7PYk46VZlF7r7rxmfNki9Lf3TyZguSla0EMxv9wypkbamz8Ks-LGUZtVchmG=
+4us_VGurgdi64w-mFhbZEoxDeopjD4pbQ~~" class=3D"text-source" style=3D"color: =
+#999999; font-family: 'GT Eesti Text Light', Helvetica, Arial, sans-serif; =
+font-size: 14px; font-weight: 100; line-height: 16px; text-decoration: none=
+;">figma.com</a>=0D=0A                </td>=0D=0A              </tr>=0D=0A =
+             <tr>=0D=0A                <td bgcolor=3D"#ffffff" align=3D"lef=
+t" valign=3D"top" style=3D"padding: 0px 20px 0px 20px;" class=3D"pad">=0D=
+=0A                  <!-- EXCERPT -->=0D=0A                  <div class=3D"=
+posts-item-body text-primary-large" style=3D"color: #333333; font-family: '=
+GT Eesti Text Light', Helvetica, Arial, sans-serif; font-size: 16px; font-w=
+eight: 100; line-height: 26px; margin: 0;"><p style=3D"margin: 5px 0;">An o=
+pen-source set of 50k+ high-quality icons, containing Outline and Filled fo=
+rmats, editable and easy to insert in the Figma editor.</p>=0D=0A</div>=0D=
+=0A                </td>=0D=0A              </tr>=0D=0A              <tr>=
+=0D=0A                <td bgcolor=3D"#ffffff" align=3D"left" valign=3D"top"=
+ style=3D"padding: 10px 20px 10px 20px;" class=3D"pad">=0D=0A              =
+    <!-- CATEGORIES -->=0D=0A                  <a href=3D"https://eot.uxdes=
+ign.cc/f/a/9tzZ5mYDRsmifBhHUf3Luw~~/AAAHURA~/QRNXlGUdV_0x_lrTjiBldRlP_lysEc=
+zmQL7PqtJWRjL7FC3ljdMQg1QrKHqSnPwMarncxPkasgjgx5JNpST-Kmj51QqctUOaIAc7qQwJg=
+5mwbwFWc-stUdDOhYahWSlxoB-RzibcJrVaH5fPpoGwEgLgCXLSDx9LL-E-hLfrWg3vdZblwEbg=
+MSGd6iR6sMcaY6K5NJA7qEYnFKGlTsz0Ig~~" class=3D"tag" style=3D"background-col=
+or: #f6f2ef; border-radius: 2px; color: #AF9D95; font-family: 'GT Eesti Tex=
+t Light', Helvetica, Arial, sans-serif; font-size: 14px; font-weight: 100; =
+padding: 4px 8px 4px 8px; text-decoration: none; margin-right: 5px;">=0D=0A=
+                    <!--[if mso]>&nbsp;<![endif]-->Icons=0D=0A             =
+       <!--[if mso]>&nbsp;<![endif]--></a>=0D=0A                  <a href=
+=3D"https://eot.uxdesign.cc/f/a/H4uiBdX2LBcpAAinn7fhxg~~/AAAHURA~/zhkc7mVq_=
+G0M12C1n11pI_Hq036PKHkt78xheRdvVDZh-Ge3U83oTPnpHFZvtIydUP16vkc77je7Lt5K2_s9=
+BVNhafMdPJsQ9nXuaRpAJus4OxHr_AIZ5J6-LB3r6lbf0JUBNS1mqSMeQJ3wQ-wEau1n8BsSNB7=
+yuYxKQA9_IvtUKPggRYioqcHQyp1WIS7yHA_rmZQadT_6_s3sa3DJFg~~" class=3D"tag" st=
+yle=3D"background-color: #f6f2ef; border-radius: 2px; color: #AF9D95; font-=
+family: 'GT Eesti Text Light', Helvetica, Arial, sans-serif; font-size: 14p=
+x; font-weight: 100; padding: 4px 8px 4px 8px; text-decoration: none; margi=
+n-right: 5px;">=0D=0A                    <!--[if mso]>&nbsp;<![endif]-->Res=
+ources=0D=0A                    <!--[if mso]>&nbsp;<![endif]--></a>=0D=0A  =
+                <a href=3D"https://eot.uxdesign.cc/f/a/1TFlknnptclHnk9e5Yy3=
+jA~~/AAAHURA~/b85rM8XGln0UC5wvsILHg5_AfhncFfvaBwXMZkIvloT8gO5J7ofP4qn-vvLii=
+ILRwXNCkdUxYzuGp6SZSstWVFKB6SuqSi05x_0ARAKuKkuD1xMh4C4nYRuwiDsO0UWyH4NVxM3c=
+JAoyVi2-RJCxYVEOGp3TMyIajGAWjc91cUpsu7BtbgDl7ZieEH9vNh3sfB6Pi0J7TbkNdx7XLZ0=
+UoA~~" class=3D"tag" style=3D"background-color: #f6f2ef; border-radius: 2px=
+; color: #AF9D95; font-family: 'GT Eesti Text Light', Helvetica, Arial, san=
+s-serif; font-size: 14px; font-weight: 100; padding: 4px 8px 4px 8px; text-=
+decoration: none; margin-right: 5px;">=0D=0A                    <!--[if mso=
+]>&nbsp;<![endif]-->Figma=0D=0A                    <!--[if mso]>&nbsp;<![en=
+dif]--></a>=0D=0A                </td>=0D=0A              </tr>=0D=0A      =
+       =0D=0A            </table>=0D=0A          </td>=0D=0A          =0D=
+=0A        </tr>=0D=0A      </table>=0D=0A    </td>=0D=0A  </tr>=0D=0A  <!-=
+- END ARTICLE BLOCK -->=0D=0A=0D=0A  <!-- ARTICLE BLOCK -->=0D=0A  <tr>=0D=
+=0A    <td bgcolor=3D"#ffffff" align=3D"left" valign=3D"top" style=3D"borde=
+r-top: 1px solid #eaeaea; padding: 20px 20px 20px 20px;">=0D=0A=0D=0A      =
+<table width=3D"100%">=0D=0A        <tr>=0D=0A          <!-- CENTER COLUMN =
+-->=0D=0A          <td align=3D"left" valign=3D"top" width=3D"100%">=0D=0A =
+           <table>=0D=0A              <tr>=0D=0A                <td bgcolor=
+=3D"#ffffff" align=3D"left" valign=3D"top" style=3D"padding: 0px 20px 0px 2=
+0px;" class=3D"pad">=0D=0A                  <!-- TITLE -->=0D=0A           =
+       <h2 style=3D"color: #333333; font-family: 'GT Eesti Text Medium', He=
+lvetica, Arial, sans-serif; font-size: 18px; font-weight: bold; line-height=
+: 27px; margin: 0;">=0D=0A                    <a href=3D"https://eot.uxdesi=
+gn.cc/f/a/m_9p5SqtWPcQEPj9tyieKQ~~/AAAHURA~/2q-kNQHjAHF_Bohi1clvmo3d6_DkSlq=
+7hY0LQygLE2hOutIKSnopiw_QqXR6sVAmgAqiKiobbSjzPwIL1einQSanuSsKmUPUz6CQ4BpcXU=
+8GHvfajiF-8UJBJ7AJf-NwvKqoWAPvYWd37sxjFuUZ9Qp0yTDxbUX6rCQlxiIqCTtW2XzG0DUpy=
+yEmw2LlCJCzLKLf20QJqLb1wZriNiTh9P9iKKDwe28TVlC_uM55-X3vhgij9GEToesywPEADBPE=
+pHZcQF_lMIpBlZ0RY_x6VA~~" style=3D"color: #333333; margin: 0; text-decorati=
+on: none;">The profitable startup</a>=0D=0A                  </h2>=0D=0A   =
+             </td>=0D=0A              </tr>=0D=0A              <tr>=0D=0A  =
+              <td bgcolor=3D"#ffffff" align=3D"left" valign=3D"top" style=
+=3D"padding: 5px 20px 0px 20px;" class=3D"pad">=0D=0A                  <!--=
+ DOMAIN -->=0D=0A                  <a href=3D"https://eot.uxdesign.cc/f/a/m=
+_9p5SqtWPcQEPj9tyieKQ~~/AAAHURA~/2q-kNQHjAHF_Bohi1clvmo3d6_DkSlq7hY0LQygLE2=
+hOutIKSnopiw_QqXR6sVAmgAqiKiobbSjzPwIL1einQSanuSsKmUPUz6CQ4BpcXU8GHvfajiF-8=
+UJBJ7AJf-NwvKqoWAPvYWd37sxjFuUZ9Qp0yTDxbUX6rCQlxiIqCTtW2XzG0DUpyyEmw2LlCJCz=
+LKLf20QJqLb1wZriNiTh9P9iKKDwe28TVlC_uM55-X3vhgij9GEToesywPEADBPEpHZcQF_lMIp=
+BlZ0RY_x6VA~~" class=3D"text-source" style=3D"color: #999999; font-family: =
+'GT Eesti Text Light', Helvetica, Arial, sans-serif; font-size: 14px; font-=
+weight: 100; line-height: 16px; text-decoration: none;">linear.app</a>=0D=
+=0A                </td>=0D=0A              </tr>=0D=0A              <tr>=
+=0D=0A                <td bgcolor=3D"#ffffff" align=3D"left" valign=3D"top"=
+ style=3D"padding: 0px 20px 0px 20px;" class=3D"pad">=0D=0A                =
+  <!-- EXCERPT -->=0D=0A                  <div class=3D"posts-item-body tex=
+t-primary-large" style=3D"color: #333333; font-family: 'GT Eesti Text Light=
+', Helvetica, Arial, sans-serif; font-size: 16px; font-weight: 100; line-he=
+ight: 26px; margin: 0;"><p style=3D"margin: 5px 0;">For years, startups hav=
+e been taught to prioritize growth over everything else. But that thinking =
+was always flawed.</p>=0D=0A</div>=0D=0A                </td>=0D=0A        =
+      </tr>=0D=0A              <tr>=0D=0A                <td bgcolor=3D"#ff=
+ffff" align=3D"left" valign=3D"top" style=3D"padding: 10px 20px 10px 20px;"=
+ class=3D"pad">=0D=0A                  <!-- CATEGORIES -->=0D=0A           =
+       <a href=3D"https://eot.uxdesign.cc/f/a/VdXiM-SE3CGIxN26b-swHg~~/AAAH=
+URA~/Xt5_nNVADWMKJE3fWlhKDyMLbkzxOep9cuMoo2zn6jaoewKTGArIDXbN9KtNUzTKcMIUaq=
+TBW-YjwdvuSOfhStrRYp7pmW6bK8BcdrjkeqKvIAwVPTOKq8xHPrtF3D6T2FkrGGlTyGRmhIOjb=
+mywuZR_IFmBVkITv7T-LydbO1nseztSl32UEpCMVcCc7rocuYPEPLzgv1Jc_bwAzJcINw~~" cl=
+ass=3D"tag" style=3D"background-color: #f6f2ef; border-radius: 2px; color: =
+#AF9D95; font-family: 'GT Eesti Text Light', Helvetica, Arial, sans-serif; =
+font-size: 14px; font-weight: 100; padding: 4px 8px 4px 8px; text-decoratio=
+n: none; margin-right: 5px;">=0D=0A                    <!--[if mso]>&nbsp;<=
+![endif]-->Business=0D=0A                    <!--[if mso]>&nbsp;<![endif]--=
+></a>=0D=0A                  <a href=3D"https://eot.uxdesign.cc/f/a/zGR-Jg1=
+A6mmO9OYJ9l-27Q~~/AAAHURA~/Nsp0H56jehsID6ufKb4gHky65bsa89pfXBdAih-TqMMR9E5e=
+YUJahazkqo3POuX4zx-Zhtin8NZYc4SmvczEtllgztBH0y-uvH5bP30k_l84o9114fxQnti5C5T=
+MiMcCwyGd25tuRihHDuGatBnuFBMXD_QO9qBUjgPYxD9umJ68Y4oyOLiHEaWYsV7IdgX0titN-r=
+fz8aVWZHuBWOGoUw~~" class=3D"tag" style=3D"background-color: #f6f2ef; borde=
+r-radius: 2px; color: #AF9D95; font-family: 'GT Eesti Text Light', Helvetic=
+a, Arial, sans-serif; font-size: 14px; font-weight: 100; padding: 4px 8px 4=
+px 8px; text-decoration: none; margin-right: 5px;">=0D=0A                  =
+  <!--[if mso]>&nbsp;<![endif]-->Reflections=0D=0A                    <!--[=
+if mso]>&nbsp;<![endif]--></a>=0D=0A                </td>=0D=0A            =
+  </tr>=0D=0A             =0D=0A            </table>=0D=0A          </td>=
+=0D=0A          =0D=0A        </tr>=0D=0A      </table>=0D=0A    </td>=0D=
+=0A  </tr>=0D=0A  <!-- END ARTICLE BLOCK -->=0D=0A=0D=0A  <!-- ARTICLE BLOC=
+K -->=0D=0A  <tr>=0D=0A    <td bgcolor=3D"#ffffff" align=3D"left" valign=3D=
+"top" style=3D"border-top: 1px solid #eaeaea; padding: 20px 20px 20px 20px;=
+">=0D=0A=0D=0A      <table width=3D"100%">=0D=0A        <tr>=0D=0A         =
+ <!-- CENTER COLUMN -->=0D=0A          <td align=3D"left" valign=3D"top" wi=
+dth=3D"100%">=0D=0A            <table>=0D=0A              <tr>=0D=0A       =
+         <td bgcolor=3D"#ffffff" align=3D"left" valign=3D"top" style=3D"pad=
+ding: 0px 20px 0px 20px;" class=3D"pad">=0D=0A                  <!-- TITLE =
+-->=0D=0A                  <h2 style=3D"color: #333333; font-family: 'GT Ee=
+sti Text Medium', Helvetica, Arial, sans-serif; font-size: 18px; font-weigh=
+t: bold; line-height: 27px; margin: 0;">=0D=0A                    <a href=
+=3D"https://eot.uxdesign.cc/f/a/giDzaZ4hhfHzlewqbmv4Vw~~/AAAHURA~/OhgiAjMWY=
+547AnAlktVVvBgVBv1JkF9vOwzjNBXdg13z5ffn6RutexYqlqFb_BeJqUQldBF0c62nC76L0Tbc=
+R17D_EDN_-hX1CdYYMS6MheWa9q1hnE-HTNnQCKSOXV653hBvnq6NSgd31CBQd4XKCa9StilCKX=
+cz_ggVAIk2OI4mZFjcvrmzj80bsx98Z9rd9BLQC6aeiqfLUHVlm83gqVXleSLNpBxX2-xtV8j6z=
+PwQ2TfgIoQT9tXE9bqMOq_XqS-1eYIRtEsXjwAf_jlRA~~" style=3D"color: #333333; ma=
+rgin: 0; text-decoration: none;">The icebreaker keyboard</a>=0D=0A         =
+         </h2>=0D=0A                </td>=0D=0A              </tr>=0D=0A   =
+           <tr>=0D=0A                <td bgcolor=3D"#ffffff" align=3D"left"=
+ valign=3D"top" style=3D"padding: 5px 20px 0px 20px;" class=3D"pad">=0D=0A =
+                 <!-- DOMAIN -->=0D=0A                  <a href=3D"https://=
+eot.uxdesign.cc/f/a/giDzaZ4hhfHzlewqbmv4Vw~~/AAAHURA~/OhgiAjMWY547AnAlktVVv=
+BgVBv1JkF9vOwzjNBXdg13z5ffn6RutexYqlqFb_BeJqUQldBF0c62nC76L0TbcR17D_EDN_-hX=
+1CdYYMS6MheWa9q1hnE-HTNnQCKSOXV653hBvnq6NSgd31CBQd4XKCa9StilCKXcz_ggVAIk2OI=
+4mZFjcvrmzj80bsx98Z9rd9BLQC6aeiqfLUHVlm83gqVXleSLNpBxX2-xtV8j6zPwQ2TfgIoQT9=
+tXE9bqMOq_XqS-1eYIRtEsXjwAf_jlRA~~" class=3D"text-source" style=3D"color: #=
+999999; font-family: 'GT Eesti Text Light', Helvetica, Arial, sans-serif; f=
+ont-size: 14px; font-weight: 100; line-height: 16px; text-decoration: none;=
+">serene.industries</a>=0D=0A                </td>=0D=0A              </tr>=
+=0D=0A              <tr>=0D=0A                <td bgcolor=3D"#ffffff" align=
+=3D"left" valign=3D"top" style=3D"padding: 0px 20px 0px 20px;" class=3D"pad=
+">=0D=0A                  <!-- EXCERPT -->=0D=0A                  <div clas=
+s=3D"posts-item-body text-primary-large" style=3D"color: #333333; font-fami=
+ly: 'GT Eesti Text Light', Helvetica, Arial, sans-serif; font-size: 16px; f=
+ont-weight: 100; line-height: 26px; margin: 0;"><p style=3D"margin: 5px 0;"=
+>A superheavy 65% keyboard, made from a solid block of aluminum ft. fullmet=
+al keycaps.</p>=0D=0A</div>=0D=0A                </td>=0D=0A              <=
+/tr>=0D=0A              <tr>=0D=0A                <td bgcolor=3D"#ffffff" a=
+lign=3D"left" valign=3D"top" style=3D"padding: 10px 20px 10px 20px;" class=
+=3D"pad">=0D=0A                  <!-- CATEGORIES -->=0D=0A                 =
+ <a href=3D"https://eot.uxdesign.cc/f/a/kjhPc3BE4DTQ4koRGPwbew~~/AAAHURA~/x=
+q3NL1pb3fAumJIB0rlXonp2ca8mBznv_KDijEQh94Kd8QmgZ7dZESMsePVhm6KKK8_RPE4UbNFD=
+VrbsOrbUIFMkLvxvZdEkv26qYVJiOtcSBAdMPLQA5wO6Cukn8T8qntTICkW4oXvgKvM_qZbOVnb=
+cFPjQV3vgSPzluAeBMiqLmChtouqUC_i_ZgVS88uy3n4_4nMaIsMqtbW5oDbyuA~~" class=3D=
+"tag" style=3D"background-color: #f6f2ef; border-radius: 2px; color: #AF9D9=
+5; font-family: 'GT Eesti Text Light', Helvetica, Arial, sans-serif; font-s=
+ize: 14px; font-weight: 100; padding: 4px 8px 4px 8px; text-decoration: non=
+e; margin-right: 5px;">=0D=0A                    <!--[if mso]>&nbsp;<![endi=
+f]-->Hardware=0D=0A                    <!--[if mso]>&nbsp;<![endif]--></a>=
+=0D=0A                </td>=0D=0A              </tr>=0D=0A             =0D=
+=0A            </table>=0D=0A          </td>=0D=0A          =0D=0A        <=
+/tr>=0D=0A      </table>=0D=0A    </td>=0D=0A  </tr>=0D=0A  <!-- END ARTICL=
+E BLOCK -->=0D=0A=0D=0A  <!-- ARTICLE BLOCK -->=0D=0A  <tr>=0D=0A    <td bg=
+color=3D"#ffffff" align=3D"left" valign=3D"top" style=3D"border-top: 1px so=
+lid #eaeaea; padding: 20px 20px 20px 20px;">=0D=0A=0D=0A      <table width=
+=3D"100%">=0D=0A        <tr>=0D=0A          <!-- CENTER COLUMN -->=0D=0A   =
+       <td align=3D"left" valign=3D"top" width=3D"100%">=0D=0A            <=
+table>=0D=0A              <tr>=0D=0A                <td bgcolor=3D"#ffffff"=
+ align=3D"left" valign=3D"top" style=3D"padding: 0px 20px 0px 20px;" class=
+=3D"pad">=0D=0A                  <!-- TITLE -->=0D=0A                  <h2 =
+style=3D"color: #333333; font-family: 'GT Eesti Text Medium', Helvetica, Ar=
+ial, sans-serif; font-size: 18px; font-weight: bold; line-height: 27px; mar=
+gin: 0;">=0D=0A                    <a href=3D"https://eot.uxdesign.cc/f/a/Y=
+KHv_ITDuKzhLyNImyxQgw~~/AAAHURA~/Gr0JZ_FtxF-wtmI5j22iXDoK6Na6th_mpVKpjxnLjo=
+rSFvPYL6iZCo5u4wzS2W-kfoSI857dSN1nTpTWVV1XXyetAhb_PMhcx7koJSNgEAuQY4YZQ_yRC=
+l0JNrCPeGILpZvbMqInyrjS4389J7QJt2fdNzydQYvDFyrJtWpaHIDjZmkfuwIvOvMnC5BpsiNf=
+1quBYekVOarFWjFrDaZ_MaQmv_fWc4IncTFsQgNyGTJbnQL8OJ-i5fBWrjQ2L3fE" style=3D"=
+color: #333333; margin: 0; text-decoration: none;">OKLCH color picker & con=
+verter</a>=0D=0A                  </h2>=0D=0A                </td>=0D=0A   =
+           </tr>=0D=0A              <tr>=0D=0A                <td bgcolor=
+=3D"#ffffff" align=3D"left" valign=3D"top" style=3D"padding: 5px 20px 0px 2=
+0px;" class=3D"pad">=0D=0A                  <!-- DOMAIN -->=0D=0A          =
+        <a href=3D"https://eot.uxdesign.cc/f/a/YKHv_ITDuKzhLyNImyxQgw~~/AAA=
+HURA~/Gr0JZ_FtxF-wtmI5j22iXDoK6Na6th_mpVKpjxnLjorSFvPYL6iZCo5u4wzS2W-kfoSI8=
+57dSN1nTpTWVV1XXyetAhb_PMhcx7koJSNgEAuQY4YZQ_yRCl0JNrCPeGILpZvbMqInyrjS4389=
+J7QJt2fdNzydQYvDFyrJtWpaHIDjZmkfuwIvOvMnC5BpsiNf1quBYekVOarFWjFrDaZ_MaQmv_f=
+Wc4IncTFsQgNyGTJbnQL8OJ-i5fBWrjQ2L3fE" class=3D"text-source" style=3D"color=
+: #999999; font-family: 'GT Eesti Text Light', Helvetica, Arial, sans-serif=
+; font-size: 14px; font-weight: 100; line-height: 16px; text-decoration: no=
+ne;">oklch.com</a>=0D=0A                </td>=0D=0A              </tr>=0D=
+=0A              <tr>=0D=0A                <td bgcolor=3D"#ffffff" align=3D=
+"left" valign=3D"top" style=3D"padding: 0px 20px 0px 20px;" class=3D"pad">=
+=0D=0A                  <!-- EXCERPT -->=0D=0A                  <div class=
+=3D"posts-item-body text-primary-large" style=3D"color: #333333; font-famil=
+y: 'GT Eesti Text Light', Helvetica, Arial, sans-serif; font-size: 16px; fo=
+nt-weight: 100; line-height: 26px; margin: 0;"><p style=3D"margin: 5px 0;">=
+The new CSS Color 4 specification has added the new oklch() notation for de=
+claring colors. This tools help with conversions.</p>=0D=0A</div>=0D=0A    =
+            </td>=0D=0A              </tr>=0D=0A              <tr>=0D=0A   =
+             <td bgcolor=3D"#ffffff" align=3D"left" valign=3D"top" style=3D=
+"padding: 10px 20px 10px 20px;" class=3D"pad">=0D=0A                  <!-- =
+CATEGORIES -->=0D=0A                  <a href=3D"https://eot.uxdesign.cc/f/=
+a/9_QNP39jK0lfRX1k8lCrcQ~~/AAAHURA~/g-PFoP1KEe57VkWZ7N_8oqDuLsr2EaV1-t6z2i1=
+ua58sMROcGyKuxAuX2i_8XUu0nfmqs7ocRaB5PuKt5jbzEKoCQ8b29d3QzKRptuWsxw-L-ZkZbg=
+XR-RrhpXXpRJ_Z3biqKd21azv5qHvIxkKE4lvClEQNPTQxzu5QcVHqx7RcMpZLZT0MBN2EYQeaO=
+xOP" class=3D"tag" style=3D"background-color: #f6f2ef; border-radius: 2px; =
+color: #AF9D95; font-family: 'GT Eesti Text Light', Helvetica, Arial, sans-=
+serif; font-size: 14px; font-weight: 100; padding: 4px 8px 4px 8px; text-de=
+coration: none; margin-right: 5px;">=0D=0A                    <!--[if mso]>=
+&nbsp;<![endif]-->CSS=0D=0A                    <!--[if mso]>&nbsp;<![endif]=
+--></a>=0D=0A                  <a href=3D"https://eot.uxdesign.cc/f/a/jaNAx=
+0pX76oQBuUY4rNTng~~/AAAHURA~/gey_EpOZC6rnTVM0grxUyqbqdVRYZzqPXNn9Z2kXZ420o3=
+s6VskHQLbE2qUx5EVTDagtG7nuEl3L4Ab1hbGO-50rm0QLZoWYYmWrm2-X8aPnkPPk5w4-ziHwr=
+Y-UikGXTmiOa2ZY67lA6ydmDWDrM3AsDKUckl6uvoQ1rQpvVd91ELU2-WqMuLOSIo9hBjMXkNOD=
+IyS2Yi1FuLX1ePksoA~~" class=3D"tag" style=3D"background-color: #f6f2ef; bor=
+der-radius: 2px; color: #AF9D95; font-family: 'GT Eesti Text Light', Helvet=
+ica, Arial, sans-serif; font-size: 14px; font-weight: 100; padding: 4px 8px=
+ 4px 8px; text-decoration: none; margin-right: 5px;">=0D=0A                =
+    <!--[if mso]>&nbsp;<![endif]-->Color Theory=0D=0A                    <!=
+--[if mso]>&nbsp;<![endif]--></a>=0D=0A                  <a href=3D"https:/=
+/eot.uxdesign.cc/f/a/8x32yCagOi8ZLY9zqO-75A~~/AAAHURA~/DNrg7svKMaOFLTKdVvSN=
+-1wdTPrY3-feJUmWHderHEM__RZ4WXVPB9kdVT0BWGVDckmp1SbzismHCn76HdI1slBX7-L53_F=
+uON8Npb39eA2R2o53CZWdyEahl_rZbCAD5Ze3iy1uc8SkqEngdAFUi27jtBNg3zgnWwbUSrakCi=
+qQqi_cuc1uRHW13IPpIRa1xmk7fhUJMJ-p5M3jQpguBA~~" class=3D"tag" style=3D"back=
+ground-color: #f6f2ef; border-radius: 2px; color: #AF9D95; font-family: 'GT=
+ Eesti Text Light', Helvetica, Arial, sans-serif; font-size: 14px; font-wei=
+ght: 100; padding: 4px 8px 4px 8px; text-decoration: none; margin-right: 5p=
+x;">=0D=0A                    <!--[if mso]>&nbsp;<![endif]-->Tools=0D=0A   =
+                 <!--[if mso]>&nbsp;<![endif]--></a>=0D=0A                <=
+/td>=0D=0A              </tr>=0D=0A             =0D=0A            </table>=
+=0D=0A          </td>=0D=0A          =0D=0A        </tr>=0D=0A      </table=
+>=0D=0A    </td>=0D=0A  </tr>=0D=0A  <!-- END ARTICLE BLOCK -->=0D=0A=0D=0A=
+=0D=0A</table>=0D=0A                    </td>=0D=0A                </tr>=0D=
+=0A                =0D=0A                <!-- BLANK CORNERS ROW -->=0D=0A  =
+              <tr>=0D=0A                    <td bgcolor=3D"#ffffff" align=
+=3D"left" valign=3D"top" style=3D"border-radius: 0px 0px 4px 4px; padding: =
+0px 20px 0px 20px;">=0D=0A                        &nbsp;=0D=0A             =
+       </td>=0D=0A                </tr>=0D=0A                  <tr>=0D=0A  =
+                    <td align=3D"center" valign=3D"top" style=3D"padding: 2=
+0px 20px 0px 20px;">=0D=0A                          <!-- NOTIFICATIONS REMI=
+NDER -->=0D=0A                          <p class=3D"text-secondary" style=
+=3D"color: #777777; font-family: 'GT Eesti Text Light', Helvetica, Arial, s=
+ans-serif; font-size: 14px; font-weight: 100; line-height: 18px; margin: 0;=
+">You&rsquo;re receiving this email because you signed up on <a href=3D"htt=
+ps://eot.uxdesign.cc/f/a/iZNiMPuBrW7Z9VFPoNh8iA~~/AAAHURA~/O7bRrfDOwuhhqM2b=
+CSjvEyc28bFPt3kHH9Apaukzo50g6FMlL-3PzN6BvnnGQnUbLdjgeCNkvcZL1Cw22BA3wVsiOhd=
+7-wtXIoLwZnbHWg6H_HjdqqMLvPkt-B8E33pQoqYT55W1SyRPBo864IgpVw~~" class=3D"lin=
+k-secondary" target=3D"_blank" style=3D"color: #555555; font-family: 'GT Ee=
+sti Text Medium', Helvetica, Arial, sans-serif; font-weight: bold; text-dec=
+oration: none;">sidebar.io</a>. <a href=3D"https://eot.uxdesign.cc/f/a/n5ms=
+wC0MRpp2OpMXjO5_KA~~/AAAHURA~/iJNiO1B7gbrpr_ezILmGhy4E2ffScuy6uB1nOvGgwFmRR=
+R9FluKycgbn1VKkbY3mbyy5HFVMmh9uGgTLoCj-DLTi6qsqjUhQ-p8jsAi73yAuF0lZ-iFcxVFB=
+7pmjoZhtHKdeqtWyj0xxENbYdEpvLIiG3lfKixDLZ6gitvM9AIhqqalLz8ZRPModnuyTrJLN7lG=
+ZBVCtuZFOz2QZCwqcmM40wQYbwPbASKzEmFXq__ZrItQf2z2nd7a5b9wO0zjiCGNmsn0NQhT0BI=
+qN_RJ_7bkfAlq7WzTOVVlIwAmiELyjgQJrhxLuia-e4rfEOJCk9DM89oiXg0KhflQVE66fxXj54=
+hbmyA7pNgRDJkLzCJvaatdZNYmhZP4srVSDYdnFRbd_OjXRO-ypUyAKEjIx48n7AE4qgu4zQRGg=
+8YjyKifaZXUZ6Ii-i_0jur0Y2Iue" class=3D"link-secondary" target=3D"_blank" st=
+yle=3D"color: #555555; font-family: 'GT Eesti Text Medium', Helvetica, Aria=
+l, sans-serif; font-weight: bold; text-decoration: none;">Unsubscribe</a></=
+p>=0D=0A                      </td>=0D=0A                  </tr>=0D=0A     =
+           <tr>=0D=0A                    <td align=3D"center" valign=3D"top=
+" style=3D"padding: 20px 20px 40px 20px;">=0D=0A                        <!-=
+- NOTIFICATIONS REMINDER -->=0D=0A                        <p class=3D"text-=
+secondary" style=3D"color: #777777; font-family: 'GT Eesti Text Light', Hel=
+vetica, Arial, sans-serif; font-size: 14px; font-weight: 100; line-height: =
+18px; margin: 0;">Fabricio Teixeira, Brooklyn, NY, 11201, United States of =
+America</p>=0D=0A                    </td>=0D=0A                </tr>=0D=0A=
+            </table>=0D=0A            <!--[if (gte mso 9)|(IE)]>=0D=0A     =
+       </td>=0D=0A            </tr>=0D=0A            </table>=0D=0A        =
+    <![endif]-->=0D=0A        </td>=0D=0A    </tr>=0D=0A</table>=0D=0A=0D=
+=0A<img border=3D"0" width=3D"1" height=3D"1" alt=3D"" src=3D"https://eot.u=
+xdesign.cc/q/mMVbrt4YjBgaOqH-RvzLoQ~~/AAAHURA~/ePWCO5A1OvkC4-s9w62BVGSxMTLm=
+L66SOCCVcmCQu32k2GZt5PDdmAijEeG_Kv8aakPYDj0duzUnxRs9AaIEGg~~">=0D=0A</body>=
+=0D=0A</html>=0D=0A
+--B3IHYMeT--

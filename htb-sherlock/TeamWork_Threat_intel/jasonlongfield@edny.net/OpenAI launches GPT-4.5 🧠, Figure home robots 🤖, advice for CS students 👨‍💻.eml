@@ -1,0 +1,1400 @@
+Delivered-To: jasonlongfield@edny.net
+Return-Path: <010001954c55181e-0abdcad6-f767-4a22-a662-888153b163ad-000000@dailyupdate.tldrnewsletter.com>
+Received: from a38-253.smtp-out.amazonses.com (a38-253.smtp-out.amazonses.com [54.240.38.253])
+	by in.mail.tm (Haraka/3.0.2) with ESMTPS id 5C50B52A-C4F8-4B4C-A141-7508584CB358.1
+	envelope-from <010001954c55181e-0abdcad6-f767-4a22-a662-888153b163ad-000000@dailyupdate.tldrnewsletter.com>
+	tls TLS_AES_256_GCM_SHA384;
+	Fri, 28 Feb 2025 11:33:21 +0000
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=sioo5ufy44q7kswoxqlcbgcwkczxbk64; d=tldrnewsletter.com;
+	t=1740742400;
+	h=From:To:Subject:List-Unsubscribe:List-Unsubscribe-Post:MIME-Version:Date:Message-ID:Content-Type;
+	bh=Yz7Kf5OgOSMtr0QA0Y0mFbeNL07ZHRPjlo5V8fHgvVY=;
+	b=bOxH4VdRYOcyI0A9PkirFexvdcxHngBV5QkjPvEMyghY0M+u/2y7n/Z70vXiHsOt
+	Mzvsm6ncIrRMBZQn9O8k0TU4etgkEGG4I8mdNL9BwMfiZsnnHVOXzk/oI71505G+LIq
+	SDL5LYCVVSu7NpMm6W/H6PZw2KomQMFLO5tsS70g=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=ug7nbtf4gccmlpwj322ax3p6ow6yfsug; d=amazonses.com; t=1740742400;
+	h=From:To:Subject:List-Unsubscribe:List-Unsubscribe-Post:MIME-Version:Date:Message-ID:Content-Type:Feedback-ID;
+	bh=Yz7Kf5OgOSMtr0QA0Y0mFbeNL07ZHRPjlo5V8fHgvVY=;
+	b=cp++3frUaYtcj70J7g+Rfdjz3fMbehxhmVOluPbccHd2FxpRDL+y6/QcjOMaK38M
+	aqY95bfQB5ICRRFZA2D6SAtFlHo2mUpQl3w0h8A18OrsX2pDd7gCT5pYbNFSC8RkVb0
+	wjm3zoRBg4gH5NdKgGSBH51ilJiUfjPNJfjez5tE=
+From: TLDR <dan@tldrnewsletter.com>
+To: jasonlongfield@edny.net
+Subject: OpenAI launches GPT-4.5 =?utf-8?Q?=F0=9F=A7=A0=2C?= Figure home
+ robots =?utf-8?Q?=F0=9F=A4=96=2C?= advice for CS students
+ =?utf-8?Q?=F0=9F=91=A8=E2=80=8D=F0=9F=92=BB?=
+X-Entity-Ref-Id: 33f839ea-a71b-4c17-be1a-1b887ce3358e
+X-EmailOctopus-Parent-Id: 382e3224-f5ac-11ef-924e-3b6a866ddcb1
+X-EmailOctopus-Parent-Type-Id: campaign
+X-EmailOctopus-List-Id: cfa2d55a-b7be-11e8-a3c9-06b79b628af2
+X-EmailOctopus-List-Contact-Id: 8ca81dcc-f5b8-11ef-8038-f3ca55a75fa2
+X-EmailOctopus-Started-Preparing-At: 2025-02-28T11:00:46+00:00
+X-EmailOctopus-Sent-At: 2025-02-28T11:33:19+00:00
+X-EmailOctopus-Team-Id: 66987ef2-4f4c-11e9-a3c9-06b79b628af2
+X-EmailOctopus-Version: 4
+List-Unsubscribe: <https://a.tldrnewsletter.com/unsubscribe?ep=1&l=cfa2d55a-b7be-11e8-a3c9-06b79b628af2&lc=8ca81dcc-f5b8-11ef-8038-f3ca55a75fa2&p=382e3224-f5ac-11ef-924e-3b6a866ddcb1&pt=campaign&pv=4&spa=1740740446&t=1740742399&s=e120519626f7a39ea16a02783b93c2490a3b1f2a1a50eb2c58eb89ebe8d32082>
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+X-EmailOctopus-Ses-Configuration-Set-Name: emailoctopus-a9f7b12f74f3c968d9408897fb35539c
+MIME-Version: 1.0
+Date: Fri, 28 Feb 2025 11:33:20 +0000
+Message-ID: <010001954c55181e-0abdcad6-f767-4a22-a662-888153b163ad-000000@email.amazonses.com>
+Content-Type: multipart/alternative; boundary=AWQfU9VE
+Feedback-ID: ::1.us-east-1.Dj5/7DYmgk+n1sSGGXSQSLIthSjNQ0MGtV5Dro1Tr8U=:AmazonSES
+X-SES-Outgoing: 2025.02.28-54.240.38.253
+
+
+--AWQfU9VEContent-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+OpenAI is now rolling out GPT-4.5 to ChatGPT Pro subscribers and
+develope=
+rs on paid tiers of the API. Other users should get the model
+next
+week=
+=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=
+=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=
+=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=
+=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=
+=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=
+=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=
+=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=
+=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=
+=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=
+=C2=A0
+
+
+ Sign Up [1] |Advertise [2]|View Online [3]=20
+
+=09=09TLDR=
+=20
+
+=09=09TOGETHER WITH [Material Security] [4]
+
+TLDR 2025-02-28
+=
+
+ REDUCE YOUR PHISHING TRIAGE TIME BY 95% WITH MATERIAL SECURITY
+(SPONS=
+OR) [4]=20
+
+ Security teams are constantly balancing the critical risk of=
+ modern
+phishing attacks with the reality of limited time. Manual triage,=
+
+investigation, and remediation are time-consuming tasks, and every
+min=
+ute spent on false positives takes away from mission-critical work.
+
+Co=
+mpanies like Lyft, Databricks, and Carta trust Material Security [4]
+to h=
+elp find the right balance. Our AI-powered detections and truly
+automated=
+ remediations work across your productivity suite, and our
+flexible contr=
+ols and granular settings adapt to your specific
+requirements.
+
+See t=
+he Material difference here [4]
+
+=F0=9F=93=B1=20
+
+BIG TECH & STARTUPS=
+
+
+ OPENAI UNVEILS GPT-4.5 =E2=80=98ORION,' ITS LARGEST AI MODEL YET (5 =
+MINUTE
+READ) [5]=20
+
+ OpenAI is now rolling out GPT-4.5 to ChatGPT Pro =
+subscribers and
+developers on paid tiers of the company's API. Other user=
+s should get
+the model sometime next week. GPT-4.5 is so expensive to run=
+ that
+OpenAI is evaluating whether to continue serving the model on its A=
+PI
+in the long term. It currently costs $75 for every million input
+tok=
+ens and $150 for every million output tokens. This article looks at
+how t=
+he new model compares to OpenAI's other offerings.=20
+
+ META PLANS TO REL=
+EASE STANDALONE META AI APP IN EFFORT TO COMPETE
+WITH OPENAI'S CHATGPT (4=
+ MINUTE READ) [6]=20
+
+ Meta intends to debut a standalone Meta AI app dur=
+ing the second
+quarter. The service is currently only available to users =
+via a
+website and the company's other apps. Users could potentially inter=
+act
+more deeply with the digital assistant if it were available as a
+st=
+andalone app. Meta also plans to test a paid subscription for Meta
+AI. =
+
+
+=F0=9F=9A=80=20
+
+SCIENCE & FUTURISTIC TECHNOLOGY
+
+ FIGURE WILL =
+START =E2=80=98ALPHA TESTING' ITS HUMANOID ROBOT IN THE HOME IN
+2025 (2 M=
+INUTE READ) [7]=20
+
+ Figure plans to begin alpha testing its Figure 02 ro=
+bot in the home
+later this year. The project's timeline was accelerated t=
+hanks to the
+company's 'generalist' Vision-Language-Action model, Helix. =
+Helix is
+designed to process both visual data and natural language input =
+to
+accelerate learning. It can orchestrate two robots working on a single=
+
+task in tandem.=20
+
+ ANTI-AGING PILL FOR DOGS CERTIFIED AS 'EFFECTIVE'=
+ BY FDA. BUT COULD
+IT WORK FOR HUMANS, TOO? (3 MINUTE READ) [8]=20
+
+ Bi=
+otech startup Loyal has received a certification from the US Food
+and Dru=
+g Administration (FDA) saying its anti-aging pill for dogs has
+a reasonab=
+le expectation of efficacy. The pill still needs to be
+certified by the F=
+DA that it is safe for use and can be manufactured
+at a greater scale bef=
+ore it can be prescribed by veterinarians. Loyal
+plans to earn conditiona=
+l approval from the FDA by the end of the
+year.=20
+
+=F0=9F=92=BB=20
+
+=
+PROGRAMMING, DESIGN & DATA SCIENCE
+
+ DEAR STUDENT: YES, AI IS HERE, YOU=
+'RE SCREWED UNLESS YOU TAKE
+ACTION... (21 MINUTE READ) [9]=20
+
+ AI will=
+ soon start having a large impact on software engineering.
+Students shoul=
+d start learning fundamentals that universities
+typically don't teach and=
+ obtain skills that are going to be highly
+desirable to every employer. D=
+evelopers need to learn how their work
+directly translates to business va=
+lue and build a public profile.
+Software engineers will be fine, as long =
+as they take action now.=20
+
+ SUPERGLUE (GITHUB REPO) [10]=20
+
+ supergl=
+ue is a self-healing open source data connector that can be
+deployed as a=
+ proxy so developers always get the data they want in the
+format they exp=
+ect. Developers just define their desired data schemas
+and provide basic =
+instructions about an API endpoint - superglue
+automatically generates th=
+e API configuration, handles pagination,
+authentication, and error retrie=
+s, transforms response data into the
+exact schema developers want using J=
+SONata expressions, and validates
+that data, fixing transformations when =
+they break.=20
+
+=F0=9F=8E=81=20
+
+MISCELLANEOUS
+
+ GOOGLE'S SERGEY BR=
+IN URGES WORKERS TO THE OFFICE =E2=80=98AT LEAST' EVERY
+WEEKDAY (3 MINUTE=
+ READ) [11]=20
+
+ Sergey Brin, one of Google's co-founders, says that Goog=
+le could be
+the leader in artificial general intelligence if employees wo=
+rked
+harder. He recommends that employees attend the office at least ever=
+y
+weekday, saying that 60 hours a week is the sweet spot for
+productivi=
+ty. Brin returned to Google after ChatGPT's launch to help
+the company na=
+vigate the difficult moment when it lost its advantage
+in AI. Since his r=
+eturn, Google has reorganized its business,
+rebranded its AI, and rolled =
+out the technology across its popular
+apps.=20
+
+ YOUTUBE STAR MRBEAST P=
+LANNING INVESTMENT ROUND THAT COULD VALUE
+COMPANY AT $5BN (3 MINUTE READ)=
+ [12]=20
+
+ MrBeast is planning to raise hundreds of millions of dollars t=
+o
+create a holding company for his growing empire. The round could value=
+
+his company at roughly $5 billion - it generated more than $400
+millio=
+n in sales last year. Talks about the potential fundraising are
+still in =
+the early stages and it is not yet clear who will invest.
+MrBeast is the =
+biggest YouTuber in the world - he has more than 368
+million subscribers =
+to his channel.=20
+
+ TLDR IS HIRING CURATORS FOR OUR NEW TLDR DATA NEWSLE=
+TTER (FULLY
+REMOTE, $100/HR)=20
+
+ TLDR is hiring part time curators to =
+launch our TLDR Data newsletter.
+
+The ideal candidate would have deep e=
+xperience working directly with
+data warehouses, data pipelines, data lak=
+es, and other modern cloud
+infrastructure.
+
+Time commitment is ~2-3 H=
+OURS/WEEK PAID AT A RATE OF $100/HR. To apply
+please send your LinkedIn o=
+r resume to jobs@tldr.tech along with a
+couple sentences on why you'd be =
+a good fit!
+
+=E2=9A=A1=20
+
+QUICK LINKS
+
+ AMAZON DEBUTS OCELOT, IT=
+S FIRST QUANTUM COMPUTING CHIP (1 MINUTE
+READ) [13]=20
+
+ Ocelot's desig=
+n could reduce costs associated with error correction
+by as much as 90%. =
+
+
+ META ANNOUNCES EXPERIMENTAL ARIA GEN 2 RESEARCH SMART GLASSES (2
+M=
+INUTE READ) [14]=20
+
+ Meta's latest experimental glasses are designed to =
+help bolster
+research into artificial intelligence, robotics, and machine=
+
+perception.=20
+
+ TESLA APPLIES FOR RIDE-HAILING SERVICE IN CALIFORNIA,=
+ BUT WITH HUMAN
+DRIVERS (3 MINUTE READ) [15]=20
+
+ Tesla has yet to appl=
+y for a permit to operate driverless vehicles.=20
+
+ GPT 4.5 + INTERACTIVE=
+ COMPARISON (4 MINUTE READ) [16]=20
+
+ GPT 4.5 offers a qualitative measur=
+ement of the slope of improvement
+that can be achieved by scaling pretrai=
+ning compute.=20
+
+ STRIPE SAYS AI STARTUPS ARE GROWING FASTER THAN SAAS E=
+VER DID, AND
+CALLING THEM WRAPPERS =E2=80=98MISSES THE POINT' (2 MINUTE R=
+EAD) [17]=20
+
+ The top 100 AI companies by revenue were able to achieve $=
+5 million
+in annualized revenue in 24 months in 2024 - the top 100 SaaS=
+
+companies took 37 months in 2018 to reach the same milestone.=20
+
+ OPE=
+NAI CEO SAM ALTMAN SAYS THE COMPANY IS =E2=80=98OUT OF GPUS' (1 MINUTE
+RE=
+AD) [18]=20
+
+ OpenAI will need to acquire tens of thousands more GPUs bef=
+ore
+additional ChatGPT users can gain access to GPT-4.5.=20
+
+Want to ad=
+vertise in TLDR? =F0=9F=93=B0
+
+ If your company is interested in reachi=
+ng an audience of tech
+executives, decision-makers and engineers, you may=
+ want to ADVERTISE
+WITH US [19].=20
+
+Want to work at TLDR? =F0=9F=92=
+=BC
+
+ APPLY HERE [20] or send a friend's resume to jobs@tldr.tech and g=
+et
+$1k if we hire them!=20
+
+ If you have any comments or feedback, just=
+ respond to this email!=20
+
+Thanks for reading,=20
+Dan Ni [21] & Stephen =
+Flanders [22]=20
+
+ Manage your subscriptions [23] to our other newsletter=
+s on tech,
+startups, and programming. Or if TLDR isn't for you, please
+=
+unsubscribe [24].=20
+
+=20
+
+Links:
+------
+[1] https://tldr.tech/sign=
+up?utm_source=3Dtldr
+[2] https://advertise.tldr.tech/?utm_source=3Dtldr&u=
+tm_medium=3Dnewsletter&utm_campaign=3Dadvertisetopnav
+[3] https://a.tldrn=
+ewsletter.com/web-version?ep=3D1&lc=3D8ca81dcc-f5b8-11ef-8038-f3ca55a75fa2&=
+p=3D382e3224-f5ac-11ef-924e-3b6a866ddcb1&pt=3Dcampaign&t=3D1740742399&s=3De=
+e02203f6706fd352b18a91e70dac0c306b244cc7aa9ff2e472ab6753c97f3da
+[4] https=
+://material.security/lp-cloud-office-security?utm_source=3Dthird-party&utm_=
+medium=3Demail&utm_campaign=3D20250227-tldr
+[5] https://techcrunch.com/20=
+25/02/27/openai-unveils-gpt-4-5-orion-its-largest-ai-model-yet/?utm_source=
+=3Dtldrnewsletter
+[6] https://www.cnbc.com/2025/02/27/meta-plans-to-relea=
+se-a-standalone-meta-ai-app.html?taid=3D67c0d5de46927f0001fb1981&utm_campai=
+gn=3Dtrueanthem&utm_medium=3Dsocial&utm_source=3Dtwitter%7Cmain
+[7] https=
+://links.tldrnewsletter.com/17ErgY
+[8] https://links.tldrnewsletter.com/j=
+Zy793
+[9] https://ghuntley.com/screwed/?utm_source=3Dtldrnewsletter
+[10=
+] https://github.com/superglue-ai/superglue?utm_source=3Dtldrnewsletter
+[=
+11] https://www.nytimes.com/2025/02/27/technology/google-sergey-brin-return=
+-to-office.html?unlocked_article_code=3D1.0U4.A8Eb.6hfgL-MPLsba&smid=3Durl-=
+share&utm_source=3Dtldrnewsletter
+[12] https://www.theguardian.com/techno=
+logy/2025/feb/27/youtube-star-mrbeast-planning-investment-round-that-could-=
+value-company?utm_source=3Dtldrnewsletter
+[13] https://techcrunch.com/202=
+5/02/27/amazon-debuts-ocelot-its-first-quantum-computing-chip/?utm_source=
+=3Dtldrnewsletter
+[14] https://www.cnbc.com/2025/02/27/meta-announces-exp=
+erimental-aria-gen-2-research-smart-glasses.html?utm_source=3Dtldrnewslette=
+r
+[15] https://electrek.co/2025/02/27/tesla-applies-for-ride-hailing-serv=
+ice-in-california-but-with-human-drivers/?utm_source=3Dtldrnewsletter
+[16=
+] https://threadreaderapp.com/thread/1895213020982472863.html?utm_source=3D=
+tldrnewsletter
+[17] https://techcrunch.com/2025/02/27/stripe-ceo-says-ai-=
+startups-are-growing-faster-than-saas-ever-did-and-calling-them-wrappers-mi=
+sses-the-point/?utm_source=3Dtldrnewsletter
+[18] https://techcrunch.com/2=
+025/02/27/openai-ceo-sam-altman-says-the-company-is-out-of-gpus/?utm_source=
+=3Dtldrnewsletter
+[19] https://advertise.tldr.tech/?utm_source=3Dtldr&utm=
+_medium=3Dnewsletter&utm_campaign=3Dadvertisecta
+[20] https://jobs.ashbyh=
+q.com/tldr.tech
+[21] https://twitter.com/tldrdan
+[22] https://twitter.c=
+om/SteveFlanders22
+[23] https://tldr.tech/tech/manage?email=3Djasonlongfi=
+eld%40edny.net
+[24] https://a.tldrnewsletter.com/unsubscribe?ep=3D1&l=3Dc=
+fa2d55a-b7be-11e8-a3c9-06b79b628af2&lc=3D8ca81dcc-f5b8-11ef-8038-f3ca55a75f=
+a2&p=3D382e3224-f5ac-11ef-924e-3b6a866ddcb1&pt=3Dcampaign&pv=3D4&spa=3D1740=
+740446&t=3D1740742399&s=3De120519626f7a39ea16a02783b93c2490a3b1f2a1a50eb2c5=
+8eb89ebe8d32082
+--AWQfU9VE
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html><html lang=3D"en"><head><meta http-equiv=3D"Content-Type" co=
+ntent=3D"text/html charset=3DUTF-8"><meta charset=3D"UTF-8"><meta name=3D"v=
+iewport" content=3D"width=3Ddevice-width"><meta name=3D"x-apple-disable-mes=
+sage-reformatting"><title>TLDR</title><meta name=3D"color-scheme" content=
+=3D"light dark"><meta name=3D"supported-color-schemes" content=3D"light dar=
+k"><style type=3D"text/css">
+=09=09=09:root {
+=09=09=09=09color-scheme: light dark; supported-color-schemes: light dark;
+=09=09=09}
+=09=09=09
+=09=09=09*,
+=09=09=09*:after,
+=09=09=09*:before {
+=09=09=09=09-webkit-box-sizing: border-box; -moz-box-sizing: border-box; bo=
+x-sizing: border-box;
+=09=09=09}
+=09=09=09
+=09=09=09* {
+=09=09=09=09-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;
+=09=09=09}
+=09=09=09
+=09=09=09html,
+=09=09=09body,
+=09=09=09.document {
+=09=09=09=09width: 100% !important; height: 100% !important; margin: 0; pad=
+ding: 0;
+=09=09=09}
+=09=09=09
+=09=09=09body {
+=09=09=09=09-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: g=
+rayscale; text-rendering: optimizeLegibility;
+=09=09=09}
+=09=09=09
+=09=09=09div[style*=3D"margin: 16px 0"] {
+=09=09=09=09margin: 0 !important;
+=09=09=09}
+=09=09=09
+=09=09=09table,
+=09=09=09td {
+=09=09=09=09mso-table-lspace: 0pt; mso-table-rspace: 0pt;
+=09=09=09}
+=09=09=09
+=09=09=09table {
+=09=09=09=09border-spacing: 0; border-collapse: collapse; table-layout: fix=
+ed; margin: 0 auto;
+=09=09=09}
+=09=09=09
+=09=09=09img {
+=09=09=09=09-ms-interpolation-mode: bicubic; max-width: 100%; border: 0;
+=09=09=09}
+=09=09=09
+=09=09=09*[x-apple-data-detectors] {
+=09=09=09=09color: inherit !important; text-decoration: none !important;
+=09=09=09}
+=09=09=09
+=09=09=09.x-gmail-data-detectors,
+=09=09=09.x-gmail-data-detectors *,
+=09=09=09.aBn {
+=09=09=09=09border-bottom: 0 !important; cursor: default !important;
+=09=09=09}
+=09=09=09
+=09=09=09.btn {
+=09=09=09=09-webkit-transition: all 200ms ease; transition: all 200ms ease;
+=09=09=09}
+=09=09=09
+=09=09=09.btn:hover {
+=09=09=09=09background-color: #f67575; border-color: #f67575;
+=09=09=09}
+=09=09=09
+=09=09=09* {
+=09=09=09=09font-family: Arial, Helvetica, sans-serif; font-size: 18px;
+=09=09=09}
+=09=09=09
+=09=09=09@media screen and (max-width: 600px) {
+=09=09=09=09.container {
+=09=09=09=09=09width: 100%; margin: auto;
+=09=09=09=09}
+=09=09=09=09.stack {
+=09=09=09=09=09display: block!important; width: 100%!important; max-width: =
+100%!important;
+=09=09=09=09}
+=09=09=09=09.btn {
+=09=09=09=09=09display: block; width: 100%; text-align: center;
+=09=09=09=09}
+=09=09=09}
+=09=09=09
+=09=09=09body,
+=09=09=09p,
+=09=09=09td,
+=09=09=09tr,
+=09=09=09.body,
+=09=09=09table,
+=09=09=09h1,
+=09=09=09h2,
+=09=09=09h3,
+=09=09=09h4,
+=09=09=09h5,
+=09=09=09h6,
+=09=09=09div,
+=09=09=09span {
+=09=09=09=09background-color: #FEFEFE !important; color: #010101 !important=
+;
+=09=09=09}
+=09=09=09
+=09=09=09@media (prefers-color-scheme: dark) {
+=09=09=09=09body,
+=09=09=09=09p,
+=09=09=09=09td,
+=09=09=09=09tr,
+=09=09=09=09.body,
+=09=09=09=09table,
+=09=09=09=09h1,
+=09=09=09=09h2,
+=09=09=09=09h3,
+=09=09=09=09h4,
+=09=09=09=09h5,
+=09=09=09=09h6,
+=09=09=09=09div,
+=09=09=09=09span {
+=09=09=09=09=09background-color: #27292D !important; color: #FEFEFE !import=
+ant;
+=09=09=09=09}
+=09=09=09}
+=09=09=09
+=09=09=09a {
+=09=09=09=09color: inherit !important; text-decoration: underline !importan=
+t;
+=09=09=09}
+
+=09=09</style><!--[if mso | ie]>
+=09=09<style type=3D"text/css">
+=09=09=09a {
+=09=09=09=09background-color: #FEFEFE !important; color: #010101 !important=
+;
+=09=09=09}
+=09=09=09@media (prefers-color-scheme: dark) {
+=09=09=09=09a {
+=09=09=09=09=09background-color: #27292D !important; color: #FEFEFE !import=
+ant;
+=09=09=09=09}
+=09=09=09}
+=09 </style>
+=09=09=09<![endif]--></head><body class=3D"">
+
+
+
+
+
+
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">OpenAI is =
+now rolling out GPT-4.5 to ChatGPT Pro subscribers and developers on paid t=
+iers of the API. Other users should get the model next week&nbsp;=E2=80=8C&=
+nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&=
+nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&=
+nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&=
+nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&=
+nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&=
+nbsp;&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;</div>
+
+
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+<br>
+</div>
+
+<table align=3D"center" class=3D"document"><tbody><tr><td valign=3D"top">
+
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" cl=
+ass=3D"container" width=3D"600"><tbody><tr class=3D"inner-body"><td>
+
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"100%"><tbody><tr class=3D"header"><td bgcolor=3D"" class=3D"containe=
+r">
+
+<table width=3D"100%"><tbody><tr><td class=3D"container">
+
+<table align=3D"center" bgcolor=3D"" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" style=3D"margin-top: 0px;" width=3D"100%"><tbody><tr><td style=
+=3D"padding: 0px;">
+
+<table align=3D"center" bgcolor=3D"" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" width=3D"100%"><tbody><tr><td class=3D"container" style=3D"paddi=
+ng: 15px 15px;">
+<div style=3D"text-align: center;">
+<span style=3D"margin-right: 0px;"><a href=3D"https://tracking.tldrnewslett=
+er.com/CL0/https:%2F%2Ftldr.tech%2Fsignup%3Futm_source=3Dtldr/1/010001954c5=
+5181e-0abdcad6-f767-4a22-a662-888153b163ad-000000/GyCtkJTxXhPrcrExEQjU6KRRd=
+HryXWCSahdPWhgq6HM=3D394" rel=3D"noopener noreferrer" target=3D"_blank"><sp=
+an>Sign Up</span></a>
+<span>|</span><span style=3D"margin-right: 2px; margin-left: 2px;"><a href=
+=3D"https://tracking.tldrnewsletter.com/CL0/https:%2F%2Fadvertise.tldr.tech=
+%2F%3Futm_source=3Dtldr%26utm_medium=3Dnewsletter%26utm_campaign=3Dadvertis=
+etopnav/1/010001954c55181e-0abdcad6-f767-4a22-a662-888153b163ad-000000/iJPn=
+-M-g3bMxKwRIu3PB7DUA5sLHsIQ9voPXY8ZOi3k=3D394" rel=3D"noopener noreferrer" =
+target=3D"_blank"><span>Advertise</span></a></span><span>|</span><span styl=
+e=3D"margin-left: 2px;"><a href=3D"https://tracking.tldrnewsletter.com/CL0/=
+https:%2F%2Fa.tldrnewsletter.com%2Fweb-version%3Fep=3D1%26lc=3D8ca81dcc-f5b=
+8-11ef-8038-f3ca55a75fa2%26p=3D382e3224-f5ac-11ef-924e-3b6a866ddcb1%26pt=3D=
+campaign%26t=3D1740742399%26s=3Dee02203f6706fd352b18a91e70dac0c306b244cc7aa=
+9ff2e472ab6753c97f3da/1/010001954c55181e-0abdcad6-f767-4a22-a662-888153b163=
+ad-000000/NgbtgMaFp8FMV1M0kTGG6SXz_O7g9OpklZ9HFvappY4=3D394"><span>View Onl=
+ine</span></a></span>
+<br>
+</span></div>
+</td></tr></tbody></table>
+
+<table align=3D"center" bgcolor=3D"" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" width=3D"100%"><tbody><tr><td class=3D"container" style=3D"text-=
+align: center;"><span data-darkreader-inline-color=3D"" style=3D"--darkread=
+er-inline-color:#3db3ff; color: rgb(51, 175, 255) !important; font-size: 30=
+px;">T</span><span style=3D"font-size: 30px;"><span data-darkreader-inline-=
+color=3D"" style=3D"color: rgb(232, 192, 96) !important; --darkreader-inlin=
+e-color:#e8c163; font-size:30px;">L</span><span data-darkreader-inline-colo=
+r=3D"" style=3D"color: rgb(101, 195, 173) !important; --darkreader-inline-c=
+olor:#6ec7b2; font-size:30px;">D</span></span><span data-darkreader-inline-=
+color=3D"" style=3D"--darkreader-inline-color:#dd6e6e; color: rgb(220, 107,=
+ 107) !important; font-size: 30px;">R</span>
+<br>
+</td></tr></tbody></table>
+
+<br>
+
+<table align=3D"center" bgcolor=3D"" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" width=3D"100%"><tbody><tr id=3D"together-with"><td align=3D"cent=
+er" height=3D"20" style=3D"vertical-align:middle !important;" valign=3D"mid=
+dle" width=3D"100%"><strong style=3D"vertical-align:middle !important; heig=
+ht: 100%;">Together With </strong>
+<a href=3D"https://tracking.tldrnewsletter.com/CL0/https:%2F%2Fmaterial.sec=
+urity%2Flp-cloud-office-security%3Futm_source=3Dthird-party%26utm_medium=3D=
+email%26utm_campaign=3D20250227-tldr/1/010001954c55181e-0abdcad6-f767-4a22-=
+a662-888153b163ad-000000/6JSsMBXjYHiBAvJonrvNH1CzvY2DtDyfhOoI6L2t2Kg=3D394"=
+><img src=3D"https://images.tldr.tech/materialsecurity.png" valign=3D"middl=
+e" style=3D"vertical-align: middle !important; height: 100%;" alt=3D"Materi=
+al Security"></a></td></tr></tbody></table>
+
+<table style=3D"table-layout: fixed; width:100%;" width=3D"100%"><tbody><tr=
+><td style=3D"padding:0;border-collapse:collapse;border-spacing:0;margin:0;=
+">
+<div style=3D"text-align: center;">
+
+<h1><strong>TLDR <span id=3D"date">2025-02-28</span></strong></h1>
+</div>
+</td></tr>
+<tr id=3D"sponsy-copy"><td class=3D"container" style=3D"padding: 15px 15px;=
+">
+<div class=3D"text-block">
+<span>
+                                <a href=3D"https://tracking.tldrnewsletter.=
+com/CL0/https:%2F%2Fmaterial.security%2Flp-cloud-office-security%3Futm_sour=
+ce=3Dthird-party%26utm_medium=3Demail%26utm_campaign=3D20250227-tldr/2/0100=
+01954c55181e-0abdcad6-f767-4a22-a662-888153b163ad-000000/8b00cVm-ia_aGQS1FT=
+apBDe4aSYDUMY0xoKzjRq0akA=3D394">
+                                    <span>
+                                        <strong>Reduce Your Phishing Triage=
+ Time by 95% with Material Security (Sponsor)</strong>
+                                    </span>
+</a>
+<br>
+<br>
+<span style=3D"font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, V=
+erdana, sans-serif;">
+                                    Security teams are constantly balancing=
+ the critical risk of modern phishing attacks with the reality of limited t=
+ime. Manual triage, investigation, and remediation are time-consuming tasks=
+, and every minute spent on false positives takes away from mission-critica=
+l work.<p></p><p>Companies like Lyft, Databricks, and Carta trust <a href=
+=3D"https://tracking.tldrnewsletter.com/CL0/https:%2F%2Fmaterial.security%2=
+Flp-cloud-office-security%3Futm_source=3Dthird-party%26utm_medium=3Demail%2=
+6utm_campaign=3D20250227-tldr/3/010001954c55181e-0abdcad6-f767-4a22-a662-88=
+8153b163ad-000000/dJwz-Lzbz8OJ_cwBeQxpStSm7d4elsj1fF84arRc9J8=3D394" rel=3D=
+"noopener noreferrer nofollow" target=3D"_blank"><span>Material Security</s=
+pan></a> to help find the right balance. Our AI-powered detections and trul=
+y automated remediations work across your productivity suite, and our flexi=
+ble controls and granular settings adapt to your specific requirements.</p>
+
+<p><a href=3D"https://tracking.tldrnewsletter.com/CL0/https:%2F%2Fmaterial.=
+security%2Flp-cloud-office-security%3Futm_source=3Dthird-party%26utm_medium=
+=3Demail%26utm_campaign=3D20250227-tldr/4/010001954c55181e-0abdcad6-f767-4a=
+22-a662-888153b163ad-000000/QWH8GwMAukAWQD_Jgx35iKww6n3_vnb1GY3tgpXczHI=3D3=
+94" rel=3D"noopener noreferrer nofollow" target=3D"_blank"><span>See the Ma=
+terial difference here</span></a>
+
+
+</p>
+</span></span></div>
+</td></tr></tbody></table>
+</td></tr></tbody></table>
+</td></tr></tbody></table>
+</td></tr>
+<tr bgcolor=3D""><td class=3D"container">
+
+<table align=3D"center" bgcolor=3D"" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" width=3D"100%"><tbody><tr><td style=3D"padding: 0px;">
+
+<table align=3D"center" bgcolor=3D"" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" width=3D"100%"><tbody><tr><td class=3D"container" style=3D"paddi=
+ng-top: 0px; padding-bottom: 0px;">
+<div class=3D"text-block">
+<div style=3D"text-align: center;"><span style=3D"font-size: 36px;">=F0=9F=
+=93=B1</span></div></div>
+</td></tr></tbody></table>
+
+<table align=3D"center" bgcolor=3D"" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" width=3D"100%"><tbody><tr><td class=3D"container" style=3D"paddi=
+ng-top: 0px; padding-bottom: 0px;">
+<div class=3D"text-block">
+<div style=3D"text-align: center;">
+
+<h1><strong>Big Tech &amp; Startups</strong></h1>
+</div>
+</div>
+</td></tr></tbody></table>
+
+<table style=3D"table-layout: fixed; width: 100%;" width=3D"100%"><tbody><t=
+r><td style=3D"padding:0;border-collapse:collapse;border-spacing:0;margin:0=
+;" valign=3D"top">
+
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"100%"><tbody><tr><td class=3D"container" style=3D"padding: 15px 15px=
+;">
+<div class=3D"text-block">
+<span>
+                                <a href=3D"https://tracking.tldrnewsletter.=
+com/CL0/https:%2F%2Ftechcrunch.com%2F2025%2F02%2F27%2Fopenai-unveils-gpt-4-=
+5-orion-its-largest-ai-model-yet%2F%3Futm_source=3Dtldrnewsletter/1/0100019=
+54c55181e-0abdcad6-f767-4a22-a662-888153b163ad-000000/rEIY3OZfF9yfrd1UHDUGr=
+nRNrYjx_ydaiApknlnkSP4=3D394">
+                                    <span>
+                                        <strong>OpenAI unveils GPT-4.5 =E2=
+=80=98Orion,' its largest AI model yet (5 minute read)</strong>
+                                    </span>
+</a>
+<br>
+<br>
+<span style=3D"font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, V=
+erdana, sans-serif;">
+                                    OpenAI is now rolling out GPT-4.5 to Ch=
+atGPT Pro subscribers and developers on paid tiers of the company's API. Ot=
+her users should get the model sometime next week. GPT-4.5 is so expensive =
+to run that OpenAI is evaluating whether to continue serving the model on i=
+ts API in the long term. It currently costs $75 for every million input tok=
+ens and $150 for every million output tokens. This article looks at how the=
+ new model compares to OpenAI's other offerings.
+                                </span>
+</span>
+</div>
+</td></tr></tbody></table>
+
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"100%"><tbody><tr><td class=3D"container" style=3D"padding: 15px 15px=
+;">
+<div class=3D"text-block">
+<span>
+                                <a href=3D"https://tracking.tldrnewsletter.=
+com/CL0/https:%2F%2Fwww.cnbc.com%2F2025%2F02%2F27%2Fmeta-plans-to-release-a=
+-standalone-meta-ai-app.html%3Ftaid=3D67c0d5de46927f0001fb1981%26utm_campai=
+gn=3Dtrueanthem%26utm_medium=3Dsocial%26utm_source=3Dtwitter%257Cmain/1/010=
+001954c55181e-0abdcad6-f767-4a22-a662-888153b163ad-000000/uICm_vmoMh35RurVD=
+TLFbz3bUdiVF_GwzO3VP6trETs=3D394">
+                                    <span>
+                                        <strong>Meta plans to release stand=
+alone Meta AI app in effort to compete with OpenAI's ChatGPT (4 minute read=
+)</strong>
+                                    </span>
+</a>
+<br>
+<br>
+<span style=3D"font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, V=
+erdana, sans-serif;">
+                                    Meta intends to debut a standalone Meta=
+ AI app during the second quarter. The service is currently only available =
+to users via a website and the company's other apps. Users could potentiall=
+y interact more deeply with the digital assistant if it were available as a=
+ standalone app. Meta also plans to test a paid subscription for Meta AI.
+                                </span>
+</span>
+</div>
+</td></tr></tbody></table>
+
+</td></tr></tbody></table>
+
+
+<table align=3D"center" bgcolor=3D"" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" width=3D"100%"><tbody><tr><td class=3D"container" style=3D"paddi=
+ng-top: 0px; padding-bottom: 0px;">
+<div class=3D"text-block">
+<div style=3D"text-align: center;"><span style=3D"font-size: 36px;">=F0=9F=
+=9A=80</span></div>
+</div>
+</td></tr></tbody></table>
+
+<table align=3D"center" bgcolor=3D"" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" width=3D"100%"><tbody><tr><td class=3D"container" style=3D"paddi=
+ng-top: 0px; padding-bottom: 0px;">
+<div class=3D"text-block">
+<div style=3D"text-align: center;">
+
+<h1><strong>Science &amp; Futuristic Technology</strong></h1>
+</div>
+</div>
+</td></tr></tbody></table>
+
+<table style=3D"table-layout: fixed; width: 100%;" width=3D"100%"><tbody><t=
+r><td style=3D"padding:0;border-collapse:collapse;border-spacing:0;margin:0=
+;" valign=3D"top">
+
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"100%"><tbody><tr><td class=3D"container" style=3D"padding: 15px 15px=
+;">
+<div class=3D"text-block">
+<span>
+                                <a href=3D"https://tracking.tldrnewsletter.=
+com/CL0/https:%2F%2Flinks.tldrnewsletter.com%2F17ErgY/1/010001954c55181e-0a=
+bdcad6-f767-4a22-a662-888153b163ad-000000/a4vy7OfmLmMDn64bXC0ma6gnvNEFjG1MJ=
+d_UKy7AOts=3D394">
+                                    <span>
+                                        <strong>Figure will start =E2=80=98=
+alpha testing' its humanoid robot in the home in 2025 (2 minute read)</stro=
+ng>
+                                    </span>
+</a>
+<br>
+<br>
+<span style=3D"font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, V=
+erdana, sans-serif;">
+                                    Figure plans to begin alpha testing its=
+ Figure 02 robot in the home later this year. The project's timeline was ac=
+celerated thanks to the company's 'generalist' Vision-Language-Action model=
+, Helix. Helix is designed to process both visual data and natural language=
+ input to accelerate learning. It can orchestrate two robots working on a s=
+ingle task in tandem.
+                                </span>
+</span>
+</div>
+</td></tr></tbody></table>
+
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"100%"><tbody><tr><td class=3D"container" style=3D"padding: 15px 15px=
+;">
+<div class=3D"text-block">
+<span>
+                                <a href=3D"https://tracking.tldrnewsletter.=
+com/CL0/https:%2F%2Flinks.tldrnewsletter.com%2FjZy793/1/010001954c55181e-0a=
+bdcad6-f767-4a22-a662-888153b163ad-000000/aq7xfLgMB9Udt77O-xEXj4SMWaulb1smj=
+I3Ob8v9Cb4=3D394">
+                                    <span>
+                                        <strong>Anti-Aging Pill for Dogs Ce=
+rtified as 'Effective' by FDA. But Could It Work for Humans, Too? (3 minute=
+ read)</strong>
+                                    </span>
+</a>
+<br>
+<br>
+<span style=3D"font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, V=
+erdana, sans-serif;">
+                                    Biotech startup Loyal has received a ce=
+rtification from the US Food and Drug Administration (FDA) saying its anti-=
+aging pill for dogs has a reasonable expectation of efficacy. The pill stil=
+l needs to be certified by the FDA that it is safe for use and can be manuf=
+actured at a greater scale before it can be prescribed by veterinarians. Lo=
+yal plans to earn conditional approval from the FDA by the end of the year.
+                                </span>
+</span>
+</div>
+</td></tr></tbody></table>
+
+</td></tr></tbody></table>
+
+
+<table align=3D"center" bgcolor=3D"" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" width=3D"100%"><tbody><tr><td class=3D"container" style=3D"paddi=
+ng-top: 0px; padding-bottom: 0px;">
+<div class=3D"text-block">
+<div style=3D"text-align: center;"><span style=3D"font-size: 36px;">=F0=9F=
+=92=BB</span></div></div>
+</td></tr></tbody></table>
+
+<table align=3D"center" bgcolor=3D"" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" width=3D"100%"><tbody><tr><td class=3D"container" style=3D"paddi=
+ng-top: 0px; padding-bottom: 0px;">
+<div class=3D"text-block">
+<div style=3D"text-align: center;">
+
+<h1><strong>Programming, Design &amp; Data Science</strong></h1>
+</div>
+</div>
+</td></tr></tbody></table>
+
+<table style=3D"table-layout: fixed; width: 100%;" width=3D"100%"><tbody><t=
+r><td style=3D"padding:0;border-collapse:collapse;border-spacing:0;margin:0=
+;" valign=3D"top">
+
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"100%"><tbody><tr><td class=3D"container" style=3D"padding: 15px 15px=
+;">
+<div class=3D"text-block">
+<span>
+                                <a href=3D"https://tracking.tldrnewsletter.=
+com/CL0/https:%2F%2Fghuntley.com%2Fscrewed%2F%3Futm_source=3Dtldrnewsletter=
+/1/010001954c55181e-0abdcad6-f767-4a22-a662-888153b163ad-000000/sVHpiZ-Movs=
+WMhDqq7h8OyzlUWEVMp5btXFUdtDsvOE=3D394">
+                                    <span>
+                                        <strong>Dear Student: Yes, AI is he=
+re, you're screwed unless you take action... (21 minute read)</strong>
+                                    </span>
+</a>
+<br>
+<br>
+<span style=3D"font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, V=
+erdana, sans-serif;">
+                                    AI will soon start having a large impac=
+t on software engineering. Students should start learning fundamentals that=
+ universities typically don't teach and obtain skills that are going to be =
+highly desirable to every employer. Developers need to learn how their work=
+ directly translates to business value and build a public profile. Software=
+ engineers will be fine, as long as they take action now.
+                                </span>
+</span>
+</div>
+</td></tr></tbody></table>
+
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"100%"><tbody><tr><td class=3D"container" style=3D"padding: 15px 15px=
+;">
+<div class=3D"text-block">
+<span>
+                                <a href=3D"https://tracking.tldrnewsletter.=
+com/CL0/https:%2F%2Fgithub.com%2Fsuperglue-ai%2Fsuperglue%3Futm_source=3Dtl=
+drnewsletter/1/010001954c55181e-0abdcad6-f767-4a22-a662-888153b163ad-000000=
+/Jt1-QB-R-aR0DRIaVdlPScf17eUbDxq6wmQ52S0Dr_A=3D394">
+                                    <span>
+                                        <strong>superglue (GitHub Repo)</st=
+rong>
+                                    </span>
+</a>
+<br>
+<br>
+<span style=3D"font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, V=
+erdana, sans-serif;">
+                                    superglue is a self-healing open source=
+ data connector that can be deployed as a proxy so developers always get th=
+e data they want in the format they expect. Developers just define their de=
+sired data schemas and provide basic instructions about an API endpoint - s=
+uperglue automatically generates the API configuration, handles pagination,=
+ authentication, and error retries, transforms response data into the exact=
+ schema developers want using JSONata expressions, and validates that data,=
+ fixing transformations when they break.
+                                </span>
+</span>
+</div>
+</td></tr></tbody></table>
+
+</td></tr></tbody></table>
+
+
+
+<table align=3D"center" bgcolor=3D"" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" width=3D"100%"><tbody><tr><td class=3D"container" style=3D"paddi=
+ng-top: 0px; padding-bottom: 0px;">
+<div class=3D"text-block">
+<div style=3D"text-align: center;"><span style=3D"font-size: 36px;">=F0=9F=
+=8E=81</span></div></div>
+</td></tr></tbody></table>
+
+<table align=3D"center" bgcolor=3D"" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" width=3D"100%"><tbody><tr><td class=3D"container" style=3D"paddi=
+ng-top: 0px; padding-bottom: 0px;">
+<div class=3D"text-block">
+<div style=3D"text-align: center;"><strong><h1>Miscellaneous</h1></strong><=
+/div>
+</div>
+</td></tr></tbody></table>
+
+<table bgcolor=3D"" style=3D"table-layout: fixed; width: 100%;" width=3D"10=
+0%"><tbody><tr><td style=3D"padding:0;border-collapse:collapse;border-spaci=
+ng:0;margin:0;" valign=3D"top">
+
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"100%"><tbody><tr><td class=3D"container" style=3D"padding: 15px 15px=
+;">
+<div class=3D"text-block">
+<span>
+                                <a href=3D"https://tracking.tldrnewsletter.=
+com/CL0/https:%2F%2Fwww.nytimes.com%2F2025%2F02%2F27%2Ftechnology%2Fgoogle-=
+sergey-brin-return-to-office.html%3Funlocked_article_code=3D1.0U4.A8Eb.6hfg=
+L-MPLsba%26smid=3Durl-share%26utm_source=3Dtldrnewsletter/1/010001954c55181=
+e-0abdcad6-f767-4a22-a662-888153b163ad-000000/JDhyFPn94CvE-1n_dMWeisN-28bQy=
+Cq9208nFygJKzM=3D394">
+                                    <span>
+                                        <strong>Google's Sergey Brin Urges =
+Workers to the Office =E2=80=98at Least' Every Weekday (3 minute read)</str=
+ong>
+                                    </span>
+</a>
+<br>
+<br>
+<span style=3D"font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, V=
+erdana, sans-serif;">
+                                    Sergey Brin, one of Google's co-founder=
+s, says that Google could be the leader in artificial general intelligence =
+if employees worked harder. He recommends that employees attend the office =
+at least every weekday, saying that 60 hours a week is the sweet spot for p=
+roductivity. Brin returned to Google after ChatGPT's launch to help the com=
+pany navigate the difficult moment when it lost its advantage in AI. Since =
+his return, Google has reorganized its business, rebranded its AI, and roll=
+ed out the technology across its popular apps.
+                                </span>
+</span>
+</div>
+</td></tr></tbody></table>
+
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"100%"><tbody><tr><td class=3D"container" style=3D"padding: 15px 15px=
+;">
+<div class=3D"text-block">
+<span>
+                                <a href=3D"https://tracking.tldrnewsletter.=
+com/CL0/https:%2F%2Fwww.theguardian.com%2Ftechnology%2F2025%2Ffeb%2F27%2Fyo=
+utube-star-mrbeast-planning-investment-round-that-could-value-company%3Futm=
+_source=3Dtldrnewsletter/1/010001954c55181e-0abdcad6-f767-4a22-a662-888153b=
+163ad-000000/l1APTaeAq9dJWbr_dc400RuMam2-0aSsHeRE54U2uqc=3D394">
+                                    <span>
+                                        <strong>YouTube star MrBeast planni=
+ng investment round that could value company at $5bn (3 minute read)</stron=
+g>
+                                    </span>
+</a>
+<br>
+<br>
+<span style=3D"font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, V=
+erdana, sans-serif;">
+                                    MrBeast is planning to raise hundreds o=
+f millions of dollars to create a holding company for his growing empire. T=
+he round could value his company at roughly $5 billion - it generated more =
+than $400 million in sales last year. Talks about the potential fundraising=
+ are still in the early stages and it is not yet clear who will invest. MrB=
+east is the biggest YouTuber in the world - he has more than 368 million su=
+bscribers to his channel.
+                                </span>
+</span>
+</div>
+</td></tr></tbody></table>
+
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"100%"><tbody><tr><td class=3D"container" style=3D"padding: 15px 15px=
+;">
+<div class=3D"text-block">
+<span>
+                                <a href=3D"mailto:jobs@tldr.tech?utm_source=
+=3Dtldrnewsletter">
+                                    <span>
+                                        <strong>TLDR is hiring curators for=
+ our new TLDR Data newsletter (Fully Remote, $100/hr)</strong>
+                                    </span>
+</a>
+<br>
+<br>
+<span style=3D"font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, V=
+erdana, sans-serif;">
+                                    TLDR is hiring part time curators to la=
+unch our TLDR Data newsletter.<p></p><p>The ideal candidate would have deep=
+ experience working directly with data warehouses, data pipelines, data lak=
+es, and other modern cloud infrastructure.</p><p>Time commitment is <strong=
+>~2-3 hours/week paid at a rate of $100/hr</strong>. To apply please send y=
+our LinkedIn or resume to <a href=3D"mailto:jobs@tldr.tech" rel=3D"noopener=
+ noreferrer nofollow" target=3D"_blank"><span>jobs@tldr.tech</span></a> alo=
+ng with a couple sentences on why you'd be a good fit!
+
+
+</p>
+</span></span></div>
+</td></tr></tbody></table>
+
+</td></tr></tbody></table>
+
+
+<table align=3D"center" bgcolor=3D"" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" width=3D"100%"><tbody><tr><td class=3D"container" style=3D"paddi=
+ng-top: 0px; padding-bottom: 0px;">
+<div class=3D"text-block">
+<div style=3D"text-align: center;"><span style=3D"font-size: 36px;">=E2=9A=
+=A1</span></div></div>
+</td></tr></tbody></table>
+
+<table align=3D"center" bgcolor=3D"" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" width=3D"100%"><tbody><tr><td class=3D"container" style=3D"paddi=
+ng-top: 0px; padding-bottom: 0px;">
+<div class=3D"text-block">
+<div style=3D"text-align: center;">
+
+<h1><strong>Quick Links</strong></h1>
+</div>
+</div>
+</td></tr></tbody></table>
+
+<table bgcolor=3D"" style=3D"table-layout: fixed; width: 100%;" width=3D"10=
+0%"><tbody><tr><td style=3D"padding:0;border-collapse:collapse;border-spaci=
+ng:0;margin:0;" valign=3D"top">
+
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"100%"><tbody><tr><td class=3D"container" style=3D"padding: 15px 15px=
+;">
+<div class=3D"text-block">
+<span>
+                                <a href=3D"https://tracking.tldrnewsletter.=
+com/CL0/https:%2F%2Ftechcrunch.com%2F2025%2F02%2F27%2Famazon-debuts-ocelot-=
+its-first-quantum-computing-chip%2F%3Futm_source=3Dtldrnewsletter/1/0100019=
+54c55181e-0abdcad6-f767-4a22-a662-888153b163ad-000000/d0cco6FZ8sTVmun11dwAZ=
+dXeX098rDUSWm-eJBgMCIk=3D394">
+                                    <span>
+                                        <strong>Amazon debuts Ocelot, its f=
+irst quantum computing chip (1 minute read)</strong>
+                                    </span>
+</a>
+<br>
+<br>
+<span style=3D"font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, V=
+erdana, sans-serif;">
+                                    Ocelot's design could reduce costs asso=
+ciated with error correction by as much as 90%.
+                                </span>
+</span>
+</div>
+</td></tr></tbody></table>
+
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"100%"><tbody><tr><td class=3D"container" style=3D"padding: 15px 15px=
+;">
+<div class=3D"text-block">
+<span>
+                                <a href=3D"https://tracking.tldrnewsletter.=
+com/CL0/https:%2F%2Fwww.cnbc.com%2F2025%2F02%2F27%2Fmeta-announces-experime=
+ntal-aria-gen-2-research-smart-glasses.html%3Futm_source=3Dtldrnewsletter/1=
+/010001954c55181e-0abdcad6-f767-4a22-a662-888153b163ad-000000/6bySOoPw4jzqG=
+RvUZE_qZx-LXTJm9vk3E1qJhjFwgCg=3D394">
+                                    <span>
+                                        <strong>Meta announces experimental=
+ Aria Gen 2 research smart glasses (2 minute read)</strong>
+                                    </span>
+</a>
+<br>
+<br>
+<span style=3D"font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, V=
+erdana, sans-serif;">
+                                    Meta's latest experimental glasses are =
+designed to help bolster research into artificial intelligence, robotics, a=
+nd machine perception.
+                                </span>
+</span>
+</div>
+</td></tr></tbody></table>
+
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"100%"><tbody><tr><td class=3D"container" style=3D"padding: 15px 15px=
+;">
+<div class=3D"text-block">
+<span>
+                                <a href=3D"https://tracking.tldrnewsletter.=
+com/CL0/https:%2F%2Felectrek.co%2F2025%2F02%2F27%2Ftesla-applies-for-ride-h=
+ailing-service-in-california-but-with-human-drivers%2F%3Futm_source=3Dtldrn=
+ewsletter/1/010001954c55181e-0abdcad6-f767-4a22-a662-888153b163ad-000000/JQ=
+7P0o-GmKEvbaJyy6KLXf3iVe4ERdUd7-YBwFmy7H4=3D394">
+                                    <span>
+                                        <strong>Tesla applies for ride-hail=
+ing service in California, but with human drivers (3 minute read)</strong>
+                                    </span>
+</a>
+<br>
+<br>
+<span style=3D"font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, V=
+erdana, sans-serif;">
+                                    Tesla has yet to apply for a permit to =
+operate driverless vehicles.
+                                </span>
+</span>
+</div>
+</td></tr></tbody></table>
+
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"100%"><tbody><tr><td class=3D"container" style=3D"padding: 15px 15px=
+;">
+<div class=3D"text-block">
+<span>
+                                <a href=3D"https://tracking.tldrnewsletter.=
+com/CL0/https:%2F%2Fthreadreaderapp.com%2Fthread%2F1895213020982472863.html=
+%3Futm_source=3Dtldrnewsletter/1/010001954c55181e-0abdcad6-f767-4a22-a662-8=
+88153b163ad-000000/4Z2nv1CTS4aPDipC585yBUnkYd1slAWxTajQ2-sIWmw=3D394">
+                                    <span>
+                                        <strong>GPT 4.5 + interactive compa=
+rison (4 minute read)</strong>
+                                    </span>
+</a>
+<br>
+<br>
+<span style=3D"font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, V=
+erdana, sans-serif;">
+                                    GPT 4.5 offers a qualitative measuremen=
+t of the slope of improvement that can be achieved by scaling pretraining c=
+ompute.
+                                </span>
+</span>
+</div>
+</td></tr></tbody></table>
+
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"100%"><tbody><tr><td class=3D"container" style=3D"padding: 15px 15px=
+;">
+<div class=3D"text-block">
+<span>
+                                <a href=3D"https://tracking.tldrnewsletter.=
+com/CL0/https:%2F%2Ftechcrunch.com%2F2025%2F02%2F27%2Fstripe-ceo-says-ai-st=
+artups-are-growing-faster-than-saas-ever-did-and-calling-them-wrappers-miss=
+es-the-point%2F%3Futm_source=3Dtldrnewsletter/1/010001954c55181e-0abdcad6-f=
+767-4a22-a662-888153b163ad-000000/fCZkdJd-J-9Spi49BfnFDjRCa2DPoAX1iCBjkmlkj=
+BY=3D394">
+                                    <span>
+                                        <strong>Stripe says AI startups are=
+ growing faster than SaaS ever did, and calling them wrappers =E2=80=98miss=
+es the point' (2 minute read)</strong>
+                                    </span>
+</a>
+<br>
+<br>
+<span style=3D"font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, V=
+erdana, sans-serif;">
+                                    The top 100 AI companies by revenue wer=
+e able to achieve $5 million in annualized revenue in 24 months in 2024 - t=
+he top 100 SaaS companies took 37 months in 2018 to reach the same mileston=
+e.
+                                </span>
+</span>
+</div>
+</td></tr></tbody></table>
+
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"100%"><tbody><tr><td class=3D"container" style=3D"padding: 15px 15px=
+;">
+<div class=3D"text-block">
+<span>
+                                <a href=3D"https://tracking.tldrnewsletter.=
+com/CL0/https:%2F%2Ftechcrunch.com%2F2025%2F02%2F27%2Fopenai-ceo-sam-altman=
+-says-the-company-is-out-of-gpus%2F%3Futm_source=3Dtldrnewsletter/1/0100019=
+54c55181e-0abdcad6-f767-4a22-a662-888153b163ad-000000/dfTGDzwFGKK-pwajQ0Cut=
+FwP3OSK35Wz4ssU4hYjKQU=3D394">
+                                    <span>
+                                        <strong>OpenAI CEO Sam Altman says =
+the company is =E2=80=98out of GPUs' (1 minute read)</strong>
+                                    </span>
+</a>
+<br>
+<br>
+<span style=3D"font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, V=
+erdana, sans-serif;">
+                                    OpenAI will need to acquire tens of tho=
+usands more GPUs before additional ChatGPT users can gain access to GPT-4.5=
+.
+                                </span>
+</span>
+</div>
+</td></tr></tbody></table>
+
+</td></tr></tbody></table>
+
+
+
+
+<table align=3D"center" bgcolor=3D"" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" width=3D"100%"><tbody><tr><td align=3D"left" style=3D"word-break=
+: break-word; vertical-align: top; padding: 5px 10px;">
+
+<p style=3D"padding: 0; margin: 0; font-size: 22px; color: #000000; line-he=
+ight: 1.6; font-weight: bold;">
+Want to advertise in TLDR? =F0=9F=93=B0
+</p>
+<div class=3D"text-block" style=3D"margin-top: 10px;">
+If your company is interested in reaching an audience of tech executives, d=
+ecision-makers and engineers, you may want to <a href=3D"https://tracking.t=
+ldrnewsletter.com/CL0/https:%2F%2Fadvertise.tldr.tech%2F%3Futm_source=3Dtld=
+r%26utm_medium=3Dnewsletter%26utm_campaign=3Dadvertisecta/1/010001954c55181=
+e-0abdcad6-f767-4a22-a662-888153b163ad-000000/Phg-GnU0v1uyvQIOUAQDMERFUZU2v=
+mmj7dYEDGG6eko=3D394"><strong><span>advertise with us</span></strong></a>.
+</div>
+<br>
+
+<!-- New "Want to work at TLDR?" section -->
+
+<p style=3D"padding: 0; margin: 0; font-size: 22px; color: #000000; line-he=
+ight: 1.6; font-weight: bold;">
+Want to work at TLDR? =F0=9F=92=BC
+</p>
+<div class=3D"text-block" style=3D"margin-top: 10px;">
+<a href=3D"https://tracking.tldrnewsletter.com/CL0/https:%2F%2Fjobs.ashbyhq=
+.com%2Ftldr.tech/1/010001954c55181e-0abdcad6-f767-4a22-a662-888153b163ad-00=
+0000/2TUuQ2W3bsedznQA3kYdaAt0VzL64aZ1qQ0TwMIsjXc=3D394" rel=3D"noopener nor=
+eferrer" style=3D"color: #0000EE; text-decoration: underline;" target=3D"_b=
+lank"><strong>Apply here</strong></a> or send a friend's resume to <a href=
+=3D"mailto:jobs@tldr.tech" style=3D"color: #0000EE; text-decoration: underl=
+ine;">jobs@tldr.tech</a> and get $1k if we hire them!
+</div>
+<br>
+
+<div class=3D"text-block">
+If you have any comments or feedback, just respond to this email!
+<br>
+<br> Thanks for reading,
+<br>
+<a href=3D"https://tracking.tldrnewsletter.com/CL0/https:%2F%2Ftwitter.com%=
+2Ftldrdan/1/010001954c55181e-0abdcad6-f767-4a22-a662-888153b163ad-000000/-k=
+ldGBQRQnn1zKrBaz8qtAWC5KfmzLy5fCzQ1rDPfWk=3D394"><span>Dan Ni</span></a> &a=
+mp; <a href=3D"https://tracking.tldrnewsletter.com/CL0/https:%2F%2Ftwitter.=
+com%2FSteveFlanders22/1/010001954c55181e-0abdcad6-f767-4a22-a662-888153b163=
+ad-000000/cnArpIe8d9Uq550eyAuRTPFy9Yc19RUVFj4pGxwPQ7A=3D394"><span>Stephen =
+Flanders</span></a>
+<br>
+<br>
+</div>
+<br>
+</td></tr></tbody></table>
+
+<table align=3D"center" bgcolor=3D"" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" width=3D"100%"><tbody><tr><td class=3D"container" style=3D"paddi=
+ng: 15px 15px;">
+<div class=3D"text-block" id=3D"testing-id">
+<a href=3D"https://tracking.tldrnewsletter.com/CL0/https:%2F%2Ftldr.tech%2F=
+tech%2Fmanage%3Femail=3Djasonlongfield%2540edny.net/1/010001954c55181e-0abd=
+cad6-f767-4a22-a662-888153b163ad-000000/Bcas49hz6k5beLU3LTSbX70x370qEC20qlP=
+gQqwXDro=3D394">Manage your subscriptions</a> to our other newsletters on t=
+ech, startups, and programming. Or if TLDR isn't for you, please <a href=3D=
+"https://tracking.tldrnewsletter.com/CL0/https:%2F%2Fa.tldrnewsletter.com%2=
+Funsubscribe%3Fep=3D1%26l=3Dcfa2d55a-b7be-11e8-a3c9-06b79b628af2%26lc=3D8ca=
+81dcc-f5b8-11ef-8038-f3ca55a75fa2%26p=3D382e3224-f5ac-11ef-924e-3b6a866ddcb=
+1%26pt=3Dcampaign%26pv=3D4%26spa=3D1740740446%26t=3D1740742399%26s=3De12051=
+9626f7a39ea16a02783b93c2490a3b1f2a1a50eb2c58eb89ebe8d32082/1/010001954c5518=
+1e-0abdcad6-f767-4a22-a662-888153b163ad-000000/u-_Pf8_qKc7BITf2ZbfZln5jlNgV=
+2ueKDvultSuOeI4=3D394">unsubscribe</a>.
+<br>
+</div>
+</td></tr></tbody></table>
+</td></tr></tbody></table>
+</td></tr></tbody></table>
+</td></tr></tbody></table>
+</td></tr></tbody></table>
+
+
+
+<img alt=3D"" src=3D"http://tracking.tldrnewsletter.com/CI0/010001954c55181=
+e-0abdcad6-f767-4a22-a662-888153b163ad-000000/xG5WpTZu4vJGAsoL8JStsXX20R9Xs=
+sXOdCrs5xqqYg8=3D394" style=3D"display: none; width: 1px; height: 1px;">
+</body></html>
+--AWQfU9VE--

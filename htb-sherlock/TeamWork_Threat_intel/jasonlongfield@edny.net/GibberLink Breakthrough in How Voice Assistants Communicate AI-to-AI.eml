@@ -1,0 +1,1403 @@
+Delivered-To: jasonlongfield@edny.net
+Return-Path: <delivery_20250228043317.38787157.70814@bounce.nl.technologyadvice.com>
+Received: from nj15mta-58.sailthru.com (nj15mta-58.sailthru.com [192.64.236.58])
+	by in.mail.tm (Haraka/3.0.2) with ESMTPS id 19B14502-DE6D-4BC7-AE28-28DDC47A81E2.1
+	envelope-from <delivery_20250228043317.38787157.70814@bounce.nl.technologyadvice.com>
+	tls TLS_AES_256_GCM_SHA384;
+	Fri, 28 Feb 2025 09:33:18 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=sailthru; d=nl.technologyadvice.com;
+ h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:
+ List-Unsubscribe-Post:List-Unsubscribe; i=newsletters@nl.technologyadvice.com;
+ bh=7P+mdHrCqlw4Rn1Tq9kR1c4DZPLpojDfxGRACgTEXMA=;
+ b=071L5T28irkx5LGeqRA7xr/6xjYVBUQ2TC+/XWtb6W1/MDvlMOlGOlzb42ouB6ASAkfDhLM+Lt+3
+   ekMZZrsszpPMX+qz96e6qxWLwIFQg3jCrj0hDmy5bYerAFzPOOsbdUbCQ2Y7XZr7GIWwyNslZIy2
+   pSTks2f3yEPjGL9+FV8=
+Received: from aws1-mta-relay6.sailthru.cloud (10.55.61.156) by pmta39.sailthru.com id ho61dq3791s9 for <jasonlongfield@edny.net>; Fri, 28 Feb 2025 03:33:17 -0600 (envelope-from <delivery_20250228043317.38787157.70814@bounce.nl.technologyadvice.com>)
+Date: Fri, 28 Feb 2025 04:33:17 -0500 (EST)
+From: Innovation Insider <newsletters@nl.technologyadvice.com>
+To: jasonlongfield@edny.net
+Message-ID: <20250228043317.38787157.70814@sailthru.com>
+Subject: GibberLink: Breakthrough in How Voice Assistants Communicate
+ AI-to-AI
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_1166006_2057535073.1740735197969"
+Precedence: bulk
+x-job: 9647-38787157-20250228
+X-Feedback-ID: 9647:38787157:campaign:sailthru
+X-TM-ID: 20250228043317.38787157.70814
+X-Info: Message sent by sailthru.com customer TechnologyAdvice
+X-Info: We do not permit unsolicited commercial email
+X-Info: Please report abuse by forwarding complete headers to
+X-Info: abuse@sailthru.com
+X-Mailer: sailthru.com
+X-JMailer: aws-campaign-mailer-27.sailthru.cloud
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+X-Unsubscribe-Web: https://link.nl.technologyadvice.com/oc/67c1829fcb6383c7700c2b0dn3cd1.1in2/c18032f6
+List-Unsubscribe: <https://link.nl.technologyadvice.com/oc/67c1829fcb6383c7700c2b0dn3cd1.1in2/c18032f6>,<mailto:unsubscribe_20250228043317.38787157.70814@mx.sailthru.com>
+X-rpcampaign: stohb38787157
+
+
+------=_Part_1166006_2057535073.1740735197969Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html><html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"u=
+rn:schemas-microsoft-com:office:office" lang=3D"en"><head><title></title><m=
+eta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8"><met=
+a name=3D"viewport" content=3D"width=3Ddevice-width,initial-scale=3D1"><!--=
+[if mso]><xml><o:OfficeDocumentSettings><o:PixelsPerInch>96</o:PixelsPerInc=
+h><o:AllowPNG/></o:OfficeDocumentSettings></xml><![endif]--><!--[if !mso]><=
+!--><link=20
+href=3D"https://fonts.googleapis.com/css2?family=3DLato:ital,wght@0,400;0,7=
+00;1,400;1,700&amp;display=3Dswap" rel=3D"stylesheet" type=3D"text/css"><li=
+nk href=3D"https://fonts.googleapis.com/css2?family=3DMontserrat:ital,wght@=
+0,400;0,700;1,400;1,700&amp;display=3Dswap" rel=3D"stylesheet" type=3D"text=
+/css"><!--<![endif]--><style>
+*{box-sizing:border-box}body{margin:0;padding:0}a[x-apple-data-detectors]{c=
+olor:inherit!important;text-decoration:inherit!important}#MessageViewBody a=
+{color:inherit;text-decoration:none}p{line-height:inherit}.desktop_hide,.de=
+sktop_hide table{mso-hide:all;display:none;max-height:0;overflow:hidden}.im=
+age_block img+div{display:none}sub,sup{font-size:75%;line-height:0} @media =
+(max-width:610px){.image_block div.fullWidth{max-width:100%!important}.mobi=
+le_hide{display:none}.row-content{width:100%!important}.stack .column{width=
+:100%;display:block}.mobile_hide{min-height:0;max-height:0;max-width:0;over=
+flow:hidden;font-size:0}.desktop_hide,.desktop_hide table{display:table!imp=
+ortant;max-height:none!important}}
+</style><!--[if mso ]><style>sup, sub { font-size: 100% !important; } sup {=
+ mso-text-raise:10% } sub { mso-text-raise:-10% }</style> <![endif]--></hea=
+d><body class=3D"body" style=3D"background-color:#fff;margin:0;padding:0;-w=
+ebkit-text-size-adjust:none;text-size-adjust:none"><div class=3D"sailthru-e=
+mco-preheader" style=3D"display: none; max-height: 0px; overflow: hidden;">=
+Bluehost and GoDaddy are among the most popular web hosting providers offer=
+ing individuals and small businesses the tools to grow their online presenc=
+e. Which one should you go for?</div><div style=3D"display:none"><a href=3D=
+""><img src=3D"https://link.nl.technologyadvice.com/img/67c1829fcb6383c7700=
+c2b0dn3cd1.1in2/455fca45.gif" alt=3D"" border=3D"0" /></a></div><table clas=
+s=3D"nl-container" width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacin=
+g=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;mso-table-rspace:=
+0;background-color:#fff"><tbody><tr><td><table class=3D"row row-1" align=3D=
+"center"=20
+width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"pre=
+sentation" style=3D"mso-table-lspace:0;mso-table-rspace:0"><tbody><tr><td><=
+table class=3D"row-content stack" align=3D"center" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;=
+mso-table-rspace:0;background-color:#fff;border-radius:0;color:#000;width:5=
+90px;margin:0 auto" width=3D"590"><tbody><tr><td class=3D"column column-1" =
+width=3D"66.66666666666667%"=20
+style=3D"mso-table-lspace:0;mso-table-rspace:0;font-weight:400;text-align:l=
+eft;padding-bottom:5px;padding-top:5px;vertical-align:bottom"><div class=3D=
+"spacer_block block-1" style=3D"height:20px;line-height:20px;font-size:1px"=
+>&#8202;</div></td><td class=3D"column column-2" width=3D"33.33333333333333=
+6%" style=3D"mso-table-lspace:0;mso-table-rspace:0;font-weight:400;text-ali=
+gn:left;padding-bottom:5px;padding-top:5px;vertical-align:bottom"><table cl=
+ass=3D"text_block block-1" width=3D"100%" border=3D"0"=20
+cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-tabl=
+e-lspace:0;mso-table-rspace:0;word-break:break-word"><tr><td class=3D"pad">=
+<div style=3D"font-family:sans-serif"><div class style=3D"font-size:14px;fo=
+nt-family:Arial,'Helvetica Neue',Helvetica,sans-serif;mso-line-height-alt:1=
+6.8px;color:#555;line-height:1.2"><p style=3D"margin:0;font-size:14px;text-=
+align:right;mso-line-height-alt:16.8px">
+<a href=3D"https://link.nl.technologyadvice.com/click/38787157.70814/aHR0cH=
+M6Ly9uZXdzbGV0dGVycy50ZWNocmVwdWJsaWMuY29tL3B1YmxpY2F0aW9ucw/67c1829fcb6383=
+c7700c2b0dB485d5245" target=3D"_blank" style=3D"text-decoration: underline;=
+ color: #0068A5;" rel=3D"noopener">Sign Up</a></p></div></div></td></tr></t=
+able></td></tr></tbody></table></td></tr></tbody></table><table class=3D"ro=
+w row-2" align=3D"center" width=3D"100%" border=3D"0" cellpadding=3D"0" cel=
+lspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;mso-table-=
+rspace:0"><tbody><tr><td><table class=3D"row-content stack" align=3D"center=
+" border=3D"0" cellpadding=3D"0"=20
+cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;mso-tab=
+le-rspace:0;border-radius:0;color:#000;width:590px;margin:0 auto" width=3D"=
+590"><tbody><tr><td class=3D"column column-1" width=3D"100%" style=3D"mso-t=
+able-lspace:0;mso-table-rspace:0;font-weight:400;text-align:left;padding-bo=
+ttom:5px;padding-top:5px;vertical-align:top"><table class=3D"heading_block =
+block-1" width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" ro=
+le=3D"presentation" style=3D"mso-table-lspace:0;mso-table-rspace:0"><tr><td=
+=20
+class=3D"pad" style=3D"padding-left:10px;text-align:center;width:100%"><h1 =
+style=3D"margin:0;color:#000e2a;direction:ltr;font-family:Arial,'Helvetica =
+Neue',Helvetica,sans-serif;font-size:44px;font-weight:700;letter-spacing:no=
+rmal;line-height:120%;text-align:left;margin-top:0;margin-bottom:0;mso-line=
+-height-alt:52.8px"><span class=3D"tinyMce-placeholder" style=3D"word-break=
+: break-word;">INNOVATION INSIDER</span></h1></td></tr></table><table class=
+=3D"divider_block block-2" width=3D"100%" border=3D"0"=20
+cellpadding=3D"10" cellspacing=3D"0" role=3D"presentation" style=3D"mso-tab=
+le-lspace:0;mso-table-rspace:0"><tr><td class=3D"pad"><div class=3D"alignme=
+nt" align=3D"center"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" width=3D"100%" style=3D"mso-table-lspace:0;mso-tabl=
+e-rspace:0"><tr><td class=3D"divider_inner" style=3D"font-size:1px;line-hei=
+ght:1px;border-top:1px solid #bbb"><span style=3D"word-break: break-word;">=
+&#8202;</span></td></tr></table></div></td></tr></table><table=20
+class=3D"paragraph_block block-3" width=3D"100%" border=3D"0" cellpadding=
+=3D"10" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0=
+;mso-table-rspace:0;word-break:break-word"><tr><td class=3D"pad"><div style=
+=3D"color:#000e2a;direction:ltr;font-family:Montserrat,'Trebuchet MS','Luci=
+da Grande','Lucida Sans Unicode','Lucida Sans',Tahoma,sans-serif;font-size:=
+16px;font-weight:400;letter-spacing:0;line-height:120%;text-align:left;mso-=
+line-height-alt:19.2px"><p style=3D"margin:0"><strong><code>
+Feb 28, 2025</code></strong> | &nbsp;Today=E2=80=99s news and insights</p><=
+/div></td></tr></table><table class=3D"divider_block block-4" width=3D"100%=
+" border=3D"0" cellpadding=3D"10" cellspacing=3D"0" role=3D"presentation" s=
+tyle=3D"mso-table-lspace:0;mso-table-rspace:0"><tr><td class=3D"pad"><div c=
+lass=3D"alignment" align=3D"center"><table border=3D"0" cellpadding=3D"0" c=
+ellspacing=3D"0" role=3D"presentation" width=3D"100%" style=3D"mso-table-ls=
+pace:0;mso-table-rspace:0"><tr><td class=3D"divider_inner"=20
+style=3D"font-size:1px;line-height:1px;border-top:1px solid #bbb"><span sty=
+le=3D"word-break: break-word;">&#8202;</span></td></tr></table></div></td><=
+/tr></table></td></tr></tbody></table></td></tr></tbody></table><table clas=
+s=3D"row row-3" align=3D"center" width=3D"100%" border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;mso=
+-table-rspace:0"><tbody><tr><td><table class=3D"row-content stack" align=3D=
+"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentat=
+ion"=20
+style=3D"mso-table-lspace:0;mso-table-rspace:0;border-radius:0;color:#000;w=
+idth:590px;margin:0 auto" width=3D"590"><tbody><tr><td class=3D"column colu=
+mn-1" width=3D"100%" style=3D"mso-table-lspace:0;mso-table-rspace:0;font-we=
+ight:400;text-align:left;padding-bottom:5px;padding-top:5px;vertical-align:=
+top"><table class=3D"paragraph_block block-1" width=3D"100%" border=3D"0" c=
+ellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table=
+-lspace:0;mso-table-rspace:0;word-break:break-word"><tr><td class=3D"pad">
+<div style=3D"color:#000e2a;direction:ltr;font-family:Arial,'Helvetica Neue=
+',Helvetica,sans-serif;font-size:14px;font-weight:400;letter-spacing:0;line=
+-height:120%;text-align:left;mso-line-height-alt:16.8px"><p style=3D"margin=
+:0"><td>
+<table class=3D"m_6482330761261651141row-content" align=3D"center" border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"b=
+order-radius:0;color:#000;width:590px;margin:0 auto" width=3D"590">
+<tbody>
+<tr>
+<td class=3D"m_6482330761261651141column" width=3D"33.333333333333336%" sty=
+le=3D"font-weight:400;text-align:left;padding-bottom:5px;padding-top:7px;ve=
+rtical-align:top;border-top:0;border-right:0;border-bottom:0;border-left:0"=
+>
+<table class=3D"m_6482330761261651141image_block" width=3D"100%" border=3D"=
+0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation">
+<tbody>
+<tr>
+<td style=3D"width:100%">
+<div align=3D"center" style=3D"line-height:0px">
+<div style=3D"max-width:167.167px"><a href=3D"https://link.nl.technologyadv=
+ice.com/click/38787157.70814/aHR0cHM6Ly9wcm9qZWN0LW1hbmFnZW1lbnQuY29tL3NtYX=
+J0c2hlZXQtc29mdHdhcmUtcmV2aWV3LWVtYWlsLWxwLw/67c1829fcb6383c7700c2b0dB21ecb=
+4b4" style=3D"outline:0" target=3D"_blank" data-saferedirecturl=3D"https://=
+project-management.com/smartsheet-software-review-email-lp/"><img src=3D"ht=
+tps://media.sailthru.com/composer/images/sailthru-prod-7fz/data-viz-900x720=
+.png" style=3D"display:block;height:auto;border:0;width:100%" width=3D"167.=
+167" class=3D"CToWUd" data-bit=3D"iit"></a></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td class=3D"m_6482330761261651141column" width=3D"66.66666666666667%" styl=
+e=3D"font-weight:400;text-align:left;padding-bottom:5px;padding-top:5px;ver=
+tical-align:middle;border-top:0;border-right:0;border-bottom:0;border-left:=
+0">
+<table width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=
+=3D"presentation">
+<tbody>
+<tr>
+<td style=3D"padding-left:10px;padding-right:10px;padding-top:0px;text-alig=
+n:center;width:100%">
+<h2 style=3D"margin:0;color:#086bdb;direction:ltr;font-family:Montserrat,'T=
+rebuchet MS','Lucida Grande','Lucida Sans Unicode','Lucida Sans',Tahoma,san=
+s-serif;font-size:14px;font-weight:700;letter-spacing:normal;line-height:12=
+0%;text-align:left;margin-top:0;margin-bottom:0"><span><strong>Brought to y=
+ou by: <a href=3D"https://link.nl.technologyadvice.com/click/38787157.70814=
+/aHR0cHM6Ly9wcm9qZWN0LW1hbmFnZW1lbnQuY29tL3NtYXJ0c2hlZXQtc29mdHdhcmUtcmV2aW=
+V3LWVtYWlsLWxwLw/67c1829fcb6383c7700c2b0dC21ecb4b4" style=3D"text-decoratio=
+n:underline;color:#086bdb" rel=3D"noopener" target=3D"_blank" data-saferedi=
+recturl=3D"https://project-management.com/smartsheet-software-review-email-=
+lp/">Smartsheet</a></strong><br></span></h2>
+</td>
+</tr>
+</tbody>
+</table>
+<table width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=
+=3D"presentation" style=3D"word-break:break-word">
+<tbody>
+<tr>
+<td style=3D"padding-bottom:15px;padding-left:10px;padding-right:10px;paddi=
+ng-top:10px">
+<div style=3D"color:#404041;direction:ltr;font-family:Montserrat,'Trebuchet=
+ MS','Lucida Grande','Lucida Sans Unicode','Lucida Sans',Tahoma,sans-serif;=
+font-size:13px;font-weight:400;letter-spacing:0;line-height:120%;text-align=
+:left">
+<p style=3D"margin:0;margin-bottom:16px"><span style=3D"color:#000"><strong=
+><strong><a href=3D"https://link.nl.technologyadvice.com/click/38787157.708=
+14/aHR0cHM6Ly9wcm9qZWN0LW1hbmFnZW1lbnQuY29tL3NtYXJ0c2hlZXQtc29mdHdhcmUtcmV2=
+aWV3LWVtYWlsLWxwLw/67c1829fcb6383c7700c2b0dD21ecb4b4" style=3D"text-decorat=
+ion:underline;color:#000" rel=3D"noopener" target=3D"_blank" data-saferedir=
+ecturl=3D"https://project-management.com/smartsheet-software-review-email-l=
+p/">Smartsheet Review for 2025</a><br></strong></strong></span>With Smartsh=
+eet, teams across functions and locations are able to plan projects, collab=
+orate with teammates, automate tasks, and integrate with other solutions us=
+ing a single, no-code platform.</p>
+<p style=3D"margin:0"><span style=3D"color:#cf3a09"><strong><a href=3D"http=
+s://link.nl.technologyadvice.com/click/38787157.70814/aHR0cHM6Ly9wcm9qZWN0L=
+W1hbmFnZW1lbnQuY29tL3NtYXJ0c2hlZXQtc29mdHdhcmUtcmV2aWV3LWVtYWlsLWxwLw/67c18=
+29fcb6383c7700c2b0dE21ecb4b4" style=3D"text-decoration:underline;color:#cf3=
+a09" rel=3D"noopener" target=3D"_blank" data-saferedirecturl=3D"https://pro=
+ject-management.com/smartsheet-software-review-email-lp/"><span style=3D"co=
+lor:#cf3a09"><strong>Read More</strong></span></a></strong></span></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</p></div></td></tr></table></td></tr></tbody></table></td></tr></tbody></t=
+able><table class=3D"row row-4" align=3D"center" width=3D"100%" border=3D"0=
+" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-ta=
+ble-lspace:0;mso-table-rspace:0"><tbody><tr>
+<td><table class=3D"row-content stack" align=3D"center" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspa=
+ce:0;mso-table-rspace:0;color:#000;width:590px;margin:0 auto" width=3D"590"=
+><tbody><tr><td class=3D"column column-1" width=3D"100%" style=3D"mso-table=
+-lspace:0;mso-table-rspace:0;font-weight:400;text-align:left;padding-bottom=
+:5px;padding-top:5px;vertical-align:top"><table class=3D"divider_block bloc=
+k-1" width=3D"100%" border=3D"0" cellpadding=3D"10" cellspacing=3D"0"=20
+role=3D"presentation" style=3D"mso-table-lspace:0;mso-table-rspace:0"><tr><=
+td class=3D"pad"><div class=3D"alignment" align=3D"center"><table border=3D=
+"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" width=3D"100%=
+" style=3D"mso-table-lspace:0;mso-table-rspace:0"><tr><td class=3D"divider_=
+inner" style=3D"font-size:1px;line-height:1px;border-top:1px solid #bbb"><s=
+pan style=3D"word-break: break-word;">&#8202;</span></td></tr></table></div=
+></td></tr></table><table class=3D"heading_block block-2" width=3D"100%"=20
+border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" styl=
+e=3D"mso-table-lspace:0;mso-table-rspace:0"><tr><td class=3D"pad" style=3D"=
+padding-left:10px;padding-right:10px;padding-top:10px;text-align:center;wid=
+th:100%"><h2=20
+style=3D"margin:0;color:#bbb;direction:ltr;font-family:Montserrat,'Trebuche=
+t MS','Lucida Grande','Lucida Sans Unicode','Lucida Sans',Tahoma,sans-serif=
+;font-size:12px;font-weight:700;letter-spacing:normal;line-height:120%;text=
+-align:left;margin-top:0;margin-bottom:0;mso-line-height-alt:14.39999999999=
+9999px"><span class=3D"tinyMce-placeholder" style=3D"word-break: break-word=
+;">eWeek.com</span></h2></td></tr></table><table class=3D"heading_block blo=
+ck-3" width=3D"100%" border=3D"0" cellpadding=3D"0"=20
+cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;mso-tab=
+le-rspace:0"><tr><td class=3D"pad" style=3D"padding-left:10px;padding-right=
+:10px;padding-top:10px;text-align:center;width:100%"><h2 style=3D"margin:0;=
+color:#000e2a;direction:ltr;font-family:Montserrat,'Trebuchet MS','Lucida G=
+rande','Lucida Sans Unicode','Lucida Sans',Tahoma,sans-serif;font-size:22px=
+;font-weight:700;letter-spacing:normal;line-height:120%;text-align:left;mar=
+gin-top:0;margin-bottom:0;mso-line-height-alt:26.4px">
+<strong><span class=3D"tinyMce-placeholder" style=3D"word-break: break-word=
+;"><a href=3D"https://link.nl.technologyadvice.com/click/38787157.70814/aHR=
+0cHM6Ly93d3cuZXdlZWsuY29tL25ld3MvZ2liYmVybGluay1uZXctYWktbGFuZ3VhZ2Uv/67c18=
+29fcb6383c7700c2b0dB77317faa" target=3D"_blank" style=3D"text-decoration: n=
+one; color: #000e2a;" rel=3D"noopener">GibberLink: Breakthrough in How Voic=
+e Assistants Communicate AI-to-AI</a></span></strong></h2></td></tr></table=
+><table class=3D"paragraph_block block-4" width=3D"100%" border=3D"0" cellp=
+adding=3D"0" cellspacing=3D"0" role=3D"presentation"=20
+style=3D"mso-table-lspace:0;mso-table-rspace:0;word-break:break-word"><tr><=
+td class=3D"pad" style=3D"padding-bottom:15px;padding-left:10px;padding-rig=
+ht:10px;padding-top:10px"><div style=3D"color:#000e2a;direction:ltr;font-fa=
+mily:Montserrat,'Trebuchet MS','Lucida Grande','Lucida Sans Unicode','Lucid=
+a Sans',Tahoma,sans-serif;font-size:16px;font-weight:400;letter-spacing:0;l=
+ine-height:120%;text-align:left;mso-line-height-alt:19.2px"><p style=3D"mar=
+gin:0">
+GibberLink, which debuted at the ElevenLabs Hackathon, is a protocol for AI=
+ voice assistants to swap data via modulated sound, boosting efficiency and=
+ cutting costs.</p></div></td></tr></table><table class=3D"divider_block bl=
+ock-5" width=3D"100%" border=3D"0" cellpadding=3D"10" cellspacing=3D"0" rol=
+e=3D"presentation" style=3D"mso-table-lspace:0;mso-table-rspace:0"><tr><td =
+class=3D"pad"><div class=3D"alignment" align=3D"center"><table border=3D"0"=
+ cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" width=3D"100%"=
+=20
+style=3D"mso-table-lspace:0;mso-table-rspace:0"><tr><td class=3D"divider_in=
+ner" style=3D"font-size:1px;line-height:1px;border-top:1px solid #bbb"><spa=
+n style=3D"word-break: break-word;">&#8202;</span></td></tr></table></div><=
+/td></tr></table><table class=3D"heading_block block-6" width=3D"100%" bord=
+er=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D=
+"mso-table-lspace:0;mso-table-rspace:0"><tr><td class=3D"pad"=20
+style=3D"padding-left:10px;padding-right:10px;padding-top:10px;text-align:c=
+enter;width:100%"><h2 style=3D"margin:0;color:#000e2a;direction:ltr;font-fa=
+mily:Montserrat,'Trebuchet MS','Lucida Grande','Lucida Sans Unicode','Lucid=
+a Sans',Tahoma,sans-serif;font-size:22px;font-weight:700;letter-spacing:nor=
+mal;line-height:120%;text-align:left;margin-top:0;margin-bottom:0;mso-line-=
+height-alt:26.4px">
+<span class=3D"tinyMce-placeholder" style=3D"word-break: break-word;"><stro=
+ng><a href=3D"https://link.nl.technologyadvice.com/click/38787157.70814/aHR=
+0cHM6Ly93d3cudGVjaHJlcHVibGljLmNvbS9hcnRpY2xlL2Nyb3dkc3RyaWtlLTIwMjUtZ2xvYm=
+FsLXRocmVhdC1yZXBvcnQ/67c1829fcb6383c7700c2b0dBc8b4113f" target=3D"_blank" =
+style=3D"text-decoration: none; color: #000e2a;" rel=3D"noopener">CrowdStri=
+ke Security Report: Generative AI Powers Social Engineering Attacks</a></st=
+rong></span></h2></td></tr></table><table class=3D"paragraph_block block-7"=
+ width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"pr=
+esentation" style=3D"mso-table-lspace:0;mso-table-rspace:0;word-break:break=
+-word"><tr><td class=3D"pad"=20
+style=3D"padding-bottom:15px;padding-left:10px;padding-right:10px;padding-t=
+op:10px"><div style=3D"color:#000e2a;direction:ltr;font-family:Montserrat,'=
+Trebuchet MS','Lucida Grande','Lucida Sans Unicode','Lucida Sans',Tahoma,sa=
+ns-serif;font-size:16px;font-weight:400;letter-spacing:0;line-height:120%;t=
+ext-align:left;mso-line-height-alt:19.2px"><p style=3D"margin:0">Trends in =
+cybersecurity across 2024 showed less malware and phishing, though more soc=
+ial engineering. CrowdStrike offers tips on securing your business.</p></di=
+v></td></tr></table><table class=3D"divider_block block-8" width=3D"100%" b=
+order=3D"0" cellpadding=3D"10"=20
+cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;mso-tab=
+le-rspace:0"><tr><td class=3D"pad"><div class=3D"alignment" align=3D"center=
+"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentat=
+ion" width=3D"100%" style=3D"mso-table-lspace:0;mso-table-rspace:0"><tr><td=
+ class=3D"divider_inner" style=3D"font-size:1px;line-height:1px;border-top:=
+1px solid #bbb"><span style=3D"word-break: break-word;">&#8202;</span></td>=
+</tr></table></div></td></tr></table><table class=3D"heading_block block-9"=
+=20
+width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"pre=
+sentation" style=3D"mso-table-lspace:0;mso-table-rspace:0"><tr><td class=3D=
+"pad" style=3D"padding-left:10px;padding-right:10px;padding-top:5px;text-al=
+ign:center;width:100%"><h2=20
+style=3D"margin:0;color:#000e2a;direction:ltr;font-family:Montserrat,'Trebu=
+chet MS','Lucida Grande','Lucida Sans Unicode','Lucida Sans',Tahoma,sans-se=
+rif;font-size:22px;font-weight:700;letter-spacing:normal;line-height:120%;t=
+ext-align:left;margin-top:0;margin-bottom:0;mso-line-height-alt:26.4px"><st=
+rong><a href=3D"https://link.nl.technologyadvice.com/click/38787157.70814/a=
+HR0cHM6Ly93d3cudGVjaHJlcHVibGljLmNvbS9hcnRpY2xlL2JsYWNrZm9nLXJhbnNvbXdhcmUt=
+dHJlbmQtcmVwb3J0LTIwMjQ/67c1829fcb6383c7700c2b0dB5b26ec65" target=3D"_blank=
+" style=3D"text-decoration: none; color: #000e2a;" rel=3D"noopener">Data Th=
+eft Drove 94% of Global Cyberattacks in 2024 & Ransomware Defenses are "Inc=
+reasingly Complex"</a></strong></h2></td></tr></table>
+<table class=3D"paragraph_block block-10" width=3D"100%" border=3D"0" cellp=
+adding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lsp=
+ace:0;mso-table-rspace:0;word-break:break-word"><tr><td class=3D"pad" style=
+=3D"padding-bottom:15px;padding-left:10px;padding-right:10px;padding-top:10=
+px"><div=20
+style=3D"color:#000e2a;direction:ltr;font-family:Montserrat,'Trebuchet MS',=
+'Lucida Grande','Lucida Sans Unicode','Lucida Sans',Tahoma,sans-serif;font-=
+size:16px;font-weight:400;letter-spacing:0;line-height:120%;text-align:left=
+;mso-line-height-alt:19.2px"><p style=3D"margin:0">Ransomware groups now st=
+eal, encrypt, and threaten to leak company data on the dark web, forcing vi=
+ctims to pay or risk exposing sensitive information.</p></div></td></tr></t=
+able><table class=3D"divider_block block-11" width=3D"100%" border=3D"0" ce=
+llpadding=3D"10" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table=
+-lspace:0;mso-table-rspace:0"><tr><td=20
+class=3D"pad"><div class=3D"alignment" align=3D"center"><table border=3D"0"=
+ cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" width=3D"100%" s=
+tyle=3D"mso-table-lspace:0;mso-table-rspace:0"><tr><td class=3D"divider_inn=
+er" style=3D"font-size:1px;line-height:1px;border-top:1px solid #bbb"><span=
+ style=3D"word-break: break-word;">&#8202;</span></td></tr></table></div></=
+td></tr></table><table class=3D"heading_block block-12" width=3D"100%" bord=
+er=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation"=20
+style=3D"mso-table-lspace:0;mso-table-rspace:0"><tr><td class=3D"pad" style=
+=3D"padding-left:10px;padding-right:10px;padding-top:10px;text-align:center=
+;width:100%"><h2 style=3D"margin:0;color:#bbb;direction:ltr;font-family:Mon=
+tserrat,'Trebuchet MS','Lucida Grande','Lucida Sans Unicode','Lucida Sans',=
+Tahoma,sans-serif;font-size:12px;font-weight:700;letter-spacing:normal;line=
+-height:120%;text-align:left;margin-top:0;margin-bottom:0;mso-line-height-a=
+lt:14.399999999999999px">
+<span class=3D"tinyMce-placeholder" style=3D"word-break: break-word;">TechR=
+epublic Premium<br></span></h2></td></tr></table><table class=3D"heading_bl=
+ock block-13" width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0" role=3D"presentation" style=3D"mso-table-lspace:0;mso-table-rspace:0"><t=
+r><td class=3D"pad" style=3D"padding-left:10px;padding-right:10px;padding-t=
+op:10px;text-align:center;width:100%"><h2=20
+style=3D"margin:0;color:#000e2a;direction:ltr;font-family:Montserrat,'Trebu=
+chet MS','Lucida Grande','Lucida Sans Unicode','Lucida Sans',Tahoma,sans-se=
+rif;font-size:22px;font-weight:700;letter-spacing:normal;line-height:120%;t=
+ext-align:left;margin-top:0;margin-bottom:0;mso-line-height-alt:26.4px">
+<span class=3D"tinyMce-placeholder" style=3D"word-break: break-word;"><a hr=
+ef=3D"https://link.nl.technologyadvice.com/click/38787157.70814/aHR0cHM6Ly9=
+3d3cudGVjaHJlcHVibGljLmNvbS9yZXNvdXJjZS1saWJyYXJ5L2d1aWRlL2hvdy10by1ob3N0LW=
+11bHRpcGxlLXdlYnNpdGVzLW9uLWxpbnV4LXdpdGgtYXBhY2hlLw/67c1829fcb6383c7700c2b=
+0dB0110eeb0" target=3D"_blank" title=3D"How to Host Multiple Websites on Li=
+nux with Apache" style=3D"text-decoration: none; color: #000e2a;" rel=3D"no=
+opener">How to Host Multiple Websites on Linux with Apache</a><br></span></=
+h2></td></tr></table><table class=3D"paragraph_block block-14" width=3D"100=
+%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation"=
+=20
+style=3D"mso-table-lspace:0;mso-table-rspace:0;word-break:break-word"><tr><=
+td class=3D"pad" style=3D"padding-bottom:15px;padding-left:10px;padding-rig=
+ht:10px;padding-top:10px"><div style=3D"color:#000e2a;direction:ltr;font-fa=
+mily:Montserrat,'Trebuchet MS','Lucida Grande','Lucida Sans Unicode','Lucid=
+a Sans',Tahoma,sans-serif;font-size:16px;font-weight:400;letter-spacing:0;l=
+ine-height:120%;text-align:left;mso-line-height-alt:19.2px"><p style=3D"mar=
+gin:0">
+This guide explores the various things you can do with a Linux server. It w=
+on=E2=80=99t leave out any steps, so you won=E2=80=99t have to refer to ano=
+ther tutorial to complete the process. <span style=3D"word-break: break-wor=
+d; color: #cf3a09;"><strong><a href=3D"https://link.nl.technologyadvice.com=
+/click/38787157.70814/aHR0cHM6Ly93d3cudGVjaHJlcHVibGljLmNvbS9yZXNvdXJjZS1sa=
+WJyYXJ5L2d1aWRlL2hvdy10by1ob3N0LW11bHRpcGxlLXdlYnNpdGVzLW9uLWxpbnV4LXdpdGgt=
+YXBhY2hlLw/67c1829fcb6383c7700c2b0dC0110eeb0" target=3D"_blank" title=3D"Re=
+ad More" style=3D"text-decoration: none; color: #cf3a09;" rel=3D"noopener">=
+<span style=3D"word-break: break-word; color: #cf3a09;"><strong>Read More</=
+strong></span></a></strong></span>
+</p></div></td></tr></table><table class=3D"button_block block-15" width=3D=
+"100%" border=3D"0" cellpadding=3D"10" cellspacing=3D"0" role=3D"presentati=
+on" style=3D"mso-table-lspace:0;mso-table-rspace:0"><tr><td class=3D"pad"><=
+div class=3D"alignment" align=3D"center"><!--[if mso]>
+<v:roundrect xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:w=3D"urn:schem=
+as-microsoft-com:office:word" href=3D"https://link.nl.technologyadvice.com/=
+click/38787157.70814/aHR0cHM6Ly93d3cudGVjaHJlcHVibGljLmNvbS8/67c1829fcb6383=
+c7700c2b0dB983cdd37" style=3D"height:50px;width:570px;v-text-anchor:middle;=
+" arcsize=3D"54%" strokeweight=3D"0.75pt" strokecolor=3D"#BBBBBB" fill=3D"f=
+alse">
+<w:anchorlock/>
+<v:textbox inset=3D"0px,0px,0px,0px">
+<center dir=3D"false" style=3D"color:#404041;font-family:'Trebuchet MS', Ta=
+homa, sans-serif;font-size:14px">
+<![endif]-->
+<a class=3D"button" href=3D"https://link.nl.technologyadvice.com/click/3878=
+7157.70814/aHR0cHM6Ly93d3cudGVjaHJlcHVibGljLmNvbS8/67c1829fcb6383c7700c2b0d=
+C983cdd37" target=3D"_blank" style=3D"background-color:transparent;border-b=
+ottom:1px solid #BBBBBB;border-left:1px solid #BBBBBB;border-radius:27px;bo=
+rder-right:1px solid #BBBBBB;border-top:1px solid #BBBBBB;color:#404041;dis=
+play:block;font-family:'Montserrat', 'Trebuchet MS', 'Lucida Grande', 'Luci=
+da Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;font-size:14px;font-wei=
+ght:400;mso-border-alt:none;padding-bottom:10px;padding-top:10px;text-align=
+:center;text-decoration:none;width:100%;word-break:keep-all;"><span style=
+=3D"word-break: break-word; padding-left: 5px; padding-right: 5px; font-siz=
+e: 14px; display: inline-block; letter-spacing: normal;"><span style=3D"wor=
+d-break: break-word; line-height: 28px;">Read more news</span></span></a>
+<!--[if mso]></center></v:textbox></v:roundrect><![endif]--></div></td></tr=
+></table></td></tr></tbody></table></td></tr></tbody></table><table class=
+=3D"row row-6" align=3D"center" width=3D"100%" border=3D"0" cellpadding=3D"=
+0"=20
+cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;mso-tab=
+le-rspace:0;background-color:#e8f0fa"><tbody><tr><td><table class=3D"row-co=
+ntent stack" align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" role=3D"presentation" style=3D"mso-table-lspace:0;mso-table-rspace:0;bo=
+rder-radius:0;color:#000;width:590px;margin:0 auto" width=3D"590"><tbody><t=
+r><td class=3D"column column-1" width=3D"100%"=20
+style=3D"mso-table-lspace:0;mso-table-rspace:0;font-weight:400;text-align:l=
+eft;padding-bottom:20px;padding-top:20px;vertical-align:top"><table class=
+=3D"heading_block block-1" width=3D"100%" border=3D"0" cellpadding=3D"0" ce=
+llspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;mso-table=
+-rspace:0"><tr><td class=3D"pad" style=3D"padding-bottom:5px;padding-left:1=
+0px;padding-right:10px;padding-top:10px;text-align:center;width:100%"><h2=
+=20
+style=3D"margin:0;color:#bbb;direction:ltr;font-family:Montserrat,'Trebuche=
+t MS','Lucida Grande','Lucida Sans Unicode','Lucida Sans',Tahoma,sans-serif=
+;font-size:12px;font-weight:700;letter-spacing:normal;line-height:120%;text=
+-align:left;margin-top:0;margin-bottom:0;mso-line-height-alt:14.39999999999=
+9999px"><span class=3D"tinyMce-placeholder" style=3D"word-break: break-word=
+;">Sponsored Content</span></h2></td></tr></table><table class=3D"image_blo=
+ck block-2" width=3D"100%" border=3D"0" cellpadding=3D"0"=20
+cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;mso-tab=
+le-rspace:0"><tr><td class=3D"pad" style=3D"width:100%;padding-right:0;padd=
+ing-left:0"><div class=3D"alignment" align=3D"center" style=3D"line-height:=
+10px"><div class=3D"fullWidth" style=3D"max-width:590px"><a href=3D"https:/=
+/link.nl.technologyadvice.com/click/38787157.70814/aHR0cHM6Ly9jdmVudC5tZS96=
+M0dHNWE_dXRtX3NvdXJjZT1XZWF2aWF0ZU5ld3NsZXR0ZXImdXRtX21lZGl1bT1XZWF2aWF0ZU5=
+ld3NsZXR0ZXImdXRtX2NhbXBhaWduPVdlYXZpYXRlTmV3c2xldHRlcklubm92YXRpb24/67c182=
+9fcb6383c7700c2b0dB395d9f53" target=3D"_blank" style=3D"outline:none" tabin=
+dex=3D"-1"><img=20
+src=3D"https://media.sailthru.com/composer/images/bazh/tgpcmqh0/ok7/r28/ng5=
+/TA_Weaviate313-Newsletter-1200x600_25_KD_rnd2_1.png" style=3D"display:bloc=
+k;height:auto;border:0;width:100%" width=3D"590" alt=3D"Beyond the Hype: Ho=
+w AI Agents Can Transform Your Business" title=3D"Beyond the Hype: How AI A=
+gents Can Transform Your Business" height=3D"auto"></a></div></div></td></t=
+r></table><table class=3D"text_block block-3" width=3D"100%" border=3D"0" c=
+ellpadding=3D"10" cellspacing=3D"0" role=3D"presentation"=20
+style=3D"mso-table-lspace:0;mso-table-rspace:0;word-break:break-word"><tr><=
+td class=3D"pad"><div style=3D"font-family:'Trebuchet MS',Tahoma,sans-serif=
+"><div class style=3D"font-size:14px;font-family:Montserrat,'Trebuchet MS',=
+'Lucida Grande','Lucida Sans Unicode','Lucida Sans',Tahoma,sans-serif;mso-l=
+ine-height-alt:16.8px;color:#000e2a;line-height:1.2"><p style=3D"margin:0;f=
+ont-size:16px;mso-line-height-alt:19.2px">
+<span style=3D"word-break: break-word; font-size: 16px;">We are thrilled to=
+ announce an upcoming fireside chat,<strong> </strong><em>Beyond the Hype: =
+How AI Agents Can Transform Your Business</em>! </span></p><p style=3D"marg=
+in:0;font-size:16px;mso-line-height-alt:16.8px">&nbsp;</p><p style=3D"margi=
+n:0;font-size:16px;mso-line-height-alt:19.2px">
+<span style=3D"word-break: break-word; font-size: 16px;">Featuring Antoni R=
+osinol, Co-Founder of StackAI, and Byron Voorbach, Field CTO at Weaviate, t=
+his session will take you beyond the surface level of AI and into how <stro=
+ng>AI agents</strong> are reshaping the way we work.</span></p><p style=3D"=
+margin:0;font-size:16px;mso-line-height-alt:16.8px">&nbsp;</p><p style=3D"m=
+argin:0;font-size:16px;mso-line-height-alt:19.2px">
+<span style=3D"word-break: break-word; font-size: 16px;">Key takeaways incl=
+ude:</span></p><ul style=3D"line-height:1.2;mso-line-height-alt:19.2px"><li=
+ aria-level=3D"1"><span style=3D"word-break: break-word; font-size: 16px;">=
+How StackAI=E2=80=99s platform is enabling enterprises to build and launch =
+agents</span></li><li aria-level=3D"1"><span style=3D"word-break: break-wor=
+d; font-size: 16px;">The difference between retrieval-augmented generation =
+(RAG) and agentic workflows</span></li><li aria-level=3D"1">
+<span style=3D"word-break: break-word; font-size: 16px;">How Weaviate=E2=80=
+=99s AI-native database is evolving to support smarter AI-driven outcomes</=
+span></li></ul><p style=3D"margin:0;font-size:16px;mso-line-height-alt:19.2=
+px"><span style=3D"word-break: break-word; font-size: 16px;"><strong>Date &=
+ Time:</strong> 13th March 2025 at 1:00pm ET</span></p></div></div></td></t=
+r></table><table class=3D"button_block block-4" width=3D"100%" border=3D"0"=
+ cellpadding=3D"10" cellspacing=3D"0" role=3D"presentation"=20
+style=3D"mso-table-lspace:0;mso-table-rspace:0"><tr><td class=3D"pad"><div =
+class=3D"alignment" align=3D"center"><!--[if mso]>
+<v:roundrect xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:w=3D"urn:schem=
+as-microsoft-com:office:word" href=3D"https://link.nl.technologyadvice.com/=
+click/38787157.70814/aHR0cHM6Ly9jdmVudC5tZS96M0dHNWE_dXRtX3NvdXJjZT1XZWF2aW=
+F0ZU5ld3NsZXR0ZXImdXRtX21lZGl1bT1XZWF2aWF0ZU5ld3NsZXR0ZXImdXRtX2NhbXBhaWduP=
+VdlYXZpYXRlTmV3c2xldHRlcklubm92YXRpb24/67c1829fcb6383c7700c2b0dC395d9f53" s=
+tyle=3D"height:52px;width:570px;v-text-anchor:middle;" arcsize=3D"52%" stro=
+ke=3D"false" fillcolor=3D"#130c49">
+<w:anchorlock/>
+<v:textbox inset=3D"0px,0px,0px,0px">
+<center dir=3D"false" style=3D"color:#ffffff;font-family:'Trebuchet MS', Ta=
+homa, sans-serif;font-size:16px">
+<![endif]-->
+<a class=3D"button" href=3D"https://link.nl.technologyadvice.com/click/3878=
+7157.70814/aHR0cHM6Ly9jdmVudC5tZS96M0dHNWE_dXRtX3NvdXJjZT1XZWF2aWF0ZU5ld3Ns=
+ZXR0ZXImdXRtX21lZGl1bT1XZWF2aWF0ZU5ld3NsZXR0ZXImdXRtX2NhbXBhaWduPVdlYXZpYXR=
+lTmV3c2xldHRlcklubm92YXRpb24/67c1829fcb6383c7700c2b0dD395d9f53" target=3D"_=
+blank" style=3D"background-color:#130c49;border-bottom:0px solid #BBBBBB;bo=
+rder-left:0px solid #BBBBBB;border-radius:27px;border-right:0px solid #BBBB=
+BB;border-top:0px solid #BBBBBB;color:#ffffff;display:block;font-family:'Mo=
+ntserrat', 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida =
+Sans', Tahoma, sans-serif;font-size:16px;font-weight:400;mso-border-alt:non=
+e;padding-bottom:10px;padding-top:10px;text-align:center;text-decoration:no=
+ne;width:100%;word-break:keep-all;"><span style=3D"word-break: break-word; =
+padding-left: 5px; padding-right: 5px; font-size: 16px; display: inline-blo=
+ck; letter-spacing: normal;"><span style=3D"word-break: break-word; line-he=
+ight: 32px;"><strong>Register Now!</strong></span></span></a>
+<!--[if mso]></center></v:textbox></v:roundrect><![endif]--></div></td></tr=
+></table></td></tr></tbody></table></td></tr></tbody></table><table class=
+=3D"row row-7" align=3D"center" width=3D"100%" border=3D"0" cellpadding=3D"=
+0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;mso-=
+table-rspace:0"><tbody><tr><td><table class=3D"row-content stack" align=3D"=
+center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentati=
+on"=20
+style=3D"mso-table-lspace:0;mso-table-rspace:0;color:#000;width:590px;margi=
+n:0 auto" width=3D"590"><tbody><tr><td class=3D"column column-1" width=3D"1=
+00%" style=3D"mso-table-lspace:0;mso-table-rspace:0;font-weight:400;text-al=
+ign:left;padding-bottom:5px;padding-top:5px;vertical-align:top"><table clas=
+s=3D"heading_block block-1" width=3D"100%" border=3D"0" cellpadding=3D"0" c=
+ellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;mso-tabl=
+e-rspace:0"><tr><td class=3D"pad"=20
+style=3D"padding-left:10px;padding-right:10px;padding-top:10px;text-align:c=
+enter;width:100%"><h2 style=3D"margin:0;color:#000e2a;direction:ltr;font-fa=
+mily:Montserrat,'Trebuchet MS','Lucida Grande','Lucida Sans Unicode','Lucid=
+a Sans',Tahoma,sans-serif;font-size:18px;font-weight:700;letter-spacing:nor=
+mal;line-height:120%;text-align:center;margin-top:0;margin-bottom:0;mso-lin=
+e-height-alt:21.599999999999998px"><span class=3D"tinyMce-placeholder" styl=
+e=3D"word-break: break-word;">Top Tech Resources<br>
+</span></h2></td></tr></table><table class=3D"divider_block block-2" width=
+=3D"100%" border=3D"0" cellpadding=3D"5" cellspacing=3D"0" role=3D"presenta=
+tion" style=3D"mso-table-lspace:0;mso-table-rspace:0"><tr><td class=3D"pad"=
+><div class=3D"alignment" align=3D"center"><table border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" role=3D"presentation" width=3D"10%" style=3D"mso-t=
+able-lspace:0;mso-table-rspace:0"><tr><td class=3D"divider_inner" style=3D"=
+font-size:1px;line-height:1px;border-top:5px solid #086bdb">
+<span style=3D"word-break: break-word;">&#8202;</span></td></tr></table></d=
+iv></td></tr></table><table class=3D"heading_block block-3" width=3D"100%" =
+border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" styl=
+e=3D"mso-table-lspace:0;mso-table-rspace:0"><tr><td class=3D"pad" style=3D"=
+padding-left:10px;padding-right:10px;padding-top:10px;text-align:center;wid=
+th:100%"><h2=20
+style=3D"margin:0;color:#000e2a;direction:ltr;font-family:Montserrat,'Trebu=
+chet MS','Lucida Grande','Lucida Sans Unicode','Lucida Sans',Tahoma,sans-se=
+rif;font-size:22px;font-weight:700;letter-spacing:normal;line-height:120%;t=
+ext-align:left;margin-top:0;margin-bottom:0;mso-line-height-alt:26.4px">
+<span class=3D"tinyMce-placeholder" style=3D"word-break: break-word;"><stro=
+ng><a href=3D"https://link.nl.technologyadvice.com/click/38787157.70814/aHR=
+0cHM6Ly93d3cudGVjaHJlcHVibGljLmNvbS9hcnRpY2xlL2Jlc3Qtd2ViLWhvc3Rpbmc/67c182=
+9fcb6383c7700c2b0dB49d8398c" target=3D"_blank" style=3D"text-decoration: no=
+ne; color: #000e2a;" rel=3D"noopener">7 Best Web Hosting Services 2025: Fea=
+tures, Price & More</a></strong></span></h2></td></tr></table><table class=
+=3D"paragraph_block block-4" width=3D"100%" border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;mso-tab=
+le-rspace:0;word-break:break-word"><tr><td class=3D"pad"=20
+style=3D"padding-bottom:15px;padding-left:10px;padding-right:10px;padding-t=
+op:10px"><div style=3D"color:#000e2a;direction:ltr;font-family:Montserrat,'=
+Trebuchet MS','Lucida Grande','Lucida Sans Unicode','Lucida Sans',Tahoma,sa=
+ns-serif;font-size:16px;font-weight:400;letter-spacing:0;line-height:120%;t=
+ext-align:left;mso-line-height-alt:19.2px"><p style=3D"margin:0">The best w=
+eb hosting services of 2025 offer fast speeds, strong security, and reliabl=
+e uptime. Explore top-rated providers to find the perfect fit for your webs=
+ite.</p></div></td></tr></table><table class=3D"divider_block block-5" widt=
+h=3D"100%" border=3D"0" cellpadding=3D"10"=20
+cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;mso-tab=
+le-rspace:0"><tr><td class=3D"pad"><div class=3D"alignment" align=3D"center=
+"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentat=
+ion" width=3D"100%" style=3D"mso-table-lspace:0;mso-table-rspace:0"><tr><td=
+ class=3D"divider_inner" style=3D"font-size:1px;line-height:1px;border-top:=
+1px solid #bbb"><span style=3D"word-break: break-word;">&#8202;</span></td>=
+</tr></table></div></td></tr></table><table class=3D"heading_block block-6"=
+=20
+width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"pre=
+sentation" style=3D"mso-table-lspace:0;mso-table-rspace:0"><tr><td class=3D=
+"pad" style=3D"padding-left:10px;padding-right:10px;padding-top:10px;text-a=
+lign:center;width:100%"><h2=20
+style=3D"margin:0;color:#000e2a;direction:ltr;font-family:Montserrat,'Trebu=
+chet MS','Lucida Grande','Lucida Sans Unicode','Lucida Sans',Tahoma,sans-se=
+rif;font-size:22px;font-weight:700;letter-spacing:normal;line-height:120%;t=
+ext-align:left;margin-top:0;margin-bottom:0;mso-line-height-alt:26.4px">
+<span class=3D"tinyMce-placeholder" style=3D"word-break: break-word;"><stro=
+ng><a href=3D"https://link.nl.technologyadvice.com/click/38787157.70814/aHR=
+0cHM6Ly93d3cudGVjaHJlcHVibGljLmNvbS9hcnRpY2xlL2NvbHVtbnMtYWktcHJlbWl1bS1saW=
+ZldGltZS1zdWJzY3JpcHRpb24/67c1829fcb6383c7700c2b0dBb4097d6d" target=3D"_bla=
+nk" style=3D"text-decoration: none; color: #000e2a;" rel=3D"noopener">You D=
+on't Need to Know Excel Formulas Since This AI Creates Charts for You</a></=
+strong></span></h2></td></tr></table><table class=3D"paragraph_block block-=
+7" width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"=
+presentation" style=3D"mso-table-lspace:0;mso-table-rspace:0;word-break:bre=
+ak-word"><tr><td class=3D"pad"=20
+style=3D"padding-bottom:15px;padding-left:10px;padding-right:10px;padding-t=
+op:10px"><div style=3D"color:#000e2a;direction:ltr;font-family:Montserrat,'=
+Trebuchet MS','Lucida Grande','Lucida Sans Unicode','Lucida Sans',Tahoma,sa=
+ns-serif;font-size:16px;font-weight:400;letter-spacing:0;line-height:120%;t=
+ext-align:left;mso-line-height-alt:19.2px"><p style=3D"margin:0">When you h=
+ave Columns AI's auto-generation features, you might never have to manually=
+ create charts or graphs again.</p></div></td></tr></table><table class=3D"=
+divider_block block-8" width=3D"100%" border=3D"0" cellpadding=3D"10"=20
+cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;mso-tab=
+le-rspace:0"><tr><td class=3D"pad"><div class=3D"alignment" align=3D"center=
+"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentat=
+ion" width=3D"100%" style=3D"mso-table-lspace:0;mso-table-rspace:0"><tr><td=
+ class=3D"divider_inner" style=3D"font-size:1px;line-height:1px;border-top:=
+1px solid #bbb"><span style=3D"word-break: break-word;">&#8202;</span></td>=
+</tr></table></div></td></tr></table><table class=3D"paragraph_block block-=
+9"=20
+width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"pre=
+sentation" style=3D"mso-table-lspace:0;mso-table-rspace:0;word-break:break-=
+word"><tr><td class=3D"pad"><div style=3D"color:#000e2a;direction:ltr;font-=
+family:Lato,Tahoma,Verdana,Segoe,sans-serif;font-size:14px;font-weight:400;=
+letter-spacing:0;line-height:120%;text-align:left;mso-line-height-alt:16.8p=
+x"><p style=3D"margin:0"><table width=3D"50%" border=3D"0" cellpadding=3D"0=
+" cellspacing=3D"0" role=3D"presentation">
+<tbody>
+<tr>
+<td style=3D"padding-left:10px;padding-right:10px;padding-top:10px;text-ali=
+gn:center;width:100%">
+<h2 style=3D"margin:0;color:#bbb;direction:ltr;font-family:Montserrat,'Treb=
+uchet MS','Lucida Grande','Lucida Sans Unicode','Lucida Sans',Tahoma,sans-s=
+erif;font-size:12px;font-weight:700;letter-spacing:normal;line-height:120%;=
+text-align:left;margin-top:0;margin-bottom:0"><span>TechRepublic Premium<br=
+></span></h2>
+</td>
+</tr>
+</tbody>
+</table>
+<table width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=
+=3D"presentation">
+<tbody>
+<tr>
+<td style=3D"padding-left:10px;padding-right:10px;padding-top:10px;text-ali=
+gn:center;width:100%">
+<h2 style=3D"margin:0;color:#000e2a;direction:ltr;font-family:Montserrat,'T=
+rebuchet MS','Lucida Grande','Lucida Sans Unicode','Lucida Sans',Tahoma,san=
+s-serif;font-size:21px;font-weight:700;letter-spacing:normal;line-height:12=
+0%;text-align:left;margin-top:0;margin-bottom:0">
+<span><a href=3D"https://link.nl.technologyadvice.com/click/38787157.70814/=
+aHR0cHM6Ly93d3cudGVjaHJlcHVibGljLmNvbS9yZXNvdXJjZS1saWJyYXJ5L2Rvd25sb2Fkcy9=
+ob3ctdG8tdXNlLWFpLWluLWJ1c2luZXNzLw/67c1829fcb6383c7700c2b0dB55889ca6" styl=
+e=3D"text-decoration:none;color:#000e2a" rel=3D"noopener" target=3D"_blank"=
+ data-saferedirecturl=3D"https://www.techrepublic.com/resource-library/down=
+loads/how-to-use-ai-in-business/">How to Use AI in Business</a></span></h2>
+</td>
+</tr>
+</tbody>
+</table>
+<table width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=
+=3D"presentation" style=3D"word-break:break-word">
+<tbody>
+<tr>
+<td style=3D"padding-bottom:15px;padding-left:10px;padding-right:10px;paddi=
+ng-top:10px">
+<div style=3D"color:#000e2a;direction:ltr;font-family:Montserrat,'Trebuchet=
+ MS','Lucida Grande','Lucida Sans Unicode','Lucida Sans',Tahoma,sans-serif;=
+font-size:16px;font-weight:400;letter-spacing:0;line-height:120%;text-align=
+:left">
+<p style=3D"margin:0">
+Enhance your AI knowledge with our in-depth 10-page PDF. This is available =
+for download at just $9.&nbsp; <span style=3D"color:#cf3a09"><strong><a hre=
+f=3D"https://link.nl.technologyadvice.com/click/38787157.70814/aHR0cHM6Ly93=
+d3cudGVjaHJlcHVibGljLmNvbS9yZXNvdXJjZS1saWJyYXJ5L2Rvd25sb2Fkcy9ob3ctdG8tdXN=
+lLWFpLWluLWJ1c2luZXNzLw/67c1829fcb6383c7700c2b0dC55889ca6" style=3D"text-de=
+coration:none;color:#cf3a09" rel=3D"noopener" target=3D"_blank" data-safere=
+directurl=3D"https://www.techrepublic.com/resource-library/downloads/how-to=
+-use-ai-in-business/"><span style=3D"color:#cf3a09"><strong>Read More</stro=
+ng></span></a></strong></span></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table></p></div></td></tr></table><table class=3D"divider_block block-10"=
+ width=3D"100%" border=3D"0"=20
+cellpadding=3D"10" cellspacing=3D"0" role=3D"presentation" style=3D"mso-tab=
+le-lspace:0;mso-table-rspace:0"><tr><td class=3D"pad"><div class=3D"alignme=
+nt" align=3D"center"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" width=3D"100%" style=3D"mso-table-lspace:0;mso-tabl=
+e-rspace:0"><tr><td class=3D"divider_inner" style=3D"font-size:1px;line-hei=
+ght:1px;border-top:1px solid #bbb"><span style=3D"word-break: break-word;">=
+&#8202;</span></td></tr></table></div></td></tr></table><table=20
+class=3D"heading_block block-11" width=3D"100%" border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;mso=
+-table-rspace:0"><tr><td class=3D"pad" style=3D"padding-left:10px;padding-r=
+ight:10px;padding-top:10px;text-align:center;width:100%"><h2=20
+style=3D"margin:0;color:#000e2a;direction:ltr;font-family:Montserrat,'Trebu=
+chet MS','Lucida Grande','Lucida Sans Unicode','Lucida Sans',Tahoma,sans-se=
+rif;font-size:22px;font-weight:700;letter-spacing:normal;line-height:120%;t=
+ext-align:left;margin-top:0;margin-bottom:0;mso-line-height-alt:26.4px">
+<span class=3D"tinyMce-placeholder" style=3D"word-break: break-word;"><stro=
+ng><a href=3D"https://link.nl.technologyadvice.com/click/38787157.70814/aHR=
+0cHM6Ly93d3cudGVjaHJlcHVibGljLmNvbS9hcnRpY2xlL2JsdWVob3N0LXZzLWdvZGFkZHk/67=
+c1829fcb6383c7700c2b0dB900a070f" target=3D"_blank" style=3D"text-decoration=
+: none; color: #000e2a;" rel=3D"noopener">Bluehost vs GoDaddy: Web Hosting =
+Comparison 2025</a></strong></span></h2></td></tr></table><table class=3D"p=
+aragraph_block block-12" width=3D"100%" border=3D"0" cellpadding=3D"0" cell=
+spacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;mso-table-r=
+space:0;word-break:break-word"><tr><td class=3D"pad"=20
+style=3D"padding-bottom:15px;padding-left:10px;padding-right:10px;padding-t=
+op:10px"><div style=3D"color:#000e2a;direction:ltr;font-family:Montserrat,'=
+Trebuchet MS','Lucida Grande','Lucida Sans Unicode','Lucida Sans',Tahoma,sa=
+ns-serif;font-size:16px;font-weight:400;letter-spacing:0;line-height:120%;t=
+ext-align:left;mso-line-height-alt:19.2px"><p style=3D"margin:0">Bluehost a=
+nd GoDaddy are among the most popular web hosting providers offering indivi=
+duals and small businesses the tools to grow their online presence. Which o=
+ne should you go for?</p></div></td></tr></table><table class=3D"button_blo=
+ck block-13" width=3D"100%" border=3D"0" cellpadding=3D"10"=20
+cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;mso-tab=
+le-rspace:0"><tr><td class=3D"pad"><div class=3D"alignment" align=3D"center=
+"><!--[if mso]>
+<v:roundrect xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:w=3D"urn:schem=
+as-microsoft-com:office:word" href=3D"https://link.nl.technologyadvice.com/=
+click/38787157.70814/aHR0cHM6Ly93d3cudGVjaHJlcHVibGljLmNvbS8/67c1829fcb6383=
+c7700c2b0dD983cdd37" style=3D"height:50px;width:570px;v-text-anchor:middle;=
+" arcsize=3D"54%" strokeweight=3D"0.75pt" strokecolor=3D"#BBBBBB" fill=3D"f=
+alse">
+<w:anchorlock/>
+<v:textbox inset=3D"0px,0px,0px,0px">
+<center dir=3D"false" style=3D"color:#404041;font-family:'Trebuchet MS', Ta=
+homa, sans-serif;font-size:14px">
+<![endif]-->
+<a class=3D"button" href=3D"https://link.nl.technologyadvice.com/click/3878=
+7157.70814/aHR0cHM6Ly93d3cudGVjaHJlcHVibGljLmNvbS8/67c1829fcb6383c7700c2b0d=
+E983cdd37" target=3D"_blank" style=3D"background-color:transparent;border-b=
+ottom:1px solid #BBBBBB;border-left:1px solid #BBBBBB;border-radius:27px;bo=
+rder-right:1px solid #BBBBBB;border-top:1px solid #BBBBBB;color:#404041;dis=
+play:block;font-family:'Montserrat', 'Trebuchet MS', 'Lucida Grande', 'Luci=
+da Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;font-size:14px;font-wei=
+ght:400;mso-border-alt:none;padding-bottom:10px;padding-top:10px;text-align=
+:center;text-decoration:none;width:100%;word-break:keep-all;"><span style=
+=3D"word-break: break-word; padding-left: 5px; padding-right: 5px; font-siz=
+e: 14px; display: inline-block; letter-spacing: normal;"><span style=3D"wor=
+d-break: break-word; line-height: 28px;">Read more news</span></span></a>
+<!--[if mso]></center></v:textbox></v:roundrect><![endif]--></div></td></tr=
+></table></td></tr></tbody></table></td></tr></tbody></table><table class=
+=3D"row row-8" align=3D"center" width=3D"100%" border=3D"0" cellpadding=3D"=
+0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;mso-=
+table-rspace:0"><tbody><tr><td><table class=3D"row-content stack" align=3D"=
+center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentati=
+on"=20
+style=3D"mso-table-lspace:0;mso-table-rspace:0;color:#000;width:590px;margi=
+n:0 auto" width=3D"590"><tbody><tr><td class=3D"column column-1" width=3D"1=
+00%" style=3D"mso-table-lspace:0;mso-table-rspace:0;font-weight:400;text-al=
+ign:left;padding-bottom:15px;padding-top:5px;vertical-align:top"><table cla=
+ss=3D"heading_block block-1" width=3D"100%" border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;mso-tab=
+le-rspace:0"><tr><td class=3D"pad"=20
+style=3D"padding-left:10px;padding-right:10px;padding-top:10px;text-align:c=
+enter;width:100%"><h2 style=3D"margin:0;color:#000e2a;direction:ltr;font-fa=
+mily:Montserrat,'Trebuchet MS','Lucida Grande','Lucida Sans Unicode','Lucid=
+a Sans',Tahoma,sans-serif;font-size:18px;font-weight:700;letter-spacing:nor=
+mal;line-height:120%;text-align:center;margin-top:0;margin-bottom:0;mso-lin=
+e-height-alt:21.599999999999998px"><span class=3D"tinyMce-placeholder" styl=
+e=3D"word-break: break-word;">What We're Reading<br>
+</span></h2></td></tr></table><table class=3D"divider_block block-2" width=
+=3D"100%" border=3D"0" cellpadding=3D"5" cellspacing=3D"0" role=3D"presenta=
+tion" style=3D"mso-table-lspace:0;mso-table-rspace:0"><tr><td class=3D"pad"=
+><div class=3D"alignment" align=3D"center"><table border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" role=3D"presentation" width=3D"10%" style=3D"mso-t=
+able-lspace:0;mso-table-rspace:0"><tr><td class=3D"divider_inner" style=3D"=
+font-size:1px;line-height:1px;border-top:5px solid #086bdb">
+<span style=3D"word-break: break-word;">&#8202;</span></td></tr></table></d=
+iv></td></tr></table><table class=3D"heading_block block-3" width=3D"100%" =
+border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" styl=
+e=3D"mso-table-lspace:0;mso-table-rspace:0"><tr><td class=3D"pad" style=3D"=
+padding-left:10px;padding-right:10px;padding-top:10px;text-align:center;wid=
+th:100%"><h2=20
+style=3D"margin:0;color:#000e2a;direction:ltr;font-family:Montserrat,'Trebu=
+chet MS','Lucida Grande','Lucida Sans Unicode','Lucida Sans',Tahoma,sans-se=
+rif;font-size:22px;font-weight:700;letter-spacing:normal;line-height:120%;t=
+ext-align:left;margin-top:0;margin-bottom:0;mso-line-height-alt:26.4px">
+<span class=3D"tinyMce-placeholder" style=3D"word-break: break-word;"><stro=
+ng><a href=3D"https://link.nl.technologyadvice.com/click/38787157.70814/aHR=
+0cHM6Ly93d3cudGVjaHJlcHVibGljLmNvbS9hcnRpY2xlL3Nvbmljd2FsbC10aHJlYXQtcmVwb3=
+J0LTIwMjU/67c1829fcb6383c7700c2b0dBcc9087c9" target=3D"_blank" style=3D"tex=
+t-decoration: none; color: #000e2a;" rel=3D"noopener">SonicWall Report: "Th=
+reat Actors are Moving at Unprecedented Speeds"</a></strong></span></h2></t=
+d></tr></table><table class=3D"paragraph_block block-4" width=3D"100%" bord=
+er=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D=
+"mso-table-lspace:0;mso-table-rspace:0;word-break:break-word"><tr><td class=
+=3D"pad"=20
+style=3D"padding-bottom:15px;padding-left:10px;padding-right:10px;padding-t=
+op:10px"><div style=3D"color:#000e2a;direction:ltr;font-family:Montserrat,'=
+Trebuchet MS','Lucida Grande','Lucida Sans Unicode','Lucida Sans',Tahoma,sa=
+ns-serif;font-size:16px;font-weight:400;letter-spacing:0;line-height:120%;t=
+ext-align:left;mso-line-height-alt:19.2px"><p style=3D"margin:0">SonicWall=
+=E2=80=99s 2025 Annual Threat Report noted the U.S. healthcare sector and L=
+atin America were targeted by cybercriminals.</p></div></td></tr></table><t=
+able class=3D"divider_block block-5" width=3D"100%" border=3D"0" cellpaddin=
+g=3D"10"=20
+cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;mso-tab=
+le-rspace:0"><tr><td class=3D"pad"><div class=3D"alignment" align=3D"center=
+"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentat=
+ion" width=3D"100%" style=3D"mso-table-lspace:0;mso-table-rspace:0"><tr><td=
+ class=3D"divider_inner" style=3D"font-size:1px;line-height:1px;border-top:=
+1px solid #bbb"><span style=3D"word-break: break-word;">&#8202;</span></td>=
+</tr></table></div></td></tr></table><table class=3D"heading_block block-6"=
+=20
+width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"pre=
+sentation" style=3D"mso-table-lspace:0;mso-table-rspace:0"><tr><td class=3D=
+"pad" style=3D"padding-left:10px;padding-right:10px;padding-top:10px;text-a=
+lign:center;width:100%"><h2=20
+style=3D"margin:0;color:#000e2a;direction:ltr;font-family:Montserrat,'Trebu=
+chet MS','Lucida Grande','Lucida Sans Unicode','Lucida Sans',Tahoma,sans-se=
+rif;font-size:22px;font-weight:700;letter-spacing:normal;line-height:120%;t=
+ext-align:left;margin-top:0;margin-bottom:0;mso-line-height-alt:26.4px">
+<span class=3D"tinyMce-placeholder" style=3D"word-break: break-word;"><stro=
+ng><a href=3D"https://link.nl.technologyadvice.com/click/38787157.70814/aHR=
+0cHM6Ly93d3cudGVjaHJlcHVibGljLmNvbS9hcnRpY2xlL2FwcGxlLWludmVzdG9ycy1yZWplY3=
+QtYW50aS1kZWktcHJvcG9zYWw/67c1829fcb6383c7700c2b0dB090ca1b5" target=3D"_bla=
+nk" style=3D"text-decoration: none; color: #000e2a;" rel=3D"noopener">Apple=
+ Shareholders Reject Anti-DEI Proposal, But Legal Pressure May Force Change=
+s</a></strong></span></h2></td></tr></table><table class=3D"paragraph_block=
+ block-7" width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" r=
+ole=3D"presentation" style=3D"mso-table-lspace:0;mso-table-rspace:0;word-br=
+eak:break-word"><tr><td class=3D"pad"=20
+style=3D"padding-bottom:15px;padding-left:10px;padding-right:10px;padding-t=
+op:10px"><div style=3D"color:#000e2a;direction:ltr;font-family:Montserrat,'=
+Trebuchet MS','Lucida Grande','Lucida Sans Unicode','Lucida Sans',Tahoma,sa=
+ns-serif;font-size:16px;font-weight:400;letter-spacing:0;line-height:120%;t=
+ext-align:left;mso-line-height-alt:19.2px"><p style=3D"margin:0">Apple CEO =
+Tim Cook signaled potential adjustments as DEI policies face legal and poli=
+tical scrutiny.</p></div></td></tr></table><table class=3D"divider_block bl=
+ock-8" width=3D"100%" border=3D"0" cellpadding=3D"10"=20
+cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;mso-tab=
+le-rspace:0"><tr><td class=3D"pad"><div class=3D"alignment" align=3D"center=
+"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentat=
+ion" width=3D"100%" style=3D"mso-table-lspace:0;mso-table-rspace:0"><tr><td=
+ class=3D"divider_inner" style=3D"font-size:1px;line-height:1px;border-top:=
+1px solid #bbb"><span style=3D"word-break: break-word;">&#8202;</span></td>=
+</tr></table></div></td></tr></table><table class=3D"heading_block block-9"=
+=20
+width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"pre=
+sentation" style=3D"mso-table-lspace:0;mso-table-rspace:0"><tr><td class=3D=
+"pad" style=3D"padding-left:10px;padding-right:10px;padding-top:10px;text-a=
+lign:center;width:100%"><h2=20
+style=3D"margin:0;color:#000e2a;direction:ltr;font-family:Montserrat,'Trebu=
+chet MS','Lucida Grande','Lucida Sans Unicode','Lucida Sans',Tahoma,sans-se=
+rif;font-size:22px;font-weight:700;letter-spacing:normal;line-height:120%;t=
+ext-align:left;margin-top:0;margin-bottom:0;mso-line-height-alt:26.4px">
+<span class=3D"tinyMce-placeholder" style=3D"word-break: break-word;"><stro=
+ng><a href=3D"https://link.nl.technologyadvice.com/click/38787157.70814/aHR=
+0cDovL3d3dy50ZWNocmVwdWJsaWMuY29tL2FydGljbGUvYWNjb3VudGluZy1zb2Z0d2FyZS1tdW=
+x0aXBsZS1idXNpbmVzc2Vz/67c1829fcb6383c7700c2b0dB0a5c944c" target=3D"_blank"=
+ style=3D"text-decoration: none; color: #000e2a;" rel=3D"noopener">6 Best A=
+ccounting Software for Multiple Businesses</a></strong></span></h2></td></t=
+r></table><table class=3D"paragraph_block block-10" width=3D"100%" border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"m=
+so-table-lspace:0;mso-table-rspace:0;word-break:break-word"><tr><td class=
+=3D"pad"=20
+style=3D"padding-bottom:15px;padding-left:10px;padding-right:10px;padding-t=
+op:10px"><div style=3D"color:#000e2a;direction:ltr;font-family:Montserrat,'=
+Trebuchet MS','Lucida Grande','Lucida Sans Unicode','Lucida Sans',Tahoma,sa=
+ns-serif;font-size:16px;font-weight:400;letter-spacing:0;line-height:120%;t=
+ext-align:left;mso-line-height-alt:19.2px"><p style=3D"margin:0">The best a=
+ccounting software for multibusinesses should help you track the profit and=
+ loss, financial position, and cash flow of all business units or segments.=
+</p></div></td></tr></table></td></tr></tbody></table></td></tr></tbody></t=
+able><table class=3D"row row-9"=20
+align=3D"center" width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;mso-table-rspace:0=
+"><tbody><tr><td><table class=3D"row-content stack" align=3D"center" border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"m=
+so-table-lspace:0;mso-table-rspace:0;border-radius:0;color:#000;width:590px=
+;margin:0 auto" width=3D"590"><tbody><tr><td class=3D"column column-1" widt=
+h=3D"100%"=20
+style=3D"mso-table-lspace:0;mso-table-rspace:0;font-weight:400;text-align:l=
+eft;padding-bottom:5px;padding-top:5px;vertical-align:top"><table class=3D"=
+heading_block block-1" width=3D"100%" border=3D"0" cellpadding=3D"0" cellsp=
+acing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;mso-table-rsp=
+ace:0"><tr><td class=3D"pad" style=3D"padding-left:10px;padding-right:10px;=
+padding-top:10px;text-align:center;width:100%"><h2=20
+style=3D"margin:0;color:#000e2a;direction:ltr;font-family:Montserrat,'Trebu=
+chet MS','Lucida Grande','Lucida Sans Unicode','Lucida Sans',Tahoma,sans-se=
+rif;font-size:18px;font-weight:700;letter-spacing:normal;line-height:120%;t=
+ext-align:center;margin-top:0;margin-bottom:0;mso-line-height-alt:21.599999=
+999999998px"><span class=3D"tinyMce-placeholder" style=3D"word-break: break=
+-word;">Referral Program<br></span></h2></td></tr></table><table class=3D"d=
+ivider_block block-2" width=3D"100%" border=3D"0"=20
+cellpadding=3D"5" cellspacing=3D"0" role=3D"presentation" style=3D"mso-tabl=
+e-lspace:0;mso-table-rspace:0"><tr><td class=3D"pad"><div class=3D"alignmen=
+t" align=3D"center"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ role=3D"presentation" width=3D"10%" style=3D"mso-table-lspace:0;mso-table-=
+rspace:0"><tr><td class=3D"divider_inner" style=3D"font-size:1px;line-heigh=
+t:1px;border-top:5px solid #086bdb"><span style=3D"word-break: break-word;"=
+>&#8202;</span></td></tr></table></div></td></tr></table><table=20
+class=3D"heading_block block-3" width=3D"100%" border=3D"0" cellpadding=3D"=
+0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;mso-=
+table-rspace:0"><tr><td class=3D"pad" style=3D"padding-left:10px;padding-ri=
+ght:10px;padding-top:10px;text-align:center;width:100%"><h2=20
+style=3D"margin:0;color:#000e2a;direction:ltr;font-family:Montserrat,'Trebu=
+chet MS','Lucida Grande','Lucida Sans Unicode','Lucida Sans',Tahoma,sans-se=
+rif;font-size:22px;font-weight:700;letter-spacing:normal;line-height:120%;t=
+ext-align:left;margin-top:0;margin-bottom:0;mso-line-height-alt:26.4px"><sp=
+an class=3D"tinyMce-placeholder" style=3D"word-break: break-word;">Ready to=
+ share this newsletter with a friend or co-worker?<br></span></h2></td></tr=
+></table><table class=3D"paragraph_block block-4"=20
+width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"pre=
+sentation" style=3D"mso-table-lspace:0;mso-table-rspace:0;word-break:break-=
+word"><tr><td class=3D"pad" style=3D"padding-bottom:15px;padding-left:10px;=
+padding-right:10px;padding-top:10px"><div=20
+style=3D"color:#000e2a;direction:ltr;font-family:Montserrat,'Trebuchet MS',=
+'Lucida Grande','Lucida Sans Unicode','Lucida Sans',Tahoma,sans-serif;font-=
+size:16px;font-weight:400;letter-spacing:0;line-height:120%;text-align:left=
+;mso-line-height-alt:19.2px"><p style=3D"margin:0;margin-bottom:16px">We're=
+ excited to announce that you can now earn tech points when you refer a fri=
+end, peer, or co-worker to subscribe to one of our newsletters.</p><p style=
+=3D"margin:0;margin-bottom:16px">
+<strong><a href=3D"https://link.nl.technologyadvice.com/click/38787157.7081=
+4/aHR0cHM6Ly9uZXdzbGV0dGVycy50ZWNocmVwdWJsaWMuY29tL3JlZmVycmFscz9yZWZlcnJlZ=
+F9ieT0wNjg1ZTU1NDJjMmY4YTc3MWMzZWI1ZTIxYWUzYTUyNg/67c1829fcb6383c7700c2b0dB=
+e2fe60fa" target=3D"_blank" style=3D"text-decoration: underline; color: #cf=
+3a09;" rel=3D"noopener">Refer a friend today!</a></strong></p><p style=3D"m=
+argin:0">
+You've gained 0 entries!</p></div></td></tr>
+</table></td></tr></tbody></table></td></tr></tbody></table><table class=3D=
+"row row-10" align=3D"center" width=3D"100%" border=3D"0" cellpadding=3D"0"=
+ cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;mso-ta=
+ble-rspace:0"><tbody><tr><td><table class=3D"row-content stack" align=3D"ce=
+nter" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation=
+" style=3D"mso-table-lspace:0;mso-table-rspace:0;color:#000;width:590px;mar=
+gin:0 auto" width=3D"590"><tbody><tr><td class=3D"column column-1" width=3D=
+"100%"=20
+style=3D"mso-table-lspace:0;mso-table-rspace:0;font-weight:400;text-align:l=
+eft;padding-bottom:5px;padding-top:5px;vertical-align:top"><table class=3D"=
+heading_block block-1" width=3D"100%" border=3D"0" cellpadding=3D"0" cellsp=
+acing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;mso-table-rsp=
+ace:0"><tr><td class=3D"pad" style=3D"padding-left:10px;padding-right:10px;=
+padding-top:10px;text-align:center;width:100%"><h2=20
+style=3D"margin:0;color:#000e2a;direction:ltr;font-family:Montserrat,'Trebu=
+chet MS','Lucida Grande','Lucida Sans Unicode','Lucida Sans',Tahoma,sans-se=
+rif;font-size:18px;font-weight:700;letter-spacing:normal;line-height:120%;t=
+ext-align:center;margin-top:0;margin-bottom:0;mso-line-height-alt:21.599999=
+999999998px"><span class=3D"tinyMce-placeholder" style=3D"word-break: break=
+-word;">More Tech News<br></span></h2></td></tr></table><table class=3D"div=
+ider_block block-2" width=3D"100%" border=3D"0"=20
+cellpadding=3D"5" cellspacing=3D"0" role=3D"presentation" style=3D"mso-tabl=
+e-lspace:0;mso-table-rspace:0"><tr><td class=3D"pad"><div class=3D"alignmen=
+t" align=3D"center"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ role=3D"presentation" width=3D"10%" style=3D"mso-table-lspace:0;mso-table-=
+rspace:0"><tr><td class=3D"divider_inner" style=3D"font-size:1px;line-heigh=
+t:1px;border-top:5px solid #086bdb"><span style=3D"word-break: break-word;"=
+>&#8202;</span></td></tr></table></div></td></tr></table></td></tr></tbody>
+</table></td></tr></tbody></table><table class=3D"row row-11" align=3D"cent=
+er" width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D=
+"presentation" style=3D"mso-table-lspace:0;mso-table-rspace:0"><tbody><tr><=
+td><table class=3D"row-content" align=3D"center" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;=
+mso-table-rspace:0;border-radius:0;color:#000;width:590px;margin:0 auto" wi=
+dth=3D"590"><tbody><tr><td class=3D"column column-1" width=3D"33.3333333333=
+33336%"=20
+style=3D"mso-table-lspace:0;mso-table-rspace:0;font-weight:400;text-align:l=
+eft;padding-bottom:5px;padding-top:5px;vertical-align:top"><table class=3D"=
+paragraph_block block-1" width=3D"100%" border=3D"0" cellpadding=3D"0" cell=
+spacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;mso-table-r=
+space:0;word-break:break-word"><tr><td class=3D"pad" style=3D"padding-botto=
+m:15px;padding-left:10px;padding-right:10px;padding-top:10px"><div=20
+style=3D"color:#000e2a;direction:ltr;font-family:Montserrat,'Trebuchet MS',=
+'Lucida Grande','Lucida Sans Unicode','Lucida Sans',Tahoma,sans-serif;font-=
+size:14px;font-weight:400;letter-spacing:0;line-height:120%;text-align:cent=
+er;mso-line-height-alt:16.8px"><p style=3D"margin:0"><strong><a href=3D"htt=
+ps://link.nl.technologyadvice.com/click/38787157.70814/aHR0cHM6Ly9uZXdzbGV0=
+dGVycy50ZWNocmVwdWJsaWMuY29tL3B1YmxpY2F0aW9ucw/67c1829fcb6383c7700c2b0dC485=
+d5245" target=3D"_blank" style=3D"text-decoration: underline; color: #cf3a0=
+9;" rel=3D"noopener">Executive Briefing</a></strong></p></div></td></tr></t=
+able><table=20
+class=3D"paragraph_block block-2" width=3D"100%" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;=
+mso-table-rspace:0;word-break:break-word"><tr><td class=3D"pad" style=3D"pa=
+dding-bottom:15px;padding-left:10px;padding-right:10px;padding-top:10px"><d=
+iv=20
+style=3D"color:#000e2a;direction:ltr;font-family:Montserrat,'Trebuchet MS',=
+'Lucida Grande','Lucida Sans Unicode','Lucida Sans',Tahoma,sans-serif;font-=
+size:14px;font-weight:400;letter-spacing:0;line-height:120%;text-align:cent=
+er;mso-line-height-alt:16.8px"><p style=3D"margin:0"><strong><a href=3D"htt=
+ps://link.nl.technologyadvice.com/click/38787157.70814/aHR0cHM6Ly9uZXdzbGV0=
+dGVycy50ZWNocmVwdWJsaWMuY29tL3B1YmxpY2F0aW9ucw/67c1829fcb6383c7700c2b0dD485=
+d5245" target=3D"_blank" style=3D"text-decoration: underline; color: #cf3a0=
+9;" rel=3D"noopener">Cloud Insider</a></strong></p></div></td></tr></table>=
+</td><td=20
+class=3D"column column-2" width=3D"33.333333333333336%" style=3D"mso-table-=
+lspace:0;mso-table-rspace:0;font-weight:400;text-align:left;padding-bottom:=
+5px;padding-top:5px;vertical-align:top"><table class=3D"paragraph_block blo=
+ck-1" width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=
+=3D"presentation" style=3D"mso-table-lspace:0;mso-table-rspace:0;word-break=
+:break-word"><tr><td class=3D"pad" style=3D"padding-bottom:15px;padding-lef=
+t:10px;padding-right:10px;padding-top:10px"><div=20
+style=3D"color:#000e2a;direction:ltr;font-family:Montserrat,'Trebuchet MS',=
+'Lucida Grande','Lucida Sans Unicode','Lucida Sans',Tahoma,sans-serif;font-=
+size:14px;font-weight:400;letter-spacing:0;line-height:120%;text-align:cent=
+er;mso-line-height-alt:16.8px"><p style=3D"margin:0"><strong><a href=3D"htt=
+ps://link.nl.technologyadvice.com/click/38787157.70814/aHR0cHM6Ly9uZXdzbGV0=
+dGVycy50ZWNocmVwdWJsaWMuY29tL3B1YmxpY2F0aW9ucw/67c1829fcb6383c7700c2b0dE485=
+d5245" target=3D"_blank" style=3D"text-decoration: underline; color: #cf3a0=
+9;" rel=3D"noopener">Developer Insider</a></strong></p></div></td></tr></ta=
+ble><table=20
+class=3D"paragraph_block block-2" width=3D"100%" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;=
+mso-table-rspace:0;word-break:break-word"><tr><td class=3D"pad" style=3D"pa=
+dding-bottom:15px;padding-left:10px;padding-right:10px;padding-top:10px"><d=
+iv=20
+style=3D"color:#000e2a;direction:ltr;font-family:Montserrat,'Trebuchet MS',=
+'Lucida Grande','Lucida Sans Unicode','Lucida Sans',Tahoma,sans-serif;font-=
+size:14px;font-weight:400;letter-spacing:0;line-height:120%;text-align:cent=
+er;mso-line-height-alt:16.8px"><p style=3D"margin:0"><strong><a href=3D"htt=
+ps://link.nl.technologyadvice.com/click/38787157.70814/aHR0cHM6Ly9uZXdzbGV0=
+dGVycy50ZWNocmVwdWJsaWMuY29tL3B1YmxpY2F0aW9ucw/67c1829fcb6383c7700c2b0dF485=
+d5245" target=3D"_blank" style=3D"text-decoration: underline; color: #cf3a0=
+9;" rel=3D"noopener">Cybersecurity Insider</a></strong></p></div></td></tr>=
+</table></td><td=20
+class=3D"column column-3" width=3D"33.333333333333336%" style=3D"mso-table-=
+lspace:0;mso-table-rspace:0;font-weight:400;text-align:left;padding-bottom:=
+5px;padding-top:5px;vertical-align:top"><table class=3D"paragraph_block blo=
+ck-1" width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=
+=3D"presentation" style=3D"mso-table-lspace:0;mso-table-rspace:0;word-break=
+:break-word"><tr><td class=3D"pad" style=3D"padding-bottom:15px;padding-lef=
+t:10px;padding-right:10px;padding-top:10px"><div=20
+style=3D"color:#000e2a;direction:ltr;font-family:Montserrat,'Trebuchet MS',=
+'Lucida Grande','Lucida Sans Unicode','Lucida Sans',Tahoma,sans-serif;font-=
+size:14px;font-weight:400;letter-spacing:0;line-height:120%;text-align:cent=
+er;mso-line-height-alt:16.8px"><p style=3D"margin:0"><strong><a href=3D"htt=
+ps://link.nl.technologyadvice.com/click/38787157.70814/aHR0cHM6Ly9uZXdzbGV0=
+dGVycy50ZWNocmVwdWJsaWMuY29tL3B1YmxpY2F0aW9ucw/67c1829fcb6383c7700c2b0dG485=
+d5245" target=3D"_blank" style=3D"text-decoration: underline; color: #cf3a0=
+9;" rel=3D"noopener">Microsoft Weekly</a></strong></p></div></td></tr></tab=
+le><table=20
+class=3D"paragraph_block block-2" width=3D"100%" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;=
+mso-table-rspace:0;word-break:break-word"><tr><td class=3D"pad" style=3D"pa=
+dding-bottom:15px;padding-left:10px;padding-right:10px;padding-top:10px"><d=
+iv=20
+style=3D"color:#000e2a;direction:ltr;font-family:Montserrat,'Trebuchet MS',=
+'Lucida Grande','Lucida Sans Unicode','Lucida Sans',Tahoma,sans-serif;font-=
+size:14px;font-weight:400;letter-spacing:0;line-height:120%;text-align:cent=
+er;mso-line-height-alt:16.8px"><p style=3D"margin:0"><strong><a href=3D"htt=
+ps://link.nl.technologyadvice.com/click/38787157.70814/aHR0cHM6Ly9uZXdzbGV0=
+dGVycy50ZWNocmVwdWJsaWMuY29tL3B1YmxpY2F0aW9ucw/67c1829fcb6383c7700c2b0dH485=
+d5245" target=3D"_blank" style=3D"text-decoration: underline; color: #cf3a0=
+9;" rel=3D"noopener">TechRepublic Premium</a></strong></p></div></td></tr><=
+/table></td></tr>
+</tbody></table></td></tr></tbody></table><table class=3D"row row-12" align=
+=3D"center" width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ role=3D"presentation" style=3D"mso-table-lspace:0;mso-table-rspace:0"><tbo=
+dy><tr><td><table class=3D"row-content stack" align=3D"center" border=3D"0"=
+ cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-tab=
+le-lspace:0;mso-table-rspace:0;border-radius:0;color:#000;width:590px;margi=
+n:0 auto" width=3D"590"><tbody><tr><td class=3D"column column-1" width=3D"1=
+00%"=20
+style=3D"mso-table-lspace:0;mso-table-rspace:0;font-weight:400;text-align:l=
+eft;padding-bottom:5px;padding-top:5px;vertical-align:top"><table class=3D"=
+paragraph_block block-1" width=3D"100%" border=3D"0" cellpadding=3D"0" cell=
+spacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;mso-table-r=
+space:0;word-break:break-word"><tr><td class=3D"pad" style=3D"padding-botto=
+m:15px;padding-left:10px;padding-right:10px;padding-top:10px"><div=20
+style=3D"color:#000e2a;direction:ltr;font-family:Lato,Tahoma,Verdana,Segoe,=
+sans-serif;font-size:14px;font-weight:400;letter-spacing:0;line-height:120%=
+;text-align:center;mso-line-height-alt:16.8px"><p style=3D"margin:0"></p></=
+div></td></tr></table></td></tr></tbody></table></td></tr></tbody></table><=
+table class=3D"row row-13" align=3D"center" width=3D"100%" border=3D"0" cel=
+lpadding=3D"0" cellspacing=3D"0" role=3D"presentation"=20
+style=3D"mso-table-lspace:0;mso-table-rspace:0;background-color:#e8f0fa"><t=
+body><tr><td><table class=3D"row-content stack" align=3D"center" border=3D"=
+0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-t=
+able-lspace:0;mso-table-rspace:0;border-radius:0;color:#000;width:590px;mar=
+gin:0 auto" width=3D"590"><tbody><tr><td class=3D"column column-1" width=3D=
+"100%" style=3D"mso-table-lspace:0;mso-table-rspace:0;font-weight:400;text-=
+align:left;padding-bottom:5px;vertical-align:top"><table=20
+class=3D"heading_block block-1" width=3D"100%" border=3D"0" cellpadding=3D"=
+0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;mso-=
+table-rspace:0"><tr><td class=3D"pad" style=3D"padding-left:10px;padding-ri=
+ght:10px;padding-top:15px;text-align:center;width:100%"><h2=20
+style=3D"margin:0;color:#000e2a;direction:ltr;font-family:Montserrat,'Trebu=
+chet MS','Lucida Grande','Lucida Sans Unicode','Lucida Sans',Tahoma,sans-se=
+rif;font-size:18px;font-weight:700;letter-spacing:normal;line-height:120%;t=
+ext-align:center;margin-top:0;margin-bottom:0;mso-line-height-alt:21.599999=
+999999998px"><span class=3D"tinyMce-placeholder" style=3D"word-break: break=
+-word;">More Than A Newsletter<br></span></h2></td></tr></table><table clas=
+s=3D"divider_block block-2" width=3D"100%" border=3D"0"=20
+cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-tabl=
+e-lspace:0;mso-table-rspace:0"><tr><td class=3D"pad" style=3D"padding-botto=
+m:15px;padding-left:5px;padding-right:5px;padding-top:10px"><div class=3D"a=
+lignment" align=3D"center"><table border=3D"0" cellpadding=3D"0" cellspacin=
+g=3D"0" role=3D"presentation" width=3D"10%" style=3D"mso-table-lspace:0;mso=
+-table-rspace:0"><tr><td class=3D"divider_inner" style=3D"font-size:1px;lin=
+e-height:1px;border-top:5px solid #086bdb">
+<span style=3D"word-break: break-word;">&#8202;</span></td></tr></table></d=
+iv></td></tr></table><table class=3D"paragraph_block block-3" width=3D"100%=
+" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" st=
+yle=3D"mso-table-lspace:0;mso-table-rspace:0;word-break:break-word"><tr><td=
+ class=3D"pad" style=3D"padding-bottom:15px;padding-left:10px;padding-right=
+:10px"><div=20
+style=3D"color:#000e2a;direction:ltr;font-family:Montserrat,'Trebuchet MS',=
+'Lucida Grande','Lucida Sans Unicode','Lucida Sans',Tahoma,sans-serif;font-=
+size:14px;font-weight:400;letter-spacing:0;line-height:120%;text-align:left=
+;mso-line-height-alt:16.8px"><p style=3D"margin:0">Written by Mary Weilage<=
+/p></div></td></tr></table><table class=3D"html_block block-4" width=3D"100=
+%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" s=
+tyle=3D"mso-table-lspace:0;mso-table-rspace:0"><tr><td class=3D"pad">
+<div style=3D"font-family:Arial,'Helvetica Neue',Helvetica,sans-serif;text-=
+align:center" align=3D"center"><!DOCTYPE html>
+<html lang=3D"en">
+<head>
+<meta charset=3D"UTF-8">
+<meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D1.=
+0">
+<title>Forwarded Email Signup</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=3DMontserrat:wght@400=
+&display=3Dswap');
+.signup-text {
+font-family: 'Montserrat', sans-serif;
+font-size: 10pt;
+color: #000e2a;
+text-align: left;
+padding-left: 10px;
+}
+.signup-text a {
+color: #cf3a09;
+text-decoration: underline;
+}
+</style>
+</head>
+<body>
+<p class=3D"signup-text">
+Was this email forwarded to you?
+<a href=3Dhttps://newsletters.techrepublic.com/publications>Sign up here</a=
+>.
+</p>
+</body>
+</html></div></td></tr></table><table class=3D"heading_block block-5" width=
+=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presenta=
+tion" style=3D"mso-table-lspace:0;mso-table-rspace:0"><tr><td class=3D"pad"=
+ style=3D"padding-bottom:5px;padding-left:10px;padding-right:10px;padding-t=
+op:10px;text-align:center;width:100%"><h2=20
+style=3D"margin:0;color:#000e2a;direction:ltr;font-family:Montserrat,'Trebu=
+chet MS','Lucida Grande','Lucida Sans Unicode','Lucida Sans',Tahoma,sans-se=
+rif;font-size:18px;font-weight:700;letter-spacing:normal;line-height:120%;t=
+ext-align:left;margin-top:0;margin-bottom:0;mso-line-height-alt:21.59999999=
+9999998px"><span class=3D"tinyMce-placeholder" style=3D"word-break: break-w=
+ord;">Connect With Us<br></span></h2></td></tr></table><table class=3D"html=
+_block block-6" width=3D"100%" border=3D"0" cellpadding=3D"0"=20
+cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;mso-tab=
+le-rspace:0"><tr><td class=3D"pad"><div style=3D"font-family:Arial,'Helveti=
+ca Neue',Helvetica,sans-serif;text-align:center" align=3D"center"><!DOCTYPE=
+ html>
+<html lang=3D"en">
+<head>
+<meta charset=3D"UTF-8">
+<meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D1.=
+0">
+<title>Social Media Links</title>
+<style>
+.social-links {
+text-align: left;
+font-size: 10pt;
+padding-left: 10pt;
+/* Added left padding */
+}
+.social-links a {
+text-decoration: underline;
+color: #cf3a09;
+margin-right: 10px;
+}
+.social-links span {
+margin-right: 10px;
+color: black;
+}
+</style>
+</head>
+<body>
+<div class=3D"social-links">
+<a href=3Dhttps://twitter.com/techrepublic>X</a>
+<span>|</span>
+<a href=3Dhttps://www.linkedin.com/company/techrepublic>LinkedIn</a>
+<span>|</span>
+<a href=3Dhttps://www.facebook.com/TechRepublic>Facebook</a>
+<span>|</span>
+<a href=3Dhttps://technologyadvice.com/careers/opportunities>Careers</a>
+</div>
+</body>
+</html></div></td></tr></table><table class=3D"heading_block block-7" width=
+=3D"100%" border=3D"0" cellpadding=3D"10" cellspacing=3D"0" role=3D"present=
+ation" style=3D"mso-table-lspace:0;mso-table-rspace:0"><tr><td class=3D"pad=
+"><h2=20
+style=3D"margin:0;color:#000e2a;direction:ltr;font-family:Montserrat,'Trebu=
+chet MS','Lucida Grande','Lucida Sans Unicode','Lucida Sans',Tahoma,sans-se=
+rif;font-size:18px;font-weight:700;letter-spacing:normal;line-height:120%;t=
+ext-align:left;margin-top:0;margin-bottom:0;mso-line-height-alt:21.59999999=
+9999998px"><span class=3D"tinyMce-placeholder" style=3D"word-break: break-w=
+ord;">About Innovation Insider:</span></h2></td></tr></table><table class=
+=3D"paragraph_block block-8" width=3D"100%" border=3D"0"=20
+cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-tabl=
+e-lspace:0;mso-table-rspace:0;word-break:break-word"><tr><td class=3D"pad" =
+style=3D"padding-bottom:15px;padding-left:10px;padding-right:10px"><div sty=
+le=3D"color:#000e2a;direction:ltr;font-family:Montserrat,'Trebuchet MS','Lu=
+cida Grande','Lucida Sans Unicode','Lucida Sans',Tahoma,sans-serif;font-siz=
+e:14px;font-weight:400;letter-spacing:0;line-height:120%;text-align:left;ms=
+o-line-height-alt:16.8px"><p style=3D"margin:0">
+Catch up on the latest tech innovations that are changing the world, includ=
+ing IoT, 5G, the latest about phones, security, smart cities, AI, robotics,=
+ and more. Delivered Tuesdays and Fridays</p></div></td></tr></table><table=
+ class=3D"html_block block-9" width=3D"100%" border=3D"0" cellpadding=3D"0"=
+ cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;mso-ta=
+ble-rspace:0"><tr><td class=3D"pad"><div style=3D"font-family:Arial,'Helvet=
+ica Neue',Helvetica,sans-serif;text-align:center" align=3D"center">
+<!DOCTYPE html>
+<html lang=3D"en">
+<head>
+<meta charset=3D"UTF-8">
+<meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D1.=
+0">
+<title>Subscription Center Link</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=3DMontserrat:wght@400=
+&display=3Dswap');
+.subscription-text {
+font-family: 'Montserrat', sans-serif;
+font-size: 9pt;
+color: #000e2a;
+text-align: left;
+padding-left: 10px;
+}
+.subscription-text a {
+color: #cf3a09;
+text-decoration: underline;
+}
+</style>
+</head>
+<body>
+<p class=3D"subscription-text">
+Visit the <a href=3Dhttps://newsletters.technologyadvice.com/manage?mid=3D3=
+8787157.70814&sid=3D67c1829fcb6383c7700c2b0d&checksum=3D467bf62ef7777affbb3=
+7c8a2e7645a6a23d2f41906887e42cf124fe9e38a3342&utm_content=3Dmanagement>Subs=
+cription Center</a> to get other free newsletters, manage your account sett=
+ings or to be removed from TechRepublic communications.
+</p>
+</body>
+</html></div></td></tr></table><div class=3D"spacer_block block-10" style=
+=3D"height:15px;line-height:15px;font-size:1px">&#8202;</div><table class=
+=3D"html_block block-11" width=3D"100%" border=3D"0" cellpadding=3D"0" cell=
+spacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;mso-table-r=
+space:0"><tr><td class=3D"pad"><div style=3D"font-family:Arial,'Helvetica N=
+eue',Helvetica,sans-serif;text-align:center" align=3D"center"><!DOCTYPE htm=
+l>
+<html lang=3D"en">
+<head>
+<meta charset=3D"UTF-8">
+<meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D1.=
+0">
+<title>Footer Links</title>
+<style>
+.footer-links {
+text-align: center;
+font-size: 9pt;
+padding-left: 0;
+/* No padding for centered alignment */
+}
+.footer-links a {
+text-decoration: underline;
+color: #cf3a09;
+margin-right: 10px;
+}
+.footer-links span {
+margin-right: 10px;
+color: black;
+}
+</style>
+</head>
+<body>
+<div class=3D"footer-links">
+<a href=3Dhttps://newsletters.technologyadvice.com/manage?unsubscribe=3Dinn=
+ovation-insider&mid=3D38787157.70814&sid=3D67c1829fcb6383c7700c2b0d&checksu=
+m=3D467bf62ef7777affbb37c8a2e7645a6a23d2f41906887e42cf124fe9e38a3342&utm_co=
+ntent=3Dunsubscribe>Unsubscribe</a>
+<span>|</span>
+<a href=3Dhttps://support.techrepublic.com>FAQ</a>
+<span>|</span>
+<a href=3Dhttps://technologyadvice.com/terms-conditions>Terms of Use</a>
+<span>|</span>
+<a href=3Dhttps://technologyadvice.com/privacy-policy>Privacy Policy</a>
+</div>
+</body>
+</html></div></td></tr></table><div class=3D"spacer_block block-12"=20
+style=3D"height:15px;line-height:15px;font-size:1px">&#8202;</div><table cl=
+ass=3D"html_block block-13" width=3D"100%" border=3D"0" cellpadding=3D"0" c=
+ellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;mso-tabl=
+e-rspace:0"><tr><td class=3D"pad"><div style=3D"font-family:Arial,'Helvetic=
+a Neue',Helvetica,sans-serif;text-align:center" align=3D"center"><!DOCTYPE =
+html>
+<html lang=3D"en">
+<head>
+<meta charset=3D"UTF-8">
+<meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D1.=
+0">
+<title>TechnologyAdvice Footer</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=3DMontserrat:wght@400=
+&display=3Dswap');
+.footer-text {
+font-family: 'Montserrat', sans-serif;
+font-size: 8pt;
+color: #000e2a;
+text-align: left;
+padding-left: 10px;
+}
+.footer-text a {
+color: #cf3a09;
+text-decoration: underline;
+}
+</style>
+</head>
+<body>
+<p class=3D"footer-text">
+=C2=A9 2025 TechnologyAdvice, LLC. All rights reserved.<br>
+This is a marketing email from TechnologyAdvice, 3343 Perimeter Hill Dr., S=
+uite 100, Nashville, TN 37211, USA. Please do not reply to this message. To=
+ contact us, please <a href=3Dhttps://technologyadvice.com/contact-us/>clic=
+k here</a>.
+</p>
+</body>
+</html></div></td></tr></table></td></tr></tbody></table></td></tr></tbody>=
+</table><table class=3D"row row-14" align=3D"center" width=3D"100%"=20
+border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" styl=
+e=3D"mso-table-lspace:0;mso-table-rspace:0;background-color:#e8f0fa"><tbody=
+><tr><td><table class=3D"row-content stack" align=3D"center" border=3D"0" c=
+ellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table=
+-lspace:0;mso-table-rspace:0;border-radius:0;color:#000;background-color:#e=
+8f0fa;width:590px;margin:0 auto" width=3D"590"><tbody><tr><td class=3D"colu=
+mn column-1" width=3D"33.333333333333336%"=20
+style=3D"mso-table-lspace:0;mso-table-rspace:0;font-weight:400;text-align:l=
+eft;padding-bottom:5px;padding-top:5px;vertical-align:middle"><table class=
+=3D"image_block block-1" width=3D"100%" border=3D"0" cellpadding=3D"0" cell=
+spacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;mso-table-r=
+space:0"><tr><td class=3D"pad" style=3D"width:100%;padding-right:0;padding-=
+left:0"><div class=3D"alignment" align=3D"left" style=3D"line-height:10px">=
+<div style=3D"max-width:147.5px">
+<a href=3D"https://link.nl.technologyadvice.com/click/38787157.70814/aHR0cH=
+M6Ly93d3cudGVjaHJlcHVibGljLmNvbS8/67c1829fcb6383c7700c2b0dF983cdd37" target=
+=3D"_blank" style=3D"outline:none" tabindex=3D"-1"><img src=3D"https://medi=
+a.sailthru.com/composer/images/sailthru-prod-7fz/TR_Logo_NewBlue.png" style=
+=3D"display:block;height:auto;border:0;width:100%" width=3D"147.5" alt=3D"T=
+echRepublic" title=3D"TechRepublic" height=3D"auto"></a></div></div></td></=
+tr></table></td><td class=3D"column column-2" width=3D"66.66666666666667%"=
+=20
+style=3D"mso-table-lspace:0;mso-table-rspace:0;font-weight:400;text-align:l=
+eft;padding-bottom:5px;padding-top:10px;vertical-align:middle"><table class=
+=3D"paragraph_block block-1" width=3D"100%" border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;mso-tab=
+le-rspace:0;word-break:break-word"><tr><td class=3D"pad" style=3D"padding-b=
+ottom:15px;padding-left:10px;padding-right:10px;padding-top:5px"><div=20
+style=3D"color:#000e2a;direction:ltr;font-family:Lato,Tahoma,Verdana,Segoe,=
+sans-serif;font-size:14px;font-weight:400;letter-spacing:0;line-height:120%=
+;text-align:left;mso-line-height-alt:16.8px"><p style=3D"margin:0">TechRepu=
+blic is a TechnologyAdvice business.</p></div></td></tr></table></td></tr><=
+/tbody></table></td></tr></tbody></table></td></tr></tbody></table><!-- End=
+ --></body></html>
+------=_Part_1166006_2057535073.1740735197969--

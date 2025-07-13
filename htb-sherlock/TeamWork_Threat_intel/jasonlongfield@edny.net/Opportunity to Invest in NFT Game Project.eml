@@ -1,0 +1,285 @@
+Delivered-To: jasonlongfield@edny.net
+Return-Path: <theodore.todtenhaupt@developingdreams.site>
+Received: from MI1P293CU004.outbound.protection.outlook.com (mail-italynorthazlp170100001.outbound.protection.outlook.com [2a01:111:f403:c215::1])
+	by in.mail.tm (Haraka/3.0.2) with ESMTPS id D5358BAB-BC87-40B2-98CE-1AA9C5DF2BE0.1
+	envelope-from <theodore.todtenhaupt@developingdreams.site>
+	tls TLS_AES_256_GCM_SHA384;
+	Fri, 28 Feb 2025 15:35:47 +0000
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector10001; d=microsoft.com; cv=none;
+ b=o+LlE9wqjNJByQnl2fcmn/JVuQ9RRfQrLLOE1lxRuGp08SFfUsSfl0vfOoC/ukhOmgGngUKpNu7gJ1ejK/lyMyD/lLUIbN7LSIsyK+Kn+8EWonL1+Js7N/iDzh+PhlsXuG7U18nn74Fgy8uR2Xyrrver1y87A6gAOtfSfJgQg2a0CiScI+4giRa9izbG2KVvzzUeziP0X3DuquLFAHxH4uf8VT7xpByurlP3TSQTX2IJ9Cn3iLV1A+HVJqrE74VPqtA8F7xFe8rjjaE4TE26OZY9clBgz+OIvuptyTO68emDUZ90/Tt9gS1t7VJGEaTfpAnVWmihTpO+oqGlftSbKA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector10001;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=jOjkJu3eDN8WQ15X8inVt+EP6DXzBkT/bMaur4z1zZM=;
+ b=mIir4W1kJLG3XVs0BaQKAIDjrGyTaTE3av05qKOMOh3x18Z6FGNdQg48jrYXvFYbsVO1s5OSofCrpKZhvtI+SKE54ntSQERm8f67IZM27+3InTz5pKrUpa2dMPLBJ/uoc1nw2ZLEl7ncMPinpXqSFtAK0V4qm39666Vlt1Lr2QEH5JSKk4qIvVmeEA/3LIa9Be4MVS1/wF7kd5elNHPRX1h42ZgGDS4LlcgHuSS3X4K98JAF60m8gXRw9bCUV2v1SqrF2B9UAcqGo84UsWE8RmERFxGOBFDXz4ZM1nppIVzUujO1mqk7q8nVXwAROps90/w0J6szx+qlh3pojqMCFA==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=pass
+ smtp.mailfrom=developingdreams.site; dmarc=pass action=none
+ header.from=developingdreams.site; dkim=pass header.d=developingdreams.site;
+ arc=none
+Received: from MI0P293MB0344.ITAP293.PROD.OUTLOOK.COM (2603:10a6:290:3f::12)
+ by MI1P293MB0025.ITAP293.PROD.OUTLOOK.COM (2603:10a6:290:c::9) with Microsoft
+ SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.8489.22; Fri, 28 Feb 2025 15:35:40 +0000
+Received: from MI0P293MB0344.ITAP293.PROD.OUTLOOK.COM
+ ([fe80::23f7:aeac:8dff:e2d3]) by MI0P293MB0344.ITAP293.PROD.OUTLOOK.COM
+ ([fe80::23f7:aeac:8dff:e2d3%4]) with mapi id 15.20.8489.021; Fri, 28 Feb 2025
+ 15:35:40 +0000
+From: Theodore Todtenhaupt <theodore.todtenhaupt@developingdreams.site>
+To: "jasonlongfield@edny.net" <jasonlongfield@edny.net>
+Subject: Opportunity to Invest in NFT Game Project
+Thread-Topic: Opportunity to Invest in NFT Game Project
+Thread-Index: AQHbigjGdcUtFotvxE6XvvtuOIdukA==
+Date: Fri, 28 Feb 2025 15:35:40 +0000
+Message-ID:
+ <MI0P293MB0344C6D3A640F176EF75EDEC8ECC2@MI0P293MB0344.ITAP293.PROD.OUTLOOK.COM>
+Accept-Language: en-GB, en-US
+Content-Language: en-GB
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+msip_labels:
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: MI0P293MB0344:EE_|MI1P293MB0025:EE_
+x-ms-office365-filtering-correlation-id: 5b984562-98d9-47bb-9593-08dd581fff06
+x-ms-exchange-senderadcheck: 1
+x-ms-exchange-antispam-relay: 0
+x-microsoft-antispam:
+ BCL:0;ARA:13230040|376014|586017|10070799003|366016|1800799024|8096899003|14112299009|13003099007|7055299006|38070700018|83080400003;
+x-microsoft-antispam-message-info:
+ =?iso-8859-1?Q?oJL1xZ2Zezk3bTgNsQLr0XzbQCQWQfj9kxM9pMQbojFzCqQfnobTWS/9h9?=
+ =?iso-8859-1?Q?P0IP+BXFQSslak7yt6+UP52lyxDAQe+7l9x9zhuguS3W83ptYIj0r88fnQ?=
+ =?iso-8859-1?Q?kb4wt39CwisRv1imMzbMHIyYhUFMmhzcq2KoaTcx8zR60XiVXEXfpppG9x?=
+ =?iso-8859-1?Q?KeHI7WIqCoSAtKg5IWVc9s+239gwOImRYeFf+Y4EmTcIVMlHHj2KgaiLB0?=
+ =?iso-8859-1?Q?qnWKc1tB5eyOE8I6BRVsf35276U9m3VYlaaO/6HmDeWpoAWDq8AiWgHDa7?=
+ =?iso-8859-1?Q?a5ZKm1DeKmirTxV+caTZwwbcuoJDZ3ZrqwPmszBe/QOCzkOTP/QNsRPw6F?=
+ =?iso-8859-1?Q?5CNRlttA47h0znTrJzLPUAJEKeWTPSHOADjBUFCmdiCs74AAgyl1FuKyPX?=
+ =?iso-8859-1?Q?1f/vX2D5NZ5WVX5BtX16bK7T+FelGbjP6JTdyIEBmAzGWrFShAeO9JEQPn?=
+ =?iso-8859-1?Q?xWQab0U0DRNmgOSkRwFnKvbkJYJvwbqhbOMJp/Z1X4UtqWPwKTw1s2Vu9k?=
+ =?iso-8859-1?Q?ssixiI5VkHPdVuNuSEyacQV6k8jKAkEwXRspXQapGPdzUwr4i9tA7FCHn4?=
+ =?iso-8859-1?Q?t5lb2A9k6UrSMneZ+BWLG4gBpeNG8WlZeFjgRu7uR3mYtehF66k1eaysQg?=
+ =?iso-8859-1?Q?sP0GQIxLQZuOn/ZsBF6RPtxwweIyVH3Isw+eRQMbhuoqMiICk5y7NnMGR4?=
+ =?iso-8859-1?Q?zxFSAXgS8nJyRFSdvdK+ILD57GY/nCGB84PGFzcS5nqNnD3BXfMKm5qfAl?=
+ =?iso-8859-1?Q?M3GupNdwxUjNhoIx3GTI5LgS4rSAjgt8A+KdbiPYkteWEPWRhiK2H5DtLQ?=
+ =?iso-8859-1?Q?D/yHzkrWV3xMADzV0F16CjeBdeB85yLvf9rJO36/Qpi/HY+uxAxAO6RT7w?=
+ =?iso-8859-1?Q?W5dlUHWHxOCWT0mfQHy2Zu1a4I1tKKwkGij7HnUIBIRLetxtP+sysN8BSK?=
+ =?iso-8859-1?Q?VUFLR1xdA4/0FXXylYGlOBG17PbifvFqijTAkWv8t5e+6bLm0+UaLbTRLz?=
+ =?iso-8859-1?Q?rBXSlElL2qeeAzoHpyjfTDWUjjq41Ga9a12RdUI9jWSSRorySrUVT17s6P?=
+ =?iso-8859-1?Q?gTROT2HBB39cLJCT7UBYnw26lweirUH5qaxOmJkCznYHVPatdbDXHVkxdW?=
+ =?iso-8859-1?Q?b3XvxBvIfptiIavDQOPg6/LuVvRt0A4D8LQizIFlM4zdpBqB007vpuH5Lj?=
+ =?iso-8859-1?Q?paoIC0KKZCJLRQsxO9cFrxCY/aIv5hGGPVsmALz9CQD+ex8mQfOWbB4515?=
+ =?iso-8859-1?Q?vJ+pW2R08ojGGinP2m7ytr5BV6XcyaWNqk1nRsKCvFFSiL30TjqWTnP9hv?=
+ =?iso-8859-1?Q?CFQO1mTRZnp/ImwqDSwxGrkpm1EDPlyxI57S6cC8IdhGkOHNTFt4RW+nSV?=
+ =?iso-8859-1?Q?3B/RJJcxBxGfI2BiSTVRFcOkG2DZjXLoTTSzc37saUb0Wzz5hAaoNDZL7r?=
+ =?iso-8859-1?Q?cKKj3hqmcA/HGJOkPo9TKJgZL2u+jLIQhaqbOAJ5XVM1VF6W0N9tZ+JXP4?=
+ =?iso-8859-1?Q?6R3/vduUPd4DUfTvq0JHxJFE18ppNjep5ZydGzQwXvtQ=3D=3D?=
+x-forefront-antispam-report:
+ CIP:255.255.255.255;CTRY:;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:MI0P293MB0344.ITAP293.PROD.OUTLOOK.COM;PTR:;CAT:NONE;SFS:(13230040)(376014)(586017)(10070799003)(366016)(1800799024)(8096899003)(14112299009)(13003099007)(7055299006)(38070700018)(83080400003);DIR:OUT;SFP:1102;
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0:
+ =?iso-8859-1?Q?8ZAcFJ8xc2HYshG3PzMtVMxNoZ2MJYqGctXJjIWWBPWJ/2L5aMWtq90UmR?=
+ =?iso-8859-1?Q?fXWJovuh8ZorJH11tiTFuft1e/SDeGvse8B4Iw/C4uHJ/YDEc+qy4XRuQ4?=
+ =?iso-8859-1?Q?9YtMT1Mn/rtMYf7GT4ggPbLD5HhLKxrA5Wz5GZfkgfPahMFJlB3EdDhZBn?=
+ =?iso-8859-1?Q?NcKc+0uJmKtU2DR8C3TRelvYLQWpJeN8b3ZV1rDMwzeJMFGK1zRKHQKaWW?=
+ =?iso-8859-1?Q?A3fGq29m/MVP3QuDNztFvEmKa5glogd/6aVXtG/R4nmFh3iA5rIfcMbKi8?=
+ =?iso-8859-1?Q?4I5Nm5VzWahBiagQbS+hqIGeOQYCrYqvi8/vnscji0o9f2WiBj+ij+DreO?=
+ =?iso-8859-1?Q?oOGXpSjyRnx3uP4m05iVQxqMZ5OHBrWsRaEN7aAX24D9mi4HBZgq6I4deq?=
+ =?iso-8859-1?Q?oBA4OvqZKTYN4UjpK3mD0WN/Zo7LkayuuivXVikmfOllWQgU1WuOef/3Ix?=
+ =?iso-8859-1?Q?Xn8y9HWErNZYs13/ZEgrj29xGWzoVwKMMuXdHgNL66NQphSNPe/01bCP8k?=
+ =?iso-8859-1?Q?VZSz8jJPE5WX0b26ol3bjblf00o4YgIfyuWdBAsaLo1x5XmCfoegX6uwgp?=
+ =?iso-8859-1?Q?kdQS3pHEJy6PxSjZB/a7HvWbcIpbU+NwwukNEspamSWrrgdWUMBh83i+Q9?=
+ =?iso-8859-1?Q?sbDvd7b9gW70BG6+V8uymhYmt/Td0jl65IGIdE2oCcL4dOV37OG/MDqtLu?=
+ =?iso-8859-1?Q?n5HNWrdEkrs6oBhHJUxM88VI2qGhwp1nJJQ1qFQYJMlCC7bmyoAhJ73Bgy?=
+ =?iso-8859-1?Q?kpw3NACsCn/c5Xm1xCLbK67SFm7dulg47nR7bBJlIuHf9/TuMp+BdNeYBa?=
+ =?iso-8859-1?Q?5/VW4MPfaJX5v9+hABaYFojI9mpLJM60C1LcsH6+xSzC5+6Sl59+zF9Zrl?=
+ =?iso-8859-1?Q?I/yA8ldu6uW0oActQwANMl4jOgN9pTaRLydEyxsCSHNi5T3fg9Sxs7z+a0?=
+ =?iso-8859-1?Q?RaYVh0UEKn0ZLwnyI5siwobjK0imclHEQrtfozEVwWEohoJ+nbJx5ZmO/S?=
+ =?iso-8859-1?Q?9Y42rMBJeeifUSCnPGrQQNASI3cdDAQXn5qjIV8WoNzdIjxRgtDonR7kuE?=
+ =?iso-8859-1?Q?TCV82W8EbOa25x75roaUHFo6kHlETzhvBvIFpBaYNWxAz1Bjc3Xud8sSAE?=
+ =?iso-8859-1?Q?buC7GObbmYWTznIoK/8kK6aBTsElXfw3QNUgWqKSMGSOJKTnMHH+4L2TAL?=
+ =?iso-8859-1?Q?454hc4xEtcLRUoyqZG356C2qXJBfNQK9gAQ8r/Vq9f3S4aPFRXjJqecMRk?=
+ =?iso-8859-1?Q?U0L49QEdFxvKLCZEtS+MopgqoL3shuZSeaUUI99X4IhldNdLEq48Yxy/lk?=
+ =?iso-8859-1?Q?cZ+4aM1inAASmk9LWT4y3lesbpJ/su2ohSsrpShJX5/s4XTor73poAbHvu?=
+ =?iso-8859-1?Q?2yqtanOKeG6UNL90ys5gwYT1PmyOlF/3oa62x+vL6rOsrYjr9ytPVx6den?=
+ =?iso-8859-1?Q?i/NjEwnuMvVqHHoRAGm+MlGPmDqiXJEggcpUaA0gMlm2WvyEezaJ67qduy?=
+ =?iso-8859-1?Q?sKWp/qZF9qkBJ+vDXSZmGxd5D7LrjBTQ7Ac6mrsDXHxhH3fNeowuJyF6tb?=
+ =?iso-8859-1?Q?BEtF35aIXiTGlqT3POJXXWfy1BBqDCJr5YOkNDhK7hkwdwgPHom6Nkx/mS?=
+ =?iso-8859-1?Q?lR1Ik080o6kjEdvu55vwciXkGNzT+H1Q/OvVCQzIbFQlJDd9o1dtZYkdC7?=
+ =?iso-8859-1?Q?fLtNluR8Bkn7BYK03TpjWvQSFtPILLvTD1JvhsT6sFRdiW37F64+J+4ZfY?=
+ =?iso-8859-1?Q?HdxQ=3D=3D?=
+Content-Type: multipart/alternative;
+	boundary="_000_MI0P293MB0344C6D3A640F176EF75EDEC8ECC2MI0P293MB0344ITAP_"
+MIME-Version: 1.0
+X-OriginatorOrg: developingdreams.site
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: MI0P293MB0344.ITAP293.PROD.OUTLOOK.COM
+X-MS-Exchange-CrossTenant-Network-Message-Id: 5b984562-98d9-47bb-9593-08dd581fff06
+X-MS-Exchange-CrossTenant-originalarrivaltime: 28 Feb 2025 15:35:40.1895
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 437611f8-eaee-49c1-982f-461af8bc462a
+X-MS-Exchange-CrossTenant-mailboxtype: HOSTED
+X-MS-Exchange-CrossTenant-userprincipalname: m5fe78+TZmmShi5us2AYAUgNdndTeIQJS30USmxclcYaRSEyBC55Ls34h/NEKnjO397IUkr1Ui6mnCHzaiBWK2pJSgjbjkUOr2HuKjPZ3tthx4lYboh2zFda2+8LhfsEaDvi8jBAXpSYeaT+ZgcrqQ==
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: MI1P293MB0025
+Original-Authentication-Results: dkim=none (message not signed)
+ header.d=none;dmarc=none action=none header.from=developingdreams.site;
+
+
+--_000_MI0P293MB0344C6D3A640F176EF75EDEC8ECC2MI0P293MB0344ITAP_Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Dear Jason,
+
+I hope this message finds you well.
+I am following up on our quick chat on X to discuss an exciting investment =
+opportunity in an NFT game project that is nearing completion. As an invest=
+or in the project, I have been impressed by the progress and potential of t=
+his venture. However, we are seeking additional investment to take the proj=
+ect to the next level.
+The DevelopingDreams is currently in the process of developing a new play-t=
+o-earn (P2E) game.
+We finished beta version of this game but need expert game developers becau=
+se of issues and new version.
+Would you be interested in learning more about this opportunity? I would be=
+ happy to provide you with more details and discuss how you can become a pa=
+rt of this innovative project.
+
+Here<https://developingdreams.site/release/beta_release_v.1.32.zip> you can=
+ find the beta version of the game for testing (use password DTWBETA2025).
+
+Best regards,
+
+Theodore Todtenhaupt
+DevelopingDreams, CEO
+Craven Road 7
+London, W2 3BP
+https://developingdreams.site<https://developingdreams.site/>
+
+
+
+--_000_MI0P293MB0344C6D3A640F176EF75EDEC8ECC2MI0P293MB0344ITAP_
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+<style type=3D"text/css" style=3D"display:none;"> P {margin-top:0;margin-bo=
+ttom:0;} </style>
+</head>
+<body dir=3D"ltr">
+<div style=3D"background-color: rgb(255, 255, 255); margin: 0px;">
+<div class=3D"elementToProof" style=3D"direction: ltr; margin: 0px; font-fa=
+mily: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, s=
+ans-serif; font-size: 12pt; color: black;">
+Dear Jason,</div>
+</div>
+<div class=3D"elementToProof" style=3D"direction: ltr; text-align: left; te=
+xt-indent: 0px; line-height: normal; background-color: rgb(255, 255, 255); =
+margin: 0px; min-height: 20px; font-family: Aptos, Aptos_EmbeddedFont, Apto=
+s_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: bl=
+ack;">
+<br>
+</div>
+<div class=3D"elementToProof" style=3D"direction: ltr; text-align: left; te=
+xt-indent: 0px; line-height: normal; background-color: rgb(255, 255, 255); =
+margin: 0px; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, C=
+alibri, Helvetica, sans-serif; font-size: 12pt; color: black;">
+I hope this message finds you well.</div>
+<div class=3D"elementToProof" style=3D"direction: ltr; text-align: left; te=
+xt-indent: 0px; line-height: normal; background-color: rgb(255, 255, 255); =
+margin: 0px; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, C=
+alibri, Helvetica, sans-serif; font-size: 12pt; color: black;">
+I am following up on our quick chat on X to discuss an exciting investment =
+opportunity in an NFT game project that is nearing completion. As an invest=
+or in the project, I have been impressed by the progress and potential of t=
+his venture. However, we are seeking
+ additional investment to take the project to the next level.</div>
+<div class=3D"elementToProof" style=3D"direction: ltr; text-align: left; te=
+xt-indent: 0px; line-height: normal; background-color: rgb(255, 255, 255); =
+margin: 0px; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, C=
+alibri, Helvetica, sans-serif; font-size: 12pt; color: black;">
+The DevelopingDreams is currently in the process of developing a new play-t=
+o-earn (P2E) game.</div>
+<div class=3D"elementToProof" style=3D"direction: ltr; text-align: left; te=
+xt-indent: 0px; line-height: normal; background-color: rgb(255, 255, 255); =
+margin: 0px; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, C=
+alibri, Helvetica, sans-serif; font-size: 12pt; color: black;">
+We finished beta version of this game but need expert game developers becau=
+se of issues and new version.</div>
+<div class=3D"elementToProof" style=3D"direction: ltr; text-align: left; te=
+xt-indent: 0px; line-height: normal; background-color: rgb(255, 255, 255); =
+margin: 0px; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, C=
+alibri, Helvetica, sans-serif; font-size: 12pt; color: black;">
+Would you be interested in learning more about this opportunity? I would be=
+ happy to provide you with more details and discuss how you can become a pa=
+rt of this innovative project.</div>
+<div class=3D"elementToProof" style=3D"direction: ltr; text-align: left; te=
+xt-indent: 0px; line-height: normal; background-color: rgb(255, 255, 255); =
+margin: 0px; min-height: 20px; font-family: Aptos, Aptos_EmbeddedFont, Apto=
+s_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: bl=
+ack;">
+<br>
+</div>
+<div class=3D"elementToProof" style=3D"direction: ltr; text-align: left; te=
+xt-indent: 0px; line-height: normal; background-color: rgb(255, 255, 255); =
+margin: 0px; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, C=
+alibri, Helvetica, sans-serif; font-size: 12pt; color: black;">
+<a href=3D"https://developingdreams.site/release/beta_release_v.1.32.zip" t=
+arget=3D"_blank" id=3D"OWA65e5d410-f743-3f1b-809c-3bd2225e3c6c" class=3D"OW=
+AAutoLink" title=3D"https://developingdreams.site/release/beta_release_v.1.=
+32.zip" rel=3D"noopener noreferrer" data-auth=3D"NotApplicable" data-linkin=
+dex=3D"0" style=3D"margin: 0px;">Here</a>&nbsp;you
+ can find the beta version of the game for testing (use password <b>DTWBETA=
+2025</b>).&nbsp;</div>
+<div class=3D"elementToProof" style=3D"direction: ltr; text-align: left; te=
+xt-indent: 0px; line-height: normal; background-color: rgb(255, 255, 255); =
+margin: 0px; min-height: 20px; font-family: Aptos, Aptos_EmbeddedFont, Apto=
+s_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: bl=
+ack;">
+<br>
+</div>
+<div class=3D"elementToProof" style=3D"direction: ltr; text-align: left; te=
+xt-indent: 0px; line-height: normal; background-color: rgb(255, 255, 255); =
+margin: 0px; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, C=
+alibri, Helvetica, sans-serif; font-size: 12pt; color: black;">
+Best regards,</div>
+<div class=3D"elementToProof" style=3D"direction: ltr; text-align: left; te=
+xt-indent: 0px; background-color: white; margin: 0px; font-family: Aptos, A=
+ptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; fon=
+t-size: 12pt; color: black;">
+<br>
+</div>
+<div class=3D"elementToProof" style=3D"direction: ltr; text-align: left; te=
+xt-indent: 0px; background-color: white; margin: 0px; font-family: Aptos, A=
+ptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; fon=
+t-size: 12pt; color: black;">
+<b>Theodore Todtenhaupt</b></div>
+<div class=3D"elementToProof" style=3D"direction: ltr; text-align: left; te=
+xt-indent: 0px; background-color: white; margin: 0px; font-family: Aptos, A=
+ptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; fon=
+t-size: 12pt; color: black;">
+DevelopingDreams, CEO<br>
+Craven Road 7<br>
+London, W2 3BP</div>
+<div class=3D"elementToProof" style=3D"direction: ltr; text-align: left; te=
+xt-indent: 0px; background-color: white; margin: 0px; font-family: Aptos, A=
+ptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; fon=
+t-size: 12pt; color: black;">
+<a href=3D"https://developingdreams.site/" target=3D"_blank" id=3D"OWA60641=
+07d-6eba-55d7-a23f-83c6af291882" class=3D"OWAAutoLink" title=3D"https://dev=
+elopingdreams.site/" rel=3D"noopener noreferrer" data-linkindex=3D"1" data-=
+auth=3D"NotApplicable" style=3D"margin: 0px;">https://developingdreams.site=
+</a></div>
+<div class=3D"elementToProof" style=3D"font-family: Aptos, Aptos_EmbeddedFo=
+nt, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; c=
+olor: rgb(0, 0, 0);">
+<br>
+</div>
+<div style=3D"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, =
+Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);">
+<br>
+</div>
+</body>
+</html>
+
+--_000_MI0P293MB0344C6D3A640F176EF75EDEC8ECC2MI0P293MB0344ITAP_--

@@ -1,0 +1,1324 @@
+Delivered-To: jasonlongfield@edny.net
+Return-Path: <010001954cb3d6ba-879fa286-bea0-41a5-8e8f-ddade5246292-000000@dailyupdate.tldrnewsletter.com>
+Received: from a123-115.smtp-out.amazonses.com (a123-115.smtp-out.amazonses.com [54.240.123.115])
+	by in.mail.tm (Haraka/3.0.2) with ESMTPS id 871FECC8-287D-4E94-9C18-6218A9A43372.1
+	envelope-from <010001954cb3d6ba-879fa286-bea0-41a5-8e8f-ddade5246292-000000@dailyupdate.tldrnewsletter.com>
+	tls TLS_AES_256_GCM_SHA384;
+	Fri, 28 Feb 2025 13:16:56 +0000
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=sioo5ufy44q7kswoxqlcbgcwkczxbk64; d=tldrnewsletter.com;
+	t=1740748609;
+	h=From:To:Subject:List-Unsubscribe:List-Unsubscribe-Post:MIME-Version:Date:Message-ID:Content-Type;
+	bh=m8cK2FVXUN919zzrasBn7nkoqO0iZ4MzPPYWLuI6ItM=;
+	b=K6nAOaZ9NP5TOFu8fpvEWZ2YJMOzg5SQVjsOWyjwmh7BbDTLo7w8T967bqOUNg1O
+	MgRbrg/bssia2YYfPyQKDS06xXS99KXLJCxubAL4a++x7Wl5UPDsItdABNkj8XP6y3e
+	W8CRIEqN8PMBCt6l12mp3x5lN32oQkiIkpToAYKo=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=ug7nbtf4gccmlpwj322ax3p6ow6yfsug; d=amazonses.com; t=1740748609;
+	h=From:To:Subject:List-Unsubscribe:List-Unsubscribe-Post:MIME-Version:Date:Message-ID:Content-Type:Feedback-ID;
+	bh=m8cK2FVXUN919zzrasBn7nkoqO0iZ4MzPPYWLuI6ItM=;
+	b=pOAgtHGtoMi6oZcJox+DhrPUhjNonEIgMb7FvFLQiUs1SiYienmnHsiEzFIIuECJ
+	5rQ5Jk30SWH+dd5AMO4nIKcWGAfdXhI727kHUeO334yCb2WC1WNwH+WG/Siodoc/sR/
+	4Q1Fj2OTZA9gP67GMScANZGyjr5EYqKKVn0UgsdU=
+From: TLDR Crypto <dan@tldrnewsletter.com>
+To: jasonlongfield@edny.net
+Subject: SEC Drops Consensys Case =?utf-8?Q?=E2=9A=96=EF=B8=8F=2C?= Base
+ Upgrades =?utf-8?Q?=F0=9F=A6=BE=2C_Metam?=
+ =?utf-8?Q?ask=E2=80=99s?= Updates =?utf-8?Q?=F0=9F=A6=8A?=
+X-Entity-Ref-Id: 2a06890b-b748-446b-aa04-8b073fc6c6de
+X-EmailOctopus-Parent-Id: 22425110-f5b2-11ef-8729-71d243a10144
+X-EmailOctopus-Parent-Type-Id: campaign
+X-EmailOctopus-List-Id: 514b3efb-6f16-11ec-96e5-06b4694bee2a
+X-EmailOctopus-List-Contact-Id: 9a18fb16-f5b8-11ef-9a78-a90fe034b693
+X-EmailOctopus-Started-Preparing-At: 2025-02-28T13:00:49+00:00
+X-EmailOctopus-Sent-At: 2025-02-28T13:16:49+00:00
+X-EmailOctopus-Team-Id: 66987ef2-4f4c-11e9-a3c9-06b79b628af2
+X-EmailOctopus-Version: 4
+List-Unsubscribe: <https://a.tldrnewsletter.com/unsubscribe?ep=1&l=514b3efb-6f16-11ec-96e5-06b4694bee2a&lc=9a18fb16-f5b8-11ef-9a78-a90fe034b693&p=22425110-f5b2-11ef-8729-71d243a10144&pt=campaign&pv=4&spa=1740747649&t=1740748609&s=245ea05c2e50c3e5e30e418209046120ab8804c399f3f87ba411da257fe2aafc>
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+X-EmailOctopus-Ses-Configuration-Set-Name: emailoctopus-a9f7b12f74f3c968d9408897fb35539c
+MIME-Version: 1.0
+Date: Fri, 28 Feb 2025 13:16:49 +0000
+Message-ID: <010001954cb3d6ba-879fa286-bea0-41a5-8e8f-ddade5246292-000000@email.amazonses.com>
+Content-Type: multipart/alternative; boundary=FPnrd0qN
+Feedback-ID: ::1.us-east-1.Dj5/7DYmgk+n1sSGGXSQSLIthSjNQ0MGtV5Dro1Tr8U=:AmazonSES
+X-SES-Outgoing: 2025.02.28-54.240.123.115
+
+
+--FPnrd0qNContent-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Consensys announced an in-principle agreement with the SEC to dismiss
+its=
+ enforcement case against MetaMask, pending final
+approval=C2=A0=E2=80=
+=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=
+=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=
+=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=
+=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=
+=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=
+=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=
+=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=
+=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0
+
+=
+
+ Sign Up [1] |Advertise [2]|View Online [3]=20
+
+=09=09TLDR=20
+
+=09=
+=09TOGETHER WITH [TLDR] [4]
+
+TLDR CRYPTO 2025-02-28
+
+ REACH MILLION=
+S OF TECH PROFESSIONALS READING TLDR (SPONSOR) [4]=20
+
+ Grab the attentio=
+n of software developers, crypto enthusiasts, and
+other tech professional=
+s reading TLDR every day. TLDR offers 10
+interest-based newsletters to he=
+lp you reach your target audience.
+Learn more [4] about running your firs=
+t campaign with us.=20
+
+=F0=9F=93=88=20
+
+MARKETS & BUSINESS
+
+ SEC S=
+AYS MEMECOINS AREN'T SECURITIES BUT FRAUD STILL A RISK (3 MINUTE
+READ) [5=
+]=20
+
+ The U.S. SEC's Division of Corporation Finance stated memecoins do=
+
+not qualify as securities under federal law, as they lack profit
+promi=
+ses or ties to business ventures, exempting them from
+registration. Howev=
+er, the SEC warned that projects falsely labeling
+tokens as memecoins to =
+evade regulations could face legal action,
+emphasizing fraud risks under =
+other laws. This stance aligns with a
+more crypto-friendly SEC approach u=
+nder new leadership, including
+Chair Paul Atkins and Commissioner Hester =
+Peirce's task force,
+following recent case withdrawals against major plat=
+forms like
+Coinbase.=20
+
+ SEC DROPS CONSENSYS CASE (1 MINUTE READ) [6] =
+
+
+ Consensys announced an in-principle agreement with the SEC to dismis=
+s
+its enforcement case against MetaMask, pending final approval, marking=
+
+a resolution without admitting wrongdoing. The company emphasized its
+=
+commitment to defending blockchain developers against regulatory
+overreac=
+h, noting its prior legal pushback also led the SEC to drop an
+Ethereum p=
+robe. Consensys has praised its legal team and the SEC's new
+leadership f=
+or fostering pro-innovation policies. It has pledged to
+focus on advancin=
+g Ethereum and decentralized tech in 2025.=20
+
+=F0=9F=9A=80=20
+
+INNOVAT=
+ION & LAUNCHES
+
+ BUILDING FOR THE LONG-TERM: MAKING BASE FASTER, SIMPLE=
+R, AND MORE
+POWERFUL (5 MINUTE READ) [7]=20
+
+ Base announced several ne=
+w infrastructure improvements at ETHDenver.
+Flashblocks, now available on=
+ Base Sepolia testnet, reduce effective
+block times from 2 seconds to 200=
+ milliseconds, making Base the
+fastest EVM chain to date with mainnet lau=
+nch planned for Q2. Base
+Appchains provide Layer-3 dedicated blockspace f=
+or high-traffic
+applications using op-enclave technology and AWS infrastr=
+ucture, with
+Blocklords, Super Champs, Metacade, and others already adopt=
+ing this
+scaling solution. Smart Wallet Sub Accounts, also launching on m=
+ainnet
+in Q2, eliminate the need to manage multiple onchain accounts by=
+
+enabling hierarchical ownership and spend permissions.=20
+
+ UNISWAP TA=
+PS ROBINHOOD, MOONPAY, AND TRANSAK FOR NATIVE OFF-RAMPS TO
+'MOVE BETWEEN =
+CRYPTO AND CASH' (1 MINUTE READ) [8]=20
+
+ Uniswap Labs has launched nativ=
+e fiat off-ramps in its wallet through
+partnerships with Robinhood, MoonP=
+ay, and Transak, enabling users in
+180+ countries to convert crypto into =
+cash and deposit funds directly
+into bank accounts. Available initially o=
+n iOS and Android, the
+feature allows users to swap supported tokens into=
+ stablecoins or ETH.
+Uniswap plans to expand the functionality to its bro=
+wser extension and
+website soon. This follows recent upgrades like Uniswa=
+p v4 and its
+Unichain Layer 2, aligning with MetaMask's recent expansion =
+of fiat
+off-ramps via Transak across multiple blockchains.=20
+
+=
+=F0=9F=92=A1=20
+
+GUIDES & TUTORIALS
+
+ THE NEW AGENT PLAYBOOK FOR BUIL=
+DERS (4 MINUTE READ) [9]=20
+
+ There has been a shift in AI agent developm=
+ent strategy from "Agent
+as a Framework" to "Agent as a Business," with s=
+uccessful agent
+launches now seeing a maximum market cap of ~$10M compare=
+d to ~$100M+
+a few months ago. The new playbook emphasizes three simultan=
+eous
+products builders must manage: a core product solving real problems=
+
+with product-market fit and revenue, a token serving as an alignment
+t=
+ool rather than a necessity, and the conversational agent itself as a
+com=
+plementary product enhancing the core offering. Case studies of
+successfu=
+l implementations include Kaito's enterprise crypto search
+engine approac=
+h and Cookie's freemium model.=20
+
+ LIT PROTOCOL: TOWARD AUTONOMY ON THE =
+USER-OWNED WEB (6 MINUTE READ)
+[10]=20
+
+ Lit Protocol provides decentra=
+lized key management infrastructure
+using MPC and TEEs to distribute key =
+shares across nodes, securing
+assets while maintaining user control witho=
+ut exposing private keys.
+The protocol enables three emerging use cases: =
+autonomous DeFi agents
+with non-custodial wallets, cross-chain orchestrat=
+ion across EVM and
+non-EVM networks, and privacy-preserving data access f=
+or AI
+applications. Since its February 2024 mainnet beta launch, Lit has=
+
+secured over $100 million in assets, processed 15+ million requests
+wi=
+th 300% month-over-month growth, and fostered an ecosystem of 70+
+project=
+s. Lit's upcoming developments include LLM tools for AI agents
+and Fully =
+Homomorphic Encryption keys.=20
+
+=F0=9F=A6=84=20
+
+MISCELLANEOUS
+
+ S=
+AFE WALLET STATEMENT ON BYBIT HACK (1 MINUTE READ) [11]=20
+
+ Safe{Wallet}=
+ has confirmed that the recent attack on Bybit was
+executed by North Kore=
+a's Lazarus Group, which compromised a
+Safe{Wallet} developer's machine t=
+o propose a disguised malicious
+transaction to a Bybit-operated account. =
+Forensic investigators found
+no vulnerabilities in Safe's smart contracts=
+ or frontend source code,
+with the issue stemming solely from the comprom=
+ised developer
+credentials. The team has fully rebuilt infrastructure, ro=
+tated all
+credentials, and restored Safe{Wallet} services on the Ethereum=
+
+mainnet with additional security measures implemented. In response to
+=
+the incident, Safe has committed to spearheading an industry-wide
+initiat=
+ive focused on improving transaction verifiability, which it
+describes as=
+ an ecosystem-wide challenge.=20
+
+ STABLECOINS FROM PATRICK COLLISON (3 M=
+INUTE READ) [12]=20
+
+ Stripe is working with some of the world's largest =
+businesses on
+stablecoin strategies to enable faster global expansion and=
+ simplify
+fund custody. The company sees these digital currencies as new=
+
+financial tools for broader adoption, which aligns with its larger
+vis=
+ion to make complex financial processes more accessible and
+efficient for=
+ businesses worldwide.=20
+
+=E2=9A=A1=20
+
+QUICK LINKS
+
+ CRYPTO EXCHA=
+NGE BITMEX SEEKS BUYER, TAPS BROADHAVEN CAPITAL PARTNERS
+TO HELP WITH SAL=
+E (1 MINUTE READ) [13]=20
+
+ Crypto exchange BitMEX is looking for a buyer=
+ and has hired
+Broadhaven Capital Partners to help facilitate the sale. =
+
+
+ ACCELERATING CRYPTO'S FUTURE (1 MINUTE READ) [14]=20
+
+ The future =
+of crypto depends on integrating blockchain tech into
+traditional busines=
+ses by acquiring companies with large user bases
+and replacing their lega=
+cy systems with cost-saving crypto
+infrastructure.=20
+
+ DAILY ACTIVE TR=
+ADERS ON UNICHAIN (1 MINUTE READ) [15]=20
+
+ Less than one month after its=
+ launch, Uniswap's Unichain L2 has over
+40,000 daily active traders.=20
+=
+
+ MOVING ON FOR THORCHAIN (2 MINUTE READ) [16]=20
+
+ THORChain's lead de=
+veloper has announced his departure, citing
+unresolved concerns over Nort=
+h Korean transaction flows and the
+network's insufficient decentralizatio=
+n.=20
+
+ METAMASK'S UI/UX (1 MINUTE READ) [17]=20
+
+ MetaMask has unveile=
+d its roadmap to enhance self-custody wallets,
+which focuses on improving=
+ user experience with features like gas-free
+transactions, multi-chain co=
+nnectivity (including native Bitcoin and
+Solana support), and programmabl=
+e smart accounts via EIP-7702.=20
+
+Want to advertise in TLDR? =
+=F0=9F=93=B0
+
+ If your company is interested in reaching an audience of=
+ crypto
+investors and builders, you may want to ADVERTISE WITH US [18]. =
+
+
+Want to work at TLDR? =F0=9F=92=BC
+
+ APPLY HERE [19] or send a fr=
+iend's resume to jobs@tldr.tech and get
+$1k if we hire them!=20
+
+ If yo=
+u have any comments or feedback, just respond to this email!=20
+
+Thanks f=
+or reading,=20
+Esham Macauley [20] & Lincoln Murr [21]=20
+
+ Manage your s=
+ubscriptions [22] to our other newsletters on tech,
+startups, and program=
+ming. Or if TLDR Crypto isn't for you, please
+unsubscribe [23].=20
+
+ =
+
+
+Links:
+------
+[1] https://tldr.tech/crypto?utm_source=3Dtldrcrypt=
+o
+[2] https://advertise.tldr.tech/?utm_source=3Dtldrcrypto&utm_medium=3Dn=
+ewsletter&utm_campaign=3Dadvertisetopnav
+[3] https://a.tldrnewsletter.com=
+/web-version?ep=3D1&lc=3D9a18fb16-f5b8-11ef-9a78-a90fe034b693&p=3D22425110-=
+f5b2-11ef-8729-71d243a10144&pt=3Dcampaign&t=3D1740748609&s=3Dedaa4c4fb950e3=
+ab819d08bc133694fc1fbaebb8e9d0c95e94bc44e4e0f519be
+[4] https://advertise.=
+tldr.tech/?utm_source=3Dtldrcrypto&utm_medium=3Dnewsletter&utm_campaign=3Ds=
+econdary02282025
+[5] https://links.tldrnewsletter.com/dLbZ63
+[6] https:=
+//threadreaderapp.com/thread/1895156943972639243.html?utm_source=3Dtldrcryp=
+to
+[7] https://base.mirror.xyz/HwG1GQ5hoxz0OTOF_nQhNcVTk4Ae9cRIrcqVQ14N4-=
+c?utm_source=3Dtldrcrypto
+[8] https://links.tldrnewsletter.com/hvu2Dc
+[=
+9] https://links.tldrnewsletter.com/ariJRD
+[10] https://links.tldrnewslet=
+ter.com/ToIili
+[11] https://links.tldrnewsletter.com/7esbwQ
+[12] https:=
+//threadreaderapp.com/thread/1895142685117424121.html?utm_source=3Dtldrcryp=
+to
+[13] https://www.theblock.co/post/343829/crypto-exchange-bitmex-seeks-=
+buyer-taps-broadhaven-capital-partners-to-help-with-sale-report?utm_source=
+=3Dtldrcrypto
+[14] https://threadreaderapp.com/thread/1894899269569565001=
+.html?utm_source=3Dtldrcrypto
+[15] https://threadreaderapp.com/thread/189=
+5185414165529024.html?utm_source=3Dtldrcrypto
+[16] https://threadreaderap=
+p.com/thread/1895157103947657275.html?utm_source=3Dtldrcrypto
+[17] https:=
+//threadreaderapp.com/thread/1895292999615369660.html?utm_source=3Dtldrcryp=
+to
+[18] https://advertise.tldr.tech/?utm_source=3Dtldrcrypto&utm_medium=
+=3Dnewsletter&utm_campaign=3Dadvertisecta
+[19] https://jobs.ashbyhq.com/t=
+ldr.tech
+[20] https://www.linkedin.com/in/esham-macauley-76733986/
+[21]=
+ https://www.linkedin.com/in/lincolnmurr/
+[22] https://tldr.tech/crypto/m=
+anage?email=3Djasonlongfield%40edny.net
+[23] https://a.tldrnewsletter.com=
+/unsubscribe?ep=3D1&l=3D514b3efb-6f16-11ec-96e5-06b4694bee2a&lc=3D9a18fb16-=
+f5b8-11ef-9a78-a90fe034b693&p=3D22425110-f5b2-11ef-8729-71d243a10144&pt=3Dc=
+ampaign&pv=3D4&spa=3D1740747649&t=3D1740748609&s=3D245ea05c2e50c3e5e30e4182=
+09046120ab8804c399f3f87ba411da257fe2aafc
+--FPnrd0qN
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html><html lang=3D"en"><head><meta http-equiv=3D"Content-Type" co=
+ntent=3D"text/html charset=3DUTF-8"><meta charset=3D"UTF-8"><meta name=3D"v=
+iewport" content=3D"width=3Ddevice-width"><meta name=3D"x-apple-disable-mes=
+sage-reformatting"><title>TLDR Crypto</title><meta name=3D"color-scheme" co=
+ntent=3D"light dark"><meta name=3D"supported-color-schemes" content=3D"ligh=
+t dark"><!--[if mso | ie]>
+=09=09<style type=3D"text/css">
+=09=09=09a {
+=09=09=09=09color: #010101 !important;
+=09=09=09}
+=09=09=09@media (prefers-color-scheme: dark) {
+=09=09=09=09a {
+=09=09=09=09=09color: #FEFEFE !important;
+=09=09=09=09}
+=09=09=09}
+=09 </style>
+=09=09=09<![endif]--><style type=3D"text/css">
+=09=09=09:root {
+=09=09=09=09color-scheme: light dark; supported-color-schemes: light dark;
+=09=09=09}
+=09=09=09
+=09=09=09*,
+=09=09=09*:after,
+=09=09=09*:before {
+=09=09=09=09-webkit-box-sizing: border-box; -moz-box-sizing: border-box; bo=
+x-sizing: border-box;
+=09=09=09}
+=09=09=09
+=09=09=09* {
+=09=09=09=09-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;
+=09=09=09}
+=09=09=09
+=09=09=09html,
+=09=09=09body,
+=09=09=09.document {
+=09=09=09=09width: 100% !important; height: 100% !important; margin: 0; pad=
+ding: 0;
+=09=09=09}
+=09=09=09
+=09=09=09body {
+=09=09=09=09-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: g=
+rayscale; text-rendering: optimizeLegibility;
+=09=09=09}
+=09=09=09
+=09=09=09div[style*=3D"margin: 16px 0"] {
+=09=09=09=09margin: 0 !important;
+=09=09=09}
+=09=09=09
+=09=09=09table,
+=09=09=09td {
+=09=09=09=09mso-table-lspace: 0pt; mso-table-rspace: 0pt;
+=09=09=09}
+=09=09=09
+=09=09=09table {
+=09=09=09=09border-spacing: 0; border-collapse: collapse; table-layout: fix=
+ed; margin: 0 auto;
+=09=09=09}
+=09=09=09
+=09=09=09img {
+=09=09=09=09-ms-interpolation-mode: bicubic; max-width: 100%; border: 0;
+=09=09=09}
+=09=09=09
+=09=09=09*[x-apple-data-detectors] {
+=09=09=09=09color: inherit !important; text-decoration: none !important;
+=09=09=09}
+=09=09=09
+=09=09=09.x-gmail-data-detectors,
+=09=09=09.x-gmail-data-detectors *,
+=09=09=09.aBn {
+=09=09=09=09border-bottom: 0 !important; cursor: default !important;
+=09=09=09}
+=09=09=09
+=09=09=09.btn {
+=09=09=09=09-webkit-transition: all 200ms ease; transition: all 200ms ease;
+=09=09=09}
+=09=09=09
+=09=09=09.btn:hover {
+=09=09=09=09background-color: #f67575; border-color: #f67575;
+=09=09=09}
+=09=09=09
+=09=09=09* {
+=09=09=09=09font-family: Arial, Helvetica, sans-serif; font-size: 18px;
+=09=09=09}
+=09=09=09
+=09=09=09@media screen and (max-width: 600px) {
+=09=09=09=09.container {
+=09=09=09=09=09width: 100%; margin: auto;
+=09=09=09=09}
+=09=09=09=09.stack {
+=09=09=09=09=09display: block!important; width: 100%!important; max-width: =
+100%!important;
+=09=09=09=09}
+=09=09=09=09.btn {
+=09=09=09=09=09display: block; width: 100%; text-align: center;
+=09=09=09=09}
+=09=09=09}
+=09=09=09
+=09=09=09body,
+=09=09=09p,
+=09=09=09td,
+=09=09=09tr,
+=09=09=09.body,
+=09=09=09table,
+=09=09=09h1,
+=09=09=09h2,
+=09=09=09h3,
+=09=09=09h4,
+=09=09=09h5,
+=09=09=09h6,
+=09=09=09div,
+=09=09=09span {
+=09=09=09=09background-color: #FEFEFE !important; color: #010101 !important=
+;
+=09=09=09}
+=09=09=09
+=09=09=09@media (prefers-color-scheme: dark) {
+=09=09=09=09body,
+=09=09=09=09p,
+=09=09=09=09td,
+=09=09=09=09tr,
+=09=09=09=09.body,
+=09=09=09=09table,
+=09=09=09=09h1,
+=09=09=09=09h2,
+=09=09=09=09h3,
+=09=09=09=09h4,
+=09=09=09=09h5,
+=09=09=09=09h6,
+=09=09=09=09div,
+=09=09=09=09span {
+=09=09=09=09=09background-color: #27292D !important; color: #FEFEFE !import=
+ant;
+=09=09=09=09}
+=09=09=09}
+=09=09=09
+=09=09=09a {
+=09=09=09=09color: inherit !important; text-decoration: underline !importan=
+t;
+=09=09=09}
+
+=09=09</style></head><body class=3D"">
+
+
+
+
+
+
+
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">Consensys =
+announced an in-principle agreement with the SEC to dismiss its enforcement=
+ case against MetaMask, pending final approval&nbsp;=E2=80=8C&nbsp;=E2=80=
+=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=
+=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=
+=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=
+=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=
+=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;&nbsp;=
+=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=
+=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=
+=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=
+=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=
+=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=
+=E2=80=8C&nbsp;</div>
+
+
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+<br>
+</div>
+
+<table align=3D"center" class=3D"document"><tbody><tr><td valign=3D"top">
+
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" cl=
+ass=3D"container" width=3D"600"><tbody><tr class=3D"inner-body"><td>
+
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"100%"><tbody><tr class=3D"header"><td bgcolor=3D"" class=3D"containe=
+r">
+
+<table width=3D"100%"><tbody><tr><td class=3D"container">
+
+
+
+<table align=3D"center" bgcolor=3D"" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" style=3D"margin-top: 0px;" width=3D"100%"><tbody><tr><td style=
+=3D"padding: 0px;">
+
+<table align=3D"center" bgcolor=3D"" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" width=3D"100%"><tbody><tr><td class=3D"container" style=3D"paddi=
+ng: 15px 15px;">
+<div style=3D"text-align: center;">
+<span style=3D"margin-right: 0px;"><a href=3D"https://tracking.tldrnewslett=
+er.com/CL0/https:%2F%2Ftldr.tech%2Fcrypto%3Futm_source=3Dtldrcrypto/1/01000=
+1954cb3d6ba-879fa286-bea0-41a5-8e8f-ddade5246292-000000/H_eCGPteL8-NeUKeU5e=
+qH6PgViCk3sJRllACG2OAQcM=3D394" rel=3D"noopener noreferrer" target=3D"_blan=
+k"><span>Sign Up</span></a>
+|<span style=3D"margin-right: 2px; margin-left: 2px;"><a href=3D"https://tr=
+acking.tldrnewsletter.com/CL0/https:%2F%2Fadvertise.tldr.tech%2F%3Futm_sour=
+ce=3Dtldrcrypto%26utm_medium=3Dnewsletter%26utm_campaign=3Dadvertisetopnav/=
+1/010001954cb3d6ba-879fa286-bea0-41a5-8e8f-ddade5246292-000000/f_eCwvlkRR_n=
+7WQ5m8VUg5idNPOBMQNNZPVR9phPNnY=3D394" rel=3D"noopener noreferrer" target=
+=3D"_blank"><span>Advertise</span></a></span>|<span style=3D"margin-left: 2=
+px;"><a href=3D"https://tracking.tldrnewsletter.com/CL0/https:%2F%2Fa.tldrn=
+ewsletter.com%2Fweb-version%3Fep=3D1%26lc=3D9a18fb16-f5b8-11ef-9a78-a90fe03=
+4b693%26p=3D22425110-f5b2-11ef-8729-71d243a10144%26pt=3Dcampaign%26t=3D1740=
+748609%26s=3Dedaa4c4fb950e3ab819d08bc133694fc1fbaebb8e9d0c95e94bc44e4e0f519=
+be/1/010001954cb3d6ba-879fa286-bea0-41a5-8e8f-ddade5246292-000000/0pgqLN-lM=
+y587FOhtpmoLKRJfhcYf1jP-Su-Y-XvrP4=3D394"><span>View Online</span></a></spa=
+n>
+<br>
+</span></div>
+</td></tr></tbody></table>
+
+<table align=3D"center" bgcolor=3D"" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" width=3D"100%"><tbody><tr><td class=3D"container" style=3D"text-=
+align: center;"><span data-darkreader-inline-color=3D"" style=3D"--darkread=
+er-inline-color:#3db3ff; color: rgb(51, 175, 255) !important; font-size: 30=
+px;">T</span><span style=3D"font-size: 30px;"><span data-darkreader-inline-=
+color=3D"" style=3D"color: rgb(232, 192, 96) !important; --darkreader-inlin=
+e-color:#e8c163; font-size:30px;">L</span><span data-darkreader-inline-colo=
+r=3D"" style=3D"color: rgb(101, 195, 173) !important; --darkreader-inline-c=
+olor:#6ec7b2; font-size:30px;">D</span></span><span data-darkreader-inline-=
+color=3D"" style=3D"--darkreader-inline-color:#dd6e6e; color: rgb(220, 107,=
+ 107) !important; font-size: 30px;">R</span>
+<br>
+</td></tr></tbody></table>
+
+<br>
+
+<table align=3D"center" bgcolor=3D"" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" width=3D"100%"><tbody><tr id=3D"together-with"><td align=3D"cent=
+er" height=3D"20" style=3D"vertical-align:middle !important;" valign=3D"mid=
+dle" width=3D"100%"><strong style=3D"vertical-align:middle !important; heig=
+ht: 100%;">Together With </strong>
+<a href=3D"https://tracking.tldrnewsletter.com/CL0/https:%2F%2Fadvertise.tl=
+dr.tech%2F%3Futm_source=3Dtldrcrypto%26utm_medium=3Dnewsletter%26utm_campai=
+gn=3Dsecondary02282025/1/010001954cb3d6ba-879fa286-bea0-41a5-8e8f-ddade5246=
+292-000000/BWUUMxBhVzl2OWMeTgJJKs5gmNi1N2QnuvfCz6u3y04=3D394"><img src=3D"h=
+ttps://images.tldr.tech/tldr50.png" valign=3D"middle" style=3D"vertical-ali=
+gn: middle !important; height: 100%;" alt=3D"TLDR"></a></td></tr></tbody></=
+table>
+
+<table style=3D"table-layout: fixed; width:100%;" width=3D"100%"><tbody><tr=
+><td style=3D"padding:0;border-collapse:collapse;border-spacing:0;margin:0;=
+">
+<div style=3D"text-align: center;">
+
+<h1><strong>TLDR Crypto <span id=3D"date">2025-02-28</span></strong></h1>
+</div>
+</td></tr>
+<tr id=3D"sponsy-copy"><td class=3D"container" style=3D"padding: 15px 15px;=
+">
+<div class=3D"text-block">
+<span>
+                                <a href=3D"https://tracking.tldrnewsletter.=
+com/CL0/https:%2F%2Fadvertise.tldr.tech%2F%3Futm_source=3Dtldrcrypto%26utm_=
+medium=3Dnewsletter%26utm_campaign=3Dsecondary02282025/2/010001954cb3d6ba-8=
+79fa286-bea0-41a5-8e8f-ddade5246292-000000/QVPJCVj-mPIZYwJWDkLHOh-Cxto1v2i5=
+IUJshX7j3Mg=3D394">
+                                    <span>
+                                        <strong>Reach millions of tech prof=
+essionals reading TLDR (Sponsor)</strong>
+                                    </span>
+</a>
+<br>
+<br>
+<span style=3D"font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, V=
+erdana, sans-serif;">
+                                    Grab the attention of software develope=
+rs, crypto enthusiasts, and other tech professionals reading TLDR every day=
+. TLDR offers 10 interest-based newsletters to help you reach your target a=
+udience. <a class=3D"c-link" href=3D"https://tracking.tldrnewsletter.com/CL=
+0/https:%2F%2Fadvertise.tldr.tech%2F%3Futm_source=3Dtldrcrypto%26utm_medium=
+=3Dnewsletter%26utm_campaign=3Dsecondary02282025/3/010001954cb3d6ba-879fa28=
+6-bea0-41a5-8e8f-ddade5246292-000000/oXvJ3aNu927Rf37p9XD2ZoFbHvbLnRIjMHzRfL=
+w9gt0=3D394" rel=3D"noopener noreferrer" target=3D"_blank"><span>Learn more=
+</span></a> about running your first campaign with us.
+</span>
+</span>
+</div>
+</td></tr></tbody></table>
+</td></tr></tbody></table>
+</td></tr></tbody></table>
+</td></tr>
+<tr bgcolor=3D""><td class=3D"container">
+
+<table align=3D"center" bgcolor=3D"" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" width=3D"100%"><tbody><tr><td style=3D"padding: 0px;">
+
+<table align=3D"center" bgcolor=3D"" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" width=3D"100%"><tbody><tr><td class=3D"container" style=3D"paddi=
+ng-top: 0px; padding-bottom: 0px;">
+<div class=3D"text-block">
+<div style=3D"text-align: center;"><span style=3D"font-size: 36px;">=F0=9F=
+=93=88</span></div></div>
+</td></tr></tbody></table>
+
+<table align=3D"center" bgcolor=3D"" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" width=3D"100%"><tbody><tr><td class=3D"container" style=3D"paddi=
+ng-top: 0px; padding-bottom: 0px;">
+<div class=3D"text-block">
+<div style=3D"text-align: center;">
+
+<h1><strong>Markets &amp; Business</strong></h1>
+</div>
+</div>
+</td></tr></tbody></table>
+
+<table style=3D"table-layout: fixed; width: 100%;" width=3D"100%"><tbody><t=
+r><td style=3D"padding:0;border-collapse:collapse;border-spacing:0;margin:0=
+;" valign=3D"top">
+
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"100%"><tbody><tr><td class=3D"container" style=3D"padding: 15px 15px=
+;">
+<div class=3D"text-block">
+<span>
+                                <a href=3D"https://tracking.tldrnewsletter.=
+com/CL0/https:%2F%2Flinks.tldrnewsletter.com%2FdLbZ63/1/010001954cb3d6ba-87=
+9fa286-bea0-41a5-8e8f-ddade5246292-000000/QbQVpy1NeF8XMecGDBDJYBDZQJW1xg25q=
+pF7ecq1JHU=3D394">
+                                    <span>
+                                        <strong>SEC says memecoins aren't s=
+ecurities but fraud still a risk (3 minute read)</strong>
+                                    </span>
+</a>
+<br>
+<br>
+<span style=3D"font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, V=
+erdana, sans-serif;">
+                                    The U.S. SEC's Division of Corporation =
+Finance stated memecoins do not qualify as securities under federal law, as=
+ they lack profit promises or ties to business ventures, exempting them fro=
+m registration. However, the SEC warned that projects falsely labeling toke=
+ns as memecoins to evade regulations could face legal action, emphasizing f=
+raud risks under other laws. This stance aligns with a more crypto-friendly=
+ SEC approach under new leadership, including Chair Paul Atkins and Commiss=
+ioner Hester Peirce's task force, following recent case withdrawals against=
+ major platforms like Coinbase.
+                                </span>
+</span>
+</div>
+</td></tr></tbody></table>
+
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"100%"><tbody><tr><td class=3D"container" style=3D"padding: 15px 15px=
+;">
+<div class=3D"text-block">
+<span>
+                                <a href=3D"https://tracking.tldrnewsletter.=
+com/CL0/https:%2F%2Fthreadreaderapp.com%2Fthread%2F1895156943972639243.html=
+%3Futm_source=3Dtldrcrypto/1/010001954cb3d6ba-879fa286-bea0-41a5-8e8f-ddade=
+5246292-000000/BYFXTgePhqWbJBX8HIeSq6_N553Vfcjm35n4LS_0VQg=3D394">
+                                    <span>
+                                        <strong>SEC Drops Consensys Case (1=
+ minute read)</strong>
+                                    </span>
+</a>
+<br>
+<br>
+<span style=3D"font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, V=
+erdana, sans-serif;">
+                                    Consensys announced an in-principle agr=
+eement with the SEC to dismiss its enforcement case against MetaMask, pendi=
+ng final approval, marking a resolution without admitting wrongdoing. The c=
+ompany emphasized its commitment to defending blockchain developers against=
+ regulatory overreach, noting its prior legal pushback also led the SEC to =
+drop an Ethereum probe. Consensys has praised its legal team and the SEC's =
+new leadership for fostering pro-innovation policies. It has pledged to foc=
+us on advancing Ethereum and decentralized tech in 2025.
+                                </span>
+</span>
+</div>
+</td></tr></tbody></table>
+
+</td></tr></tbody></table>
+
+<table align=3D"center" bgcolor=3D"" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" width=3D"100%"><tbody><tr><td class=3D"container" style=3D"paddi=
+ng-top: 0px; padding-bottom: 0px;">
+<div class=3D"text-block">
+<div style=3D"text-align: center;"><span style=3D"font-size: 36px;">=F0=9F=
+=9A=80</span></div>
+</div>
+</td></tr></tbody></table>
+
+<table align=3D"center" bgcolor=3D"" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" width=3D"100%"><tbody><tr><td class=3D"container" style=3D"paddi=
+ng-top: 0px; padding-bottom: 0px;">
+<div class=3D"text-block">
+<div style=3D"text-align: center;">
+
+<h1><strong>Innovation &amp; Launches</strong></h1>
+</div>
+<br>
+</div>
+</td></tr></tbody></table>
+
+<table style=3D"table-layout: fixed; width: 100%;" width=3D"100%"><tbody><t=
+r><td style=3D"padding:0;border-collapse:collapse;border-spacing:0;margin:0=
+;" valign=3D"top">
+
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"100%"><tbody><tr><td class=3D"container" style=3D"padding: 15px 15px=
+;">
+<div class=3D"text-block">
+<span>
+                                <a href=3D"https://tracking.tldrnewsletter.=
+com/CL0/https:%2F%2Fbase.mirror.xyz%2FHwG1GQ5hoxz0OTOF_nQhNcVTk4Ae9cRIrcqVQ=
+14N4-c%3Futm_source=3Dtldrcrypto/1/010001954cb3d6ba-879fa286-bea0-41a5-8e8f=
+-ddade5246292-000000/FhfmJmE-msyYFArCJMp--ZBgYj0YkmmT9uWA1NBqUIM=3D394">
+                                    <span>
+                                        <strong>Building for the long-term:=
+ making Base faster, simpler, and more powerful (5 minute read)</strong>
+                                    </span>
+</a>
+<br>
+<br>
+<span style=3D"font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, V=
+erdana, sans-serif;">
+                                    Base announced several new infrastructu=
+re improvements at ETHDenver. Flashblocks, now available on Base Sepolia te=
+stnet, reduce effective block times from 2 seconds to 200 milliseconds, mak=
+ing Base the fastest EVM chain to date with mainnet launch planned for Q2. =
+Base Appchains provide Layer-3 dedicated blockspace for high-traffic applic=
+ations using op-enclave technology and AWS infrastructure, with Blocklords,=
+ Super Champs, Metacade, and others already adopting this scaling solution.=
+ Smart Wallet Sub Accounts, also launching on mainnet in Q2, eliminate the =
+need to manage multiple onchain accounts by enabling hierarchical ownership=
+ and spend permissions.
+                                </span>
+</span>
+</div>
+</td></tr></tbody></table>
+
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"100%"><tbody><tr><td class=3D"container" style=3D"padding: 15px 15px=
+;">
+<div class=3D"text-block">
+<span>
+                                <a href=3D"https://tracking.tldrnewsletter.=
+com/CL0/https:%2F%2Flinks.tldrnewsletter.com%2Fhvu2Dc/1/010001954cb3d6ba-87=
+9fa286-bea0-41a5-8e8f-ddade5246292-000000/SrqTDB775jSWylpp1AwLKhEUd5QBK5crf=
+awpG25KudI=3D394">
+                                    <span>
+                                        <strong>Uniswap taps Robinhood, Moo=
+nPay, and Transak for native off-ramps to 'move between crypto and cash' (1=
+ minute read)</strong>
+                                    </span>
+</a>
+<br>
+<br>
+<span style=3D"font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, V=
+erdana, sans-serif;">
+                                    Uniswap Labs has launched native fiat o=
+ff-ramps in its wallet through partnerships with Robinhood, MoonPay, and Tr=
+ansak, enabling users in 180+ countries to convert crypto into cash and dep=
+osit funds directly into bank accounts. Available initially on iOS and Andr=
+oid, the feature allows users to swap supported tokens into stablecoins or =
+ETH. Uniswap plans to expand the functionality to its browser extension and=
+ website soon. This follows recent upgrades like Uniswap v4 and its Unichai=
+n Layer 2, aligning with MetaMask's recent expansion of fiat off-ramps via =
+Transak across multiple blockchains.
+                                </span>
+</span>
+</div>
+</td></tr></tbody></table>
+
+</td></tr></tbody></table>
+
+
+<table align=3D"center" bgcolor=3D"" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" width=3D"100%"><tbody><tr><td class=3D"container" style=3D"paddi=
+ng-top: 0px; padding-bottom: 0px;">
+<div class=3D"text-block">
+<div style=3D"text-align: center;"><span style=3D"font-size: 36px;">=F0=9F=
+=92=A1</span></div></div>
+</td></tr></tbody></table>
+
+<table align=3D"center" bgcolor=3D"" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" width=3D"100%"><tbody><tr><td class=3D"container" style=3D"paddi=
+ng-top: 0px; padding-bottom: 0px;">
+<div class=3D"text-block">
+<div style=3D"text-align: center;">
+
+<h1><strong>Guides &amp; Tutorials</strong></h1>
+</div>
+</div>
+</td></tr></tbody></table>
+
+<table style=3D"table-layout: fixed; width: 100%;" width=3D"100%"><tbody><t=
+r><td style=3D"padding:0;border-collapse:collapse;border-spacing:0;margin:0=
+;" valign=3D"top">
+
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"100%"><tbody><tr><td class=3D"container" style=3D"padding: 15px 15px=
+;">
+<div class=3D"text-block">
+<span>
+                                <a href=3D"https://tracking.tldrnewsletter.=
+com/CL0/https:%2F%2Flinks.tldrnewsletter.com%2FariJRD/1/010001954cb3d6ba-87=
+9fa286-bea0-41a5-8e8f-ddade5246292-000000/xHI846kUKZUCiBZzAQxzWxdQ4SMGuh3Z2=
+DAXPSThLAs=3D394">
+                                    <span>
+                                        <strong>The New Agent Playbook for =
+Builders (4 minute read)</strong>
+                                    </span>
+</a>
+<br>
+<br>
+<span style=3D"font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, V=
+erdana, sans-serif;">
+                                    There has been a shift in AI agent deve=
+lopment strategy from "Agent as a Framework" to "Agent as a Business," with=
+ successful agent launches now seeing a maximum market cap of ~$10M compare=
+d to ~$100M+ a few months ago. The new playbook emphasizes three simultaneo=
+us products builders must manage: a core product solving real problems with=
+ product-market fit and revenue, a token serving as an alignment tool rathe=
+r than a necessity, and the conversational agent itself as a complementary =
+product enhancing the core offering. Case studies of successful implementat=
+ions include Kaito's enterprise crypto search engine approach and Cookie's =
+freemium model.
+                                </span>
+</span>
+</div>
+</td></tr></tbody></table>
+
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"100%"><tbody><tr><td class=3D"container" style=3D"padding: 15px 15px=
+;">
+<div class=3D"text-block">
+<span>
+                                <a href=3D"https://tracking.tldrnewsletter.=
+com/CL0/https:%2F%2Flinks.tldrnewsletter.com%2FToIili/1/010001954cb3d6ba-87=
+9fa286-bea0-41a5-8e8f-ddade5246292-000000/W0z3lUjB13CxAxSNj23gYzgbKRgBSu0JU=
+4lwSQT1L6w=3D394">
+                                    <span>
+                                        <strong>Lit Protocol: Toward Autono=
+my on the User-Owned Web (6 minute read)</strong>
+                                    </span>
+</a>
+<br>
+<br>
+<span style=3D"font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, V=
+erdana, sans-serif;">
+                                    Lit Protocol provides decentralized key=
+ management infrastructure using MPC and TEEs to distribute key shares acro=
+ss nodes, securing assets while maintaining user control without exposing p=
+rivate keys. The protocol enables three emerging use cases: autonomous DeFi=
+ agents with non-custodial wallets, cross-chain orchestration across EVM an=
+d non-EVM networks, and privacy-preserving data access for AI applications.=
+ Since its February 2024 mainnet beta launch, Lit has secured over $100 mil=
+lion in assets, processed 15+ million requests with 300% month-over-month g=
+rowth, and fostered an ecosystem of 70+ projects. Lit's upcoming developmen=
+ts include LLM tools for AI agents and Fully Homomorphic Encryption keys.
+                                </span>
+</span>
+</div>
+</td></tr></tbody></table>
+
+</td></tr></tbody></table>
+
+
+<table align=3D"center" bgcolor=3D"" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" width=3D"100%"><tbody><tr><td class=3D"container" style=3D"paddi=
+ng-top: 0px; padding-bottom: 0px;">
+<div class=3D"text-block">
+<div style=3D"text-align: center;"><span style=3D"font-size: 36px;">=F0=9F=
+=A6=84</span></div></div>
+</td></tr></tbody></table>
+
+<table align=3D"center" bgcolor=3D"" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" width=3D"100%"><tbody><tr><td class=3D"container" style=3D"paddi=
+ng-top: 0px; padding-bottom: 0px;">
+<div class=3D"text-block">
+<div style=3D"text-align: center;"><strong><h1>Miscellaneous</h1></strong><=
+/div>
+</div>
+</td></tr></tbody></table>
+
+<table bgcolor=3D"" style=3D"table-layout: fixed; width: 100%;" width=3D"10=
+0%"><tbody><tr><td style=3D"padding:0;border-collapse:collapse;border-spaci=
+ng:0;margin:0;" valign=3D"top">
+
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"100%"><tbody><tr><td class=3D"container" style=3D"padding: 15px 15px=
+;">
+<div class=3D"text-block">
+<span>
+                                <a href=3D"https://tracking.tldrnewsletter.=
+com/CL0/https:%2F%2Flinks.tldrnewsletter.com%2F7esbwQ/1/010001954cb3d6ba-87=
+9fa286-bea0-41a5-8e8f-ddade5246292-000000/BH4fVTak725bGvo4WiJjvS3__xUskCwQG=
+5NSrhmFpL0=3D394">
+                                    <span>
+                                        <strong>Safe Wallet Statement on By=
+Bit Hack (1 minute read)</strong>
+                                    </span>
+</a>
+<br>
+<br>
+<span style=3D"font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, V=
+erdana, sans-serif;">
+                                    Safe{Wallet} has confirmed that the rec=
+ent attack on Bybit was executed by North Korea's Lazarus Group, which comp=
+romised a Safe{Wallet} developer's machine to propose a disguised malicious=
+ transaction to a Bybit-operated account. Forensic investigators found no v=
+ulnerabilities in Safe's smart contracts or frontend source code, with the =
+issue stemming solely from the compromised developer credentials. The team =
+has fully rebuilt infrastructure, rotated all credentials, and restored Saf=
+e{Wallet} services on the Ethereum mainnet with additional security measure=
+s implemented. In response to the incident, Safe has committed to spearhead=
+ing an industry-wide initiative focused on improving transaction verifiabil=
+ity, which it describes as an ecosystem-wide challenge.
+                                </span>
+</span>
+</div>
+</td></tr></tbody></table>
+
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"100%"><tbody><tr><td class=3D"container" style=3D"padding: 15px 15px=
+;">
+<div class=3D"text-block">
+<span>
+                                <a href=3D"https://tracking.tldrnewsletter.=
+com/CL0/https:%2F%2Fthreadreaderapp.com%2Fthread%2F1895142685117424121.html=
+%3Futm_source=3Dtldrcrypto/1/010001954cb3d6ba-879fa286-bea0-41a5-8e8f-ddade=
+5246292-000000/RlAtY9jSQjzCnprobiIF4YJt3U6VSaimNul9aoXAJeM=3D394">
+                                    <span>
+                                        <strong>Stablecoins from Patrick Co=
+llison (3 minute read)</strong>
+                                    </span>
+</a>
+<br>
+<br>
+<span style=3D"font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, V=
+erdana, sans-serif;">
+                                    Stripe is working with some of the worl=
+d's largest businesses on stablecoin strategies to enable faster global exp=
+ansion and simplify fund custody. The company sees these digital currencies=
+ as new financial tools for broader adoption, which aligns with its larger =
+vision to make complex financial processes more accessible and efficient fo=
+r businesses worldwide.
+                                </span>
+</span>
+</div>
+</td></tr></tbody></table>
+
+</td></tr></tbody></table>
+
+<table align=3D"center" bgcolor=3D"" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" width=3D"100%"><tbody><tr><td class=3D"container" style=3D"paddi=
+ng-top: 0px; padding-bottom: 0px;">
+<div class=3D"text-block">
+<div style=3D"text-align: center;"><span style=3D"font-size: 36px;">=E2=9A=
+=A1</span></div></div>
+</td></tr></tbody></table>
+
+<table align=3D"center" bgcolor=3D"" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" width=3D"100%"><tbody><tr><td class=3D"container" style=3D"paddi=
+ng-top: 0px; padding-bottom: 0px;">
+<div class=3D"text-block">
+<div style=3D"text-align: center;">
+
+<h1><strong>Quick Links</strong></h1>
+</div>
+</div>
+</td></tr></tbody></table>
+
+<table bgcolor=3D"" style=3D"table-layout: fixed; width: 100%;" width=3D"10=
+0%"><tbody><tr><td style=3D"padding:0;border-collapse:collapse;border-spaci=
+ng:0;margin:0;" valign=3D"top">
+
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"100%"><tbody><tr><td class=3D"container" style=3D"padding: 15px 15px=
+;">
+<div class=3D"text-block">
+<span>
+                                <a href=3D"https://tracking.tldrnewsletter.=
+com/CL0/https:%2F%2Fwww.theblock.co%2Fpost%2F343829%2Fcrypto-exchange-bitme=
+x-seeks-buyer-taps-broadhaven-capital-partners-to-help-with-sale-report%3Fu=
+tm_source=3Dtldrcrypto/1/010001954cb3d6ba-879fa286-bea0-41a5-8e8f-ddade5246=
+292-000000/uXD92RnP4ipx86FOCWh0uq_66iFN8FufmRuHBmrgDGA=3D394">
+                                    <span>
+                                        <strong>Crypto exchange BitMEX seek=
+s buyer, taps Broadhaven Capital Partners to help with sale (1 minute read)=
+</strong>
+                                    </span>
+</a>
+<br>
+<br>
+<span style=3D"font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, V=
+erdana, sans-serif;">
+                                    Crypto exchange BitMEX is looking for a=
+ buyer and has hired Broadhaven Capital Partners to help facilitate the sal=
+e.
+                                </span>
+</span>
+</div>
+</td></tr></tbody></table>
+
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"100%"><tbody><tr><td class=3D"container" style=3D"padding: 15px 15px=
+;">
+<div class=3D"text-block">
+<span>
+                                <a href=3D"https://tracking.tldrnewsletter.=
+com/CL0/https:%2F%2Fthreadreaderapp.com%2Fthread%2F1894899269569565001.html=
+%3Futm_source=3Dtldrcrypto/1/010001954cb3d6ba-879fa286-bea0-41a5-8e8f-ddade=
+5246292-000000/bNrMMNtJoj9JcVCgsZoscU6FdceFbLm6rIq4csAlcHY=3D394">
+                                    <span>
+                                        <strong>Accelerating Crypto's futur=
+e (1 minute read)</strong>
+                                    </span>
+</a>
+<br>
+<br>
+<span style=3D"font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, V=
+erdana, sans-serif;">
+                                    The future of crypto depends on integra=
+ting blockchain tech into traditional businesses by acquiring companies wit=
+h large user bases and replacing their legacy systems with cost-saving cryp=
+to infrastructure.
+                                </span>
+</span>
+</div>
+</td></tr></tbody></table>
+
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"100%"><tbody><tr><td class=3D"container" style=3D"padding: 15px 15px=
+;">
+<div class=3D"text-block">
+<span>
+                                <a href=3D"https://tracking.tldrnewsletter.=
+com/CL0/https:%2F%2Fthreadreaderapp.com%2Fthread%2F1895185414165529024.html=
+%3Futm_source=3Dtldrcrypto/1/010001954cb3d6ba-879fa286-bea0-41a5-8e8f-ddade=
+5246292-000000/_qdb4EvyoFGauE45nXiqI3fVsK9_shmJTvNy9o-eKKs=3D394">
+                                    <span>
+                                        <strong>Daily active traders on Uni=
+chain (1 minute read)</strong>
+                                    </span>
+</a>
+<br>
+<br>
+<span style=3D"font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, V=
+erdana, sans-serif;">
+                                    Less than one month after its launch, U=
+niswap's Unichain L2 has over 40,000 daily active traders.
+                                </span>
+</span>
+</div>
+</td></tr></tbody></table>
+
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"100%"><tbody><tr><td class=3D"container" style=3D"padding: 15px 15px=
+;">
+<div class=3D"text-block">
+<span>
+                                <a href=3D"https://tracking.tldrnewsletter.=
+com/CL0/https:%2F%2Fthreadreaderapp.com%2Fthread%2F1895157103947657275.html=
+%3Futm_source=3Dtldrcrypto/1/010001954cb3d6ba-879fa286-bea0-41a5-8e8f-ddade=
+5246292-000000/3zVhp9Bv1bt4S9GPCzO-terRBKXmcBoGM1sQd4xq1QA=3D394">
+                                    <span>
+                                        <strong>Moving on for THORChain (2 =
+minute read)</strong>
+                                    </span>
+</a>
+<br>
+<br>
+<span style=3D"font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, V=
+erdana, sans-serif;">
+                                    THORChain's lead developer has announce=
+d his departure, citing unresolved concerns over North Korean transaction f=
+lows and the network's insufficient decentralization.
+                                </span>
+</span>
+</div>
+</td></tr></tbody></table>
+
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"100%"><tbody><tr><td class=3D"container" style=3D"padding: 15px 15px=
+;">
+<div class=3D"text-block">
+<span>
+                                <a href=3D"https://tracking.tldrnewsletter.=
+com/CL0/https:%2F%2Fthreadreaderapp.com%2Fthread%2F1895292999615369660.html=
+%3Futm_source=3Dtldrcrypto/1/010001954cb3d6ba-879fa286-bea0-41a5-8e8f-ddade=
+5246292-000000/PsQRQCH5o7oJysi_TpRWXk78D7QdHFOPVHbFQPohl8k=3D394">
+                                    <span>
+                                        <strong>MetaMask's UI/UX (1 minute =
+read)</strong>
+                                    </span>
+</a>
+<br>
+<br>
+<span style=3D"font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, V=
+erdana, sans-serif;">
+                                    MetaMask has unveiled its roadmap to en=
+hance self-custody wallets, which focuses on improving user experience with=
+ features like gas-free transactions, multi-chain connectivity (including n=
+ative Bitcoin and Solana support), and programmable smart accounts via EIP-=
+7702.
+                                </span>
+</span>
+</div>
+</td></tr></tbody></table>
+
+</td></tr></tbody></table>
+
+
+
+
+
+<table align=3D"center" bgcolor=3D"" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" width=3D"100%"><tbody><tr><td align=3D"left" style=3D"word-break=
+: break-word; vertical-align: top; padding: 5px 10px;">
+
+<p style=3D"padding: 0; margin: 0; font-size: 22px; color: #000000; line-he=
+ight: 1.6; font-weight: bold;">
+Want to advertise in TLDR? =F0=9F=93=B0
+</p>
+<div class=3D"text-block" style=3D"margin-top: 10px;">
+If your company is interested in reaching an audience of crypto investors a=
+nd builders, you may want to <a href=3D"https://tracking.tldrnewsletter.com=
+/CL0/https:%2F%2Fadvertise.tldr.tech%2F%3Futm_source=3Dtldrcrypto%26utm_med=
+ium=3Dnewsletter%26utm_campaign=3Dadvertisecta/1/010001954cb3d6ba-879fa286-=
+bea0-41a5-8e8f-ddade5246292-000000/6z3w4w_cfNMGTjVgAhCj80wotZyL05JMV6YeHSjd=
+pWM=3D394"><strong><span>advertise with us</span></strong></a>.
+</div>
+<br>
+
+<!-- New "Want to work at TLDR?" section -->
+
+<p style=3D"padding: 0; margin: 0; font-size: 22px; color: #000000; line-he=
+ight: 1.6; font-weight: bold;">
+Want to work at TLDR? =F0=9F=92=BC
+</p>
+<div class=3D"text-block" style=3D"margin-top: 10px;">
+<a href=3D"https://tracking.tldrnewsletter.com/CL0/https:%2F%2Fjobs.ashbyhq=
+.com%2Ftldr.tech/1/010001954cb3d6ba-879fa286-bea0-41a5-8e8f-ddade5246292-00=
+0000/QHtuo-GxQe3dU_oTOpY6z7HA_ybyHYqrX90MuCA3IuE=3D394" rel=3D"noopener nor=
+eferrer" style=3D"color: #0000EE; text-decoration: underline;" target=3D"_b=
+lank"><strong>Apply here</strong></a> or send a friend's resume to <a href=
+=3D"mailto:jobs@tldr.tech" style=3D"color: #0000EE; text-decoration: underl=
+ine;">jobs@tldr.tech</a> and get $1k if we hire them!
+</div>
+<br>
+
+<div class=3D"text-block">
+If you have any comments or feedback, just respond to this email!
+<br>
+<br> Thanks for reading,
+<br>
+<a href=3D"https://tracking.tldrnewsletter.com/CL0/https:%2F%2Fwww.linkedin=
+.com%2Fin%2Fesham-macauley-76733986%2F/1/010001954cb3d6ba-879fa286-bea0-41a=
+5-8e8f-ddade5246292-000000/nMoXMVXIlkr5Mt5Wrl7byBtus8Gv1krKp-4dbH_7Lb4=3D39=
+4"><span>Esham Macauley</span></a> &amp; <a href=3D"https://tracking.tldrne=
+wsletter.com/CL0/https:%2F%2Fwww.linkedin.com%2Fin%2Flincolnmurr%2F/1/01000=
+1954cb3d6ba-879fa286-bea0-41a5-8e8f-ddade5246292-000000/hsEsr7rvTXNeldsYuIV=
+8NHFrV9OfZ7AOW97dr0Trpwc=3D394"><span>Lincoln Murr</span></a>
+<br>
+<br>
+</div>
+<br>
+</td></tr></tbody></table>
+
+<table align=3D"center" bgcolor=3D"" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" width=3D"100%"><tbody><tr><td class=3D"container" style=3D"paddi=
+ng: 15px 15px;">
+<div class=3D"text-block" id=3D"testing-id">
+<a href=3D"https://tracking.tldrnewsletter.com/CL0/https:%2F%2Ftldr.tech%2F=
+crypto%2Fmanage%3Femail=3Djasonlongfield%2540edny.net/1/010001954cb3d6ba-87=
+9fa286-bea0-41a5-8e8f-ddade5246292-000000/WSRQGakxoYGrLKuqNjZ9FuiM28DGPFwOz=
+uIY41TAifE=3D394">Manage your subscriptions</a> to our other newsletters on=
+ tech, startups, and programming. Or if TLDR Crypto isn't for you, please <=
+a href=3D"https://tracking.tldrnewsletter.com/CL0/https:%2F%2Fa.tldrnewslet=
+ter.com%2Funsubscribe%3Fep=3D1%26l=3D514b3efb-6f16-11ec-96e5-06b4694bee2a%2=
+6lc=3D9a18fb16-f5b8-11ef-9a78-a90fe034b693%26p=3D22425110-f5b2-11ef-8729-71=
+d243a10144%26pt=3Dcampaign%26pv=3D4%26spa=3D1740747649%26t=3D1740748609%26s=
+=3D245ea05c2e50c3e5e30e418209046120ab8804c399f3f87ba411da257fe2aafc/1/01000=
+1954cb3d6ba-879fa286-bea0-41a5-8e8f-ddade5246292-000000/gNqkaWb3jT6DYT2QDyr=
+A3LLe16CKeYiY4yAOT0J4MOQ=3D394">unsubscribe</a>.
+<br>
+</div>
+</td></tr></tbody></table>
+</td></tr></tbody></table>
+</td></tr></tbody></table>
+</td></tr></tbody></table>
+</td></tr></tbody></table>
+
+
+
+
+
+<img alt=3D"" src=3D"http://tracking.tldrnewsletter.com/CI0/010001954cb3d6b=
+a-879fa286-bea0-41a5-8e8f-ddade5246292-000000/_paBypmbo8nReUGus3DKgpIPgovC8=
+aXt3V-7sHo_kyU=3D394" style=3D"display: none; width: 1px; height: 1px;">
+</body></html>
+--FPnrd0qN--

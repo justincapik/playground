@@ -1,0 +1,2046 @@
+Delivered-To: jasonlongfield@edny.net
+Return-Path: <bounce-mc.us6_13940347.1471973-fc0151d531@mail57.atl281.mcsv.net>
+Received: from mail57.atl281.mcsv.net (mail57.atl281.mcsv.net [198.2.143.57])
+	by in.mail.tm (Haraka/3.0.2) with ESMTPS id 984A7A62-B2D7-4A8F-8789-8AF92E1B16EE.1
+	envelope-from <bounce-mc.us6_13940347.1471973-fc0151d531@mail57.atl281.mcsv.net>
+	tls TLS_AES_256_GCM_SHA384;
+	Fri, 28 Feb 2025 12:51:48 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=softwareleadweekly.com; s=k3; t=1740747106; x=1741017106;
+	i=oren@softwareleadweekly.com;
+	bh=Q2zZcUHGU5Gy4AFshGEKtY+SpU5BAxCZElgv4H/tDDU=;
+	h=Subject:From:Reply-To:To:Date:Message-ID:X-MC-User:Feedback-ID:
+	 List-ID:List-Unsubscribe:List-Unsubscribe-Post:Content-Type:
+	 MIME-Version:CC:Date:Subject:From;
+	b=QTCuAiIy8FFJyqGD814XBQ6uIXGUlm/fFvuE31zfetFMSULfnpCV9HdF7GmIVoLFV
+	 SXrST8E+WxxU8pLzUgfNtdDMENRTDpt+KyvJEMYQnD4iIaoRhf8JGyY+yA3tmYIJ1o
+	 YkOVSHHCc4hb/zWNRro4itDJbEEaCIGYc+FM+59OA+L01LpfbeH67zyfUsJ0KMmROt
+	 vXZ3Virvre1yV25iKq5ZYnYD/rFpFUT3VGQGpm+dM9oBtJ8lL+nuFhmcVxdnY/3b3V
+	 reDDQC3J/H8bR9YHXZ1Ye2BvtAF0SxLoc9r4cdfN2ulKiQ4DXI10QVqpUgBP5mN9H8
+	 OSfA/GXna3XXQ==
+Received: from localhost (localhost [127.0.0.1])
+	by mail57.atl281.mcsv.net (Mailchimp) with ESMTP id 4Z47Pt1nwMzLfXcSS
+	for <jasonlongfield@edny.net>; Fri, 28 Feb 2025 12:51:46 +0000 (GMT)
+Subject: =?utf-8?Q?SWLW=20#640=3A=20The=20burdens=20of=20data=2C=20Creating=20a=20sense=20of=20stability=2C=20and=20more.?=
+From: Oren Ellenbogen <oren@softwareleadweekly.com>
+Reply-To: =?utf-8?Q?Oren=20Ellenbogen?= <oren@softwareleadweekly.com>
+To: <jasonlongfield@edny.net>
+Date: Fri, 28 Feb 2025 12:51:29 +0000
+Message-ID: <1a258e0fefbb23214c59c5a8d.fc0151d531.20250228125112.a0bc22399d.3574a161@mail57.atl281.mcsv.net>
+X-Mailer: Mailchimp Mailer - **CIDa0bc22399dfc0151d531**
+X-Campaign: mailchimp1a258e0fefbb23214c59c5a8d.a0bc22399d
+X-campaignid: mailchimp1a258e0fefbb23214c59c5a8d.a0bc22399d
+X-Report-Abuse: Please report abuse for this campaign here: https://mailchimp.com/contact/abuse/?u=1a258e0fefbb23214c59c5a8d&id=a0bc22399d&e=fc0151d531
+X-MC-User: 1a258e0fefbb23214c59c5a8d
+Feedback-ID: 13940347:13940347.1471973:us6:mc
+List-ID: 1a258e0fefbb23214c59c5a8dmc list <1a258e0fefbb23214c59c5a8d.24205.list-id.mcsv.net>
+X-Accounttype: pr
+List-Unsubscribe: <https://softwareleadweekly.us6.list-manage.com/unsubscribe?u=1a258e0fefbb23214c59c5a8d&id=efe3d3cd5b&t=h&e=fc0151d531&c=a0bc22399d>, <mailto:unsubscribe-mc.us6_1a258e0fefbb23214c59c5a8d.a0bc22399d-fc0151d531@unsubscribe.mailchimpapp.net?subject=unsubscribe>
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+Content-Type: multipart/alternative; boundary="_----------=_MCPart_1990242587"
+MIME-Version: 1.0
+
+
+--_----------=_MCPart_1990242587This is a multi-part message in MIME format
+
+Content-Type: text/plain; charset="utf-8"; format="fixed"
+Content-Transfer-Encoding: quoted-printable
+
+A weekly newsletter by Oren Ellenbogen (https://twitter.com/orenellenbogen=
+) with the best content I found around people=2C culture and leadership in=
+ tech. You can also read this issue online (http://softwareleadweekly.com/=
+issues/640) and recommend this newsletter to your teammates (http://softwa=
+releadweekly.com/fwd) for a great discussion.
+
+Like always=2C I am sharing my best findings for the week. Under "Culture=
+=2C" you'll find content worth reading and sharing with others; you'll nee=
+d others' help to pull it off. Under "Peopleware=2C" you'll find content t=
+hat can help you approach situations differently with new perspectives and=
+ frameworks.
+
+
+
+** This Week's Favorite
+------------------------------------------------------------
+------------------------------------------------------------
+
+Thinking in Maximums (https://medium.com/@arjun_shah/thinking-in-maximums-=
+c8f1fc4b6c50)
+13 minutes read.
+Arjun Shah captures the notion of maximal thinking well in this paragraph:=
+ "big thinking uses data to validate or refine a path toward an ultimate g=
+oal. Minimal thinking uses data to guess whether a small product is worth=
+ keeping around for another round of iteration. One has the capacity to sh=
+ape entire industries=2C while the other might produce fleeting hype that=
+ disappears after the next pivot. This dynamic has real consequences for e=
+mployees=2C as well. Work cultures that focus on constant short sprints ca=
+n breed burnout. Engineers come to see their labor as disposable. Projects=
+ start and die with whiplash speed. When there is no overarching aim=2C wo=
+rkers eventually lose morale. Companies that think in maximums=2C by contr=
+ast=2C tend to inspire loyalty."
+
+Read it later via Pocket (https://getpocket.com/save?url=3Dhttps%3a%2f%2fm=
+edium.com%2f%40arjun_shah%2fthinking-in-maximums-c8f1fc4b6c50&title=3DThin=
+king+in+Maximums)  or Instapaper (http://www.instapaper.com/hello2?url=3Dh=
+ttps%3a%2f%2fmedium.com%2f%40arjun_shah%2fthinking-in-maximums-c8f1fc4b6c5=
+0&title=3DThinking+in+Maximums) .
+Share it via Twitter (https://twitter.com/intent/tweet?url=3Dhttps%3a%2f%2=
+fmedium.com%2f%40arjun_shah%2fthinking-in-maximums-c8f1fc4b6c50&text=3DThi=
+nking+in+Maximums+via+http%3A%2F%2Fsoftwareleadweekly.com)  or email (mail=
+to:?subject=3Dthinking+in+maximums&body=3DGreat post: https://medium.com/@=
+arjun_shah/thinking-in-maximums-c8f1fc4b6c50%0d%0a%0d%0a%0d%0aFound it via=
+ http://softwareleadweekly.com/) .
+
+
+**
+
+Product [sponsored]
+------------------------------------------------------------
+------------------------------------------------------------
+Shopify is doubling down on improving its existing features in what they'r=
+e calling their Boring Edition (http://shopify.com/editions/winter2025?utm=
+_source=3Dsoftware_lead&utm_medium=3Dexternal&utm_campaign=3Dwinter25editi=
+on-sustain&utm_content=3Dall-en-en)
+Shopify published (http://shopify.com/editions/winter2025?utm_source=3Dsof=
+tware_lead&utm_medium=3Dexternal&utm_campaign=3Dwinter25edition-sustain&ut=
+m_content=3Dall-en-en) its latest platform updates in their Boring Edition=
+=2C focused on performance improvements and ensuring everything works well=
+ together.
+
+
+Promote your product on SWLW and reach over 33=2C100 leaders (mailto:oren.=
+ellenbogen@gmail.com?subject=3DProduct%20sponsorship%20via%20SWLW&body=3DI=
+%27d%20like%20to%20sponsor%20%5Bmy%20product%20%2B%20details%5D.%20Can%20y=
+ou%20share%20some%20details%20on%20what%20is%20needed%3F)
+
+
+**
+------------------------------------------------------------
+
+
+**
+Culture
+------------------------------------------------------------
+------------------------------------------------------------
+
+=E2=80=9CI Don=E2=80=99t Get It. We Followed Best Practices.=E2=80=9D (htt=
+ps://x.com/andrew__reed/status/1885371488133668945)
+1 minute read.
+My humble effort to help you start the weekend with a smile on your face.
+
+Read it later via Pocket (https://getpocket.com/save?url=3Dhttps%3a%2f%2fx=
+=2Ecom%2fandrew__reed%2fstatus%2f1885371488133668945&title=3D%E2%80%9CI+Don%=
+E2%80%99t+Get+It.+We+Followed+Best+Practices.%E2%80%9D)  or Instapaper (ht=
+tp://www.instapaper.com/hello2?url=3Dhttps%3a%2f%2fx.com%2fandrew__reed%2f=
+status%2f1885371488133668945&title=3D%E2%80%9CI+Don%E2%80%99t+Get+It.+We+F=
+ollowed+Best+Practices.%E2%80%9D) .
+Share it via Twitter (https://twitter.com/intent/tweet?url=3Dhttps%3a%2f%2=
+fx.com%2fandrew__reed%2fstatus%2f1885371488133668945&text=3D%E2%80%9CI+Don=
+%E2%80%99t+Get+It.+We+Followed+Best+Practices.%E2%80%9D+via+http%3A%2F%2Fs=
+oftwareleadweekly.com)  or email (mailto:?subject=3D%e2%80%9ci+don%e2%80%9=
+9t+get+it.+we+followed+best+practices.%e2%80%9d&body=3DGreat post: https:/=
+/x.com/andrew__reed/status/1885371488133668945%0d%0a%0d%0a%0d%0aFound it v=
+ia http://softwareleadweekly.com/) .
+What Makes Entrepreneurs Entrepreneurial? (https://muratbuffalo.blogspot.c=
+om/2025/02/what-makes-entrepreneurs-entrepreneurial.html)
+5 minutes read.
+The framing of "causal thinker" and "effectual thinker" is very useful. It=
+ crystallized for me how people approach challenges at work and how they s=
+ee life. We're capable of both types of thinking. It requires some awarene=
+ss of our defaults and practicing a different approach.
+
+Read it later via Pocket (https://getpocket.com/save?url=3Dhttps%3a%2f%2fm=
+uratbuffalo.blogspot.com%2f2025%2f02%2fwhat-makes-entrepreneurs-entreprene=
+urial.html&title=3DWhat+Makes+Entrepreneurs+Entrepreneurial%3F)  or Instap=
+aper (http://www.instapaper.com/hello2?url=3Dhttps%3a%2f%2fmuratbuffalo.bl=
+ogspot.com%2f2025%2f02%2fwhat-makes-entrepreneurs-entrepreneurial.html&tit=
+le=3DWhat+Makes+Entrepreneurs+Entrepreneurial%3F) .
+Share it via Twitter (https://twitter.com/intent/tweet?url=3Dhttps%3a%2f%2=
+fmuratbuffalo.blogspot.com%2f2025%2f02%2fwhat-makes-entrepreneurs-entrepre=
+neurial.html&text=3DWhat+Makes+Entrepreneurs+Entrepreneurial%3F+via+http%3=
+A%2F%2Fsoftwareleadweekly.com)  or email (mailto:?subject=3Dwhat+makes+ent=
+repreneurs+entrepreneurial%3f&body=3DGreat post: https://muratbuffalo.blog=
+spot.com/2025/02/what-makes-entrepreneurs-entrepreneurial.html%0d%0a%0d%0a=
+%0d%0aFound it via http://softwareleadweekly.com/) .
+Creating a Sense of Stability (https://newsletter.canopy.is/p/creating-a-s=
+ense-of-stability)
+6 minutes read.
+The four approaches Claire Lew shares should be bookmarked and used next t=
+ime you face challenges with your team. During "war time=2C" a leader shou=
+ld explain how success looks like and help build the confidence that the t=
+eam can achieve it. Tell them what you need from them=2C and ask what they=
+ expect from you. Never let a good crisis go to waste.
+
+Read it later via Pocket (https://getpocket.com/save?url=3Dhttps%3a%2f%2fn=
+ewsletter.canopy.is%2fp%2fcreating-a-sense-of-stability&title=3DCreating+a=
++Sense+of+Stability)  or Instapaper (http://www.instapaper.com/hello2?url=
+=3Dhttps%3a%2f%2fnewsletter.canopy.is%2fp%2fcreating-a-sense-of-stability&=
+title=3DCreating+a+Sense+of+Stability) .
+Share it via Twitter (https://twitter.com/intent/tweet?url=3Dhttps%3a%2f%2=
+fnewsletter.canopy.is%2fp%2fcreating-a-sense-of-stability&text=3DCreating+=
+a+Sense+of+Stability+via+http%3A%2F%2Fsoftwareleadweekly.com)  or email (m=
+ailto:?subject=3Dcreating+a+sense+of+stability&body=3DGreat post: https://=
+newsletter.canopy.is/p/creating-a-sense-of-stability%0d%0a%0d%0a%0d%0aFoun=
+d it via http://softwareleadweekly.com/) .
+The Biggest HR Trend of 2025 (https://thebrianfink.medium.com/the-biggest-=
+hr-trend-of-2025-5197b4fe77b1)
+5 minutes read.
+The best companies will continue to adopt the latest technologies and prac=
+tices=2C and seek ways to differentiate in the market. This is what you do=
+ if you want to attract and retain top talent: "What=E2=80=99s the key to=
+ making hybrid work work? Trust. And trust is built by leaders who communi=
+cate clear expectations=2C measure performance effectively=2C and treat em=
+ployees like adults instead of wayward children trying to escape supervisi=
+on."
+
+Read it later via Pocket (https://getpocket.com/save?url=3Dhttps%3a%2f%2ft=
+hebrianfink.medium.com%2fthe-biggest-hr-trend-of-2025-5197b4fe77b1&title=
+=3DThe+Biggest+HR+Trend+of+2025)  or Instapaper (http://www.instapaper.com=
+/hello2?url=3Dhttps%3a%2f%2fthebrianfink.medium.com%2fthe-biggest-hr-trend=
+-of-2025-5197b4fe77b1&title=3DThe+Biggest+HR+Trend+of+2025) .
+Share it via Twitter (https://twitter.com/intent/tweet?url=3Dhttps%3a%2f%2=
+fthebrianfink.medium.com%2fthe-biggest-hr-trend-of-2025-5197b4fe77b1&text=
+=3DThe+Biggest+HR+Trend+of+2025+via+http%3A%2F%2Fsoftwareleadweekly.com) =
+ or email (mailto:?subject=3Dthe+biggest+hr+trend+of+2025&body=3DGreat pos=
+t: https://thebrianfink.medium.com/the-biggest-hr-trend-of-2025-5197b4fe77=
+b1%0d%0a%0d%0a%0d%0aFound it via http://softwareleadweekly.com/) .
+
+
+**
+
+Peopleware
+------------------------------------------------------------
+------------------------------------------------------------
+
+=E2=80=9CYou Need to Be More Strategic=E2=80=9D (https://writing.pupius.co=
+=2Euk/you-need-to-be-more-strategic-dc473a2aa319)
+6 minutes read.
+Dan Pupius covers helpful frameworks you can use to drive better decisions=
+ over time for complex questions and challenges. Try them out=2C write the=
+m down=2C and share them with your peers to drive interesting discussions.
+
+Read it later via Pocket (https://getpocket.com/save?url=3Dhttps%3a%2f%2fw=
+riting.pupius.co.uk%2fyou-need-to-be-more-strategic-dc473a2aa319&title=3D%=
+E2%80%9CYou+Need+to+Be+More+Strategic%E2%80%9D)  or Instapaper (http://www=
+=2Einstapaper.com/hello2?url=3Dhttps%3a%2f%2fwriting.pupius.co.uk%2fyou-need=
+-to-be-more-strategic-dc473a2aa319&title=3D%E2%80%9CYou+Need+to+Be+More+St=
+rategic%E2%80%9D) .
+Share it via Twitter (https://twitter.com/intent/tweet?url=3Dhttps%3a%2f%2=
+fwriting.pupius.co.uk%2fyou-need-to-be-more-strategic-dc473a2aa319&text=3D=
+%E2%80%9CYou+Need+to+Be+More+Strategic%E2%80%9D+via+http%3A%2F%2Fsoftwarel=
+eadweekly.com)  or email (mailto:?subject=3D%e2%80%9cyou+need+to+be+more+s=
+trategic%e2%80%9d&body=3DGreat post: https://writing.pupius.co.uk/you-need=
+-to-be-more-strategic-dc473a2aa319%0d%0a%0d%0a%0d%0aFound it via http://so=
+ftwareleadweekly.com/) .
+FAQs From Coaching Technical Leadership (https://kellanem.com/notes/faqs-f=
+rom-coaching)
+4 minutes read.
+Short and high-value dilemmas and suggestions. Kellan Elliott-McCrea's ins=
+ight for investing in a candidate's experience (and investing more time in=
+ hiring!) can help you build a brand to attract future employees: "Optimiz=
+e your interviews for great candidate experience. You=E2=80=99ll increase=
+ the chances that you=E2=80=99ll find someone who might succeed in your or=
+ganization and increase the chances that the 95% of people you interview w=
+ho don=E2=80=99t end up joining your team are positive brand ambassadors f=
+or you."
+
+Read it later via Pocket (https://getpocket.com/save?url=3Dhttps%3a%2f%2fk=
+ellanem.com%2fnotes%2ffaqs-from-coaching&title=3DFAQs+From+Coaching+Techni=
+cal+Leadership)  or Instapaper (http://www.instapaper.com/hello2?url=3Dhtt=
+ps%3a%2f%2fkellanem.com%2fnotes%2ffaqs-from-coaching&title=3DFAQs+From+Coa=
+ching+Technical+Leadership) .
+Share it via Twitter (https://twitter.com/intent/tweet?url=3Dhttps%3a%2f%2=
+fkellanem.com%2fnotes%2ffaqs-from-coaching&text=3DFAQs+From+Coaching+Techn=
+ical+Leadership+via+http%3A%2F%2Fsoftwareleadweekly.com)  or email (mailto=
+:?subject=3Dfaqs+from+coaching+technical+leadership&body=3DGreat post: htt=
+ps://kellanem.com/notes/faqs-from-coaching%0d%0a%0d%0a%0d%0aFound it via h=
+ttp://softwareleadweekly.com/) .
+The Burdens of Data (https://rejot.dev/blog/essay/)
+8 minutes read.
+Wilco Kruijer covers an area that all companies face as they grow - effect=
+ively dealing with the data they gathered during the years: "Being declara=
+tive about obtaining data is a powerful force multiplier when it comes to=
+ software development. I cannot stress this enough. Within organizations i=
+t is hard to align backlogs so multiple teams can work towards the same go=
+al. By making publishing data a small effort=2C the burden of integration=
+ is moved solely to the integrator. This sidesteps all the alignment work.=
+ On a technical note=2C the fact that data can be synchronized directly to=
+ a team/product=E2=80=99s database means that the integrating team only ha=
+s to adjust their database queries to join the newly available data. This=
+ is end-to-end declarative data integration between products! This way the=
+ code can be almost purely business logic."
+
+Read it later via Pocket (https://getpocket.com/save?url=3Dhttps%3a%2f%2fr=
+ejot.dev%2fblog%2fessay%2f&title=3DThe+Burdens+of+Data)  or Instapaper (ht=
+tp://www.instapaper.com/hello2?url=3Dhttps%3a%2f%2frejot.dev%2fblog%2fessa=
+y%2f&title=3DThe+Burdens+of+Data) .
+Share it via Twitter (https://twitter.com/intent/tweet?url=3Dhttps%3a%2f%2=
+frejot.dev%2fblog%2fessay%2f&text=3DThe+Burdens+of+Data+via+http%3A%2F%2Fs=
+oftwareleadweekly.com)  or email (mailto:?subject=3Dthe+burdens+of+data&bo=
+dy=3DGreat post: https://rejot.dev/blog/essay/%0d%0a%0d%0a%0d%0aFound it v=
+ia http://softwareleadweekly.com/) .
+
+
+**
+And finally=2C inspiring tweets...
+------------------------------------------------------------
+------------------------------------------------------------
+
+@EricMelillo_ (https://x.com/EricMelillo_/status/1891966112251744477) : Fa=
+st people quit slow companies. So it's safe to say your speed limit is the=
+ir exit sign.
+@Julian (https://x.com/Julian/status/1894458657460687095) : People don't h=
+ave short attention spans: (1) They finish 3 hour Joe Rogan episodes (2) T=
+hey binge 14 hour shows.They have short *consideration spans:* they must b=
+e hooked quickly. Point: Don't fear making great=2C in-depth content. But=
+=2C ensure your first minute is incredible.
+
+p.s. if you're interested in joining SWLW's Slack channel=2C simply reply=
+ to this email and let me know. If you're leading a team=2C consider writi=
+ng your Manager README (https://managerreadme.com/?ref=3Dswlw) (it's free)=
+ or getting my e-book and interviews Leading Snowflakes: The New Engineeri=
+ng Manager's Handbook (http://leadingsnowflakes.com/?ref=3Dswlw) . You can=
+ also support me by becoming a SWLW Patron (https://gum.co/I-love-SWLW) .=
+ Thank you =E2=9D=A4=EF=B8=8F
+
+Keep reading=2C keep learning.
+-- Oren Ellenbogen.
+
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+You are receiving this because you subscribed at softwareleadweekly.com.
+
+Software Lead Weekly is curated with love by Oren Ellenbogen.
+** unsubscribe from this list (https://softwareleadweekly.us6.list-manage.=
+com/unsubscribe?u=3D1a258e0fefbb23214c59c5a8d&id=3Defe3d3cd5b&t=3Db&e=3Dfc0151d531&c=3Da0bc22399d)
+or  ** update subscription preferences (https://softwareleadweekly.us6.lis=
+t-manage.com/profile?u=3D1a258e0fefbb23214c59c5a8d&id=3Defe3d3cd5b&e=3Dfc0151d531&c=3Da0bc22399d)
+
+
+Mailing address is Zalman Shneor 4 st.=2C Herzelya=2C Israel.
+--_----------=_MCPart_1990242587
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!doctype html>
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns:v=3D"urn:schemas-micros=
+oft-com:vml" xmlns:o=3D"urn:schemas-microsoft-com:office:office">
+    <head>
+        <!-- NAME: 1 COLUMN -->
+        <!--[if gte mso 15]>
+        <xml>
+            <o:OfficeDocumentSettings>
+            <o:AllowPNG/>
+            <o:PixelsPerInch>96</o:PixelsPerInch>
+            </o:OfficeDocumentSettings>
+        </xml>
+        <![endif]-->
+        <meta charset=3D"UTF-8">
+        <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+        <meta name=3D"viewport" content=3D"width=3Ddevice-width=2C initial=
+-scale=3D1">
+        <title>SWLW #640: The burdens of data=2C Creating a sense of stabi=
+lity=2C and more.</title>
+
+    <style type=3D"text/css">
+=09=09p{
+=09=09=09margin:10px 0;
+=09=09=09padding:0;
+=09=09}
+=09=09table{
+=09=09=09border-collapse:collapse;
+=09=09}
+=09=09h1=2Ch2=2Ch3=2Ch4=2Ch5=2Ch6{
+=09=09=09display:block;
+=09=09=09margin:0;
+=09=09=09padding:0;
+=09=09}
+=09=09img=2Ca img{
+=09=09=09border:0;
+=09=09=09height:auto;
+=09=09=09outline:none;
+=09=09=09text-decoration:none;
+=09=09}
+=09=09body=2C#bodyTable=2C#bodyCell{
+=09=09=09height:100%;
+=09=09=09margin:0;
+=09=09=09padding:0;
+=09=09=09width:100%;
+=09=09}
+=09=09.mcnPreviewText{
+=09=09=09display:none !important;
+=09=09}
+=09=09#outlook a{
+=09=09=09padding:0;
+=09=09}
+=09=09img{
+=09=09=09-ms-interpolation-mode:bicubic;
+=09=09}
+=09=09table{
+=09=09=09mso-table-lspace:0pt;
+=09=09=09mso-table-rspace:0pt;
+=09=09}
+=09=09.ReadMsgBody{
+=09=09=09width:100%;
+=09=09}
+=09=09.ExternalClass{
+=09=09=09width:100%;
+=09=09}
+=09=09p=2Ca=2Cli=2Ctd=2Cblockquote{
+=09=09=09mso-line-height-rule:exactly;
+=09=09}
+=09=09a[href^=3Dtel]=2Ca[href^=3Dsms]{
+=09=09=09color:inherit;
+=09=09=09cursor:default;
+=09=09=09text-decoration:none;
+=09=09}
+=09=09p=2Ca=2Cli=2Ctd=2Cbody=2Ctable=2Cblockquote{
+=09=09=09-ms-text-size-adjust:100%;
+=09=09=09-webkit-text-size-adjust:100%;
+=09=09}
+=09=09.ExternalClass=2C.ExternalClass p=2C.ExternalClass td=2C.ExternalCla=
+ss div=2C.ExternalClass span=2C.ExternalClass font{
+=09=09=09line-height:100%;
+=09=09}
+=09=09a[x-apple-data-detectors]{
+=09=09=09color:inherit !important;
+=09=09=09text-decoration:none !important;
+=09=09=09font-size:inherit !important;
+=09=09=09font-family:inherit !important;
+=09=09=09font-weight:inherit !important;
+=09=09=09line-height:inherit !important;
+=09=09}
+=09=09table[align=3Dleft]{
+=09=09=09float:left;
+=09=09}
+=09=09table[align=3Dright]{
+=09=09=09float:right;
+=09=09}
+=09=09#bodyCell{
+=09=09=09padding:10px;
+=09=09}
+=09=09.templateContainer{
+=09=09=09max-width:600px !important;
+=09=09}
+=09=09a.mcnButton{
+=09=09=09display:block;
+=09=09}
+=09=09.mcnImage=2C.mcnRetinaImage{
+=09=09=09vertical-align:bottom;
+=09=09}
+=09=09.mcnTextContent{
+=09=09=09word-break:break-word;
+=09=09}
+=09=09.mcnTextContent img{
+=09=09=09height:auto !important;
+=09=09}
+=09=09.mcnDividerBlock{
+=09=09=09table-layout:fixed !important;
+=09=09}
+=09=09body=2C#bodyTable{
+=09=09=09background-color:#FAFAFA;
+=09=09}
+=09=09#bodyCell{
+=09=09=09border-top:0;
+=09=09}
+=09=09.templateContainer{
+=09=09=09border:0;
+=09=09}
+=09=09h1{
+=09=09=09color:#202020;
+=09=09=09font-family:Helvetica;
+=09=09=09font-size:26px;
+=09=09=09font-style:normal;
+=09=09=09font-weight:bold;
+=09=09=09line-height:125%;
+=09=09=09letter-spacing:normal;
+=09=09=09text-align:left;
+=09=09}
+=09=09h2{
+=09=09=09color:#202020;
+=09=09=09font-family:Helvetica;
+=09=09=09font-size:22px;
+=09=09=09font-style:normal;
+=09=09=09font-weight:bold;
+=09=09=09line-height:125%;
+=09=09=09letter-spacing:normal;
+=09=09=09text-align:left;
+=09=09}
+=09=09h3{
+=09=09=09color:#202020;
+=09=09=09font-family:Helvetica;
+=09=09=09font-size:20px;
+=09=09=09font-style:normal;
+=09=09=09font-weight:bold;
+=09=09=09line-height:125%;
+=09=09=09letter-spacing:normal;
+=09=09=09text-align:left;
+=09=09}
+=09=09h4{
+=09=09=09color:#202020;
+=09=09=09font-family:Helvetica;
+=09=09=09font-size:18px;
+=09=09=09font-style:normal;
+=09=09=09font-weight:bold;
+=09=09=09line-height:125%;
+=09=09=09letter-spacing:normal;
+=09=09=09text-align:left;
+=09=09}
+=09=09#templatePreheader{
+=09=09=09background-color:#FAFAFA;
+=09=09=09background-image:none;
+=09=09=09background-repeat:no-repeat;
+=09=09=09background-position:center;
+=09=09=09background-size:cover;
+=09=09=09border-top:0;
+=09=09=09border-bottom:0;
+=09=09=09padding-top:9px;
+=09=09=09padding-bottom:9px;
+=09=09}
+=09=09#templatePreheader .mcnTextContent=2C#templatePreheader .mcnTextCont=
+ent p{
+=09=09=09color:#656565;
+=09=09=09font-family:Helvetica;
+=09=09=09font-size:12px;
+=09=09=09line-height:150%;
+=09=09=09text-align:left;
+=09=09}
+=09=09#templatePreheader .mcnTextContent a=2C#templatePreheader .mcnTextCo=
+ntent p a{
+=09=09=09color:#656565;
+=09=09=09font-weight:normal;
+=09=09=09text-decoration:underline;
+=09=09}
+=09=09#templateHeader{
+=09=09=09background-color:#FFFFFF;
+=09=09=09background-image:none;
+=09=09=09background-repeat:no-repeat;
+=09=09=09background-position:center;
+=09=09=09background-size:cover;
+=09=09=09border-top:0;
+=09=09=09border-bottom:0;
+=09=09=09padding-top:9px;
+=09=09=09padding-bottom:0;
+=09=09}
+=09=09#templateHeader .mcnTextContent=2C#templateHeader .mcnTextContent p{
+=09=09=09color:#202020;
+=09=09=09font-family:Helvetica;
+=09=09=09font-size:16px;
+=09=09=09line-height:150%;
+=09=09=09text-align:left;
+=09=09}
+=09=09#templateHeader .mcnTextContent a=2C#templateHeader .mcnTextContent=
+ p a{
+=09=09=09color:#007C89;
+=09=09=09font-weight:normal;
+=09=09=09text-decoration:underline;
+=09=09}
+=09=09#templateBody{
+=09=09=09background-color:#FFFFFF;
+=09=09=09background-image:none;
+=09=09=09background-repeat:no-repeat;
+=09=09=09background-position:center;
+=09=09=09background-size:cover;
+=09=09=09border-top:0;
+=09=09=09border-bottom:2px solid #EAEAEA;
+=09=09=09padding-top:0;
+=09=09=09padding-bottom:9px;
+=09=09}
+=09=09#templateBody .mcnTextContent=2C#templateBody .mcnTextContent p{
+=09=09=09color:#202020;
+=09=09=09font-family:Helvetica;
+=09=09=09font-size:16px;
+=09=09=09line-height:150%;
+=09=09=09text-align:left;
+=09=09}
+=09=09#templateBody .mcnTextContent a=2C#templateBody .mcnTextContent p a{
+=09=09=09color:#007C89;
+=09=09=09font-weight:normal;
+=09=09=09text-decoration:underline;
+=09=09}
+=09=09#templateFooter{
+=09=09=09background-color:#FAFAFA;
+=09=09=09background-image:none;
+=09=09=09background-repeat:no-repeat;
+=09=09=09background-position:center;
+=09=09=09background-size:cover;
+=09=09=09border-top:0;
+=09=09=09border-bottom:0;
+=09=09=09padding-top:9px;
+=09=09=09padding-bottom:9px;
+=09=09}
+=09=09#templateFooter .mcnTextContent=2C#templateFooter .mcnTextContent p{
+=09=09=09color:#656565;
+=09=09=09font-family:Helvetica;
+=09=09=09font-size:12px;
+=09=09=09line-height:150%;
+=09=09=09text-align:center;
+=09=09}
+=09=09#templateFooter .mcnTextContent a=2C#templateFooter .mcnTextContent=
+ p a{
+=09=09=09color:#656565;
+=09=09=09font-weight:normal;
+=09=09=09text-decoration:underline;
+=09=09}
+=09@media only screen and (min-width:768px){
+=09=09.templateContainer{
+=09=09=09width:600px !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09body=2Ctable=2Ctd=2Cp=2Ca=2Cli=2Cblockquote{
+=09=09=09-webkit-text-size-adjust:none !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09body{
+=09=09=09width:100% !important;
+=09=09=09min-width:100% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09.mcnRetinaImage{
+=09=09=09max-width:100% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09.mcnImage{
+=09=09=09width:100% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09.mcnCartContainer=2C.mcnCaptionTopContent=2C.mcnRecContentContainer=
+=2C.mcnCaptionBottomContent=2C.mcnTextContentContainer=2C.mcnBoxedTextCont=
+entContainer=2C.mcnImageGroupContentContainer=2C.mcnCaptionLeftTextContent=
+Container=2C.mcnCaptionRightTextContentContainer=2C.mcnCaptionLeftImageCon=
+tentContainer=2C.mcnCaptionRightImageContentContainer=2C.mcnImageCardLeftT=
+extContentContainer=2C.mcnImageCardRightTextContentContainer=2C.mcnImageCa=
+rdLeftImageContentContainer=2C.mcnImageCardRightImageContentContainer{
+=09=09=09max-width:100% !important;
+=09=09=09width:100% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09.mcnBoxedTextContentContainer{
+=09=09=09min-width:100% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09.mcnImageGroupContent{
+=09=09=09padding:9px !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09.mcnCaptionLeftContentOuter .mcnTextContent=2C.mcnCaptionRightConten=
+tOuter .mcnTextContent{
+=09=09=09padding-top:9px !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09.mcnImageCardTopImageContent=2C.mcnCaptionBottomContent:last-child .=
+mcnCaptionBottomImageContent=2C.mcnCaptionBlockInner .mcnCaptionTopContent=
+:last-child .mcnTextContent{
+=09=09=09padding-top:18px !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09.mcnImageCardBottomImageContent{
+=09=09=09padding-bottom:9px !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09.mcnImageGroupBlockInner{
+=09=09=09padding-top:0 !important;
+=09=09=09padding-bottom:0 !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09.mcnImageGroupBlockOuter{
+=09=09=09padding-top:9px !important;
+=09=09=09padding-bottom:9px !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09.mcnTextContent=2C.mcnBoxedTextContentColumn{
+=09=09=09padding-right:18px !important;
+=09=09=09padding-left:18px !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09.mcnImageCardLeftImageContent=2C.mcnImageCardRightImageContent{
+=09=09=09padding-right:18px !important;
+=09=09=09padding-bottom:0 !important;
+=09=09=09padding-left:18px !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09.mcpreview-image-uploader{
+=09=09=09display:none !important;
+=09=09=09width:100% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09h1{
+=09=09=09font-size:22px !important;
+=09=09=09line-height:125% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09h2{
+=09=09=09font-size:20px !important;
+=09=09=09line-height:125% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09h3{
+=09=09=09font-size:18px !important;
+=09=09=09line-height:125% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09h4{
+=09=09=09font-size:16px !important;
+=09=09=09line-height:150% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09.mcnBoxedTextContentContainer .mcnTextContent=2C.mcnBoxedTextContent=
+Container .mcnTextContent p{
+=09=09=09font-size:14px !important;
+=09=09=09line-height:150% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09#templatePreheader{
+=09=09=09display:block !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09#templatePreheader .mcnTextContent=2C#templatePreheader .mcnTextCont=
+ent p{
+=09=09=09font-size:14px !important;
+=09=09=09line-height:150% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09#templateHeader .mcnTextContent=2C#templateHeader .mcnTextContent p{
+=09=09=09font-size:16px !important;
+=09=09=09line-height:150% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09#templateBody .mcnTextContent=2C#templateBody .mcnTextContent p{
+=09=09=09font-size:16px !important;
+=09=09=09line-height:150% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09#templateFooter .mcnTextContent=2C#templateFooter .mcnTextContent p{
+=09=09=09font-size:14px !important;
+=09=09=09line-height:150% !important;
+=09=09}
+
+}</style></head>
+    <body style=3D"height: 100%;margin: 0;padding: 0;width: 100%;-ms-text-=
+size-adjust: 100%;-webkit-text-size-adjust: 100%;background-color: #FAFAFA=
+;">
+        <!--
+-->
+        <!--[if !gte mso 9]><!----><span class=3D"mcnPreviewText" style=
+=3D"display:none; font-size:0px; line-height:0px; max-height:0px; max-widt=
+h:0px; opacity:0; overflow:hidden; visibility:hidden; mso-hide:all;">Weekl=
+y articles &amp; videos about people=2C culture and leadership: everything=
+ you need to design the org that makes the product.</span><!--<![endif]--=
+>
+        <!--
+-->
+        <center>
+            <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" height=3D"100%" width=3D"100%" id=3D"bodyTable" style=3D"border=
+-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-s=
+ize-adjust: 100%;-webkit-text-size-adjust: 100%;height: 100%;margin: 0;pad=
+ding: 0;width: 100%;background-color: #FAFAFA;">
+                <tr>
+                    <td align=3D"center" valign=3D"top" id=3D"bodyCell" st=
+yle=3D"mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-te=
+xt-size-adjust: 100%;height: 100%;margin: 0;padding: 10px;width: 100%;bord=
+er-top: 0;">
+                        <!-- BEGIN TEMPLATE // -->
+                        <!--[if (gte mso 9)|(IE)]>
+                        <table align=3D"center" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0" width=3D"600" style=3D"width:600px;">
+                        <tr>
+                        <td align=3D"center" valign=3D"top" width=3D"600"=
+ style=3D"width:600px;">
+                        <![endif]-->
+                        <table border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" width=3D"100%" class=3D"templateContainer" style=3D"border-collapse=
+: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjus=
+t: 100%;-webkit-text-size-adjust: 100%;border: 0;max-width: 600px !importa=
+nt;">
+                            <tr>
+                                <td valign=3D"top" id=3D"templatePreheader=
+" style=3D"background:#FAFAFA none no-repeat center/cover;mso-line-height-=
+rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;ba=
+ckground-color: #FAFAFA;background-image: none;background-repeat: no-repea=
+t;background-position: center;background-size: cover;border-top: 0;border-=
+bottom: 0;padding-top: 9px;padding-bottom: 9px;"></td>
+                            </tr>
+                            <tr>
+                                <td valign=3D"top" id=3D"templateHeader" s=
+tyle=3D"background:#FFFFFF none no-repeat center/cover;mso-line-height-rul=
+e: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;backg=
+round-color: #FFFFFF;background-image: none;background-repeat: no-repeat;b=
+ackground-position: center;background-size: cover;border-top: 0;border-bot=
+tom: 0;padding-top: 9px;padding-bottom: 0;"><table border=3D"0" cellpaddin=
+g=3D"0" cellspacing=3D"0" width=3D"100%" class=3D"mcnTextBlock" style=3D"m=
+in-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-r=
+space: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+    <tbody class=3D"mcnTextBlockOuter">
+        <tr>
+            <td valign=3D"top" class=3D"mcnTextBlockInner" style=3D"paddin=
+g-top: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webki=
+t-text-size-adjust: 100%;">
+              =09<!--[if mso]>
+=09=09=09=09<table align=3D"left" border=3D"0" cellspacing=3D"0" cellpaddi=
+ng=3D"0" width=3D"100%" style=3D"width:100%;">
+=09=09=09=09<tr>
+=09=09=09=09<![endif]-->
+=09=09=09
+=09=09=09=09<!--[if mso]>
+=09=09=09=09<td valign=3D"top" width=3D"600" style=3D"width:600px;">
+=09=09=09=09<![endif]-->
+                <table align=3D"left" border=3D"0" cellpadding=3D"0" cells=
+pacing=3D"0" style=3D"max-width: 100%;min-width: 100%;border-collapse: col=
+lapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 10=
+0%;-webkit-text-size-adjust: 100%;float: left;" width=3D"100%" class=3D"mc=
+nTextContentContainer">
+                    <tbody><tr>
+
+                        <td valign=3D"top" class=3D"mcnTextContent" style=
+=3D"padding-top: 0;padding-right: 18px;padding-bottom: 9px;padding-left: 1=
+8px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-=
+size-adjust: 100%;word-break: break-word;color: #202020;font-family: Helve=
+tica;font-size: 16px;line-height: 150%;text-align: left;">
+
+                            <div style=3D"text-align: left;"><span style=
+=3D"font-size:13px"><span style=3D"font-family:verdana=2Cgeneva=2Csans-ser=
+if"><span style=3D"color: #000000;">A weekly newsletter by&nbsp;</span><st=
+rong><a href=3D"https://softwareleadweekly.us6.list-manage.com/track/click=
+?u=3D1a258e0fefbb23214c59c5a8d&id=3D3308eaf186&e=3Dfc0151d531" target=3D"=
+_blank" style=3D"mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;=
+-webkit-text-size-adjust: 100%;color: #007C89;font-weight: normal;text-dec=
+oration: underline;"><span style=3D"color: #0088CC;">Oren Ellenbogen</span=
+></a></strong><span style=3D"color: #000000;"> with the best content I fou=
+nd around people=2C&nbsp;culture&nbsp;and leadership in tech</span>.<span=
+ style=3D"color: #000000;"><span style=3D"line-height:20.8px"> </span>You=
+ can also</span> <strong><a href=3D"https://softwareleadweekly.us6.list-ma=
+nage.com/track/click?u=3D1a258e0fefbb23214c59c5a8d&id=3De5a506c81f&e=3Dfc0151d531" target=3D"_blank" style=3D"mso-line-height-rule: exactly;-ms-tex=
+t-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #007C89;font-wei=
+ght: normal;text-decoration: underline;"><span style=3D"color: #0088CC;">r=
+ead this issue online</span></a></strong> <span style=3D"color: #000000;">=
+and</span> <strong><span style=3D"line-height:18px"><a href=3D"https://sof=
+twareleadweekly.us6.list-manage.com/track/click?u=3D1a258e0fefbb23214c59c5=
+a8d&id=3Dbbac328ef1&e=3Dfc0151d531" target=3D"_blank" style=3D"mso-line-h=
+eight-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 1=
+00%;color: #007C89;font-weight: normal;text-decoration: underline;"><span=
+ style=3D"color: #0088CC;">recommend this newsletter to your teammates</sp=
+an></a></span></strong><span style=3D"color: #141414;line-height: 18px;">=
+ for a great</span><span style=3D"color: #000000;"><span style=3D"line-hei=
+ght:18px"> discussion.</span></span></span></span><span style=3D"font-size=
+:12px"><span style=3D"font-family:verdana=2Cgeneva=2Csans-serif"><span sty=
+le=3D"color: #141414;line-height: 18px;"> </span></span></span></div>
+
+                        </td>
+                    </tr>
+                </tbody></table>
+=09=09=09=09<!--[if mso]>
+=09=09=09=09</td>
+=09=09=09=09<![endif]-->
+
+=09=09=09=09<!--[if mso]>
+=09=09=09=09</tr>
+=09=09=09=09</table>
+=09=09=09=09<![endif]-->
+            </td>
+        </tr>
+    </tbody>
+</table></td>
+                            </tr>
+                            <tr>
+                                <td valign=3D"top" id=3D"templateBody" sty=
+le=3D"background:#FFFFFF none no-repeat center/cover;mso-line-height-rule:=
+ exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;backgro=
+und-color: #FFFFFF;background-image: none;background-repeat: no-repeat;bac=
+kground-position: center;background-size: cover;border-top: 0;border-botto=
+m: 2px solid #EAEAEA;padding-top: 0;padding-bottom: 9px;"><table border=3D=
+"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" class=3D"mcnTextBlo=
+ck" style=3D"min-width: 100%;border-collapse: collapse;mso-table-lspace: 0=
+pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adju=
+st: 100%;">
+    <tbody class=3D"mcnTextBlockOuter">
+        <tr>
+            <td valign=3D"top" class=3D"mcnTextBlockInner" style=3D"paddin=
+g-top: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webki=
+t-text-size-adjust: 100%;">
+              =09<!--[if mso]>
+=09=09=09=09<table align=3D"left" border=3D"0" cellspacing=3D"0" cellpaddi=
+ng=3D"0" width=3D"100%" style=3D"width:100%;">
+=09=09=09=09<tr>
+=09=09=09=09<![endif]-->
+=09=09=09
+=09=09=09=09<!--[if mso]>
+=09=09=09=09<td valign=3D"top" width=3D"600" style=3D"width:600px;">
+=09=09=09=09<![endif]-->
+                <table align=3D"left" border=3D"0" cellpadding=3D"0" cells=
+pacing=3D"0" style=3D"max-width: 100%;min-width: 100%;border-collapse: col=
+lapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 10=
+0%;-webkit-text-size-adjust: 100%;float: left;" width=3D"100%" class=3D"mc=
+nTextContentContainer">
+                    <tbody><tr>
+
+                        <td valign=3D"top" class=3D"mcnTextContent" style=
+=3D"padding-top: 0;padding-right: 18px;padding-bottom: 9px;padding-left: 1=
+8px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-=
+size-adjust: 100%;word-break: break-word;color: #202020;font-family: Helve=
+tica;font-size: 16px;line-height: 150%;text-align: left;">
+
+                            <p style=3D"margin: 10px 0;padding: 0;mso-line=
+-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust:=
+ 100%;color: #202020;font-family: Helvetica;font-size: 16px;line-height: 1=
+50%;text-align: left;"><span style=3D"color:#000000"><span style=3D"font-s=
+ize:15px"><span style=3D"font-family:verdana=2Cgeneva=2Csans-serif">Like a=
+lways=2C I am sharing my best findings for the week. Under "Culture=2C" yo=
+u'll find content worth reading and sharing with others; you'll need other=
+s' help to pull it off. Under "Peopleware=2C" you'll find content that can=
+ help you approach situations differently with new perspectives and framew=
+orks.&nbsp; &nbsp; </span></span></span><br>
+<br>
+<span style=3D"font-size:14px"><span style=3D"font-family:verdana=2Cgeneva=
+=2Csans-serif"><span style=3D"color:#000000">&nbsp; </span></span></span><=
+/p>
+
+<h2 class=3D"null" style=3D"display: block;font-family: Helvetica;font-siz=
+e: 22px;font-style: normal;font-weight: bold;line-height: 22px;letter-spac=
+ing: normal;margin: 0px;text-align: left;color: #404040 !important;font-va=
+riant-ligatures: normal;font-variant-caps: normal;orphans: 2;text-indent:=
+ 0px;text-transform: none;white-space: normal;widows: 2;word-spacing: 0px;=
+-webkit-text-stroke-width: 0px;background-color: #FFFFFF;text-decoration-s=
+tyle: initial;text-decoration-color: initial;padding: 0;"><span style=3D"f=
+ont-family:verdana=2Cgeneva=2Csans-serif">This Week's Favorite</span></h2>
+
+<hr style=3D"color: #141414;font-family: Helvetica;font-size: 12px;font-st=
+yle: normal;font-variant-ligatures: normal;font-variant-caps: normal;font-=
+weight: normal;letter-spacing: normal;orphans: 2;text-align: left;text-ind=
+ent: 0px;text-transform: none;white-space: normal;widows: 2;word-spacing:=
+ 0px;-webkit-text-stroke-width: 0px;background-color: #FFFFFF;text-decorat=
+ion-style: initial;text-decoration-color: initial;">
+<p style=3D"color: #141414;font-family: Helvetica;font-size: 12px;font-sty=
+le: normal;font-variant-ligatures: normal;font-variant-caps: normal;font-w=
+eight: 400;letter-spacing: normal;orphans: 2;text-align: left;text-indent:=
+ 0px;text-transform: none;white-space: normal;widows: 2;word-spacing: 0px;=
+-webkit-text-stroke-width: 0px;background-color: #FFFFFF;text-decoration-s=
+tyle: initial;text-decoration-color: initial;margin: 10px 0;padding: 0;mso=
+-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-ad=
+just: 100%;line-height: 150%;"><a href=3D"https://softwareleadweekly.us6.l=
+ist-manage.com/track/click?u=3D1a258e0fefbb23214c59c5a8d&id=3D35777e6add&e=
+=3Dfc0151d531" style=3D"overflow-wrap: break-word !important;color: #0088=
+CC;font-weight: bold;text-decoration: none;font-family: verdana=2C geneva=
+=2C sans-serif;font-style: normal;font-variant-ligatures: normal;font-vari=
+ant-caps: normal;letter-spacing: normal;orphans: 2;text-align: left;text-i=
+ndent: 0px;text-transform: none;widows: 2;word-spacing: 0px;-webkit-text-s=
+troke-width: 0px;white-space: normal;background-color: #FFFFFF;line-height=
+: 22px;font-size: 16px;mso-line-height-rule: exactly;-ms-text-size-adjust:=
+ 100%;-webkit-text-size-adjust: 100%;" target=3D"_self"><strong>Thinking i=
+n Maximums</strong></a><br style=3D"color: #141414;font-family: verdana=2C=
+ geneva=2C sans-serif;font-size: 15px;font-style: normal;font-variant-liga=
+tures: normal;font-variant-caps: normal;font-weight: 400;letter-spacing: n=
+ormal;orphans: 2;text-align: left;text-indent: 0px;text-transform: none;wi=
+dows: 2;word-spacing: 0px;-webkit-text-stroke-width: 0px;white-space: norm=
+al;background-color: #FFFFFF;text-decoration-thickness: initial;text-decor=
+ation-style: initial;text-decoration-color: initial;">
+<span style=3D"-webkit-text-stroke-width: 0px;background-color: #FFFFFF;co=
+lor: #141414;font-family: verdana=2Cgeneva=2Csans-serif;font-size: 14px;fo=
+nt-style: normal;font-variant-caps: normal;font-variant-ligatures: normal;=
+font-weight: 400;letter-spacing: normal;orphans: 2;text-align: left;text-d=
+ecoration-color: initial;text-decoration-style: initial;text-decoration-th=
+ickness: initial;text-indent: 0px;text-transform: none;white-space: normal=
+;widows: 2;word-spacing: 0px;">13 minutes read.</span><br style=3D"color:=
+ #141414;font-family: verdana=2C geneva=2C sans-serif;font-size: 15px;font=
+-style: normal;font-variant-ligatures: normal;font-variant-caps: normal;fo=
+nt-weight: 400;letter-spacing: normal;orphans: 2;text-align: left;text-ind=
+ent: 0px;text-transform: none;widows: 2;word-spacing: 0px;-webkit-text-str=
+oke-width: 0px;white-space: normal;background-color: #FFFFFF;text-decorati=
+on-thickness: initial;text-decoration-style: initial;text-decoration-color=
+: initial;">
+<br style=3D"color: #141414;font-family: verdana=2C geneva=2C sans-serif;f=
+ont-size: 15px;font-style: normal;font-variant-ligatures: normal;font-vari=
+ant-caps: normal;font-weight: 400;letter-spacing: normal;orphans: 2;text-a=
+lign: left;text-indent: 0px;text-transform: none;widows: 2;word-spacing: 0=
+px;-webkit-text-stroke-width: 0px;white-space: normal;background-color: #F=
+FFFFF;text-decoration-thickness: initial;text-decoration-style: initial;te=
+xt-decoration-color: initial;">
+<span style=3D"-webkit-text-stroke-width: 0px;background-color: #FFFFFF;co=
+lor: #141414;display: inline !important;float: none;font-family: verdana=
+=2Cgeneva=2Csans-serif;font-size: 15px;font-style: normal;font-variant-cap=
+s: normal;font-variant-ligatures: normal;font-weight: 400;letter-spacing:=
+ normal;orphans: 2;text-align: left;text-decoration-color: initial;text-de=
+coration-style: initial;text-decoration-thickness: initial;text-indent: 0p=
+x;text-transform: none;white-space: normal;widows: 2;word-spacing: 0px;">A=
+rjun Shah captures the notion of maximal thinking well in this paragraph:=
+ "big thinking uses data to validate or refine a path toward an ultimate g=
+oal. Minimal thinking uses data to guess whether a small product is worth=
+ keeping around for another round of iteration. One has the capacity to sh=
+ape entire industries=2C while the other might produce fleeting hype that=
+ disappears after the next pivot. This dynamic has real consequences for e=
+mployees=2C as well. Work cultures that focus on constant short sprints ca=
+n breed burnout. Engineers come to see their labor as disposable. Projects=
+ start and die with whiplash speed. When there is no overarching aim=2C wo=
+rkers eventually lose morale. Companies that think in maximums=2C by contr=
+ast=2C tend to inspire loyalty."</span><br>
+<br>
+<span style=3D"-webkit-text-stroke-width: 0px;background-color: #FFFFFF;co=
+lor: #141414;font-family: verdana=2Cgeneva=2Csans-serif;font-size: 14px;fo=
+nt-style: normal;font-variant-caps: normal;font-variant-ligatures: normal;=
+font-weight: 400;letter-spacing: normal;orphans: 2;text-align: left;text-d=
+ecoration-color: initial;text-decoration-style: initial;text-decoration-th=
+ickness: initial;text-indent: 0px;text-transform: none;white-space: normal=
+;widows: 2;word-spacing: 0px;"><strong>Read</strong><span>&nbsp;</span>it=
+ later via<span>&nbsp;</span><a href=3D"https://softwareleadweekly.us6.lis=
+t-manage.com/track/click?u=3D1a258e0fefbb23214c59c5a8d&id=3D760fd90369&e=
+=3Dfc0151d531" style=3D"overflow-wrap: break-word !important;color: #D852=
+52;font-weight: bold;text-decoration: none;mso-line-height-rule: exactly;-=
+ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" target=3D"_self=
+">Pocket</a><span>&nbsp;</span>or<span>&nbsp;</span><a href=3D"https://sof=
+twareleadweekly.us6.list-manage.com/track/click?u=3D1a258e0fefbb23214c59c5=
+a8d&id=3Da2f4db708a&e=3Dfc0151d531" style=3D"overflow-wrap: break-word !i=
+mportant;color: #D85252;font-weight: bold;text-decoration: none;mso-line-h=
+eight-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 1=
+00%;" target=3D"_self">Instapaper</a>.<br>
+<strong>Share</strong><span>&nbsp;</span>it via<span>&nbsp;</span><a href=
+=3D"https://softwareleadweekly.us6.list-manage.com/track/click?u=3D1a258e0=
+fefbb23214c59c5a8d&id=3D325b959f6c&e=3Dfc0151d531" style=3D"overflow-wrap=
+: break-word !important;color: #D85252;font-weight: bold;text-decoration:=
+ none;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-tex=
+t-size-adjust: 100%;" target=3D"_blank">Twitter</a><span>&nbsp;</span>or<s=
+pan>&nbsp;</span><a href=3D"mailto:?subject=3Dthinking+in+maximums&body=3D=
+Great post: https://medium.com/@arjun_shah/thinking-in-maximums-c8f1fc4b6c=
+50%0d%0a%0d%0a%0d%0aFound it via http://softwareleadweekly.com/" style=3D"=
+overflow-wrap: break-word !important;color: #D85252;font-weight: bold;text=
+-decoration: none;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%=
+;-webkit-text-size-adjust: 100%;" target=3D"_blank">email</a>.</span></p>
+
+<h2 class=3D"null" style=3D"display: block;font-family: Helvetica;font-siz=
+e: 22px;font-style: normal;font-weight: bold;line-height: 22px;letter-spac=
+ing: normal;margin: 0px;text-align: left;color: #404040 !important;font-va=
+riant-ligatures: normal;font-variant-caps: normal;orphans: 2;text-indent:=
+ 0px;text-transform: none;white-space: normal;widows: 2;word-spacing: 0px;=
+-webkit-text-stroke-width: 0px;background-color: #FFFFFF;text-decoration-s=
+tyle: initial;text-decoration-color: initial;padding: 0;"><br>
+<br>
+<span style=3D"font-family:verdana=2Cgeneva=2Csans-serif">Product [<span=
+ style=3D"background-color:#FFFFE0">sponsored</span>]</span></h2>
+
+<hr style=3D"color: #141414;font-family: Helvetica;font-size: 12px;font-st=
+yle: normal;font-variant-ligatures: normal;font-variant-caps: normal;font-=
+weight: normal;letter-spacing: normal;orphans: 2;text-align: left;text-ind=
+ent: 0px;text-transform: none;white-space: normal;widows: 2;word-spacing:=
+ 0px;-webkit-text-stroke-width: 0px;background-color: #FFFFFF;text-decorat=
+ion-style: initial;text-decoration-color: initial;"><a href=3D"https://sof=
+twareleadweekly.us6.list-manage.com/track/click?u=3D1a258e0fefbb23214c59c5=
+a8d&id=3D7a768cbdc7&e=3Dfc0151d531" style=3D"overflow-wrap: break-word !i=
+mportant;color: #0088CC;font-weight: bold;text-decoration: none;font-famil=
+y: verdana=2C geneva=2C sans-serif;font-style: normal;font-variant-ligatur=
+es: normal;font-variant-caps: normal;letter-spacing: normal;orphans: 2;tex=
+t-align: left;text-indent: 0px;text-transform: none;widows: 2;word-spacing=
+: 0px;-webkit-text-stroke-width: 0px;white-space: normal;background-color:=
+ #FFFFFF;line-height: 22px;font-size: 16px;mso-line-height-rule: exactly;-=
+ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" target=3D"_self=
+"><strong>Shopify is doubling down on improving its existing features in w=
+hat they're calling their Boring Edition</strong></a><br>
+<span style=3D"color:#000000"><span style=3D"font-size:14px"><span style=
+=3D"font-family:verdana=2Cgeneva=2Csans-serif">Shopify <a href=3D"https://=
+softwareleadweekly.us6.list-manage.com/track/click?u=3D1a258e0fefbb23214c5=
+9c5a8d&id=3D8b6f55cc82&e=3Dfc0151d531" target=3D"_blank" style=3D"mso-lin=
+e-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust=
+: 100%;color: #007C89;font-weight: normal;text-decoration: underline;">pub=
+lished</a> its latest platform updates in their Boring Edition=2C focused=
+ on performance improvements and ensuring everything works well together.<=
+/span></span></span><br>
+&nbsp;
+<p style=3D"line-height: 20.7999992370605px;text-align: center;color: #606=
+060;font-family: Helvetica;font-size: 15px;margin: 10px 0;padding: 0;mso-l=
+ine-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adju=
+st: 100%;"><span style=3D"font-size:17px; line-height:20.7999992370605px;=
+ text-align:center"><span style=3D"font-family:lucida sans unicode=2Clucid=
+a grande=2Csans-serif"><span style=3D"background-color:#cc9900"><span styl=
+e=3D"color:#FFFFFF">&nbsp;</span><span style=3D"font-size:15px"><a href=3D=
+"mailto:oren.ellenbogen@gmail.com?subject=3DProduct%20sponsorship%20via%20=
+SWLW&body=3DI%27d%20like%20to%20sponsor%20%5Bmy%20product%20%2B%20details%=
+5D.%20Can%20you%20share%20some%20details%20on%20what%20is%20needed%3F" sty=
+le=3D"color: #FFFFFF;font-weight: normal;text-decoration: underline;word-w=
+rap: break-word !important;mso-line-height-rule: exactly;-ms-text-size-adj=
+ust: 100%;-webkit-text-size-adjust: 100%;" target=3D"_blank">Promote your=
+ product on SWLW and reach over 33=2C100 leaders</a><font color=3D"#f0f8ff=
+">&nbsp;</font></span></span></span></span></p>
+
+<h2 class=3D"null" style=3D"display: block;font-family: Helvetica;font-siz=
+e: 22px;font-style: normal;font-weight: bold;line-height: 22px;letter-spac=
+ing: normal;margin: 0px;text-align: left;color: #404040 !important;font-va=
+riant-ligatures: normal;font-variant-caps: normal;orphans: 2;text-indent:=
+ 0px;text-transform: none;white-space: normal;widows: 2;word-spacing: 0px;=
+-webkit-text-stroke-width: 0px;background-color: #FFFFFF;text-decoration-s=
+tyle: initial;text-decoration-color: initial;padding: 0;">&nbsp;</h2>
+
+<h2 class=3D"null" style=3D"display: block;font-family: Helvetica;font-siz=
+e: 22px;font-style: normal;font-weight: bold;line-height: 22px;letter-spac=
+ing: normal;margin: 0px;text-align: left;color: #404040 !important;font-va=
+riant-ligatures: normal;font-variant-caps: normal;orphans: 2;text-indent:=
+ 0px;text-transform: none;white-space: normal;widows: 2;word-spacing: 0px;=
+-webkit-text-stroke-width: 0px;background-color: #FFFFFF;text-decoration-s=
+tyle: initial;text-decoration-color: initial;padding: 0;"><br>
+<span style=3D"font-family:verdana=2Cgeneva=2Csans-serif">Culture</span></=
+h2>
+
+<hr style=3D"color: #141414;font-family: Helvetica;font-size: 12px;font-st=
+yle: normal;font-variant-ligatures: normal;font-variant-caps: normal;font-=
+weight: normal;letter-spacing: normal;orphans: 2;text-align: left;text-ind=
+ent: 0px;text-transform: none;white-space: normal;widows: 2;word-spacing:=
+ 0px;-webkit-text-stroke-width: 0px;background-color: #FFFFFF;text-decorat=
+ion-style: initial;text-decoration-color: initial;">
+<p style=3D"color: #141414;font-family: Helvetica;font-size: 12px;font-sty=
+le: normal;font-variant-ligatures: normal;font-variant-caps: normal;font-w=
+eight: normal;letter-spacing: normal;orphans: 2;text-align: left;text-inde=
+nt: 0px;text-transform: none;white-space: normal;widows: 2;word-spacing: 0=
+px;-webkit-text-stroke-width: 0px;background-color: #FFFFFF;text-decoratio=
+n-style: initial;text-decoration-color: initial;margin: 10px 0;padding: 0;=
+mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size=
+-adjust: 100%;line-height: 150%;"><a href=3D"https://softwareleadweekly.us=
+6.list-manage.com/track/click?u=3D1a258e0fefbb23214c59c5a8d&id=3D9a864cb10=
+3&e=3Dfc0151d531" style=3D"overflow-wrap: break-word !important;color: #0=
+088CC;font-weight: bold;text-decoration: none;font-family: verdana=2C gene=
+va=2C sans-serif;font-style: normal;font-variant-ligatures: normal;font-va=
+riant-caps: normal;letter-spacing: normal;orphans: 2;text-align: left;text=
+-indent: 0px;text-transform: none;widows: 2;word-spacing: 0px;-webkit-text=
+-stroke-width: 0px;white-space: normal;background-color: #FFFFFF;line-heig=
+ht: 22px;font-size: 16px;mso-line-height-rule: exactly;-ms-text-size-adjus=
+t: 100%;-webkit-text-size-adjust: 100%;" target=3D"_self"><strong>=E2=80=
+=9CI Don=E2=80=99t Get It. We Followed Best Practices.=E2=80=9D</strong></=
+a><br style=3D"color: #141414;font-family: verdana=2C geneva=2C sans-serif=
+;font-size: 15px;font-style: normal;font-variant-ligatures: normal;font-va=
+riant-caps: normal;font-weight: 400;letter-spacing: normal;orphans: 2;text=
+-align: left;text-indent: 0px;text-transform: none;widows: 2;word-spacing:=
+ 0px;-webkit-text-stroke-width: 0px;white-space: normal;background-color:=
+ #FFFFFF;text-decoration-thickness: initial;text-decoration-style: initial=
+;text-decoration-color: initial;">
+<span style=3D"-webkit-text-stroke-width: 0px;background-color: #FFFFFF;co=
+lor: #141414;font-family: verdana=2Cgeneva=2Csans-serif;font-size: 14px;fo=
+nt-style: normal;font-variant-caps: normal;font-variant-ligatures: normal;=
+font-weight: 400;letter-spacing: normal;orphans: 2;text-align: left;text-d=
+ecoration-color: initial;text-decoration-style: initial;text-decoration-th=
+ickness: initial;text-indent: 0px;text-transform: none;white-space: normal=
+;widows: 2;word-spacing: 0px;">1 minute read.</span><br style=3D"color: #1=
+41414;font-family: verdana=2C geneva=2C sans-serif;font-size: 15px;font-st=
+yle: normal;font-variant-ligatures: normal;font-variant-caps: normal;font-=
+weight: 400;letter-spacing: normal;orphans: 2;text-align: left;text-indent=
+: 0px;text-transform: none;widows: 2;word-spacing: 0px;-webkit-text-stroke=
+-width: 0px;white-space: normal;background-color: #FFFFFF;text-decoration-=
+thickness: initial;text-decoration-style: initial;text-decoration-color: i=
+nitial;">
+<br style=3D"color: #141414;font-family: verdana=2C geneva=2C sans-serif;f=
+ont-size: 15px;font-style: normal;font-variant-ligatures: normal;font-vari=
+ant-caps: normal;font-weight: 400;letter-spacing: normal;orphans: 2;text-a=
+lign: left;text-indent: 0px;text-transform: none;widows: 2;word-spacing: 0=
+px;-webkit-text-stroke-width: 0px;white-space: normal;background-color: #F=
+FFFFF;text-decoration-thickness: initial;text-decoration-style: initial;te=
+xt-decoration-color: initial;">
+<span style=3D"-webkit-text-stroke-width: 0px;background-color: #FFFFFF;co=
+lor: #141414;display: inline !important;float: none;font-family: verdana=
+=2Cgeneva=2Csans-serif;font-size: 15px;font-style: normal;font-variant-cap=
+s: normal;font-variant-ligatures: normal;font-weight: 400;letter-spacing:=
+ normal;orphans: 2;text-align: left;text-decoration-color: initial;text-de=
+coration-style: initial;text-decoration-thickness: initial;text-indent: 0p=
+x;text-transform: none;white-space: normal;widows: 2;word-spacing: 0px;">M=
+y humble effort to help you start the weekend with a smile on your face.</=
+span><br>
+<br>
+<span style=3D"-webkit-text-stroke-width: 0px;background-color: #FFFFFF;co=
+lor: #141414;font-family: verdana=2Cgeneva=2Csans-serif;font-size: 14px;fo=
+nt-style: normal;font-variant-caps: normal;font-variant-ligatures: normal;=
+font-weight: 400;letter-spacing: normal;orphans: 2;text-align: left;text-d=
+ecoration-color: initial;text-decoration-style: initial;text-decoration-th=
+ickness: initial;text-indent: 0px;text-transform: none;white-space: normal=
+;widows: 2;word-spacing: 0px;"><strong>Read</strong><span>&nbsp;</span>it=
+ later via<span>&nbsp;</span><a href=3D"https://softwareleadweekly.us6.lis=
+t-manage.com/track/click?u=3D1a258e0fefbb23214c59c5a8d&id=3Ddd82fcfa7d&e=
+=3Dfc0151d531" style=3D"overflow-wrap: break-word !important;color: #D852=
+52;font-weight: bold;text-decoration: none;mso-line-height-rule: exactly;-=
+ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" target=3D"_self=
+">Pocket</a><span>&nbsp;</span>or<span>&nbsp;</span><a href=3D"https://sof=
+twareleadweekly.us6.list-manage.com/track/click?u=3D1a258e0fefbb23214c59c5=
+a8d&id=3D2e43c7fa92&e=3Dfc0151d531" style=3D"overflow-wrap: break-word !i=
+mportant;color: #D85252;font-weight: bold;text-decoration: none;mso-line-h=
+eight-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 1=
+00%;" target=3D"_self">Instapaper</a>.<br>
+<strong>Share</strong><span>&nbsp;</span>it via<span>&nbsp;</span><a href=
+=3D"https://softwareleadweekly.us6.list-manage.com/track/click?u=3D1a258e0=
+fefbb23214c59c5a8d&id=3Dbd23cf75f5&e=3Dfc0151d531" style=3D"overflow-wrap=
+: break-word !important;color: #D85252;font-weight: bold;text-decoration:=
+ none;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-tex=
+t-size-adjust: 100%;" target=3D"_blank">Twitter</a><span>&nbsp;</span>or<s=
+pan>&nbsp;</span><a href=3D"mailto:?subject=3D%e2%80%9ci+don%e2%80%99t+get=
++it.+we+followed+best+practices.%e2%80%9d&body=3DGreat post: https://x.com=
+/andrew__reed/status/1885371488133668945%0d%0a%0d%0a%0d%0aFound it via htt=
+p://softwareleadweekly.com/" style=3D"overflow-wrap: break-word !important=
+;color: #D85252;font-weight: bold;text-decoration: none;mso-line-height-ru=
+le: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" ta=
+rget=3D"_blank">email</a>.</span><br>
+<br style=3D"color: #141414;font-family: verdana=2C geneva=2C sans-serif;f=
+ont-size: 15px;font-style: normal;font-variant-ligatures: normal;font-vari=
+ant-caps: normal;font-weight: 400;letter-spacing: normal;orphans: 2;text-a=
+lign: left;text-indent: 0px;text-transform: none;widows: 2;word-spacing: 0=
+px;-webkit-text-stroke-width: 0px;white-space: normal;background-color: #F=
+FFFFF;text-decoration-thickness: initial;text-decoration-style: initial;te=
+xt-decoration-color: initial;">
+<br style=3D"color: #141414;font-family: verdana=2C geneva=2C sans-serif;f=
+ont-size: 15px;font-style: normal;font-variant-ligatures: normal;font-vari=
+ant-caps: normal;font-weight: 400;letter-spacing: normal;orphans: 2;text-a=
+lign: left;text-indent: 0px;text-transform: none;widows: 2;word-spacing: 0=
+px;-webkit-text-stroke-width: 0px;white-space: normal;background-color: #F=
+FFFFF;text-decoration-thickness: initial;text-decoration-style: initial;te=
+xt-decoration-color: initial;">
+<a href=3D"https://softwareleadweekly.us6.list-manage.com/track/click?u=3D=
+1a258e0fefbb23214c59c5a8d&id=3Df1577281d9&e=3Dfc0151d531" style=3D"overfl=
+ow-wrap: break-word !important;color: #0088CC;font-weight: bold;text-decor=
+ation: none;font-family: verdana=2C geneva=2C sans-serif;font-style: norma=
+l;font-variant-ligatures: normal;font-variant-caps: normal;letter-spacing:=
+ normal;orphans: 2;text-align: left;text-indent: 0px;text-transform: none;=
+widows: 2;word-spacing: 0px;-webkit-text-stroke-width: 0px;white-space: no=
+rmal;background-color: #FFFFFF;line-height: 22px;font-size: 16px;mso-line-=
+height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust:=
+ 100%;" target=3D"_self"><strong>What Makes Entrepreneurs Entrepreneurial?=
+</strong></a><br style=3D"color: #141414;font-family: verdana=2C geneva=2C=
+ sans-serif;font-size: 15px;font-style: normal;font-variant-ligatures: nor=
+mal;font-variant-caps: normal;font-weight: 400;letter-spacing: normal;orph=
+ans: 2;text-align: left;text-indent: 0px;text-transform: none;widows: 2;wo=
+rd-spacing: 0px;-webkit-text-stroke-width: 0px;white-space: normal;backgro=
+und-color: #FFFFFF;text-decoration-thickness: initial;text-decoration-styl=
+e: initial;text-decoration-color: initial;">
+<span style=3D"-webkit-text-stroke-width: 0px;background-color: #FFFFFF;co=
+lor: #141414;font-family: verdana=2Cgeneva=2Csans-serif;font-size: 14px;fo=
+nt-style: normal;font-variant-caps: normal;font-variant-ligatures: normal;=
+font-weight: 400;letter-spacing: normal;orphans: 2;text-align: left;text-d=
+ecoration-color: initial;text-decoration-style: initial;text-decoration-th=
+ickness: initial;text-indent: 0px;text-transform: none;white-space: normal=
+;widows: 2;word-spacing: 0px;">5 minutes read.</span><br style=3D"color: #=
+141414;font-family: verdana=2C geneva=2C sans-serif;font-size: 15px;font-s=
+tyle: normal;font-variant-ligatures: normal;font-variant-caps: normal;font=
+-weight: 400;letter-spacing: normal;orphans: 2;text-align: left;text-inden=
+t: 0px;text-transform: none;widows: 2;word-spacing: 0px;-webkit-text-strok=
+e-width: 0px;white-space: normal;background-color: #FFFFFF;text-decoration=
+-thickness: initial;text-decoration-style: initial;text-decoration-color:=
+ initial;">
+<br style=3D"color: #141414;font-family: verdana=2C geneva=2C sans-serif;f=
+ont-size: 15px;font-style: normal;font-variant-ligatures: normal;font-vari=
+ant-caps: normal;font-weight: 400;letter-spacing: normal;orphans: 2;text-a=
+lign: left;text-indent: 0px;text-transform: none;widows: 2;word-spacing: 0=
+px;-webkit-text-stroke-width: 0px;white-space: normal;background-color: #F=
+FFFFF;text-decoration-thickness: initial;text-decoration-style: initial;te=
+xt-decoration-color: initial;">
+<span style=3D"-webkit-text-stroke-width: 0px;background-color: #FFFFFF;co=
+lor: #141414;display: inline !important;float: none;font-family: verdana=
+=2Cgeneva=2Csans-serif;font-size: 15px;font-style: normal;font-variant-cap=
+s: normal;font-variant-ligatures: normal;font-weight: 400;letter-spacing:=
+ normal;orphans: 2;text-align: left;text-decoration-color: initial;text-de=
+coration-style: initial;text-decoration-thickness: initial;text-indent: 0p=
+x;text-transform: none;white-space: normal;widows: 2;word-spacing: 0px;">T=
+he framing of "causal thinker" and "effectual thinker" is very useful. It=
+ crystallized for me how people approach challenges at work and how they s=
+ee life. We're capable of both types of thinking. It requires some awarene=
+ss of our defaults and practicing a different approach.</span><br>
+<br>
+<span style=3D"-webkit-text-stroke-width: 0px;background-color: #FFFFFF;co=
+lor: #141414;font-family: verdana=2Cgeneva=2Csans-serif;font-size: 14px;fo=
+nt-style: normal;font-variant-caps: normal;font-variant-ligatures: normal;=
+font-weight: 400;letter-spacing: normal;orphans: 2;text-align: left;text-d=
+ecoration-color: initial;text-decoration-style: initial;text-decoration-th=
+ickness: initial;text-indent: 0px;text-transform: none;white-space: normal=
+;widows: 2;word-spacing: 0px;"><strong>Read</strong><span>&nbsp;</span>it=
+ later via<span>&nbsp;</span><a href=3D"https://softwareleadweekly.us6.lis=
+t-manage.com/track/click?u=3D1a258e0fefbb23214c59c5a8d&id=3Decc4b32194&e=
+=3Dfc0151d531" style=3D"overflow-wrap: break-word !important;color: #D852=
+52;font-weight: bold;text-decoration: none;mso-line-height-rule: exactly;-=
+ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" target=3D"_self=
+">Pocket</a><span>&nbsp;</span>or<span>&nbsp;</span><a href=3D"https://sof=
+twareleadweekly.us6.list-manage.com/track/click?u=3D1a258e0fefbb23214c59c5=
+a8d&id=3Dd415a0233d&e=3Dfc0151d531" style=3D"overflow-wrap: break-word !i=
+mportant;color: #D85252;font-weight: bold;text-decoration: none;mso-line-h=
+eight-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 1=
+00%;" target=3D"_self">Instapaper</a>.<br>
+<strong>Share</strong><span>&nbsp;</span>it via<span>&nbsp;</span><a href=
+=3D"https://softwareleadweekly.us6.list-manage.com/track/click?u=3D1a258e0=
+fefbb23214c59c5a8d&id=3D9586d5307f&e=3Dfc0151d531" style=3D"overflow-wrap=
+: break-word !important;color: #D85252;font-weight: bold;text-decoration:=
+ none;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-tex=
+t-size-adjust: 100%;" target=3D"_blank">Twitter</a><span>&nbsp;</span>or<s=
+pan>&nbsp;</span><a href=3D"mailto:?subject=3Dwhat+makes+entrepreneurs+ent=
+repreneurial%3f&body=3DGreat post: https://muratbuffalo.blogspot.com/2025/=
+02/what-makes-entrepreneurs-entrepreneurial.html%0d%0a%0d%0a%0d%0aFound it=
+ via http://softwareleadweekly.com/" style=3D"overflow-wrap: break-word !i=
+mportant;color: #D85252;font-weight: bold;text-decoration: none;mso-line-h=
+eight-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 1=
+00%;" target=3D"_blank">email</a>.</span><br>
+<br style=3D"color: #141414;font-family: verdana=2C geneva=2C sans-serif;f=
+ont-size: 15px;font-style: normal;font-variant-ligatures: normal;font-vari=
+ant-caps: normal;font-weight: 400;letter-spacing: normal;orphans: 2;text-a=
+lign: left;text-indent: 0px;text-transform: none;widows: 2;word-spacing: 0=
+px;-webkit-text-stroke-width: 0px;white-space: normal;background-color: #F=
+FFFFF;text-decoration-thickness: initial;text-decoration-style: initial;te=
+xt-decoration-color: initial;">
+<br style=3D"color: #141414;font-family: verdana=2C geneva=2C sans-serif;f=
+ont-size: 15px;font-style: normal;font-variant-ligatures: normal;font-vari=
+ant-caps: normal;font-weight: 400;letter-spacing: normal;orphans: 2;text-a=
+lign: left;text-indent: 0px;text-transform: none;widows: 2;word-spacing: 0=
+px;-webkit-text-stroke-width: 0px;white-space: normal;background-color: #F=
+FFFFF;text-decoration-thickness: initial;text-decoration-style: initial;te=
+xt-decoration-color: initial;">
+<a href=3D"https://softwareleadweekly.us6.list-manage.com/track/click?u=3D=
+1a258e0fefbb23214c59c5a8d&id=3D2d599406c1&e=3Dfc0151d531" style=3D"overfl=
+ow-wrap: break-word !important;color: #0088CC;font-weight: bold;text-decor=
+ation: none;font-family: verdana=2C geneva=2C sans-serif;font-style: norma=
+l;font-variant-ligatures: normal;font-variant-caps: normal;letter-spacing:=
+ normal;orphans: 2;text-align: left;text-indent: 0px;text-transform: none;=
+widows: 2;word-spacing: 0px;-webkit-text-stroke-width: 0px;white-space: no=
+rmal;background-color: #FFFFFF;line-height: 22px;font-size: 16px;mso-line-=
+height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust:=
+ 100%;" target=3D"_self"><strong>Creating a Sense of Stability</strong></a=
+><br style=3D"color: #141414;font-family: verdana=2C geneva=2C sans-serif;=
+font-size: 15px;font-style: normal;font-variant-ligatures: normal;font-var=
+iant-caps: normal;font-weight: 400;letter-spacing: normal;orphans: 2;text-=
+align: left;text-indent: 0px;text-transform: none;widows: 2;word-spacing:=
+ 0px;-webkit-text-stroke-width: 0px;white-space: normal;background-color:=
+ #FFFFFF;text-decoration-thickness: initial;text-decoration-style: initial=
+;text-decoration-color: initial;">
+<span style=3D"-webkit-text-stroke-width: 0px;background-color: #FFFFFF;co=
+lor: #141414;font-family: verdana=2Cgeneva=2Csans-serif;font-size: 14px;fo=
+nt-style: normal;font-variant-caps: normal;font-variant-ligatures: normal;=
+font-weight: 400;letter-spacing: normal;orphans: 2;text-align: left;text-d=
+ecoration-color: initial;text-decoration-style: initial;text-decoration-th=
+ickness: initial;text-indent: 0px;text-transform: none;white-space: normal=
+;widows: 2;word-spacing: 0px;">6 minutes read.</span><br style=3D"color: #=
+141414;font-family: verdana=2C geneva=2C sans-serif;font-size: 15px;font-s=
+tyle: normal;font-variant-ligatures: normal;font-variant-caps: normal;font=
+-weight: 400;letter-spacing: normal;orphans: 2;text-align: left;text-inden=
+t: 0px;text-transform: none;widows: 2;word-spacing: 0px;-webkit-text-strok=
+e-width: 0px;white-space: normal;background-color: #FFFFFF;text-decoration=
+-thickness: initial;text-decoration-style: initial;text-decoration-color:=
+ initial;">
+<br style=3D"color: #141414;font-family: verdana=2C geneva=2C sans-serif;f=
+ont-size: 15px;font-style: normal;font-variant-ligatures: normal;font-vari=
+ant-caps: normal;font-weight: 400;letter-spacing: normal;orphans: 2;text-a=
+lign: left;text-indent: 0px;text-transform: none;widows: 2;word-spacing: 0=
+px;-webkit-text-stroke-width: 0px;white-space: normal;background-color: #F=
+FFFFF;text-decoration-thickness: initial;text-decoration-style: initial;te=
+xt-decoration-color: initial;">
+<span style=3D"-webkit-text-stroke-width: 0px;background-color: #FFFFFF;co=
+lor: #141414;display: inline !important;float: none;font-family: verdana=
+=2Cgeneva=2Csans-serif;font-size: 15px;font-style: normal;font-variant-cap=
+s: normal;font-variant-ligatures: normal;font-weight: 400;letter-spacing:=
+ normal;orphans: 2;text-align: left;text-decoration-color: initial;text-de=
+coration-style: initial;text-decoration-thickness: initial;text-indent: 0p=
+x;text-transform: none;white-space: normal;widows: 2;word-spacing: 0px;">T=
+he four approaches Claire Lew shares should be bookmarked and used next ti=
+me you face challenges with your team. During "war time=2C" a leader shoul=
+d explain how success looks like and help build the confidence that the te=
+am can achieve it. Tell them what you need from them=2C and ask what they=
+ expect from you. Never let a good crisis go to waste.</span><br>
+<br>
+<span style=3D"-webkit-text-stroke-width: 0px;background-color: #FFFFFF;co=
+lor: #141414;font-family: verdana=2Cgeneva=2Csans-serif;font-size: 14px;fo=
+nt-style: normal;font-variant-caps: normal;font-variant-ligatures: normal;=
+font-weight: 400;letter-spacing: normal;orphans: 2;text-align: left;text-d=
+ecoration-color: initial;text-decoration-style: initial;text-decoration-th=
+ickness: initial;text-indent: 0px;text-transform: none;white-space: normal=
+;widows: 2;word-spacing: 0px;"><strong>Read</strong><span>&nbsp;</span>it=
+ later via<span>&nbsp;</span><a href=3D"https://softwareleadweekly.us6.lis=
+t-manage.com/track/click?u=3D1a258e0fefbb23214c59c5a8d&id=3D0ecfd8d1b4&e=
+=3Dfc0151d531" style=3D"overflow-wrap: break-word !important;color: #D852=
+52;font-weight: bold;text-decoration: none;mso-line-height-rule: exactly;-=
+ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" target=3D"_self=
+">Pocket</a><span>&nbsp;</span>or<span>&nbsp;</span><a href=3D"https://sof=
+twareleadweekly.us6.list-manage.com/track/click?u=3D1a258e0fefbb23214c59c5=
+a8d&id=3D87db00dc0f&e=3Dfc0151d531" style=3D"overflow-wrap: break-word !i=
+mportant;color: #D85252;font-weight: bold;text-decoration: none;mso-line-h=
+eight-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 1=
+00%;" target=3D"_self">Instapaper</a>.<br>
+<strong>Share</strong><span>&nbsp;</span>it via<span>&nbsp;</span><a href=
+=3D"https://softwareleadweekly.us6.list-manage.com/track/click?u=3D1a258e0=
+fefbb23214c59c5a8d&id=3D99388d985d&e=3Dfc0151d531" style=3D"overflow-wrap=
+: break-word !important;color: #D85252;font-weight: bold;text-decoration:=
+ none;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-tex=
+t-size-adjust: 100%;" target=3D"_blank">Twitter</a><span>&nbsp;</span>or<s=
+pan>&nbsp;</span><a href=3D"mailto:?subject=3Dcreating+a+sense+of+stabilit=
+y&body=3DGreat post: https://newsletter.canopy.is/p/creating-a-sense-of-st=
+ability%0d%0a%0d%0a%0d%0aFound it via http://softwareleadweekly.com/" styl=
+e=3D"overflow-wrap: break-word !important;color: #D85252;font-weight: bold=
+;text-decoration: none;mso-line-height-rule: exactly;-ms-text-size-adjust:=
+ 100%;-webkit-text-size-adjust: 100%;" target=3D"_blank">email</a>.</span>=
+<br>
+<br style=3D"color: #141414;font-family: verdana=2C geneva=2C sans-serif;f=
+ont-size: 15px;font-style: normal;font-variant-ligatures: normal;font-vari=
+ant-caps: normal;font-weight: 400;letter-spacing: normal;orphans: 2;text-a=
+lign: left;text-indent: 0px;text-transform: none;widows: 2;word-spacing: 0=
+px;-webkit-text-stroke-width: 0px;white-space: normal;background-color: #F=
+FFFFF;text-decoration-thickness: initial;text-decoration-style: initial;te=
+xt-decoration-color: initial;">
+<br style=3D"color: #141414;font-family: verdana=2C geneva=2C sans-serif;f=
+ont-size: 15px;font-style: normal;font-variant-ligatures: normal;font-vari=
+ant-caps: normal;font-weight: 400;letter-spacing: normal;orphans: 2;text-a=
+lign: left;text-indent: 0px;text-transform: none;widows: 2;word-spacing: 0=
+px;-webkit-text-stroke-width: 0px;white-space: normal;background-color: #F=
+FFFFF;text-decoration-thickness: initial;text-decoration-style: initial;te=
+xt-decoration-color: initial;">
+<a href=3D"https://softwareleadweekly.us6.list-manage.com/track/click?u=3D=
+1a258e0fefbb23214c59c5a8d&id=3Df3e8eeeaed&e=3Dfc0151d531" style=3D"overfl=
+ow-wrap: break-word !important;color: #0088CC;font-weight: bold;text-decor=
+ation: none;font-family: verdana=2C geneva=2C sans-serif;font-style: norma=
+l;font-variant-ligatures: normal;font-variant-caps: normal;letter-spacing:=
+ normal;orphans: 2;text-align: left;text-indent: 0px;text-transform: none;=
+widows: 2;word-spacing: 0px;-webkit-text-stroke-width: 0px;white-space: no=
+rmal;background-color: #FFFFFF;line-height: 22px;font-size: 16px;mso-line-=
+height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust:=
+ 100%;" target=3D"_self"><strong>The Biggest HR Trend of 2025</strong></a>=
+<br style=3D"color: #141414;font-family: verdana=2C geneva=2C sans-serif;f=
+ont-size: 15px;font-style: normal;font-variant-ligatures: normal;font-vari=
+ant-caps: normal;font-weight: 400;letter-spacing: normal;orphans: 2;text-a=
+lign: left;text-indent: 0px;text-transform: none;widows: 2;word-spacing: 0=
+px;-webkit-text-stroke-width: 0px;white-space: normal;background-color: #F=
+FFFFF;text-decoration-thickness: initial;text-decoration-style: initial;te=
+xt-decoration-color: initial;">
+<span style=3D"-webkit-text-stroke-width: 0px;background-color: #FFFFFF;co=
+lor: #141414;font-family: verdana=2Cgeneva=2Csans-serif;font-size: 14px;fo=
+nt-style: normal;font-variant-caps: normal;font-variant-ligatures: normal;=
+font-weight: 400;letter-spacing: normal;orphans: 2;text-align: left;text-d=
+ecoration-color: initial;text-decoration-style: initial;text-decoration-th=
+ickness: initial;text-indent: 0px;text-transform: none;white-space: normal=
+;widows: 2;word-spacing: 0px;">5 minutes read.</span><br style=3D"color: #=
+141414;font-family: verdana=2C geneva=2C sans-serif;font-size: 15px;font-s=
+tyle: normal;font-variant-ligatures: normal;font-variant-caps: normal;font=
+-weight: 400;letter-spacing: normal;orphans: 2;text-align: left;text-inden=
+t: 0px;text-transform: none;widows: 2;word-spacing: 0px;-webkit-text-strok=
+e-width: 0px;white-space: normal;background-color: #FFFFFF;text-decoration=
+-thickness: initial;text-decoration-style: initial;text-decoration-color:=
+ initial;">
+<br style=3D"color: #141414;font-family: verdana=2C geneva=2C sans-serif;f=
+ont-size: 15px;font-style: normal;font-variant-ligatures: normal;font-vari=
+ant-caps: normal;font-weight: 400;letter-spacing: normal;orphans: 2;text-a=
+lign: left;text-indent: 0px;text-transform: none;widows: 2;word-spacing: 0=
+px;-webkit-text-stroke-width: 0px;white-space: normal;background-color: #F=
+FFFFF;text-decoration-thickness: initial;text-decoration-style: initial;te=
+xt-decoration-color: initial;">
+<span style=3D"-webkit-text-stroke-width: 0px;background-color: #FFFFFF;co=
+lor: #141414;display: inline !important;float: none;font-family: verdana=
+=2Cgeneva=2Csans-serif;font-size: 15px;font-style: normal;font-variant-cap=
+s: normal;font-variant-ligatures: normal;font-weight: 400;letter-spacing:=
+ normal;orphans: 2;text-align: left;text-decoration-color: initial;text-de=
+coration-style: initial;text-decoration-thickness: initial;text-indent: 0p=
+x;text-transform: none;white-space: normal;widows: 2;word-spacing: 0px;">T=
+he best companies will continue to adopt the latest technologies and pract=
+ices=2C and seek ways to differentiate in the market. This is what you do=
+ if you want to attract and retain top talent: "What=E2=80=99s the key to=
+ making hybrid work work? Trust. And trust is built by leaders who communi=
+cate clear expectations=2C measure performance effectively=2C and treat em=
+ployees like adults instead of wayward children trying to escape supervisi=
+on."</span><br>
+<br>
+<span style=3D"-webkit-text-stroke-width: 0px;background-color: #FFFFFF;co=
+lor: #141414;font-family: verdana=2Cgeneva=2Csans-serif;font-size: 14px;fo=
+nt-style: normal;font-variant-caps: normal;font-variant-ligatures: normal;=
+font-weight: 400;letter-spacing: normal;orphans: 2;text-align: left;text-d=
+ecoration-color: initial;text-decoration-style: initial;text-decoration-th=
+ickness: initial;text-indent: 0px;text-transform: none;white-space: normal=
+;widows: 2;word-spacing: 0px;"><strong>Read</strong><span>&nbsp;</span>it=
+ later via<span>&nbsp;</span><a href=3D"https://softwareleadweekly.us6.lis=
+t-manage.com/track/click?u=3D1a258e0fefbb23214c59c5a8d&id=3D2191d9c3b5&e=
+=3Dfc0151d531" style=3D"overflow-wrap: break-word !important;color: #D852=
+52;font-weight: bold;text-decoration: none;mso-line-height-rule: exactly;-=
+ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" target=3D"_self=
+">Pocket</a><span>&nbsp;</span>or<span>&nbsp;</span><a href=3D"https://sof=
+twareleadweekly.us6.list-manage.com/track/click?u=3D1a258e0fefbb23214c59c5=
+a8d&id=3D3e9c811624&e=3Dfc0151d531" style=3D"overflow-wrap: break-word !i=
+mportant;color: #D85252;font-weight: bold;text-decoration: none;mso-line-h=
+eight-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 1=
+00%;" target=3D"_self">Instapaper</a>.<br>
+<strong>Share</strong><span>&nbsp;</span>it via<span>&nbsp;</span><a href=
+=3D"https://softwareleadweekly.us6.list-manage.com/track/click?u=3D1a258e0=
+fefbb23214c59c5a8d&id=3D5412be9e34&e=3Dfc0151d531" style=3D"overflow-wrap=
+: break-word !important;color: #D85252;font-weight: bold;text-decoration:=
+ none;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-tex=
+t-size-adjust: 100%;" target=3D"_blank">Twitter</a><span>&nbsp;</span>or<s=
+pan>&nbsp;</span><a href=3D"mailto:?subject=3Dthe+biggest+hr+trend+of+2025=
+&body=3DGreat post: https://thebrianfink.medium.com/the-biggest-hr-trend-o=
+f-2025-5197b4fe77b1%0d%0a%0d%0a%0d%0aFound it via http://softwareleadweekl=
+y.com/" style=3D"overflow-wrap: break-word !important;color: #D85252;font-=
+weight: bold;text-decoration: none;mso-line-height-rule: exactly;-ms-text-=
+size-adjust: 100%;-webkit-text-size-adjust: 100%;" target=3D"_blank">email=
+</a>.</span></p>
+
+<h2 class=3D"null" style=3D"display: block;font-family: Helvetica;font-siz=
+e: 22px;font-style: normal;font-weight: bold;line-height: 22px;letter-spac=
+ing: normal;margin: 0px;text-align: left;color: #404040 !important;font-va=
+riant-ligatures: normal;font-variant-caps: normal;orphans: 2;text-indent:=
+ 0px;text-transform: none;white-space: normal;widows: 2;word-spacing: 0px;=
+-webkit-text-stroke-width: 0px;background-color: #FFFFFF;text-decoration-s=
+tyle: initial;text-decoration-color: initial;padding: 0;"><br>
+<br>
+<span style=3D"font-family:verdana=2Cgeneva=2Csans-serif">Peopleware</span=
+></h2>
+
+<hr style=3D"color: #141414;font-family: Helvetica;font-size: 12px;font-st=
+yle: normal;font-variant-ligatures: normal;font-variant-caps: normal;font-=
+weight: normal;letter-spacing: normal;orphans: 2;text-align: left;text-ind=
+ent: 0px;text-transform: none;white-space: normal;widows: 2;word-spacing:=
+ 0px;-webkit-text-stroke-width: 0px;background-color: #FFFFFF;text-decorat=
+ion-style: initial;text-decoration-color: initial;">
+<p style=3D"color: #141414;font-family: Helvetica;font-size: 12px;font-sty=
+le: normal;font-variant-ligatures: normal;font-variant-caps: normal;font-w=
+eight: normal;letter-spacing: normal;orphans: 2;text-align: left;text-inde=
+nt: 0px;text-transform: none;white-space: normal;widows: 2;word-spacing: 0=
+px;-webkit-text-stroke-width: 0px;background-color: #FFFFFF;text-decoratio=
+n-style: initial;text-decoration-color: initial;margin: 10px 0;padding: 0;=
+mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size=
+-adjust: 100%;line-height: 150%;"><a href=3D"https://softwareleadweekly.us=
+6.list-manage.com/track/click?u=3D1a258e0fefbb23214c59c5a8d&id=3Df8be7f341=
+6&e=3Dfc0151d531" style=3D"overflow-wrap: break-word !important;color: #0=
+088CC;font-weight: bold;text-decoration: none;font-family: verdana=2C gene=
+va=2C sans-serif;font-style: normal;font-variant-ligatures: normal;font-va=
+riant-caps: normal;letter-spacing: normal;orphans: 2;text-align: left;text=
+-indent: 0px;text-transform: none;widows: 2;word-spacing: 0px;-webkit-text=
+-stroke-width: 0px;white-space: normal;background-color: #FFFFFF;line-heig=
+ht: 22px;font-size: 16px;mso-line-height-rule: exactly;-ms-text-size-adjus=
+t: 100%;-webkit-text-size-adjust: 100%;" target=3D"_self"><strong>=E2=80=
+=9CYou Need to Be More Strategic=E2=80=9D</strong></a><br style=3D"color:=
+ #141414;font-family: verdana=2C geneva=2C sans-serif;font-size: 15px;font=
+-style: normal;font-variant-ligatures: normal;font-variant-caps: normal;fo=
+nt-weight: 400;letter-spacing: normal;orphans: 2;text-align: left;text-ind=
+ent: 0px;text-transform: none;widows: 2;word-spacing: 0px;-webkit-text-str=
+oke-width: 0px;white-space: normal;background-color: #FFFFFF;text-decorati=
+on-thickness: initial;text-decoration-style: initial;text-decoration-color=
+: initial;">
+<span style=3D"-webkit-text-stroke-width: 0px;background-color: #FFFFFF;co=
+lor: #141414;font-family: verdana=2Cgeneva=2Csans-serif;font-size: 14px;fo=
+nt-style: normal;font-variant-caps: normal;font-variant-ligatures: normal;=
+font-weight: 400;letter-spacing: normal;orphans: 2;text-align: left;text-d=
+ecoration-color: initial;text-decoration-style: initial;text-decoration-th=
+ickness: initial;text-indent: 0px;text-transform: none;white-space: normal=
+;widows: 2;word-spacing: 0px;">6 minutes read.</span><br style=3D"color: #=
+141414;font-family: verdana=2C geneva=2C sans-serif;font-size: 15px;font-s=
+tyle: normal;font-variant-ligatures: normal;font-variant-caps: normal;font=
+-weight: 400;letter-spacing: normal;orphans: 2;text-align: left;text-inden=
+t: 0px;text-transform: none;widows: 2;word-spacing: 0px;-webkit-text-strok=
+e-width: 0px;white-space: normal;background-color: #FFFFFF;text-decoration=
+-thickness: initial;text-decoration-style: initial;text-decoration-color:=
+ initial;">
+<br style=3D"color: #141414;font-family: verdana=2C geneva=2C sans-serif;f=
+ont-size: 15px;font-style: normal;font-variant-ligatures: normal;font-vari=
+ant-caps: normal;font-weight: 400;letter-spacing: normal;orphans: 2;text-a=
+lign: left;text-indent: 0px;text-transform: none;widows: 2;word-spacing: 0=
+px;-webkit-text-stroke-width: 0px;white-space: normal;background-color: #F=
+FFFFF;text-decoration-thickness: initial;text-decoration-style: initial;te=
+xt-decoration-color: initial;">
+<span style=3D"-webkit-text-stroke-width: 0px;background-color: #FFFFFF;co=
+lor: #141414;display: inline !important;float: none;font-family: verdana=
+=2Cgeneva=2Csans-serif;font-size: 15px;font-style: normal;font-variant-cap=
+s: normal;font-variant-ligatures: normal;font-weight: 400;letter-spacing:=
+ normal;orphans: 2;text-align: left;text-decoration-color: initial;text-de=
+coration-style: initial;text-decoration-thickness: initial;text-indent: 0p=
+x;text-transform: none;white-space: normal;widows: 2;word-spacing: 0px;">D=
+an Pupius covers helpful frameworks you can use to drive better decisions=
+ over time for complex questions and challenges. Try them out=2C write the=
+m down=2C and share them with your peers to drive interesting discussions.=
+</span><br>
+<br>
+<span style=3D"-webkit-text-stroke-width: 0px;background-color: #FFFFFF;co=
+lor: #141414;font-family: verdana=2Cgeneva=2Csans-serif;font-size: 14px;fo=
+nt-style: normal;font-variant-caps: normal;font-variant-ligatures: normal;=
+font-weight: 400;letter-spacing: normal;orphans: 2;text-align: left;text-d=
+ecoration-color: initial;text-decoration-style: initial;text-decoration-th=
+ickness: initial;text-indent: 0px;text-transform: none;white-space: normal=
+;widows: 2;word-spacing: 0px;"><strong>Read</strong><span>&nbsp;</span>it=
+ later via<span>&nbsp;</span><a href=3D"https://softwareleadweekly.us6.lis=
+t-manage.com/track/click?u=3D1a258e0fefbb23214c59c5a8d&id=3Dcc198b986d&e=
+=3Dfc0151d531" style=3D"overflow-wrap: break-word !important;color: #D852=
+52;font-weight: bold;text-decoration: none;mso-line-height-rule: exactly;-=
+ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" target=3D"_self=
+">Pocket</a><span>&nbsp;</span>or<span>&nbsp;</span><a href=3D"https://sof=
+twareleadweekly.us6.list-manage.com/track/click?u=3D1a258e0fefbb23214c59c5=
+a8d&id=3D65ca6ab3d0&e=3Dfc0151d531" style=3D"overflow-wrap: break-word !i=
+mportant;color: #D85252;font-weight: bold;text-decoration: none;mso-line-h=
+eight-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 1=
+00%;" target=3D"_self">Instapaper</a>.<br>
+<strong>Share</strong><span>&nbsp;</span>it via<span>&nbsp;</span><a href=
+=3D"https://softwareleadweekly.us6.list-manage.com/track/click?u=3D1a258e0=
+fefbb23214c59c5a8d&id=3D1d52dbd1fe&e=3Dfc0151d531" style=3D"overflow-wrap=
+: break-word !important;color: #D85252;font-weight: bold;text-decoration:=
+ none;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-tex=
+t-size-adjust: 100%;" target=3D"_blank">Twitter</a><span>&nbsp;</span>or<s=
+pan>&nbsp;</span><a href=3D"mailto:?subject=3D%e2%80%9cyou+need+to+be+more=
++strategic%e2%80%9d&body=3DGreat post: https://writing.pupius.co.uk/you-ne=
+ed-to-be-more-strategic-dc473a2aa319%0d%0a%0d%0a%0d%0aFound it via http://=
+softwareleadweekly.com/" style=3D"overflow-wrap: break-word !important;col=
+or: #D85252;font-weight: bold;text-decoration: none;mso-line-height-rule:=
+ exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" targe=
+t=3D"_blank">email</a>.</span><br>
+<br style=3D"color: #141414;font-family: verdana=2C geneva=2C sans-serif;f=
+ont-size: 15px;font-style: normal;font-variant-ligatures: normal;font-vari=
+ant-caps: normal;font-weight: 400;letter-spacing: normal;orphans: 2;text-a=
+lign: left;text-indent: 0px;text-transform: none;widows: 2;word-spacing: 0=
+px;-webkit-text-stroke-width: 0px;white-space: normal;background-color: #F=
+FFFFF;text-decoration-thickness: initial;text-decoration-style: initial;te=
+xt-decoration-color: initial;">
+<br style=3D"color: #141414;font-family: verdana=2C geneva=2C sans-serif;f=
+ont-size: 15px;font-style: normal;font-variant-ligatures: normal;font-vari=
+ant-caps: normal;font-weight: 400;letter-spacing: normal;orphans: 2;text-a=
+lign: left;text-indent: 0px;text-transform: none;widows: 2;word-spacing: 0=
+px;-webkit-text-stroke-width: 0px;white-space: normal;background-color: #F=
+FFFFF;text-decoration-thickness: initial;text-decoration-style: initial;te=
+xt-decoration-color: initial;">
+<a href=3D"https://softwareleadweekly.us6.list-manage.com/track/click?u=3D=
+1a258e0fefbb23214c59c5a8d&id=3D62d1d20426&e=3Dfc0151d531" style=3D"overfl=
+ow-wrap: break-word !important;color: #0088CC;font-weight: bold;text-decor=
+ation: none;font-family: verdana=2C geneva=2C sans-serif;font-style: norma=
+l;font-variant-ligatures: normal;font-variant-caps: normal;letter-spacing:=
+ normal;orphans: 2;text-align: left;text-indent: 0px;text-transform: none;=
+widows: 2;word-spacing: 0px;-webkit-text-stroke-width: 0px;white-space: no=
+rmal;background-color: #FFFFFF;line-height: 22px;font-size: 16px;mso-line-=
+height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust:=
+ 100%;" target=3D"_self"><strong>FAQs From Coaching Technical Leadership</=
+strong></a><br style=3D"color: #141414;font-family: verdana=2C geneva=2C s=
+ans-serif;font-size: 15px;font-style: normal;font-variant-ligatures: norma=
+l;font-variant-caps: normal;font-weight: 400;letter-spacing: normal;orphan=
+s: 2;text-align: left;text-indent: 0px;text-transform: none;widows: 2;word=
+-spacing: 0px;-webkit-text-stroke-width: 0px;white-space: normal;backgroun=
+d-color: #FFFFFF;text-decoration-thickness: initial;text-decoration-style:=
+ initial;text-decoration-color: initial;">
+<span style=3D"-webkit-text-stroke-width: 0px;background-color: #FFFFFF;co=
+lor: #141414;font-family: verdana=2Cgeneva=2Csans-serif;font-size: 14px;fo=
+nt-style: normal;font-variant-caps: normal;font-variant-ligatures: normal;=
+font-weight: 400;letter-spacing: normal;orphans: 2;text-align: left;text-d=
+ecoration-color: initial;text-decoration-style: initial;text-decoration-th=
+ickness: initial;text-indent: 0px;text-transform: none;white-space: normal=
+;widows: 2;word-spacing: 0px;">4 minutes read.</span><br style=3D"color: #=
+141414;font-family: verdana=2C geneva=2C sans-serif;font-size: 15px;font-s=
+tyle: normal;font-variant-ligatures: normal;font-variant-caps: normal;font=
+-weight: 400;letter-spacing: normal;orphans: 2;text-align: left;text-inden=
+t: 0px;text-transform: none;widows: 2;word-spacing: 0px;-webkit-text-strok=
+e-width: 0px;white-space: normal;background-color: #FFFFFF;text-decoration=
+-thickness: initial;text-decoration-style: initial;text-decoration-color:=
+ initial;">
+<br style=3D"color: #141414;font-family: verdana=2C geneva=2C sans-serif;f=
+ont-size: 15px;font-style: normal;font-variant-ligatures: normal;font-vari=
+ant-caps: normal;font-weight: 400;letter-spacing: normal;orphans: 2;text-a=
+lign: left;text-indent: 0px;text-transform: none;widows: 2;word-spacing: 0=
+px;-webkit-text-stroke-width: 0px;white-space: normal;background-color: #F=
+FFFFF;text-decoration-thickness: initial;text-decoration-style: initial;te=
+xt-decoration-color: initial;">
+<span style=3D"-webkit-text-stroke-width: 0px;background-color: #FFFFFF;co=
+lor: #141414;display: inline !important;float: none;font-family: verdana=
+=2Cgeneva=2Csans-serif;font-size: 15px;font-style: normal;font-variant-cap=
+s: normal;font-variant-ligatures: normal;font-weight: 400;letter-spacing:=
+ normal;orphans: 2;text-align: left;text-decoration-color: initial;text-de=
+coration-style: initial;text-decoration-thickness: initial;text-indent: 0p=
+x;text-transform: none;white-space: normal;widows: 2;word-spacing: 0px;">S=
+hort and high-value dilemmas and suggestions. Kellan Elliott-McCrea's insi=
+ght for investing in a candidate's experience (and investing more time in=
+ hiring!) can help you build a brand to attract future employees: "Optimiz=
+e your interviews for great candidate experience. You=E2=80=99ll increase=
+ the chances that you=E2=80=99ll find someone who might succeed in your or=
+ganization and increase the chances that the 95% of people you interview w=
+ho don=E2=80=99t end up joining your team are positive brand ambassadors f=
+or you."</span><br>
+<br>
+<span style=3D"-webkit-text-stroke-width: 0px;background-color: #FFFFFF;co=
+lor: #141414;font-family: verdana=2Cgeneva=2Csans-serif;font-size: 14px;fo=
+nt-style: normal;font-variant-caps: normal;font-variant-ligatures: normal;=
+font-weight: 400;letter-spacing: normal;orphans: 2;text-align: left;text-d=
+ecoration-color: initial;text-decoration-style: initial;text-decoration-th=
+ickness: initial;text-indent: 0px;text-transform: none;white-space: normal=
+;widows: 2;word-spacing: 0px;"><strong>Read</strong><span>&nbsp;</span>it=
+ later via<span>&nbsp;</span><a href=3D"https://softwareleadweekly.us6.lis=
+t-manage.com/track/click?u=3D1a258e0fefbb23214c59c5a8d&id=3De7996fb387&e=
+=3Dfc0151d531" style=3D"overflow-wrap: break-word !important;color: #D852=
+52;font-weight: bold;text-decoration: none;mso-line-height-rule: exactly;-=
+ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" target=3D"_self=
+">Pocket</a><span>&nbsp;</span>or<span>&nbsp;</span><a href=3D"https://sof=
+twareleadweekly.us6.list-manage.com/track/click?u=3D1a258e0fefbb23214c59c5=
+a8d&id=3Dd1abe94a79&e=3Dfc0151d531" style=3D"overflow-wrap: break-word !i=
+mportant;color: #D85252;font-weight: bold;text-decoration: none;mso-line-h=
+eight-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 1=
+00%;" target=3D"_self">Instapaper</a>.<br>
+<strong>Share</strong><span>&nbsp;</span>it via<span>&nbsp;</span><a href=
+=3D"https://softwareleadweekly.us6.list-manage.com/track/click?u=3D1a258e0=
+fefbb23214c59c5a8d&id=3De96e11a216&e=3Dfc0151d531" style=3D"overflow-wrap=
+: break-word !important;color: #D85252;font-weight: bold;text-decoration:=
+ none;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-tex=
+t-size-adjust: 100%;" target=3D"_blank">Twitter</a><span>&nbsp;</span>or<s=
+pan>&nbsp;</span><a href=3D"mailto:?subject=3Dfaqs+from+coaching+technical=
++leadership&body=3DGreat post: https://kellanem.com/notes/faqs-from-coachi=
+ng%0d%0a%0d%0a%0d%0aFound it via http://softwareleadweekly.com/" style=3D"=
+overflow-wrap: break-word !important;color: #D85252;font-weight: bold;text=
+-decoration: none;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%=
+;-webkit-text-size-adjust: 100%;" target=3D"_blank">email</a>.</span><br>
+<br style=3D"color: #141414;font-family: verdana=2C geneva=2C sans-serif;f=
+ont-size: 15px;font-style: normal;font-variant-ligatures: normal;font-vari=
+ant-caps: normal;font-weight: 400;letter-spacing: normal;orphans: 2;text-a=
+lign: left;text-indent: 0px;text-transform: none;widows: 2;word-spacing: 0=
+px;-webkit-text-stroke-width: 0px;white-space: normal;background-color: #F=
+FFFFF;text-decoration-thickness: initial;text-decoration-style: initial;te=
+xt-decoration-color: initial;">
+<br style=3D"color: #141414;font-family: verdana=2C geneva=2C sans-serif;f=
+ont-size: 15px;font-style: normal;font-variant-ligatures: normal;font-vari=
+ant-caps: normal;font-weight: 400;letter-spacing: normal;orphans: 2;text-a=
+lign: left;text-indent: 0px;text-transform: none;widows: 2;word-spacing: 0=
+px;-webkit-text-stroke-width: 0px;white-space: normal;background-color: #F=
+FFFFF;text-decoration-thickness: initial;text-decoration-style: initial;te=
+xt-decoration-color: initial;">
+<a href=3D"https://softwareleadweekly.us6.list-manage.com/track/click?u=3D=
+1a258e0fefbb23214c59c5a8d&id=3D3cff714c2a&e=3Dfc0151d531" style=3D"overfl=
+ow-wrap: break-word !important;color: #0088CC;font-weight: bold;text-decor=
+ation: none;font-family: verdana=2C geneva=2C sans-serif;font-style: norma=
+l;font-variant-ligatures: normal;font-variant-caps: normal;letter-spacing:=
+ normal;orphans: 2;text-align: left;text-indent: 0px;text-transform: none;=
+widows: 2;word-spacing: 0px;-webkit-text-stroke-width: 0px;white-space: no=
+rmal;background-color: #FFFFFF;line-height: 22px;font-size: 16px;mso-line-=
+height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust:=
+ 100%;" target=3D"_self"><strong>The Burdens of Data</strong></a><br style=
+=3D"color: #141414;font-family: verdana=2C geneva=2C sans-serif;font-size:=
+ 15px;font-style: normal;font-variant-ligatures: normal;font-variant-caps:=
+ normal;font-weight: 400;letter-spacing: normal;orphans: 2;text-align: lef=
+t;text-indent: 0px;text-transform: none;widows: 2;word-spacing: 0px;-webki=
+t-text-stroke-width: 0px;white-space: normal;background-color: #FFFFFF;tex=
+t-decoration-thickness: initial;text-decoration-style: initial;text-decora=
+tion-color: initial;">
+<span style=3D"-webkit-text-stroke-width: 0px;background-color: #FFFFFF;co=
+lor: #141414;font-family: verdana=2Cgeneva=2Csans-serif;font-size: 14px;fo=
+nt-style: normal;font-variant-caps: normal;font-variant-ligatures: normal;=
+font-weight: 400;letter-spacing: normal;orphans: 2;text-align: left;text-d=
+ecoration-color: initial;text-decoration-style: initial;text-decoration-th=
+ickness: initial;text-indent: 0px;text-transform: none;white-space: normal=
+;widows: 2;word-spacing: 0px;">8 minutes read.</span><br style=3D"color: #=
+141414;font-family: verdana=2C geneva=2C sans-serif;font-size: 15px;font-s=
+tyle: normal;font-variant-ligatures: normal;font-variant-caps: normal;font=
+-weight: 400;letter-spacing: normal;orphans: 2;text-align: left;text-inden=
+t: 0px;text-transform: none;widows: 2;word-spacing: 0px;-webkit-text-strok=
+e-width: 0px;white-space: normal;background-color: #FFFFFF;text-decoration=
+-thickness: initial;text-decoration-style: initial;text-decoration-color:=
+ initial;">
+<br style=3D"color: #141414;font-family: verdana=2C geneva=2C sans-serif;f=
+ont-size: 15px;font-style: normal;font-variant-ligatures: normal;font-vari=
+ant-caps: normal;font-weight: 400;letter-spacing: normal;orphans: 2;text-a=
+lign: left;text-indent: 0px;text-transform: none;widows: 2;word-spacing: 0=
+px;-webkit-text-stroke-width: 0px;white-space: normal;background-color: #F=
+FFFFF;text-decoration-thickness: initial;text-decoration-style: initial;te=
+xt-decoration-color: initial;">
+<span style=3D"-webkit-text-stroke-width: 0px;background-color: #FFFFFF;co=
+lor: #141414;display: inline !important;float: none;font-family: verdana=
+=2Cgeneva=2Csans-serif;font-size: 15px;font-style: normal;font-variant-cap=
+s: normal;font-variant-ligatures: normal;font-weight: 400;letter-spacing:=
+ normal;orphans: 2;text-align: left;text-decoration-color: initial;text-de=
+coration-style: initial;text-decoration-thickness: initial;text-indent: 0p=
+x;text-transform: none;white-space: normal;widows: 2;word-spacing: 0px;">W=
+ilco Kruijer covers an area that all companies face as they grow - effecti=
+vely dealing with the data they gathered during the years: "Being declarat=
+ive about obtaining data is a powerful force multiplier when it comes to s=
+oftware development. I cannot stress this enough. Within organizations it=
+ is hard to align backlogs so multiple teams can work towards the same goa=
+l. By making publishing data a small effort=2C the burden of integration i=
+s moved solely to the integrator. This sidesteps all the alignment work. O=
+n a technical note=2C the fact that data can be synchronized directly to a=
+ team/product=E2=80=99s database means that the integrating team only has=
+ to adjust their database queries to join the newly available data. This i=
+s end-to-end declarative data integration between products! This way the c=
+ode can be almost purely business logic."</span><br>
+<br>
+<span style=3D"-webkit-text-stroke-width: 0px;background-color: #FFFFFF;co=
+lor: #141414;font-family: verdana=2Cgeneva=2Csans-serif;font-size: 14px;fo=
+nt-style: normal;font-variant-caps: normal;font-variant-ligatures: normal;=
+font-weight: 400;letter-spacing: normal;orphans: 2;text-align: left;text-d=
+ecoration-color: initial;text-decoration-style: initial;text-decoration-th=
+ickness: initial;text-indent: 0px;text-transform: none;white-space: normal=
+;widows: 2;word-spacing: 0px;"><strong>Read</strong><span>&nbsp;</span>it=
+ later via<span>&nbsp;</span><a href=3D"https://softwareleadweekly.us6.lis=
+t-manage.com/track/click?u=3D1a258e0fefbb23214c59c5a8d&id=3Dbcba7673a1&e=
+=3Dfc0151d531" style=3D"overflow-wrap: break-word !important;color: #D852=
+52;font-weight: bold;text-decoration: none;mso-line-height-rule: exactly;-=
+ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" target=3D"_self=
+">Pocket</a><span>&nbsp;</span>or<span>&nbsp;</span><a href=3D"https://sof=
+twareleadweekly.us6.list-manage.com/track/click?u=3D1a258e0fefbb23214c59c5=
+a8d&id=3D6a5cf34307&e=3Dfc0151d531" style=3D"overflow-wrap: break-word !i=
+mportant;color: #D85252;font-weight: bold;text-decoration: none;mso-line-h=
+eight-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 1=
+00%;" target=3D"_self">Instapaper</a>.<br>
+<strong>Share</strong><span>&nbsp;</span>it via<span>&nbsp;</span><a href=
+=3D"https://softwareleadweekly.us6.list-manage.com/track/click?u=3D1a258e0=
+fefbb23214c59c5a8d&id=3D7d361b7736&e=3Dfc0151d531" style=3D"overflow-wrap=
+: break-word !important;color: #D85252;font-weight: bold;text-decoration:=
+ none;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-tex=
+t-size-adjust: 100%;" target=3D"_blank">Twitter</a><span>&nbsp;</span>or<s=
+pan>&nbsp;</span><a href=3D"mailto:?subject=3Dthe+burdens+of+data&body=3DG=
+reat post: https://rejot.dev/blog/essay/%0d%0a%0d%0a%0d%0aFound it via htt=
+p://softwareleadweekly.com/" style=3D"overflow-wrap: break-word !important=
+;color: #D85252;font-weight: bold;text-decoration: none;mso-line-height-ru=
+le: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" ta=
+rget=3D"_blank">email</a>.</span><br>
+&nbsp;</p>
+
+<h2 class=3D"null" style=3D"display: block;font-family: Helvetica;font-siz=
+e: 22px;font-style: normal;font-weight: bold;line-height: 22px;letter-spac=
+ing: normal;margin: 0px;text-align: left;color: #404040 !important;font-va=
+riant-ligatures: normal;font-variant-caps: normal;orphans: 2;text-indent:=
+ 0px;text-transform: none;white-space: normal;widows: 2;word-spacing: 0px;=
+-webkit-text-stroke-width: 0px;background-color: #FFFFFF;text-decoration-s=
+tyle: initial;text-decoration-color: initial;padding: 0;"><br>
+<span style=3D"font-family:verdana=2Cgeneva=2Csans-serif">And finally=2C i=
+nspiring tweets...</span></h2>
+
+<hr style=3D"color: #141414;font-family: Helvetica;font-size: 12px;font-st=
+yle: normal;font-variant-ligatures: normal;font-variant-caps: normal;font-=
+weight: normal;letter-spacing: normal;orphans: 2;text-align: left;text-ind=
+ent: 0px;text-transform: none;white-space: normal;widows: 2;word-spacing:=
+ 0px;-webkit-text-stroke-width: 0px;background-color: #FFFFFF;text-decorat=
+ion-style: initial;text-decoration-color: initial;">
+<p style=3D"color: #141414;font-family: Helvetica;font-size: 12px;font-sty=
+le: normal;font-variant-ligatures: normal;font-variant-caps: normal;font-w=
+eight: normal;letter-spacing: normal;orphans: 2;text-align: left;text-inde=
+nt: 0px;text-transform: none;white-space: normal;widows: 2;word-spacing: 0=
+px;-webkit-text-stroke-width: 0px;background-color: #FFFFFF;text-decoratio=
+n-style: initial;text-decoration-color: initial;margin: 10px 0;padding: 0;=
+mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size=
+-adjust: 100%;line-height: 150%;"><a href=3D"https://softwareleadweekly.us=
+6.list-manage.com/track/click?u=3D1a258e0fefbb23214c59c5a8d&id=3D3a1370125=
+c&e=3Dfc0151d531" style=3D"overflow-wrap: break-word !important;color: bl=
+ack;font-weight: normal;text-decoration: underline;font-family: verdana=2C=
+ geneva=2C sans-serif;font-size: 15px;font-style: normal;font-variant-liga=
+tures: normal;font-variant-caps: normal;letter-spacing: normal;orphans: 2;=
+text-align: left;text-indent: 0px;text-transform: none;widows: 2;word-spac=
+ing: 0px;-webkit-text-stroke-width: 0px;white-space: normal;background-col=
+or: #FFFFFF;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webk=
+it-text-size-adjust: 100%;" target=3D"_self">@EricMelillo_</a><span style=
+=3D"-webkit-text-stroke-width: 0px;background-color: #FFFFFF;color: #14141=
+4;font-family: verdana=2Cgeneva=2Csans-serif;font-size: 15px;font-style: n=
+ormal;font-variant-caps: normal;font-variant-ligatures: normal;font-weight=
+: 400;letter-spacing: normal;orphans: 2;text-align: left;text-decoration-c=
+olor: initial;text-decoration-style: initial;text-decoration-thickness: in=
+itial;text-indent: 0px;text-transform: none;white-space: normal;widows: 2;=
+word-spacing: 0px;">:&nbsp;Fast people quit slow companies. So it's safe t=
+o say your speed limit is their exit sign.</span><br style=3D"color: #1414=
+14;font-family: verdana=2C geneva=2C sans-serif;font-size: 15px;font-style=
+: normal;font-variant-ligatures: normal;font-variant-caps: normal;font-wei=
+ght: 400;letter-spacing: normal;orphans: 2;text-align: left;text-indent: 0=
+px;text-transform: none;widows: 2;word-spacing: 0px;-webkit-text-stroke-wi=
+dth: 0px;white-space: normal;background-color: #FFFFFF;text-decoration-thi=
+ckness: initial;text-decoration-style: initial;text-decoration-color: init=
+ial;">
+<br style=3D"color: #141414;font-family: verdana=2C geneva=2C sans-serif;f=
+ont-size: 15px;font-style: normal;font-variant-ligatures: normal;font-vari=
+ant-caps: normal;font-weight: 400;letter-spacing: normal;orphans: 2;text-a=
+lign: left;text-indent: 0px;text-transform: none;widows: 2;word-spacing: 0=
+px;-webkit-text-stroke-width: 0px;white-space: normal;background-color: #F=
+FFFFF;text-decoration-thickness: initial;text-decoration-style: initial;te=
+xt-decoration-color: initial;">
+<a href=3D"https://softwareleadweekly.us6.list-manage.com/track/click?u=3D=
+1a258e0fefbb23214c59c5a8d&id=3D90c97f63e6&e=3Dfc0151d531" style=3D"overfl=
+ow-wrap: break-word !important;color: black;font-weight: normal;text-decor=
+ation: underline;font-family: verdana=2C geneva=2C sans-serif;font-size: 1=
+5px;font-style: normal;font-variant-ligatures: normal;font-variant-caps: n=
+ormal;letter-spacing: normal;orphans: 2;text-align: left;text-indent: 0px;=
+text-transform: none;widows: 2;word-spacing: 0px;-webkit-text-stroke-width=
+: 0px;white-space: normal;background-color: #FFFFFF;mso-line-height-rule:=
+ exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" targe=
+t=3D"_self">@Julian</a><span style=3D"-webkit-text-stroke-width: 0px;backg=
+round-color: #FFFFFF;color: #141414;font-family: verdana=2Cgeneva=2Csans-s=
+erif;font-size: 15px;font-style: normal;font-variant-caps: normal;font-var=
+iant-ligatures: normal;font-weight: 400;letter-spacing: normal;orphans: 2;=
+text-align: left;text-decoration-color: initial;text-decoration-style: ini=
+tial;text-decoration-thickness: initial;text-indent: 0px;text-transform: n=
+one;white-space: normal;widows: 2;word-spacing: 0px;">:&nbsp;People don't=
+ have short attention spans: (1) They finish 3 hour Joe Rogan episodes (2)=
+ They binge 14 hour shows.They have short *consideration spans:* they must=
+ be hooked quickly. Point: Don't fear making great=2C in-depth content. Bu=
+t=2C ensure your first minute is incredible.</span><br>
+<br>
+<br>
+<br>
+<span style=3D"color: #141414;font-family: helvetica;font-size: 14px;line-=
+height: 18px;"><span style=3D"font-family:verdana=2Cgeneva=2Csans-serif"><=
+strong>p.s.</strong> if you're interested in joining SWLW's Slack channel=
+=2C simply reply to this email and let me know. </span></span><span style=
+=3D"color: #606060;font-family: verdana=2Cgeneva=2Csans-serif;font-size: 1=
+2px;line-height: 18px;"><span style=3D"font-size:14px"><span style=3D"colo=
+r: #333333;line-height: 22px;">If you're leading a team=2C consider writin=
+g your <a href=3D"https://softwareleadweekly.us6.list-manage.com/track/cli=
+ck?u=3D1a258e0fefbb23214c59c5a8d&id=3D449aed4dbc&e=3Dfc0151d531" target=
+=3D"_blank" style=3D"mso-line-height-rule: exactly;-ms-text-size-adjust: 1=
+00%;-webkit-text-size-adjust: 100%;color: #007C89;font-weight: normal;text=
+-decoration: underline;">Manager README</a> (it's free) or </span></span><=
+/span><span style=3D"color: #141414;font-family: helvetica;font-size: 14px=
+;line-height: 18px;"><span style=3D"font-family:verdana=2Cgeneva=2Csans-se=
+rif">getting my e-book and interviews </span></span><span style=3D"font-fa=
+mily:helvetica; font-size:14px; line-height:18px"><span style=3D"font-fami=
+ly:verdana=2Cgeneva=2Csans-serif"><a href=3D"https://softwareleadweekly.us=
+6.list-manage.com/track/click?u=3D1a258e0fefbb23214c59c5a8d&id=3D44d43029f=
+c&e=3Dfc0151d531" style=3D"color: #6DC6DD;word-wrap: break-word !importan=
+t;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-si=
+ze-adjust: 100%;font-weight: normal;text-decoration: underline;" target=3D=
+"_blank"><span style=3D"color:#08c">Leading Snowflakes:&nbsp;The New Engin=
+eering Manager's Handbook</span></a></span></span><span style=3D"color: #1=
+41414;font-family: helvetica;font-size: 14px;line-height: 18px;"><span sty=
+le=3D"font-family:verdana=2Cgeneva=2Csans-serif">. You can also support me=
+ by</span></span><span style=3D"color: #606060;font-family: verdana=2Cgene=
+va=2Csans-serif;font-size: 12px;line-height: 18px;"><span style=3D"font-si=
+ze:14px"><span style=3D"color: #333333;line-height: 22px;">&nbsp;</span></=
+span></span><span style=3D"color: #141414;font-family: helvetica;font-size=
+: 14px;line-height: 18px;"><span style=3D"font-family:verdana=2Cgeneva=2Cs=
+ans-serif">becoming a <a href=3D"https://softwareleadweekly.us6.list-manag=
+e.com/track/click?u=3D1a258e0fefbb23214c59c5a8d&id=3Ddacb785cb9&e=3Dfc0151d531" target=3D"_blank" style=3D"mso-line-height-rule: exactly;-ms-text-s=
+ize-adjust: 100%;-webkit-text-size-adjust: 100%;color: #007C89;font-weight=
+: normal;text-decoration: underline;">SWLW Patron</a></span></span><span s=
+tyle=3D"color: #606060;font-family: verdana=2Cgeneva=2Csans-serif;font-siz=
+e: 12px;line-height: 18px;"><span style=3D"font-size:14px"><span style=3D"=
+color: #333333;line-height: 22px;">. </span></span></span><span style=3D"c=
+olor: #141414;font-family: helvetica;font-size: 14px;line-height: 18px;"><=
+span style=3D"font-family:verdana=2Cgeneva=2Csans-serif">Thank you </span>=
+</span><span class=3D"emoji">=E2=9D=A4=EF=B8=8F</span><br>
+<br>
+<br>
+<br>
+<span style=3D"color: #141414;font-family: helvetica;font-size: 14px;line-=
+height: 18px;"><span style=3D"font-family:verdana=2Cgeneva=2Csans-serif">K=
+eep reading=2C keep learning.<br>
+-- Oren Ellenbogen.</span></span></p>
+
+                        </td>
+                    </tr>
+                </tbody></table>
+=09=09=09=09<!--[if mso]>
+=09=09=09=09</td>
+=09=09=09=09<![endif]-->
+
+=09=09=09=09<!--[if mso]>
+=09=09=09=09</tr>
+=09=09=09=09</table>
+=09=09=09=09<![endif]-->
+            </td>
+        </tr>
+    </tbody>
+</table></td>
+                            </tr>
+                            <tr>
+                                <td valign=3D"top" id=3D"templateFooter" s=
+tyle=3D"background:#FAFAFA none no-repeat center/cover;mso-line-height-rul=
+e: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;backg=
+round-color: #FAFAFA;background-image: none;background-repeat: no-repeat;b=
+ackground-position: center;background-size: cover;border-top: 0;border-bot=
+tom: 0;padding-top: 9px;padding-bottom: 9px;"><table class=3D"mcnTextBlock=
+" style=3D"min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt=
+;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust=
+: 100%;" width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" border=3D"0">
+    <tbody class=3D"mcnTextBlockOuter">
+        <tr>
+            <td class=3D"mcnTextBlockInner" style=3D"padding-top: 9px;mso-=
+line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adj=
+ust: 100%;" valign=3D"top">
+              =09<!--[if mso]>
+=09=09=09=09<table align=3D"left" border=3D"0" cellspacing=3D"0" cellpaddi=
+ng=3D"0" width=3D"100%" style=3D"width:100%;">
+=09=09=09=09<tr>
+=09=09=09=09<![endif]-->
+=09=09=09
+=09=09=09=09<!--[if mso]>
+=09=09=09=09<td valign=3D"top" width=3D"600" style=3D"width:600px;">
+=09=09=09=09<![endif]-->
+                <table style=3D"max-width: 100%;min-width: 100%;border-col=
+lapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-=
+adjust: 100%;-webkit-text-size-adjust: 100%;float: left;" class=3D"mcnText=
+ContentContainer" width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" borde=
+r=3D"0" align=3D"left">
+                    <tbody><tr>
+
+                        <td class=3D"mcnTextContent" style=3D"padding-top:=
+ 0;padding-right: 18px;padding-bottom: 9px;padding-left: 18px;mso-line-hei=
+ght-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100=
+%;word-break: break-word;color: #656565;font-family: Helvetica;font-size:=
+ 12px;line-height: 150%;text-align: center;" valign=3D"top">
+
+                            <div><span style=3D"font-size:12px"><span styl=
+e=3D"color: #000000;"><span style=3D"font-family:verdana=2Cgeneva=2Csans-s=
+erif">You are receiving this because you subscribed at softwareleadweekly.=
+com.<br>
+<br>
+Software Lead Weekly is curated with love by Oren Ellenbogen.</span></span=
+></span></div>
+
+<div><span style=3D"font-size:12px"><span style=3D"font-family:verdana=2Cg=
+eneva=2Csans-serif"><a class=3D"utilityLink" href=3D"https://softwareleadw=
+eekly.us6.list-manage.com/unsubscribe?u=3D1a258e0fefbb23214c59c5a8d&id=3De=
+fe3d3cd5b&t=3Db&e=3Dfc0151d531&c=3Da0bc22399d" style=3D"mso-line-height-rule=
+: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color:=
+ #656565;font-weight: normal;text-decoration: underline;"><span style=3D"c=
+olor: #000000;">unsubscribe from this list</span></a><span style=3D"color:=
+ #000000;">&nbsp; or &nbsp;</span><a class=3D"utilityLink" href=3D"https:/=
+/softwareleadweekly.us6.list-manage.com/profile?u=3D1a258e0fefbb23214c59c5=
+a8d&id=3Defe3d3cd5b&e=3Dfc0151d531&c=3Da0bc22399d" style=3D"mso-line-height-=
+rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;co=
+lor: #656565;font-weight: normal;text-decoration: underline;"><span style=
+=3D"color: #000000;">update subscription preferences</span></a><span style=
+=3D"color: #000000;">&nbsp;<br>
+<br>
+<span style=3D"line-height:20px">Mailing address is Zalman Shneor 4 st.=2C=
+ Herzelya=2C Israel.</span></span></span></span></div>
+
+                        </td>
+                    </tr>
+                </tbody></table>
+=09=09=09=09<!--[if mso]>
+=09=09=09=09</td>
+=09=09=09=09<![endif]-->
+
+=09=09=09=09<!--[if mso]>
+=09=09=09=09</tr>
+=09=09=09=09</table>
+=09=09=09=09<![endif]-->
+            </td>
+        </tr>
+    </tbody>
+</table></td>
+                            </tr>
+                        </table>
+                        <!--[if (gte mso 9)|(IE)]>
+                        </td>
+                        </tr>
+                        </table>
+                        <![endif]-->
+                        <!-- // END TEMPLATE -->
+                    </td>
+                </tr>
+            </table>
+        </center>
+    </body>
+</html><div style=3D"display:none;">=E2=80=87&#xFEFF;=CD=8F =E2=80=87&#xFE=
+FF;=CD=8F =E2=80=87&#xFEFF;=CD=8F =E2=80=87&#xFEFF;=CD=8F=E2=80=87&#xFEFF;=
+=CD=8F =E2=80=87&#xFEFF;=CD=8F =E2=80=87&#xFEFF;=CD=8F =E2=80=87&#xFEFF;=
+=CD=8F=E2=80=87&#xFEFF;=CD=8F =E2=80=87&#xFEFF;=CD=8F =E2=80=87&#xFEFF;=CD=
+=8F =E2=80=87&#xFEFF;=CD=8F=E2=80=87&#xFEFF;=CD=8F =E2=80=87&#xFEFF;=CD=8F=
+ =E2=80=87&#xFEFF;=CD=8F =E2=80=87&#xFEFF;=CD=8F=E2=80=87&#xFEFF;=CD=8F=
+ =E2=80=87&#xFEFF;=CD=8F =E2=80=87&#xFEFF;=CD=8F =E2=80=87&#xFEFF;=CD=8F=
+=E2=80=87&#xFEFF;=CD=8F =E2=80=87&#xFEFF;=CD=8F =E2=80=87&#xFEFF;=CD=8F=
+ =E2=80=87&#xFEFF;=CD=8F</div><!--[if !mso]><!--><div style=3D"display:no=
+ne; font-size:0px; line-height:0px; max-height:0px; max-width:0px; opacity=
+:0; overflow:hidden; visibility:hidden; mso-hide:all;"><img src=3D"https:/=
+/softwareleadweekly.us6.list-manage.com/track/open.php?u=3D1a258e0fefbb232=
+14c59c5a8d&id=3Da0bc22399d&e=3Dfc0151d531" height=3D"1" width=3D"1" style=
+=3D"display:none; font-size:0px; line-height:0px; opacity:0; overflow:hidd=
+en; visibility:hidden; mso-hide:all;" alt=3D""></div><!--<![endif]-->
+--_----------=_MCPart_1990242587--
+

@@ -1,0 +1,1178 @@
+Delivered-To: jasonlongfield@edny.net
+Return-Path: <010001954c7b3a86-7005e4ac-959c-43be-a12c-8fa5aa14bc8f-000000@dailyupdate.tldrnewsletter.com>
+Received: from a77-23.smtp-out.amazonses.com (a77-23.smtp-out.amazonses.com [54.240.77.23])
+	by in.mail.tm (Haraka/3.0.2) with ESMTPS id C8B6C42A-DCD6-4DD3-9B90-585EA292C93D.1
+	envelope-from <010001954c7b3a86-7005e4ac-959c-43be-a12c-8fa5aa14bc8f-000000@dailyupdate.tldrnewsletter.com>
+	tls TLS_AES_256_GCM_SHA384;
+	Fri, 28 Feb 2025 12:15:00 +0000
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=sioo5ufy44q7kswoxqlcbgcwkczxbk64; d=tldrnewsletter.com;
+	t=1740744899;
+	h=From:To:Subject:List-Unsubscribe:List-Unsubscribe-Post:MIME-Version:Date:Message-ID:Content-Type;
+	bh=86xKXd7OkF7Ll0sjKNNojg/JpochLIeNdiupy5gPV6E=;
+	b=s9ab+9IbdRkw5UrnFiyWW0W2dtWVOGvTwVjMig0nSp21ClFI/yzVMXi8q7P6ov66
+	v6nW6kU+FfyHpC0e9Ps0VTmUtpoj7AALKFuRrQfD6itzTiXOR/tHH/YI10zDsep4725
+	HJSr3QwAKvZIPr0uWwKzFFeFuBUlV3RqeqXpNMOE=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=ug7nbtf4gccmlpwj322ax3p6ow6yfsug; d=amazonses.com; t=1740744899;
+	h=From:To:Subject:List-Unsubscribe:List-Unsubscribe-Post:MIME-Version:Date:Message-ID:Content-Type:Feedback-ID;
+	bh=86xKXd7OkF7Ll0sjKNNojg/JpochLIeNdiupy5gPV6E=;
+	b=eIIOS+fp6Bl8NYIcWaa7+LBIuXonttr6PZiDW+ET6jLIu1hLzKtdhLtAbm9Bftg4
+	IOxLQztEuPfOOBErgG4K7ftr0MAOIM7Uyc+YBuCZDhBmp7IP2v0708z46+57Tm/jsqA
+	+aHtrWxuyJJQF4uSBIGcln9BOsbe9GjGbOWAdWB4=
+From: TLDR DevOps <dan@tldrnewsletter.com>
+To: jasonlongfield@edny.net
+Subject: HashiCorp joins IBM =?utf-8?Q?=F0=9F=A4=9D=2C?= Custom Transport
+ Protocol =?utf-8?Q?=E2=9C=A8=2C?= Copilot for Azure DevOps
+ =?utf-8?Q?=F0=9F=94=AE?=
+X-Entity-Ref-Id: e2077311-91bf-4af7-9950-a3200c2c5e43
+X-EmailOctopus-Parent-Id: fc7e964c-f58d-11ef-8c56-3b6a866ddcb1
+X-EmailOctopus-Parent-Type-Id: campaign
+X-EmailOctopus-List-Id: 1c5ddf10-b6dc-11ed-a12f-33c00cd07e37
+X-EmailOctopus-List-Contact-Id: 99f446d6-f5b8-11ef-b2e1-83509730d99e
+X-EmailOctopus-Started-Preparing-At: 2025-02-28T12:01:13+00:00
+X-EmailOctopus-Sent-At: 2025-02-28T12:14:59+00:00
+X-EmailOctopus-Team-Id: 66987ef2-4f4c-11e9-a3c9-06b79b628af2
+X-EmailOctopus-Version: 4
+List-Unsubscribe: <https://a.tldrnewsletter.com/unsubscribe?ep=1&l=1c5ddf10-b6dc-11ed-a12f-33c00cd07e37&lc=99f446d6-f5b8-11ef-b2e1-83509730d99e&p=fc7e964c-f58d-11ef-8c56-3b6a866ddcb1&pt=campaign&pv=4&spa=1740744073&t=1740744899&s=642f3217d6fb8e3488a68199c60840c5c0909d18bca2344d60bc32fb61f15f56>
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+X-EmailOctopus-Ses-Configuration-Set-Name: emailoctopus-a9f7b12f74f3c968d9408897fb35539c
+MIME-Version: 1.0
+Date: Fri, 28 Feb 2025 12:14:59 +0000
+Message-ID: <010001954c7b3a86-7005e4ac-959c-43be-a12c-8fa5aa14bc8f-000000@email.amazonses.com>
+Content-Type: multipart/alternative; boundary=ob3MfeiB
+Feedback-ID: ::1.us-east-1.Dj5/7DYmgk+n1sSGGXSQSLIthSjNQ0MGtV5Dro1Tr8U=:AmazonSES
+X-SES-Outgoing: 2025.02.28-54.240.77.23
+
+
+--ob3MfeiBContent-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+HashiCorp has officially joined IBM as the acquisition has been
+finalized=
+. The partnership aims to expand IBM's reach and
+R&D=C2=A0=E2=80=8C=C2=
+=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=
+=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=
+=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=
+=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=
+=C2=A0=E2=80=8C=C2=A0=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=
+=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=
+=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=
+=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0
+
+
+ Sign =
+Up [1] |Advertise [2]|View Online [3]=20
+
+=09=09TLDR
+
+=09=09TOGETHER =
+WITH [Wiz] [4]
+
+TLDR DEVOPS 2025-02-28
+
+ GETTING STARTED WITH DEVSE=
+COPS PLAYBOOK=C2=A0(SPONSOR) [4]=20
+
+ Align your security and development=
+ teams to improve code security.
+
+Download the new playbook [4] now to:=
+=C2=A0
+
+ =09* Explore common DevSecOps challenges=C2=A0
+ =09* Reveal =
+actionable strategies for improving team collaboration=C2=A0
+ =09* Unders=
+tand the success criteria for selecting and evaluating
+Application Securi=
+ty tools that enhance your development velocity=C2=A0
+
+Unlock practical=
+, field-tested approaches to align your security and
+development teams.=
+=C2=A0
+
+Get the Playbook [4]
+
+=F0=9F=93=B1=20
+
+NEWS & TRENDS
+=
+
+ SOME TXT ABOUT, AND A PTR TO, NEW DNS INSIGHTS ON CLOUDFLARE RADAR
+(1=
+0 MINUTE READ) [5]=20
+
+ Cloudflare has launched a dedicated DNS page on C=
+loudflare Radar that
+provides increased visibility into aggregate traffic=
+ and usage trends
+seen across the 1.1.1.1 resolver network, which handles=
+ 1.9 trillion
+queries per day from 250 locations. The new page analyzes a=
+nonymized
+DNS query logs to show global, location, and ASN traffic trends=
+, plus
+perspectives on protocol usage, query characteristics, and DNSSEC=
+
+usage.=20
+
+ HASHICORP OFFICIALLY JOINS THE IBM FAMILY (4 MINUTE READ) =
+[6]=20
+
+ HashiCorp has officially joined IBM as the acquisition has been=
+
+finalized. The partnership aims to expand IBM's reach and R&D to solve=
+
+infrastructure and security challenges in hybrid and multi-cloud
+envir=
+onments.=20
+
+=F0=9F=9A=80=20
+
+OPINIONS & TUTORIALS
+
+ EXPLORING MULT=
+I-CLUSTER FAULT TOLERANCE WITH K8GB (8 MINUTE READ) [7]
+
+
+ This blog =
+post introduces k8gb, a Kubernetes global load balancer
+that ensures high=
+ availability and fault tolerance for cloud-native
+applications across mu=
+ltiple Kubernetes clusters by managing traffic
+based on real-time health =
+checks. It provides a detailed overview of
+how k8gb simplifies multi-clus=
+ter management, offering benefits like
+seamless failover and simplified d=
+eployment strategies.=20
+
+ WHAT WOULD HAPPEN IF WE DIDN'T USE TCP OR UDP?=
+ (11 MINUTE READ) [8]=20
+
+ An experiment with a custom transport protocol=
+ (HDP) revealed that
+while local loopback worked, OS rules, firewalls, NA=
+T, and cloud
+provider restrictions caused unpredictable failures. The con=
+clusion:
+custom protocols are technically possible but impractical, offer=
+ing no
+real advantage over TCP/UDP due to inconsistent OS behavior and
+=
+internet infrastructure constraints.=20
+
+=F0=9F=A7=91=E2=80=8D=
+=F0=9F=92=BB=20
+
+RESOURCES & TOOLS
+
+ KLUCTL (GITHUB REPO) [9]=20
+
+ =
+kluctl offers a unified command-line interface to manage large
+Kubernetes=
+ deployments, integrating tools like Kustomize and Helm.
+Centered around =
+"targets," Kluctl facilitates deploying, diffing, and
+pruning across clus=
+ters or environments and provides a Web UI for
+visualization and control.=
+=20
+
+ GAMA (GITHUB REPO) [10]=20
+
+ GAMA, a new terminal-based UI tool, =
+streamlines GitHub Actions
+workflow management by allowing users to list,=
+ trigger, and monitor
+workflows directly from the terminal. GAMA features=
+ a live mode for
+automatic status updates.=20
+
+ CODEWEAVER (GITHUB REPO=
+) [11]=20
+
+ CodeWeaver is a command-line tool designed to weave your code=
+base
+into a single, easy-to-navigate Markdown document. It recursively
+=
+scans a directory, generating a structured representation of your
+project=
+'s file hierarchy and embedding the content of each file within
+code bloc=
+ks.=20
+
+=F0=9F=8E=81=20
+
+MISCELLANEOUS
+
+ GITHUB COPILOT FOR AZURE D=
+EVOPS USERS (3 MINUTE READ) [12]=20
+
+ GitHub Copilot for Business is avai=
+lable to Azure DevOps users,
+integrated with tools like Visual Studio and=
+ VS Code. This post
+explains how to get started. It highlights key featur=
+es, such as
+AI-powered code completions, debugging assistance, and automa=
+ted
+commit messages, that enhance coding efficiency and workflow.=20
+
+ =
+OSTIF ANNOUNCES LINKERD SECURITY AUDIT RESULTS (2 MINUTE READ) [13]=20
+
+ =
+This post announces the results of the security audit of Linkerd, an
+open=
+-source service mesh for Kubernetes, conducted by 7ASecurity with
+the sup=
+port of the Cloud Native Computing Foundation.=20
+
+=E2=9A=A1=20
+
+QUICK =
+LINKS
+
+ AKAMAI UNFURLS MANAGED CONTAINER SERVICE FOR DISTRIBUTED APPLIC=
+ATIONS
+(3 MINUTE READ) [14]=20
+
+ Akamai Technologies has launched a Man=
+aged Container Service,
+enabling cloud-native application deployment acro=
+ss its global network
+of 4,300+ PoPs in 700+ cities.=20
+
+ PLATFORM ENGI=
+NEERING: MASTERING INFRASTRUCTURE PROVISIONING (9 MINUTE
+READ) [15]=20
+=
+
+ Platform engineering teams can automate cloud infrastructure
+provisio=
+ning, which is key to self-service and streamlined developer
+workflows, b=
+y using version-controlled infrastructure as code and
+CI/CD pipelines. =
+
+
+Want to advertise in TLDR? =F0=9F=93=B0
+
+ If your company is inte=
+rested in reaching an audience of devops
+professionals and decision maker=
+s, you may want to ADVERTISE WITH US
+[16].=20
+
+Want to work at TLDR? =
+=F0=9F=92=BC
+
+ APPLY HERE [17] or send a friend's resume to jobs@tldr.t=
+ech and get
+$1k if we hire them!=20
+
+ If you have any comments or feedb=
+ack, just respond to this email!=20
+
+Thanks for reading,=20
+Kunal Desai [=
+18] & Martin Hauskrecht [19]=20
+
+ Manage your subscriptions [20] to our o=
+ther newsletters on tech,
+startups, and programming. Or if TLDR DevOps is=
+n't for you, please
+unsubscribe [21].=20
+
+=20
+
+Links:
+------
+[1] =
+https://tldr.tech/devops?utm_source=3Dtldrdevops
+[2] https://advertise.tl=
+dr.tech/?utm_source=3Dtldrdevops&utm_medium=3Dnewsletter&utm_campaign=3Dadv=
+ertisetopnav
+[3] https://a.tldrnewsletter.com/web-version?ep=3D1&lc=3D99f=
+446d6-f5b8-11ef-b2e1-83509730d99e&p=3Dfc7e964c-f58d-11ef-8c56-3b6a866ddcb1&=
+pt=3Dcampaign&t=3D1740744899&s=3Db54f38f40070a1f347f9f412935f45b46570c13815=
+6b0a62f8ddc236bb11f0e5
+[4] https://www.wiz.io/lp/getting-started-with-dev=
+secops?utm_source=3Dtldr-devops&utm_medium=3Dpaid-email&utm_campaign=3DFY25=
+Q4_INB_FORM_DevSecOps-Getting-Started-Playbook&sfcid=3D701Py00000HwiF6IAJ&u=
+tm_term=3DFY26Q1-tldr-devops-nl&utm_content=3DDevSecOpsPlaybook
+[5] https=
+://blog.cloudflare.com/new-dns-section-on-cloudflare-radar/?utm_source=3Dtl=
+drdevops
+[6] https://www.hashicorp.com/blog/hashicorp-officially-joins-th=
+e-ibm-family?utm_source=3Dtldrdevops
+[7] https://www.cncf.io/blog/2025/02=
+/19/exploring-multi-cluster-fault-tolerance-with-k8gb/?utm_source=3Dtldrdev=
+ops
+[8] https://github.com/Hawzen/hdp?utm_source=3Dtldrdevops
+[9] https=
+://github.com/kluctl/kluctl?utm_source=3Dtldrdevops
+[10] https://github.c=
+om/termkit/gama?utm_source=3Dtldrdevops
+[11] https://github.com/tesserato=
+/CodeWeaver?utm_source=3Dtldrdevops
+[12] https://devblogs.microsoft.com/d=
+evops/github-copilot-for-azure-devops-users/?utm_source=3Dtldrdevops
+[13]=
+ https://www.cncf.io/blog/2025/02/19/ostif-announces-linkerd-security-audit=
+-results/?utm_source=3Dtldrdevops
+[14] https://cloudnativenow.com/feature=
+s/akamai-unfurls-managed-container-service-for-distributed-applications/?ut=
+m_source=3Dtldrdevops
+[15] https://www.pulumi.com/blog/platform-engineeri=
+ng-pillars-2/?utm_source=3Dtldrdevops
+[16] https://advertise.tldr.tech/?u=
+tm_source=3Dtldrdevops&utm_medium=3Dnewsletter&utm_campaign=3Dadvertisecta=
+
+[17] https://jobs.ashbyhq.com/tldr.tech
+[18] https://www.linkedin.com/=
+in/kunaljaydesai/
+[19] https://www.linkedin.com/in/martin-hauskrecht/
+[=
+20] https://tldr.tech/devops/manage?email=3Djasonlongfield%40edny.net
+[21=
+] https://a.tldrnewsletter.com/unsubscribe?ep=3D1&l=3D1c5ddf10-b6dc-11ed-a1=
+2f-33c00cd07e37&lc=3D99f446d6-f5b8-11ef-b2e1-83509730d99e&p=3Dfc7e964c-f58d=
+-11ef-8c56-3b6a866ddcb1&pt=3Dcampaign&pv=3D4&spa=3D1740744073&t=3D174074489=
+9&s=3D642f3217d6fb8e3488a68199c60840c5c0909d18bca2344d60bc32fb61f15f56
+--ob3MfeiB
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html><html lang=3D"en"><head><meta http-equiv=3D"Content-Type" co=
+ntent=3D"text/html charset=3DUTF-8"><meta charset=3D"UTF-8"><meta name=3D"v=
+iewport" content=3D"width=3Ddevice-width"><meta name=3D"x-apple-disable-mes=
+sage-reformatting"><title>TLDR DevOps</title><meta name=3D"color-scheme" co=
+ntent=3D"light dark"><meta name=3D"supported-color-schemes" content=3D"ligh=
+t dark"><style type=3D"text/css">
+=09=09=09:root {
+=09=09=09=09color-scheme: light dark; supported-color-schemes: light dark;
+=09=09=09}
+=09=09=09
+=09=09=09*,
+=09=09=09*:after,
+=09=09=09*:before {
+=09=09=09=09-webkit-box-sizing: border-box; -moz-box-sizing: border-box; bo=
+x-sizing: border-box;
+=09=09=09}
+=09=09=09
+=09=09=09* {
+=09=09=09=09-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;
+=09=09=09}
+=09=09=09
+=09=09=09html,
+=09=09=09body,
+=09=09=09.document {
+=09=09=09=09width: 100% !important; height: 100% !important; margin: 0; pad=
+ding: 0;
+=09=09=09}
+=09=09=09
+=09=09=09body {
+=09=09=09=09-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: g=
+rayscale; text-rendering: optimizeLegibility;
+=09=09=09}
+=09=09=09
+=09=09=09div[style*=3D"margin: 16px 0"] {
+=09=09=09=09margin: 0 !important;
+=09=09=09}
+=09=09=09
+=09=09=09table,
+=09=09=09td {
+=09=09=09=09mso-table-lspace: 0pt; mso-table-rspace: 0pt;
+=09=09=09}
+=09=09=09
+=09=09=09table {
+=09=09=09=09border-spacing: 0; border-collapse: collapse; table-layout: fix=
+ed; margin: 0 auto;
+=09=09=09}
+=09=09=09
+=09=09=09img {
+=09=09=09=09-ms-interpolation-mode: bicubic; max-width: 100%; border: 0;
+=09=09=09}
+=09=09=09
+=09=09=09*[x-apple-data-detectors] {
+=09=09=09=09color: inherit !important; text-decoration: none !important;
+=09=09=09}
+=09=09=09
+=09=09=09.x-gmail-data-detectors,
+=09=09=09.x-gmail-data-detectors *,
+=09=09=09.aBn {
+=09=09=09=09border-bottom: 0 !important; cursor: default !important;
+=09=09=09}
+=09=09=09
+=09=09=09.btn {
+=09=09=09=09-webkit-transition: all 200ms ease; transition: all 200ms ease;
+=09=09=09}
+=09=09=09
+=09=09=09.btn:hover {
+=09=09=09=09background-color: #f67575; border-color: #f67575;
+=09=09=09}
+=09=09=09
+=09=09=09* {
+=09=09=09=09font-family: Arial, Helvetica, sans-serif; font-size: 18px;
+=09=09=09}
+=09=09=09
+=09=09=09@media screen and (max-width: 600px) {
+=09=09=09=09.container {
+=09=09=09=09=09width: 100%; margin: auto;
+=09=09=09=09}
+=09=09=09=09.stack {
+=09=09=09=09=09display: block!important; width: 100%!important; max-width: =
+100%!important;
+=09=09=09=09}
+=09=09=09=09.btn {
+=09=09=09=09=09display: block; width: 100%; text-align: center;
+=09=09=09=09}
+=09=09=09}
+=09=09=09
+=09=09=09body,
+=09=09=09p,
+=09=09=09td,
+=09=09=09tr,
+=09=09=09.body,
+=09=09=09table,
+=09=09=09h1,
+=09=09=09h2,
+=09=09=09h3,
+=09=09=09h4,
+=09=09=09h5,
+=09=09=09h6,
+=09=09=09div,
+=09=09=09span {
+=09=09=09=09background-color: #FEFEFE !important; color: #010101 !important=
+;
+=09=09=09}
+=09=09=09
+=09=09=09@media (prefers-color-scheme: dark) {
+=09=09=09=09body,
+=09=09=09=09p,
+=09=09=09=09td,
+=09=09=09=09tr,
+=09=09=09=09.body,
+=09=09=09=09table,
+=09=09=09=09h1,
+=09=09=09=09h2,
+=09=09=09=09h3,
+=09=09=09=09h4,
+=09=09=09=09h5,
+=09=09=09=09h6,
+=09=09=09=09div,
+=09=09=09=09span {
+=09=09=09=09=09background-color: #27292D !important; color: #FEFEFE !import=
+ant;
+=09=09=09=09}
+=09=09=09}
+=09=09=09
+=09=09=09a {
+=09=09=09=09color: inherit !important; text-decoration: underline !importan=
+t;
+=09=09=09}
+
+=09=09</style><!--[if mso | ie]>
+=09=09<style type=3D"text/css">
+=09=09=09a {
+=09=09=09=09background-color: #FEFEFE !important; color: #010101 !important=
+;
+=09=09=09}
+=09=09=09@media (prefers-color-scheme: dark) {
+=09=09=09=09a {
+=09=09=09=09=09background-color: #27292D !important; color: #FEFEFE !import=
+ant;
+=09=09=09=09}
+=09=09=09}
+=09 </style>
+=09=09=09<![endif]--></head><body class=3D"">
+
+
+
+
+
+
+
+
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">HashiCorp =
+has officially joined IBM as the acquisition has been finalized. The partne=
+rship aims to expand IBM&#039;s reach and R&amp;D&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;&nb=
+sp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nb=
+sp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nb=
+sp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nb=
+sp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nb=
+sp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nb=
+sp;=E2=80=8C&nbsp;</div>
+<div style=3D"display: none; max-height: 0px; overflow: hidden;">
+<br>
+</div>
+
+<table align=3D"center" class=3D"document"><tbody><tr><td valign=3D"top">
+
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" cl=
+ass=3D"container" width=3D"600"><tbody><tr class=3D"inner-body"><td>
+
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"100%"><tbody><tr class=3D"header"><td bgcolor=3D"" class=3D"containe=
+r">
+
+<table width=3D"100%"><tbody><tr><td class=3D"container">
+
+<table align=3D"center" bgcolor=3D"" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" style=3D"margin-top: 0px;" width=3D"100%"><tbody><tr><td style=
+=3D"padding: 0px;">
+
+<table align=3D"center" bgcolor=3D"" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" width=3D"100%"><tbody><tr><td class=3D"container" style=3D"paddi=
+ng: 15px 15px;">
+<div style=3D"text-align: center;">
+<span style=3D"margin-right: 0px;"><a href=3D"https://tracking.tldrnewslett=
+er.com/CL0/https:%2F%2Ftldr.tech%2Fdevops%3Futm_source=3Dtldrdevops/1/01000=
+1954c7b3a86-7005e4ac-959c-43be-a12c-8fa5aa14bc8f-000000/IB8FZcDDhfc-zSMHP0J=
+JIx8PqbnEp2ENb3T78R36MR0=3D394" rel=3D"noopener noreferrer" target=3D"_blan=
+k"><span>Sign Up</span></a>
+|<span style=3D"margin-right: 2px; margin-left: 2px;"><a href=3D"https://tr=
+acking.tldrnewsletter.com/CL0/https:%2F%2Fadvertise.tldr.tech%2F%3Futm_sour=
+ce=3Dtldrdevops%26utm_medium=3Dnewsletter%26utm_campaign=3Dadvertisetopnav/=
+1/010001954c7b3a86-7005e4ac-959c-43be-a12c-8fa5aa14bc8f-000000/piV5YOV9OKQB=
+qbjVXfaGrglxdR0wIHN3x73VBEcueXw=3D394" rel=3D"noopener noreferrer" target=
+=3D"_blank"><span>Advertise</span></a></span>|<span style=3D"margin-left: 2=
+px;"><a href=3D"https://tracking.tldrnewsletter.com/CL0/https:%2F%2Fa.tldrn=
+ewsletter.com%2Fweb-version%3Fep=3D1%26lc=3D99f446d6-f5b8-11ef-b2e1-8350973=
+0d99e%26p=3Dfc7e964c-f58d-11ef-8c56-3b6a866ddcb1%26pt=3Dcampaign%26t=3D1740=
+744899%26s=3Db54f38f40070a1f347f9f412935f45b46570c138156b0a62f8ddc236bb11f0=
+e5/1/010001954c7b3a86-7005e4ac-959c-43be-a12c-8fa5aa14bc8f-000000/6OADIV06F=
+6f12WyGeKWVCZcHSNfWzPK7VTnP1VB9zh8=3D394"><span>View Online</span></a></spa=
+n>
+<br>
+</span></div>
+</td></tr></tbody></table>
+
+<table align=3D"center" bgcolor=3D"" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" width=3D"100%"><tbody><tr><td class=3D"container" style=3D"text-=
+align: center;"><span data-darkreader-inline-color=3D"" style=3D"--darkread=
+er-inline-color:#3db3ff; color: rgb(51, 175, 255) !important; font-size: 30=
+px;">T</span><span style=3D"font-size: 30px;"><span data-darkreader-inline-=
+color=3D"" style=3D"color: rgb(232, 192, 96) !important; --darkreader-inlin=
+e-color:#e8c163; font-size:30px;">L</span><span data-darkreader-inline-colo=
+r=3D"" style=3D"color: rgb(101, 195, 173) !important; --darkreader-inline-c=
+olor:#6ec7b2; font-size:30px;">D</span></span><span data-darkreader-inline-=
+color=3D"" style=3D"--darkreader-inline-color:#dd6e6e; color: rgb(220, 107,=
+ 107) !important; font-size: 30px;">R</span></td></tr></tbody></table>
+<br>
+
+<table align=3D"center" bgcolor=3D"" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" width=3D"100%"><tbody><tr id=3D"together-with"><td align=3D"cent=
+er" height=3D"20" style=3D"vertical-align:middle !important;" valign=3D"mid=
+dle" width=3D"100%"><strong style=3D"vertical-align:middle !important; heig=
+ht: 100%;">Together With </strong>
+<a href=3D"https://tracking.tldrnewsletter.com/CL0/https:%2F%2Fwww.wiz.io%2=
+Flp%2Fgetting-started-with-devsecops%3Futm_source=3Dtldr-devops%26utm_mediu=
+m=3Dpaid-email%26utm_campaign=3DFY25Q4_INB_FORM_DevSecOps-Getting-Started-P=
+laybook%26sfcid=3D701Py00000HwiF6IAJ%26utm_term=3DFY26Q1-tldr-devops-nl%26u=
+tm_content=3DDevSecOpsPlaybook/1/010001954c7b3a86-7005e4ac-959c-43be-a12c-8=
+fa5aa14bc8f-000000/HsV6XmUNldLt6Br7QxuprWsa-bjMPlfl1k2mQy7pZuI=3D394"><img =
+src=3D"https://images.tldr.tech/wiz50.png" valign=3D"middle" style=3D"verti=
+cal-align: middle !important; height: 100%;" alt=3D"Wiz"></a></td></tr></tb=
+ody></table>
+
+<table style=3D"table-layout: fixed; width:100%;" width=3D"100%"><tbody><tr=
+><td style=3D"padding:0;border-collapse:collapse;border-spacing:0;margin:0;=
+">
+<div style=3D"text-align: center;">
+
+<h1><strong>TLDR DevOps <span id=3D"date">2025-02-28</span></strong></h1>
+</div>
+</td></tr>
+<tr id=3D"sponsy-copy"><td class=3D"container" style=3D"padding: 15px 15px;=
+">
+<div class=3D"text-block">
+<span>
+                                <a href=3D"https://tracking.tldrnewsletter.=
+com/CL0/https:%2F%2Fwww.wiz.io%2Flp%2Fgetting-started-with-devsecops%3Futm_=
+source=3Dtldr-devops%26utm_medium=3Dpaid-email%26utm_campaign=3DFY25Q4_INB_=
+FORM_DevSecOps-Getting-Started-Playbook%26sfcid=3D701Py00000HwiF6IAJ%26utm_=
+term=3DFY26Q1-tldr-devops-nl%26utm_content=3DDevSecOpsPlaybook/2/010001954c=
+7b3a86-7005e4ac-959c-43be-a12c-8fa5aa14bc8f-000000/7_bf53EAn96zQOArzrwjrjTg=
+8Rt8vUedLTxPFnEf430=3D394">
+                                    <span>
+                                        <strong>Getting Started with DevSec=
+Ops Playbook&nbsp;(Sponsor)</strong>
+                                    </span>
+</a>
+<br>
+<br>
+<span style=3D"font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, V=
+erdana, sans-serif;">
+                                    Align your security and development tea=
+ms to improve code security.<p></p><p><a href=3D"https://tracking.tldrnewsl=
+etter.com/CL0/https:%2F%2Fwww.wiz.io%2Flp%2Fgetting-started-with-devsecops%=
+3Futm_source=3Dtldr-devops%26utm_medium=3Dpaid-email%26utm_campaign=3DFY25Q=
+4_INB_FORM_DevSecOps-Getting-Started-Playbook%26sfcid=3D701Py00000HwiF6IAJ%=
+26utm_term=3DFY26Q1-tldr-devops-nl%26utm_content=3DDevSecOpsPlaybook/3/0100=
+01954c7b3a86-7005e4ac-959c-43be-a12c-8fa5aa14bc8f-000000/lJ75gZa4Gta9H-Y_8S=
+MBbF_EbQV4QnXH9wOuBXwuykI=3D394" rel=3D"noopener noreferrer nofollow" targe=
+t=3D"_blank"><span>Download the new playbook</span></a> now to:&nbsp;</p>
+
+<ul>
+<li>Explore common DevSecOps challenges&nbsp;</li>
+<li>Reveal actionable strategies for improving team collaboration&nbsp;</li=
+>
+<li>Understand the success criteria for selecting and evaluating Applicatio=
+n Security tools that enhance your development velocity&nbsp;</li>
+</ul>
+
+<p>Unlock practical, field-tested approaches to align your security and dev=
+elopment teams.&nbsp;</p>
+
+<p><a href=3D"https://tracking.tldrnewsletter.com/CL0/https:%2F%2Fwww.wiz.i=
+o%2Flp%2Fgetting-started-with-devsecops%3Futm_source=3Dtldr-devops%26utm_me=
+dium=3Dpaid-email%26utm_campaign=3DFY25Q4_INB_FORM_DevSecOps-Getting-Starte=
+d-Playbook%26sfcid=3D701Py00000HwiF6IAJ%26utm_term=3DFY26Q1-tldr-devops-nl%=
+26utm_content=3DDevSecOpsPlaybook/4/010001954c7b3a86-7005e4ac-959c-43be-a12=
+c-8fa5aa14bc8f-000000/pwA-UCk0wjTfSJKyzvSIcLtqgRQblQXLAxHQsRV2shY=3D394" re=
+l=3D"noopener noreferrer nofollow" target=3D"_blank"><span>Get the Playbook=
+</span></a>
+
+
+</p>
+</span></span></div>
+</td></tr></tbody></table>
+</td></tr></tbody></table>
+</td></tr></tbody></table>
+</td></tr>
+<tr bgcolor=3D""><td class=3D"container">
+
+<table align=3D"center" bgcolor=3D"" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" width=3D"100%"><tbody><tr><td style=3D"padding: 0px;">
+
+<table align=3D"center" bgcolor=3D"" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" width=3D"100%"><tbody><tr><td class=3D"container" style=3D"paddi=
+ng-top: 0px; padding-bottom: 0px;">
+<div class=3D"text-block">
+<div style=3D"text-align: center;"><span style=3D"font-size: 36px;">=F0=9F=
+=93=B1</span></div></div>
+</td></tr></tbody></table>
+
+<table align=3D"center" bgcolor=3D"" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" width=3D"100%"><tbody><tr><td class=3D"container" style=3D"paddi=
+ng-top: 0px; padding-bottom: 0px;">
+<div class=3D"text-block">
+<div style=3D"text-align: center;">
+
+<h1><strong>News &amp; Trends</strong></h1>
+</div>
+</div>
+</td></tr></tbody></table>
+
+<table style=3D"table-layout: fixed; width: 100%;" width=3D"100%"><tbody><t=
+r><td style=3D"padding:0;border-collapse:collapse;border-spacing:0;margin:0=
+;" valign=3D"top">
+
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"100%"><tbody><tr><td class=3D"container" style=3D"padding: 15px 15px=
+;">
+<div class=3D"text-block">
+<span>
+                                <a href=3D"https://tracking.tldrnewsletter.=
+com/CL0/https:%2F%2Fblog.cloudflare.com%2Fnew-dns-section-on-cloudflare-rad=
+ar%2F%3Futm_source=3Dtldrdevops/1/010001954c7b3a86-7005e4ac-959c-43be-a12c-=
+8fa5aa14bc8f-000000/2FwF9O5btkPq6pxtkgQVjEPwp0nzLyfRgijPXCmKHlg=3D394">
+                                    <span>
+                                        <strong>Some TXT about, and A PTR t=
+o, new DNS insights on Cloudflare Radar (10 minute read)</strong>
+                                    </span>
+</a>
+<br>
+<br>
+<span style=3D"font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, V=
+erdana, sans-serif;">
+                                    Cloudflare has launched a dedicated DNS=
+ page on Cloudflare Radar that provides increased visibility into aggregate=
+ traffic and usage trends seen across the 1.1.1.1 resolver network, which h=
+andles 1.9 trillion queries per day from 250 locations. The new page analyz=
+es anonymized DNS query logs to show global, location, and ASN traffic tren=
+ds, plus perspectives on protocol usage, query characteristics, and DNSSEC =
+usage.
+                                </span>
+</span>
+</div>
+</td></tr></tbody></table>
+
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"100%"><tbody><tr><td class=3D"container" style=3D"padding: 15px 15px=
+;">
+<div class=3D"text-block">
+<span>
+                                <a href=3D"https://tracking.tldrnewsletter.=
+com/CL0/https:%2F%2Fwww.hashicorp.com%2Fblog%2Fhashicorp-officially-joins-t=
+he-ibm-family%3Futm_source=3Dtldrdevops/1/010001954c7b3a86-7005e4ac-959c-43=
+be-a12c-8fa5aa14bc8f-000000/zB9FH-_adcEKj1nW4A6n136u8xuOSJ2ebFL1r-ifIcc=3D3=
+94">
+                                    <span>
+                                        <strong>HashiCorp officially joins =
+the IBM family (4 minute read)</strong>
+                                    </span>
+</a>
+<br>
+<br>
+<span style=3D"font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, V=
+erdana, sans-serif;">
+                                    HashiCorp has officially joined IBM as =
+the acquisition has been finalized. The partnership aims to expand IBM's re=
+ach and R&amp;D to solve infrastructure and security challenges in hybrid a=
+nd multi-cloud environments.
+                                </span>
+</span>
+</div>
+</td></tr></tbody></table>
+</td></tr></tbody></table>
+
+<table align=3D"center" bgcolor=3D"" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" width=3D"100%"><tbody><tr><td class=3D"container" style=3D"paddi=
+ng-top: 0px; padding-bottom: 0px;">
+<div class=3D"text-block">
+<div style=3D"text-align: center;"><span style=3D"font-size: 36px;">=F0=9F=
+=9A=80</span></div>
+</div>
+</td></tr></tbody></table>
+
+<table align=3D"center" bgcolor=3D"" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" width=3D"100%"><tbody><tr><td class=3D"container" style=3D"paddi=
+ng-top: 0px; padding-bottom: 0px;">
+<div class=3D"text-block">
+<div style=3D"text-align: center;">
+
+<h1><strong>Opinions &amp; Tutorials</strong></h1>
+</div>
+</div>
+</td></tr></tbody></table>
+
+<table style=3D"table-layout: fixed; width: 100%;" width=3D"100%"><tbody><t=
+r><td style=3D"padding:0;border-collapse:collapse;border-spacing:0;margin:0=
+;" valign=3D"top">
+
+
+
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"100%"><tbody><tr><td class=3D"container" style=3D"padding: 15px 15px=
+;">
+<div class=3D"text-block">
+<span>
+                                <a href=3D"https://tracking.tldrnewsletter.=
+com/CL0/https:%2F%2Fwww.cncf.io%2Fblog%2F2025%2F02%2F19%2Fexploring-multi-c=
+luster-fault-tolerance-with-k8gb%2F%3Futm_source=3Dtldrdevops/1/010001954c7=
+b3a86-7005e4ac-959c-43be-a12c-8fa5aa14bc8f-000000/LhB-7n-zsBmqTStNTgkUnRS2E=
+3EItYx96BuMGdI8VVg=3D394">
+                                    <span>
+                                        <strong>Exploring multi-cluster fau=
+lt tolerance with k8gb (8 minute read)</strong>
+                                    </span>
+</a>
+<br>
+<br>
+<span style=3D"font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, V=
+erdana, sans-serif;">
+                                    This blog post introduces k8gb, a Kuber=
+netes global load balancer that ensures high availability and fault toleran=
+ce for cloud-native applications across multiple Kubernetes clusters by man=
+aging traffic based on real-time health checks. It provides a detailed over=
+view of how k8gb simplifies multi-cluster management, offering benefits lik=
+e seamless failover and simplified deployment strategies.
+                                </span>
+</span>
+</div>
+</td></tr></tbody></table>
+
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"100%"><tbody><tr><td class=3D"container" style=3D"padding: 15px 15px=
+;">
+<div class=3D"text-block">
+<span>
+                                <a href=3D"https://tracking.tldrnewsletter.=
+com/CL0/https:%2F%2Fgithub.com%2FHawzen%2Fhdp%3Futm_source=3Dtldrdevops/1/0=
+10001954c7b3a86-7005e4ac-959c-43be-a12c-8fa5aa14bc8f-000000/Bn165WN8-ZlBD1v=
+4JPHwms8Hi_pGNEa7CGgVUSn-jNY=3D394">
+                                    <span>
+                                        <strong>What would happen if we did=
+n't use TCP or UDP? (11 minute read)</strong>
+                                    </span>
+</a>
+<br>
+<br>
+<span style=3D"font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, V=
+erdana, sans-serif;">
+                                    An experiment with a custom transport p=
+rotocol (HDP) revealed that while local loopback worked, OS rules, firewall=
+s, NAT, and cloud provider restrictions caused unpredictable failures. The =
+conclusion: custom protocols are technically possible but impractical, offe=
+ring no real advantage over TCP/UDP due to inconsistent OS behavior and int=
+ernet infrastructure constraints.
+                                </span>
+</span>
+</div>
+</td></tr></tbody></table>
+</td></tr></tbody></table>
+
+<table align=3D"center" bgcolor=3D"" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" width=3D"100%"><tbody><tr><td class=3D"container" style=3D"paddi=
+ng-top: 0px; padding-bottom: 0px;">
+<div class=3D"text-block">
+<div style=3D"text-align: center;"><span style=3D"font-size: 36px;">=F0=9F=
+=A7=91=E2=80=8D=F0=9F=92=BB</span></div>
+</div>
+</td></tr></tbody></table>
+
+<table align=3D"center" bgcolor=3D"" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" width=3D"100%"><tbody><tr><td class=3D"container" style=3D"paddi=
+ng-top: 0px; padding-bottom: 0px;">
+<div class=3D"text-block">
+<div style=3D"text-align: center;">
+
+<h1><strong>Resources &amp; Tools</strong></h1>
+</div>
+</div>
+</td></tr></tbody></table>
+
+<table style=3D"table-layout: fixed; width: 100%;" width=3D"100%"><tbody><t=
+r><td style=3D"padding:0;border-collapse:collapse;border-spacing:0;margin:0=
+;" valign=3D"top">
+
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"100%"><tbody><tr><td class=3D"container" style=3D"padding: 15px 15px=
+;">
+<div class=3D"text-block">
+<span>
+                                <a href=3D"https://tracking.tldrnewsletter.=
+com/CL0/https:%2F%2Fgithub.com%2Fkluctl%2Fkluctl%3Futm_source=3Dtldrdevops/=
+1/010001954c7b3a86-7005e4ac-959c-43be-a12c-8fa5aa14bc8f-000000/KOyXfvUHJGFU=
+kR2GTzlB2C1JJhDZZu_DCBYtaf7Tg34=3D394">
+                                    <span>
+                                        <strong>kluctl (GitHub Repo)</stron=
+g>
+                                    </span>
+</a>
+<br>
+<br>
+<span style=3D"font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, V=
+erdana, sans-serif;">
+                                    kluctl offers a unified command-line in=
+terface to manage large Kubernetes deployments, integrating tools like Kust=
+omize and Helm. Centered around "targets," Kluctl facilitates deploying, di=
+ffing, and pruning across clusters or environments and provides a Web UI fo=
+r visualization and control.
+                                </span>
+</span>
+</div>
+</td></tr></tbody></table>
+
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"100%"><tbody><tr><td class=3D"container" style=3D"padding: 15px 15px=
+;">
+<div class=3D"text-block">
+<span>
+                                <a href=3D"https://tracking.tldrnewsletter.=
+com/CL0/https:%2F%2Fgithub.com%2Ftermkit%2Fgama%3Futm_source=3Dtldrdevops/1=
+/010001954c7b3a86-7005e4ac-959c-43be-a12c-8fa5aa14bc8f-000000/svBTxDxwPoo1D=
+GmE1Kf__2BAbQKM8YeTN0Gcyee6MfI=3D394">
+                                    <span>
+                                        <strong>GAMA (GitHub Repo)</strong>
+                                    </span>
+</a>
+<br>
+<br>
+<span style=3D"font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, V=
+erdana, sans-serif;">
+                                    GAMA, a new terminal-based UI tool, str=
+eamlines GitHub Actions workflow management by allowing users to list, trig=
+ger, and monitor workflows directly from the terminal. GAMA features a live=
+ mode for automatic status updates.
+                                </span>
+</span>
+</div>
+</td></tr></tbody></table>
+
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"100%"><tbody><tr><td class=3D"container" style=3D"padding: 15px 15px=
+;">
+<div class=3D"text-block">
+<span>
+                                <a href=3D"https://tracking.tldrnewsletter.=
+com/CL0/https:%2F%2Fgithub.com%2Ftesserato%2FCodeWeaver%3Futm_source=3Dtldr=
+devops/1/010001954c7b3a86-7005e4ac-959c-43be-a12c-8fa5aa14bc8f-000000/HGW91=
+hB-OczOWIqCvo7PRbhyF4O5QpIj8LgQtd7w6Xs=3D394">
+                                    <span>
+                                        <strong>CodeWeaver (GitHub Repo)</s=
+trong>
+                                    </span>
+</a>
+<br>
+<br>
+<span style=3D"font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, V=
+erdana, sans-serif;">
+                                    CodeWeaver is a command-line tool desig=
+ned to weave your codebase into a single, easy-to-navigate Markdown documen=
+t. It recursively scans a directory, generating a structured representation=
+ of your project's file hierarchy and embedding the content of each file wi=
+thin code blocks.
+                                </span>
+</span>
+</div>
+</td></tr></tbody></table>
+</td></tr></tbody></table>
+
+<table align=3D"center" bgcolor=3D"" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" width=3D"100%"><tbody><tr><td class=3D"container" style=3D"paddi=
+ng-top: 0px; padding-bottom: 0px;">
+<div class=3D"text-block">
+<div style=3D"text-align: center;"><span style=3D"font-size: 36px;">=F0=9F=
+=8E=81</span></div></div>
+</td></tr></tbody></table>
+
+<table align=3D"center" bgcolor=3D"" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" width=3D"100%"><tbody><tr><td class=3D"container" style=3D"paddi=
+ng-top: 0px; padding-bottom: 0px;">
+<div class=3D"text-block">
+<div style=3D"text-align: center;"><strong><h1>Miscellaneous</h1></strong><=
+/div>
+</div>
+</td></tr></tbody></table>
+
+<table bgcolor=3D"" style=3D"table-layout: fixed; width: 100%;" width=3D"10=
+0%"><tbody><tr><td style=3D"padding:0;border-collapse:collapse;border-spaci=
+ng:0;margin:0;" valign=3D"top">
+
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"100%"><tbody><tr><td class=3D"container" style=3D"padding: 15px 15px=
+;">
+<div class=3D"text-block">
+<span>
+                                <a href=3D"https://tracking.tldrnewsletter.=
+com/CL0/https:%2F%2Fdevblogs.microsoft.com%2Fdevops%2Fgithub-copilot-for-az=
+ure-devops-users%2F%3Futm_source=3Dtldrdevops/1/010001954c7b3a86-7005e4ac-9=
+59c-43be-a12c-8fa5aa14bc8f-000000/dlNnFdPygRZuWZFsGptmnFE5w6KTUlhC_CFQwipaV=
+qI=3D394">
+                                    <span>
+                                        <strong>GitHub Copilot for Azure De=
+vOps users (3 minute read)</strong>
+                                    </span>
+</a>
+<br>
+<br>
+<span style=3D"font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, V=
+erdana, sans-serif;">
+                                    GitHub Copilot for Business is availabl=
+e to Azure DevOps users, integrated with tools like Visual Studio and VS Co=
+de. This post explains how to get started. It highlights key features, such=
+ as AI-powered code completions, debugging assistance, and automated commit=
+ messages, that enhance coding efficiency and workflow.
+                                </span>
+</span>
+</div>
+</td></tr></tbody></table>
+
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"100%"><tbody><tr><td class=3D"container" style=3D"padding: 15px 15px=
+;">
+<div class=3D"text-block">
+<span>
+                                <a href=3D"https://tracking.tldrnewsletter.=
+com/CL0/https:%2F%2Fwww.cncf.io%2Fblog%2F2025%2F02%2F19%2Fostif-announces-l=
+inkerd-security-audit-results%2F%3Futm_source=3Dtldrdevops/1/010001954c7b3a=
+86-7005e4ac-959c-43be-a12c-8fa5aa14bc8f-000000/Ry9ZSWWrxuIEw9_CpN7lUTR2cgq6=
+wqkfKKdtYN377hk=3D394">
+                                    <span>
+                                        <strong>OSTIF Announces Linkerd Sec=
+urity Audit Results (2 minute read)</strong>
+                                    </span>
+</a>
+<br>
+<br>
+<span style=3D"font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, V=
+erdana, sans-serif;">
+                                    This post announces the results of the =
+security audit of Linkerd, an open-source service mesh for Kubernetes, cond=
+ucted by 7ASecurity with the support of the Cloud Native Computing Foundati=
+on.
+                                </span>
+</span>
+</div>
+</td></tr></tbody></table>
+</td></tr></tbody></table>
+
+<table align=3D"center" bgcolor=3D"" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" width=3D"100%"><tbody><tr><td class=3D"container" style=3D"paddi=
+ng-top: 0px; padding-bottom: 0px;">
+<div class=3D"text-block">
+<div style=3D"text-align: center;"><span style=3D"font-size: 36px;">=E2=9A=
+=A1</span></div></div>
+</td></tr></tbody></table>
+
+<table align=3D"center" bgcolor=3D"" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" width=3D"100%"><tbody><tr><td class=3D"container" style=3D"paddi=
+ng-top: 0px; padding-bottom: 0px;">
+<div class=3D"text-block">
+<div style=3D"text-align: center;">
+
+<h1><strong>Quick Links</strong></h1>
+</div>
+</div>
+</td></tr></tbody></table>
+
+<table bgcolor=3D"" style=3D"table-layout: fixed; width: 100%;" width=3D"10=
+0%"><tbody><tr><td style=3D"padding:0;border-collapse:collapse;border-spaci=
+ng:0;margin:0;" valign=3D"top">
+
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"100%"><tbody><tr><td class=3D"container" style=3D"padding: 15px 15px=
+;">
+<div class=3D"text-block">
+<span>
+                                <a href=3D"https://tracking.tldrnewsletter.=
+com/CL0/https:%2F%2Fcloudnativenow.com%2Ffeatures%2Fakamai-unfurls-managed-=
+container-service-for-distributed-applications%2F%3Futm_source=3Dtldrdevops=
+/1/010001954c7b3a86-7005e4ac-959c-43be-a12c-8fa5aa14bc8f-000000/F68mjJaxPJD=
+zuJQ2Vol4_rMok2PK1DZ30pmrohW0jGs=3D394">
+                                    <span>
+                                        <strong>Akamai Unfurls Managed Cont=
+ainer Service for Distributed Applications (3 minute read)</strong>
+                                    </span>
+</a>
+<br>
+<br>
+<span style=3D"font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, V=
+erdana, sans-serif;">
+                                    Akamai Technologies has launched a Mana=
+ged Container Service, enabling cloud-native application deployment across =
+its global network of 4,300+ PoPs in 700+ cities.
+                                </span>
+</span>
+</div>
+</td></tr></tbody></table>
+
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"100%"><tbody><tr><td class=3D"container" style=3D"padding: 15px 15px=
+;">
+<div class=3D"text-block">
+<span>
+                                <a href=3D"https://tracking.tldrnewsletter.=
+com/CL0/https:%2F%2Fwww.pulumi.com%2Fblog%2Fplatform-engineering-pillars-2%=
+2F%3Futm_source=3Dtldrdevops/1/010001954c7b3a86-7005e4ac-959c-43be-a12c-8fa=
+5aa14bc8f-000000/ZrV67f1eQG8KY_AncRBfa_0KTcGWwbAFpHy2Ec2PC0s=3D394">
+                                    <span>
+                                        <strong>Platform Engineering: Maste=
+ring Infrastructure Provisioning (9 minute read)</strong>
+                                    </span>
+</a>
+<br>
+<br>
+<span style=3D"font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, V=
+erdana, sans-serif;">
+                                    Platform engineering teams can automate=
+ cloud infrastructure provisioning, which is key to self-service and stream=
+lined developer workflows, by using version-controlled infrastructure as co=
+de and CI/CD pipelines.
+                                </span>
+</span>
+</div>
+</td></tr></tbody></table>
+</td></tr></tbody></table>
+
+
+
+
+
+<table align=3D"center" bgcolor=3D"" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" width=3D"100%"><tbody><tr><td align=3D"left" style=3D"word-break=
+: break-word; vertical-align: top; padding: 5px 10px;">
+
+<p style=3D"padding: 0; margin: 0; font-size: 22px; color: #000000; line-he=
+ight: 1.6; font-weight: bold;">
+Want to advertise in TLDR? =F0=9F=93=B0
+</p>
+<div class=3D"text-block" style=3D"margin-top: 10px;">
+If your company is interested in reaching an audience of devops professiona=
+ls and decision makers, you may want to <a href=3D"https://tracking.tldrnew=
+sletter.com/CL0/https:%2F%2Fadvertise.tldr.tech%2F%3Futm_source=3Dtldrdevop=
+s%26utm_medium=3Dnewsletter%26utm_campaign=3Dadvertisecta/1/010001954c7b3a8=
+6-7005e4ac-959c-43be-a12c-8fa5aa14bc8f-000000/EekRn5Va7nbLmDQSjhvW9MYzfW4en=
+7Yv1xUoGq4EhRY=3D394"><strong><span>advertise with us</span></strong></a>.
+</div>
+<br>
+<!-- New "Want to work at TLDR?" section -->
+
+<p style=3D"padding: 0; margin: 0; font-size: 22px; color: #000000; line-he=
+ight: 1.6; font-weight: bold;">
+Want to work at TLDR? =F0=9F=92=BC
+</p>
+<div class=3D"text-block" style=3D"margin-top: 10px;">
+<a href=3D"https://tracking.tldrnewsletter.com/CL0/https:%2F%2Fjobs.ashbyhq=
+.com%2Ftldr.tech/1/010001954c7b3a86-7005e4ac-959c-43be-a12c-8fa5aa14bc8f-00=
+0000/j3I3gRe8kZiG3YFs3E7cGCeSyujJO_vOqjPuervZW3E=3D394" rel=3D"noopener nor=
+eferrer" style=3D"color: #0000EE; text-decoration: underline;" target=3D"_b=
+lank"><strong>Apply here</strong></a> or send a friend's resume to <a href=
+=3D"mailto:jobs@tldr.tech" style=3D"color: #0000EE; text-decoration: underl=
+ine;">jobs@tldr.tech</a> and get $1k if we hire them!
+</div>
+<br>
+<div class=3D"text-block">
+If you have any comments or feedback, just respond to this email!
+<br>
+<br> Thanks for reading,
+<br>
+<a href=3D"https://tracking.tldrnewsletter.com/CL0/https:%2F%2Fwww.linkedin=
+.com%2Fin%2Fkunaljaydesai%2F/1/010001954c7b3a86-7005e4ac-959c-43be-a12c-8fa=
+5aa14bc8f-000000/7xtwJDdLoTMAkUZQSqi664KMFOLMVu-Stdu-r418ppc=3D394"><span>K=
+unal Desai</span></a> &amp; <a href=3D"https://tracking.tldrnewsletter.com/=
+CL0/https:%2F%2Fwww.linkedin.com%2Fin%2Fmartin-hauskrecht%2F/1/010001954c7b=
+3a86-7005e4ac-959c-43be-a12c-8fa5aa14bc8f-000000/KoB_UmrBRUk--I9ftR8OQ8BdzS=
+5-P-tp7YR6pXB1rVs=3D394"><span>Martin Hauskrecht</span></a>
+<br>
+<br>
+</div>
+<br>
+</td></tr></tbody></table>
+
+<table align=3D"center" bgcolor=3D"" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" width=3D"100%"><tbody><tr><td class=3D"container" style=3D"paddi=
+ng: 15px 15px;">
+<div class=3D"text-block" id=3D"testing-id">
+<a href=3D"https://tracking.tldrnewsletter.com/CL0/https:%2F%2Ftldr.tech%2F=
+devops%2Fmanage%3Femail=3Djasonlongfield%2540edny.net/1/010001954c7b3a86-70=
+05e4ac-959c-43be-a12c-8fa5aa14bc8f-000000/Atl0lcIVCT3pNMqgj2xAkOPexEHeeP9Ni=
+2DR3JQYdZU=3D394">Manage your subscriptions</a> to our other newsletters on=
+ tech, startups, and programming. Or if TLDR DevOps isn't for you, please <=
+a href=3D"https://tracking.tldrnewsletter.com/CL0/https:%2F%2Fa.tldrnewslet=
+ter.com%2Funsubscribe%3Fep=3D1%26l=3D1c5ddf10-b6dc-11ed-a12f-33c00cd07e37%2=
+6lc=3D99f446d6-f5b8-11ef-b2e1-83509730d99e%26p=3Dfc7e964c-f58d-11ef-8c56-3b=
+6a866ddcb1%26pt=3Dcampaign%26pv=3D4%26spa=3D1740744073%26t=3D1740744899%26s=
+=3D642f3217d6fb8e3488a68199c60840c5c0909d18bca2344d60bc32fb61f15f56/1/01000=
+1954c7b3a86-7005e4ac-959c-43be-a12c-8fa5aa14bc8f-000000/SIo5HMy7cN4uZcNdADT=
+wQ9DgBIK6X_FgPE9wTN_RFf0=3D394">unsubscribe</a>.
+<br>
+</div>
+</td></tr></tbody></table>
+</td></tr></tbody></table>
+</td></tr></tbody></table>
+</td></tr></tbody></table>
+</td></tr></tbody></table>
+<img alt=3D"" src=3D"http://tracking.tldrnewsletter.com/CI0/010001954c7b3a8=
+6-7005e4ac-959c-43be-a12c-8fa5aa14bc8f-000000/LxxJYJGBkYBmyxMBekHbrbr91FqYU=
+F_4rGV7iZCI8SE=3D394" style=3D"display: none; width: 1px; height: 1px;">
+</body></html>
+--ob3MfeiB--

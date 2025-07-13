@@ -1,0 +1,689 @@
+Delivered-To: jasonlongfield@edny.net
+Return-Path: <010701954c5b6e92-618365d4-5594-49ed-9c3f-75b6ea53a6c7-000000@eu-central-1.amazonses.com>
+Received: from b226-71.smtp-out.eu-central-1.amazonses.com (b226-71.smtp-out.eu-central-1.amazonses.com [69.169.226.71])
+	by in.mail.tm (Haraka/3.0.2) with ESMTPS id FF890C57-8075-4D40-A816-75B7066F1E39.1
+	envelope-from <010701954c5b6e92-618365d4-5594-49ed-9c3f-75b6ea53a6c7-000000@eu-central-1.amazonses.com>
+	tls TLS_AES_256_GCM_SHA384;
+	Fri, 28 Feb 2025 11:40:15 +0000
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=6xaj4nbozxgwfzsdyyjbtro3pmcvu5fq; d=clickmeeting.com;
+	t=1740742815;
+	h=MIME-Version:Content-Type:To:From:Reply-To:Subject:Message-ID:Date;
+	bh=5u0VW/oB97kl1CY+u+N4KOBBXEH+LGcUxfEdWWAuDnA=;
+	b=N910UvT/Hwy6hTELW5GgUAphL0EuA0ACvxt2wE47sDJx8HtU6zfMPK9YmQRB51wR
+	G/YOIKR1WV9qfOgYeZjomurrBN/1Fek6hxNTavldVIwztDzv6wSXBcHj5pjOQ4gm4ku
+	XBzMBFsNRoXK16JGHmJldcAFBTDT0o6pkkLxtRJ4=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=54ecsf3zk7z4mwxwwox7z7bg6e5gwjsz; d=amazonses.com; t=1740742815;
+	h=MIME-Version:Content-Type:To:From:Reply-To:Subject:Message-ID:Date:Feedback-ID;
+	bh=5u0VW/oB97kl1CY+u+N4KOBBXEH+LGcUxfEdWWAuDnA=;
+	b=uYAZG1raErs8JO8RZClIvYaZ/eyJscKDgnkvZQWTaqxOa6213wX12la8r09Ltcze
+	4p1omSYBuJST6l61bBAFbYmk6KZrqAgz7fEOkFu8d16zvEdLPm5jGPpwF0qGQDFXT8o
+	W98Gk2zTKfSS/+CPQ/PVIjW4NlQGcI97qhio2UKY=
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+ boundary="=_dbf9508e428c54860ff35365c705a703"
+To: jasonlongfield@edny.net
+From: Julie Robertson <no-reply@clickmeeting.com>
+Reply-To: Julie Robertson <julierobertson@edny.net>
+Subject: Your online event invitation for "Sync before Jason holiday: Software
+ Development Progress and Insights"
+Message-ID: <010701954c5b6e92-618365d4-5594-49ed-9c3f-75b6ea53a6c7-000000@eu-central-1.amazonses.com>
+Date: Fri, 28 Feb 2025 11:40:15 +0000
+Feedback-ID: ::1.eu-central-1.hLcmwQxf8yigw2+AVJ6k7IT5hE3ZNUGIk3OVqoJVgTY=:AmazonSES
+X-SES-Outgoing: 2025.02.28-69.169.226.71
+
+
+--=_dbf9508e428c54860ff35365c705a703
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset=utf-8
+
+
+
+
+
+
+
+
+
+<html>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>ClickMeeting - Your online event invitation for "Sync before Jas=
+on holiday: Software Development Progress and Insights"</title>
+</head>
+<body style=3D"margin: 0;">
+    <!-- view online -->
+    <table width=3D"100%" bgcolor=3D"#fff" cellpadding=3D"0" cellspacing=3D=
+"0" border=3D"0" style=3D"border-collapse:separate;">
+        <tr>
+            <td width=3D"100%" align=3D"center">
+                <table width=3D"602" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0">
+                    <tr>
+                        <td width=3D"602" height=3D"20" valign=3D"middle" a=
+lign=3D"center"></td>
+                    </tr>
+                <tr>
+                    <td width=3D"602" height=3D"12" valign=3D"middle" align=
+=3D"center" style=3D"padding:0; margin:0; color:#aeb1ba;font-weight:400;fon=
+t-size:11px;font-family:'Helvetica Neue',Helvetica,sans-serif;line-height:1=
+8px;">
+                         <a style=3D"color:#aeb1ba; text-decoration: none;"=
+ href=3D"https://www.clickmeeting.com/view_email.html?hash=3Df9c2e7ff38da53=
+2e6eac33180850fec3ab59250c-02"> View this email with images &raquo; </a>
+                    </td>
+                </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+
+<table bgcolor=3D"#ffffff" style=3D"border-collapse: separate;" border=3D"0=
+" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%">
+    <tr>
+        <td style=3D"padding:40px;margin:0" align=3D"center">
+            <table style=3D"border-collapse: separate;" border=3D"0" cellsp=
+acing=3D"0" cellpadding=3D"0" width=3D"600" align=3D"center">
+                                    <tr>
+                        <td style=3D"margin:0;padding:0;" align=3D"center" =
+valign=3D"top">
+                            <table align=3D"center" border=3D"0" cellpaddin=
+g=3D"0" cellspacing=3D"0" width=3D"142">
+                                <tr>
+                                    <td valign=3D"middle" align=3D"center" =
+height=3D"34"
+                                        style=3D"padding:0;margin:0;backgro=
+und-color:#ff4609;background-repeat:no-repeat;background-position:0 0;backg=
+round-image:url(http://sc.stat-cdn.com/account_panel/images/_external/email=
+s/invitation_basic/01.png);">
+                                        <span style=3D"color:#ffffff; font-=
+size:18px; font-family:'Helvetica Neue',Helvetica,Arial,sans-serif; font-we=
+ight:bold;">
+                                            February
+                                        </span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td valign=3D"top" align=3D"center" hei=
+ght=3D"87"
+                                        style=3D"padding:0;margin:0;backgro=
+und-color:#ffffff;background-repeat:no-repeat;background-position:0 0;backg=
+round-image:url(http://sc.stat-cdn.com/account_panel/images/_external/email=
+s/invitation_basic/02.png);">
+                                                                           =
+         <span style=3D"color:#282b31; font-size:70px; line-height:75px; fo=
+nt-family:'Helvetica Neue',Helvetica,Arial,sans-serif; font-weight:normal;"=
+>
+                                            28
+                                        </span>
+                                                                           =
+ </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                                                <tr>
+                    <td style=3D"margin:0;padding-top:30px;padding-bottom:2=
+0px;" align=3D"center" valign=3D"top">
+                        <span style=3D"color:#282b31; font-size:30px; font-=
+family:'Helvetica Neue',Helvetica,Arial,sans-serif; font-weight:normal;">
+                                                                    Julie R=
+obertson  invited you<br />to
+                                    "<strong>Sync before Jason holiday: Sof=
+tware Development Progress and Insights</strong>"
+                                                            </span>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td align=3D"left" valign=3D"top">
+                        <table style=3D"border-collapse: separate;" border=
+=3D"0" cellspacing=3D"0" cellpadding=3D"15" width=3D"100%">
+                            <tr>
+                                <td align=3D"right" valign=3D"top" style=3D=
+"padding-right:0;padding-bottom:0;padding-left:0;width:150px">
+                                        <span style=3D"color:#a5a5a5; font-=
+size:14px; font-family:'Helvetica Neue',Helvetica,Arial,sans-serif; font-we=
+ight:normal; line-height:26px;">
+                                            Where:
+                                        </span>
+                                    </td>
+                                    <td align=3D"left" valign=3D"top" style=
+=3D"padding-bottom:0;word-break:break-all;word-break:break-word;">
+                                        <span style=3D"color:#646464; font-=
+size:18px; font-family:'Helvetica Neue',Helvetica,Arial,sans-serif; line-he=
+ight:26px;">
+                                            <a href=3D"https://julieroberts=
+on743.clickmeeting.com/sync-before-jason-holiday-software-development-progr=
+ess-and-insights?ao=3DBQx0ZwplZxO8YKkNq25zLzS5LzS0p3MlrKSNpaSuoP5upzqNsP18D=
+RO8YKkNqKAIIQZ2ISINsP18DQSNsP18DN____" target=3D"_blank" style=3D"color:#00=
+aeef; text-decoration:none;">https://julierobertson743.clickmeeting.com/syn=
+c-before-jason-holiday-software-development-progress-and-insights?ao=3DBQx0=
+ZwplZxO8YKkNq25zLzS5LzS0p3MlrKSNpaSuoP5upzqNsP18DRO8YKkNqKAIIQZ2ISINsP18DQS=
+NsP18DN____</a>
+                                        </span>
+                                    </td>
+                                </tr>
+                                                                <tr>
+                                    <td align=3D"right" valign=3D"top" styl=
+e=3D"padding-right:0;padding-bottom:0;padding-left:0;width:150px">
+                                        <span style=3D"color:#a5a5a5; font-=
+size:14px; font-family:'Helvetica Neue',Helvetica,Arial,sans-serif; font-we=
+ight:normal; line-height:26px;">
+                                            when:
+                                        </span>
+                                    </td>
+                                    <td align=3D"left" valign=3D"top" style=
+=3D"padding-bottom:0;">
+                                        <span style=3D"color:#646464; font-=
+size:16px; font-family:'Helvetica Neue',Helvetica,Arial,sans-serif; line-he=
+ight:26px;">
+                                            Friday, February 28, 2025 <br/>
+                                            05:00 PM Europe/Rome
+                                                                           =
+             <br /><a style=3D"font-size: 15px; color: #00aeef; text-decora=
+tion: none;" href=3D"https://utilities.clickmeeting.com/converter/241627881=
+">view in my timezone &#9656;</a>
+                                                                           =
+     </span>
+                                    </td>
+                                </tr>
+                                                                <tr>
+                                    <td align=3D"right" valign=3D"top" styl=
+e=3D"padding-right:0;padding-bottom:0;padding-left:0;width:150px">
+                                        <span style=3D"color:#a5a5a5; font-=
+size:14px; font-family:'Helvetica Neue',Helvetica,Arial,sans-serif; font-we=
+ight:normal; line-height:26px;">
+                                            Useful tips:
+                                        </span>
+                                    </td>
+                                    <td align=3D"left" valign=3D"top" style=
+=3D"padding-bottom:0;">
+                                                                           =
+         <table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" style=3D"width: auto;"><tr><td align=3D"left" style=3D"padding:0;mar=
+gin:0;"><table align=3D"left" border=3D"0" cellpadding=3D"0" width=3D"auto"=
+ cellspacing=3D"0" style=3D"border-spacing:5px 0px;"><tr><td align=3D"left"=
+ style=3D"padding:0 10px; border-top-left-radius:30px; border-top-right-rad=
+ius:30px;border-bottom-left-radius:30px; border-bottom-right-radius:30px; t=
+ext-align:center;text-decoration:none;width: auto;border:1px solid #00aeef;=
+"><a href=3D"https://knowledge.clickmeeting.com/infographic/guidelines-for-=
+attendees" title=3D"en" style=3D"display:block;height:25px;line-height:25px=
+;font-size:10px;font-family:Helvetica,Arial,sans-serif;font-weight:bold;tex=
+t-decoration:none;text-transform: uppercase;color:#00aeef;">Read before the=
+ event</a></td><td style=3D"padding: 1px;"></td><td align=3D"left" style=3D=
+"padding:0 10px; border-top-left-radius:30px; border-top-right-radius:30px;=
+border-bottom-left-radius:30px; border-bottom-right-radius:30px; text-align=
+:center;text-decoration:none;width: auto;border:1px solid #00aeef;"><a href=
+=3D"https://julierobertson743.clickmeeting.com/sync-before-jason-holiday-so=
+ftware-development-progress-and-insights/connection-tester" title=3D"en" st=
+yle=3D"display:block;height:25px;line-height:25px;font-size:10px;font-famil=
+y:Helvetica,Arial,sans-serif;font-weight:bold;text-decoration:none;text-tra=
+nsform: uppercase;color:#00aeef;">Test your connection</a></td></tr></table=
+></td></tr></table>
+                                                                           =
+ </td>
+                                </tr>
+                                <tr>
+                                    <td align=3D"right" valign=3D"top" styl=
+e=3D"padding-right:0;padding-bottom:0;padding-left:0;width:150px">
+                                        <span style=3D"color:#a5a5a5; font-=
+size:14px; font-family:'Helvetica Neue',Helvetica,Arial,sans-serif; font-we=
+ight:normal; line-height:26px;">
+                                            Event ID:
+                                        </span>
+                                    </td>
+                                    <td align=3D"left" valign=3D"top" style=
+=3D"padding-bottom:0;">
+                                        <span style=3D"color:#646464; font-=
+size:16px; font-family:'Helvetica Neue',Helvetica,Arial,sans-serif; line-he=
+ight:26px;">
+                                            241627881
+                                        </span>
+                                    </td>
+                                </tr>
+                                                                    <tr>
+                                        <td align=3D"right" valign=3D"top" =
+style=3D"padding-right:0;padding-bottom:0;padding-left:0;padding-top:20px;w=
+idth:150px">
+                                            <span style=3D"color:#a5a5a5; f=
+ont-size:14px; font-family:'Helvetica Neue',Helvetica,Arial,sans-serif; fon=
+t-weight:normal; line-height:26px;">
+                                                Add to the calendar:
+                                            </span>
+                                        </td>
+                                        <td align=3D"left" valign=3D"top">
+                                            <table align=3D"center" border=
+=3D"0" cellpadding=3D"0" width=3D"100%" cellspacing=3D"0">
+                                                <tr><td align=3D"left" bgco=
+lor=3D"#ffffff" style=3D"padding:0px 0px 0px 0px;margin:0;"><table align=3D=
+"center" border=3D"0" cellpadding=3D"0" width=3D"100%" cellspacing=3D"0"><t=
+r><td align=3D"left" style=3D"padding:0;margin:0;"><table align=3D"center" =
+border=3D"0" cellpadding=3D"0" width=3D"100%" cellspacing=3D"0" style=3D"bo=
+rder-spacing:5px 0px;"><tr><td align=3D"left" style=3D"padding:0 5px; borde=
+r-top-left-radius:30px; border-top-right-radius:30px;border-bottom-left-rad=
+ius:30px; border-bottom-right-radius:30px; text-align:center;text-decoratio=
+n:none;width: 33.333333%;background:#0081ff;"><a href=3D"https://www.google=
+=2Ecom/calendar/event?action=3DTEMPLATE&text=3DSync+before+Jason+holiday%3A=
++Software+Development+Progress+and+Insights&dates=3D20250228T160000Z%2F2025=
+0228T163000Z&details=3D&location=3Dhttps%3A%2F%2Fjulierobertson743.clickmee=
+ting.com%2Fsync-before-jason-holiday-software-development-progress-and-insi=
+ghts&trp=3Dfalse&sprop=3Dwebsite:https%3A%2F%2Fjulierobertson743.clickmeeti=
+ng.com%2Fsync-before-jason-holiday-software-development-progress-and-insigh=
+ts" title=3D"en" style=3D"display:block;height:35px;line-height:35px;font-s=
+ize:12px;font-family:Helvetica,Arial,sans-serif;font-weight:400;text-decora=
+tion:none;color:#fff;"><img style=3D"display:inline-block;vertical-align:mi=
+ddle;margin-right:5px;" src=3D"http://sc.stat-cdn.com/account_panel/images/=
+_external/emails/invitation_basic/google-calendar.png" width=3D"18" height=
+=3D"18" border=3D"0" alt=3D"" />Google Calendar</a></td><td align=3D"left" =
+style=3D"padding:0 5px; border-top-left-radius:30px; border-top-right-radiu=
+s:30px;border-bottom-left-radius:30px; border-bottom-right-radius:30px; tex=
+t-align:center;text-decoration:none;width: 33.333333%;background:#006fdd;">=
+<a href=3D"https://julierobertson743.clickmeeting.com/241627881/generate_ca=
+lendar_ics?rah=3D&at=3D&rh=3D&from=3Demail" title=3D"en" style=3D"display:b=
+lock;height:35px;line-height:35px;font-size:12px;font-family:Helvetica,Aria=
+l,sans-serif;font-weight:400;text-decoration:none;color:#fff;"><img style=
+=3D"display:inline-block;vertical-align:middle;margin-right:5px;" src=3D"ht=
+tp://sc.stat-cdn.com/account_panel/images/_external/emails/invitation_basic=
+/outlook.png" width=3D"18" height=3D"18" border=3D"0" alt=3D"" />Outlook</a=
+></td><td align=3D"left" style=3D"padding:0 5px; border-top-left-radius:30p=
+x; border-top-right-radius:30px;border-bottom-left-radius:30px; border-bott=
+om-right-radius:30px; text-align:center;text-decoration:none;width: 33.3333=
+33%;background:#e95850;"><a href=3D"https://julierobertson743.clickmeeting=
+=2Ecom/241627881/generate_calendar_ics?rah=3D&at=3D&rh=3D&from=3Demail" tit=
+le=3D"en" style=3D"display:block;height:35px;line-height:35px;font-size:12p=
+x;font-family:Helvetica,Arial,sans-serif;font-weight:400;text-decoration:no=
+ne;color:#fff;"><img style=3D"display:inline-block;vertical-align:middle;ma=
+rgin-right:5px;" src=3D"http://sc.stat-cdn.com/account_panel/images/_extern=
+al/emails/invitation_basic/apple-ical.png" width=3D"19" height=3D"20" borde=
+r=3D"0" alt=3D"" />iCal</a></td></tr></table></td></tr></table></td></tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                                                           =
+                 <tr>
+                                    <td align=3D"right" valign=3D"top" styl=
+e=3D"padding-right:0;padding-bottom:0;padding-left:0;width:150px">
+                                        <span style=3D"color:#a5a5a5; font-=
+size:14px; font-family:'Helvetica Neue',Helvetica,Arial,sans-serif; font-we=
+ight:normal; line-height:26px;">
+                                            password:
+                                        </span>
+                                    </td>
+                                    <td align=3D"left" valign=3D"top" style=
+=3D"padding-bottom:0;">
+                                        <span style=3D"color:#646464; font-=
+size:16px; font-family:'Helvetica Neue',Helvetica,Arial,sans-serif; line-he=
+ight:26px;" format=3D"telephone=3Dno">
+                                            hfHG36GH
+                                        </span>
+                                    </td>
+                                </tr>
+                           =20
+                           =20
+                                                           =20
+                                                            <tr>
+                                    <td align=3D"right" valign=3D"top" styl=
+e=3D"padding-right:0;padding-bottom:0;padding-left:0;width:150px;">
+                                        <span style=3D"display:block;widh:1=
+00%;color:#a5a5a5; font-size:14px; font-family:'Helvetica Neue',Helvetica,A=
+rial,sans-serif; font-weight:normal; line-height:26px;">
+                                            How to join:
+                                        </span>
+                                    </td>
+                                    <td align=3D"left" valign=3D"top" style=
+=3D"padding-bottom:0;">
+                                        <table align=3D"left" border=3D"0" =
+cellpadding=3D"0" cellspacing=3D"0" style=3D"width: auto;"><tr><td align=3D=
+"left" style=3D"padding:0;margin:0;"><table align=3D"left" border=3D"0" cel=
+lpadding=3D"0" width=3D"auto" cellspacing=3D"0" style=3D"border-spacing:5px=
+ 0px;"><tr><td align=3D"left" style=3D"padding:0 10px; border-top-left-radi=
+us:30px; border-top-right-radius:30px;border-bottom-left-radius:30px; borde=
+r-bottom-right-radius:30px; text-align:center;text-decoration:none;width: a=
+uto;border:1px solid #00aeef;"><a href=3D"https://www.youtube.com/watch?v=
+=3D83yN2hNGplY" target=3D"_blank" style=3D"display:block;height:25px;line-h=
+eight:25px;font-size:10px;font-family:Helvetica,Arial,sans-serif;font-weigh=
+t:bold;text-decoration:none;text-transform: uppercase;color:#00aeef;">Watch=
+ video</a></td></tr></table></td></tr></table>
+                                    </td>
+                                </tr>
+                                                        </table>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td align=3D"left" valign=3D"top">
+
+                            <table style=3D"border-collapse: separate;" bor=
+der=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%">
+                                <tr>
+                                    <td align=3D"left" valign=3D"top" style=
+=3D"padding-bottom:40px;padding-right:50px;padding-left:50px;padding-top:30=
+px;">
+                                        <table style=3D"border-collapse: se=
+parate;" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%">
+                                            <tr>
+                                                <td align=3D"left">
+                                                    <table align=3D"left" b=
+gcolor=3D"#f1f1f1" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=
+=3D"border-top-left-radius:30px; border-top-right-radius:30px;border-bottom=
+-left-radius:30px; border-bottom-right-radius:30px;">
+                                                        <tr>
+                                                            <td align=3D"le=
+ft" height=3D"44" width=3D"133" style=3D"padding:0; border-radius:30px; bor=
+der:0; text-align:center; background:#6ebe3b; background:-webkit-linear-gra=
+dient(top,  #79cb45 0%,#6ebe3b 100%); background:linear-gradient(to bottom,=
+  #79cb45 0%,#6ebe3b 100%); box-shadow:inset 0 -2px 0 rgba(0,0,0,.16), 0 2p=
+x 0 rgba(0,0,0,.11); text-decoration:none;">
+
+                                                                <table alig=
+n=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+                                                                    <tr>
+                                                                        <td=
+ align=3D"right" width=3D"35" style=3D"padding:2px 0 0 0;margin:0">
+                                                                           =
+ <a href=3D"https://julierobertson743.clickmeeting.com/sync-before-jason-ho=
+liday-software-development-progress-and-insights/accept/68aecdd38c931420bc4=
+7b9b26d605b67?clang=3Den" style=3D"display:block;">
+                                                                           =
+     <img style=3D"display: block;" src=3D"http://sc.stat-cdn.com/account_p=
+anel/images/_external/emails/invitation_basic/ico_ok.png" width=3D"19" heig=
+ht=3D"19" border=3D"0" alt=3D"" />
+                                                                           =
+ </a>
+                                                                        </t=
+d>
+                                                                        <td=
+ width=3D"89" align=3D"left" style=3D"padding-top:0;padding-right:0;padding=
+-bottom:0;padding-left:9px;">
+                                                                           =
+ <a href=3D"https://julierobertson743.clickmeeting.com/sync-before-jason-ho=
+liday-software-development-progress-and-insights/accept/68aecdd38c931420bc4=
+7b9b26d605b67?clang=3Den" style=3D"display:block;height:44px;line-height:44=
+px;color:#ffffff;font-weight:bold;font-size:18px;font-family:'Helvetica Neu=
+e',Helvetica,Arial,sans-serif;text-decoration:none;">
+                                                                           =
+     Accept
+                                                                           =
+ </a>
+                                                                        </t=
+d>
+                                                                    </tr>
+                                                                </table>
+
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+
+                                                <td align=3D"left">
+                                                    <table align=3D"left" b=
+gcolor=3D"#f1f1f1" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=
+=3D"border-top-left-radius:30px; border-top-right-radius:30px;border-bottom=
+-left-radius:30px; border-bottom-right-radius:30px;">
+                                                        <tr>
+                                                            <td align=3D"le=
+ft" height=3D"44" width=3D"133" style=3D"padding:0; border-radius:30px; bor=
+der:0; text-align:center; background:#ff4200; background:-webkit-linear-gra=
+dient(top,  #ff5013 0%,#ff4200 100%); background:linear-gradient(to bottom,=
+  #ff5013 0%,#ff4200 100%); box-shadow:inset 0 -2px 0 rgba(0,0,0,.16), 0 2p=
+x 0 rgba(0,0,0,.11); text-decoration:none;">
+
+                                                                <table alig=
+n=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+                                                                    <tr>
+                                                                        <td=
+ align=3D"right" width=3D"35" style=3D"padding:2px 0 0 0;margin:0">
+                                                                           =
+ <a href=3D"https://julierobertson743.clickmeeting.com/sync-before-jason-ho=
+liday-software-development-progress-and-insights/decline/68aecdd38c931420bc=
+47b9b26d605b67?clang=3Den" style=3D"display:block;">
+                                                                           =
+     <img style=3D"display: block;" src=3D"http://sc.stat-cdn.com/account_p=
+anel/images/_external/emails/invitation_basic/ico_fail.png" width=3D"19" he=
+ight=3D"19" border=3D"0" alt=3D"" />
+                                                                           =
+ </a>
+                                                                        </t=
+d>
+                                                                        <td=
+ width=3D"89" align=3D"left" style=3D"padding-top:0;padding-right:0;padding=
+-bottom:0;padding-left:9px;">
+                                                                           =
+ <a href=3D"https://julierobertson743.clickmeeting.com/sync-before-jason-ho=
+liday-software-development-progress-and-insights/decline/68aecdd38c931420bc=
+47b9b26d605b67?clang=3Den" style=3D"display:block;height:44px;line-height:4=
+4px;color:#ffffff;font-weight:bold;font-size:18px;font-family:'Helvetica Ne=
+ue',Helvetica,Arial,sans-serif;text-decoration:none;">
+                                                                           =
+     Decline
+                                                                           =
+ </a>
+                                                                        </t=
+d>
+                                                                    </tr>
+                                                                </table>
+
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+
+                                                <td align=3D"left">
+                                                    <table align=3D"left" b=
+gcolor=3D"#f1f1f1" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=
+=3D"border-top-left-radius:30px; border-top-right-radius:30px;border-bottom=
+-left-radius:30px; border-bottom-right-radius:30px;">
+                                                        <tr>
+                                                            <td align=3D"le=
+ft" height=3D"44" width=3D"133" style=3D"padding:0; border-radius:30px; bor=
+der:0; text-align:center; background:#f3f3f3; background:-webkit-linear-gra=
+dient(top,  #fff 0%,#f3f3f3 100%);background:linear-gradient(to bottom,  #f=
+ff 0%,#f3f3f3 100%);box-shadow:inset 0 -2px 0 rgba(255,255,255,.1), 0 2px 0=
+ rgba(0,0,0,.1);text-decoration:none;">
+
+                                                                <table alig=
+n=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+                                                                    <tr>
+                                                                        <td=
+ align=3D"right" width=3D"35" style=3D"padding:2px 0 0 0;margin:0">
+                                                                           =
+ <a href=3D"https://julierobertson743.clickmeeting.com/sync-before-jason-ho=
+liday-software-development-progress-and-insights/maybe/68aecdd38c931420bc47=
+b9b26d605b67?clang=3Den" style=3D"display:block;">
+                                                                           =
+     <img style=3D"display: block;" src=3D"http://sc.stat-cdn.com/account_p=
+anel/images/_external/emails/invitation_basic/ico_warn.png" width=3D"19" he=
+ight=3D"19" border=3D"0" alt=3D"" />
+                                                                           =
+ </a>
+                                                                        </t=
+d>
+                                                                        <td=
+ width=3D"89" align=3D"left" style=3D"padding-top:0;padding-right:0;padding=
+-bottom:0;padding-left:9px;">
+                                                                           =
+ <a href=3D"https://julierobertson743.clickmeeting.com/sync-before-jason-ho=
+liday-software-development-progress-and-insights/maybe/68aecdd38c931420bc47=
+b9b26d605b67?clang=3Den" style=3D"display:block;height:44px;line-height:44p=
+x;color:#373737;font-weight:bold;font-size:18px;font-family:'Helvetica Neue=
+',Helvetica,Arial,sans-serif;text-decoration:none;">
+                                                                           =
+     Maybe
+                                                                           =
+ </a>
+                                                                        </t=
+d>
+                                                                    </tr>
+                                                                </table>
+
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+
+               =20
+                               =20
+
+
+                    <tr>
+        <td style=3D"padding-top:28px;">
+            <tr>
+                <td style=3D"background-color:#f0f0f2;padding:26px 30px;bor=
+der-radius:6px;">
+                    <table align=3D"center" border=3D"0" cellpadding=3D"0" =
+width=3D"100%" cellspacing=3D"0">
+                        <tr>
+                            <td align=3D"left" style=3D"padding:0 27px 0 0;=
+margin:0;">
+                                <img src=3D"http://sc.stat-cdn.com/account_=
+panel/images/brand/clickmeeting/_external/emails/connection-tester-info.png=
+" alt=3D"" border=3D"0" width=3D"48" style=3D"border: 0px none transparent;=
+ display: block;" />
+                            </td>
+                            <td align=3D"left" style=3D"font-weight:400;fon=
+t-size:14px;
+                            font-family:'Helvetica Neue',Helvetica,sans-ser=
+if;color:#6c6c6c;line-height:22px;">
+                                For an excellent event experience, <a href=
+=3D"https://utilities.clickmeeting.com/connection-tester" style=3D"color:#0=
+0aeef;">check your Internet and system configuration now</a>.
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </td>
+    </tr>
+<tr>
+    <td style=3D"padding-top:8px;">
+        <tr>
+            <td style=3D"background-color:#f0f0f2;padding:26px 30px;border-=
+radius:6px;">
+                <table align=3D"center" border=3D"0" cellpadding=3D"0" widt=
+h=3D"100%" cellspacing=3D"0">
+                    <tr>
+                        <td align=3D"left" style=3D"padding:0 27px 0 0;marg=
+in:0;">
+                            <img src=3D"http://sc.stat-cdn.com/account_pane=
+l/images/brand/clickmeeting/_external/emails/browsers-info.png" alt=3D"" bo=
+rder=3D"0" width=3D"48" style=3D"border: 0px none transparent; display: blo=
+ck;" />
+                        </td>
+                        <td align=3D"left" style=3D"font-weight:400;font-si=
+ze:14px;
+                        font-family:'Helvetica Neue',Helvetica,sans-serif;c=
+olor:#6c6c6c;line-height:22px;">
+                            For a flawless experience, we highly recommend =
+using <strong> the latest version of Chrome, Safari, Firefox, Opera or Edge=
+ browser </strong>.
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </td>
+</tr>
+
+
+                                    <tr><td align=3D"left" style=3D"padding=
+:45px 40px 30px;margin:0;"><table align=3D"center" border=3D"0" cellpadding=
+=3D"0" width=3D"100%" cellspacing=3D"0"><tr><td align=3D"left" style=3D"pad=
+ding:0;margin:0;"><table align=3D"center" border=3D"0" cellpadding=3D"0" wi=
+dth=3D"100%" cellspacing=3D"0"><tr><td align=3D"left" style=3D"padding:0;ma=
+rgin:0;"><a href=3D"https://www.clickmeeting.com/" alt=3D"ClickMeeting" sty=
+le=3D""><img src=3D"http://sc.stat-cdn.com/account_panel/images/brand/click=
+meeting/_external/emails/mail_logo_footer_x130.png" alt=3D"" border=3D"0" h=
+eight=3D"22" width=3D"130" style=3D"border: 0px none transparent; display: =
+block;" /></a></td><td align=3D"left" width=3D"80px" style=3D"text-align:ri=
+ght;text-decoration:none;"><a href=3D"https://www.clickmeeting.com/preferre=
+d_email_language.html?lang=3Den&hash=3Df9c2e7ff38da532e6eac33180850fec3ab59=
+250c-02" title=3D"en" style=3D"display:block;font-size:14px;font-family:Hel=
+vetica,Arial,sans-serif;font-weight: 500;text-decoration:none;color:#9ca0ac=
+;"><img src=3D"http://sc.stat-cdn.com/account_panel/images/brand/clickmeeti=
+ng/_external/emails/lang.png" alt=3D"" border=3D"0" height=3D"20px" style=
+=3D"padding-right:8px;vertical-align: -5px;" /><span style=3D"padding-right=
+: 12px;text-transform: uppercase;">en</span><span style=3D"width: 0; height=
+: 0; font-size: 0; vertical-align:5px; border-top: 4px solid transparent; b=
+order-bottom: 4px solid transparent; border-left: 4px solid #aeb1ba;"></spa=
+n></a></td></tr></table></td></tr></table></td></tr>
+<tr><td align=3D"left" bgcolor=3Dtransparent style=3D"padding:0px 40px 25px=
+ 40px;margin:0;"><table align=3D"center" border=3D"0" cellpadding=3D"0" wid=
+th=3D"100%" cellspacing=3D"0"><tr><td align=3D"left" bgcolor=3Dtransparent =
+style=3D"padding:0;margin:0;"><span style=3D"color:#aeb1ba;font-weight:400;=
+font-size:11px;font-family:'Helvetica Neue',Helvetica,sans-serif;line-heigh=
+t:18px">    You=E2=80=99re receiving this email because of your interest in=
+ an online event prepared by its host. If you would like to unsubscribe fro=
+m such emails, please click
+    <a href=3D"https://utilities.clickmeeting.com/unsubscribe/f9c2e7ff38da5=
+32e6eac33180850fec3ab59250c-02?lang=3Den" target=3D"_blank" style=3D"color:=
+#00aeef;font-weight:bold;font-size:11px;font-family:'Helvetica Neue',Helvet=
+ica,sans-serif;text-decoration:underline;">here.</a>
+</span></td></tr></table></td></tr>
+<tr><td align=3D"left" bgcolor=3Dtransparent style=3D"padding:0px 40px 0 40=
+px;margin:0;"><table align=3D"center" border=3D"0" cellpadding=3D"0" width=
+=3D"100%" cellspacing=3D"0"><tr><td align=3D"left" bgcolor=3Dtransparent st=
+yle=3D"padding:0;margin:0;"><span style=3D"color:#aeb1ba;font-weight:400;fo=
+nt-size:11px;font-family:'Helvetica Neue',Helvetica,sans-serif;line-height:=
+18px">    (Email was sent to: <a href=3D"mailto:jasonlongfield@edny.net" ta=
+rget=3D"_blank" style=3D"color:#aeb1ba;font-weight:bold;font-size:11px;font=
+-family:'Helvetica Neue',Helvetica,sans-serif;text-decoration:none;">jasonl=
+ongfield@edny.net</a> via ClickMeeting platform)
+</span></td></tr></table></td></tr>
+
+                                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
+
+--=_dbf9508e428c54860ff35365c705a703
+Content-Transfer-Encoding: base64
+Content-Type: text/calendar; charset=utf-8;
+ name*0*=utf-8''Sync%20before%20Jason%20holiday%3A%20Software%20Developmen;
+ name*1*=t%20Progress%20and%20Insights.ics
+Content-Disposition: attachment;
+ filename*0*=utf-8''Sync%20before%20Jason%20holiday%3A%20Software%20Develo;
+ filename*1*=pment%20Progress%20and%20Insights.ics;
+ size=1516
+
+QkVHSU46VkNBTEVOREFSClBST0RJRDotLy9DQUxFTkRBUlNFUlZFUi5PUkcvL05PTlNHTUwgVmVy
+c2lvbiAxLy9FTgpWRVJTSU9OOjIuMApDQUxTQ0FMRTpHUkVHT1JJQU4KTUVUSE9EOlBVQkxJU0gK
+QkVHSU46VkVWRU5UCkRUU1RBUlQ6MjAyNTAyMjhUMTYwMDAwWgpEVEVORDoyMDI1MDIyOFQxNjMw
+MDBaCkRUU1RBTVA6MjAyNTAyMjhUMTE0MDE1WgpPUkdBTklaRVI7Q049SnVsaWUgUm9iZXJ0c29u
+Om1haWx0bzpqdWxpZXJvYmVydHNvbkBlZG55Lm5ldApVSUQ6MjQxNjI3ODgxCkFUVEVOREVFO0NV
+VFlQRT1JTkRJVklEVUFMO1JPTEU9UkVRLVBBUlRJQ0lQQU5UO1BBUlRTVEFUPUFDQ0VQVEVEO1JT
+VlA9VFINCiBVRTtDTj1KdWxpZSBSb2JlcnRzb247WC1OVU0tR1VFU1RTPTA6bWFpbHRvOmp1bGll
+cm9iZXJ0c29uQGVkbnkubmV0CkFUVEVOREVFO0NVVFlQRT1JTkRJVklEVUFMO1JPTEU9UkVRLVBB
+UlRJQ0lQQU5UO1BBUlRTVEFUPU5FRURTLUFDVElPTjtSU1YNCiBQPVRSVUU7Q049amFzb25sb25n
+ZmllbGRAZWRueS5uZXQ7WC1OVU0tR1VFU1RTPTA6bWFpbHRvOmphc29ubG9uZ2ZpZWxkQGVkDQog
+bnkubmV0CkNSRUFURUQ6MjAyNTAyMjhUMTE0MDE1WgpERVNDUklQVElPTjpDaG9vc2Ugd2hpY2gg
+d2F5IHlvdSB3YW50IHRvIGpvaW4gdGhlIGV2ZW50OlxuXG4xLiBKb2luIHZpYSBXDQogZWJzaXRl
+OiBodHRwczovL2p1bGllcm9iZXJ0c29uNzQzLmNsaWNrbWVldGluZy5jb20vc3luYy1iZWZvcmUt
+amFzb24taG9saQ0KIGRheS1zb2Z0d2FyZS1kZXZlbG9wbWVudC1wcm9ncmVzcy1hbmQtaW5zaWdo
+dHM/YW89QlF4MFp3cGxaeE84WUtrTnEyNXpMelMNCiA1THpTMHAzTWxyS1NOcGFTdW9QNXVwenFO
+c1AxOERSTzhZS2tOcUtBSUlRWjJJU0lOc1AxOERRU05zUDE4RE5fX19fXG5cblBhDQogc3N3b3Jk
+OiBoZkhHMzZHSFxuXG4yLiBKb2luIHZpYSBNb2JpbGUgQXBwbGljYXRpb246XG5FdmVudCBJRDog
+MjQxLTYyNy04OA0KIDFcblxuMjAyNS0wMi0yOCAwNTowMCBQTSBFdXJvcGUvUm9tZVxuXG5Db252
+ZXJ0IHN0YXJ0IHRpbWUgdG8geW91ciB0aW1lem8NCiBuZTogaHR0cHM6Ly91dGlsaXRpZXMuY2xp
+Y2ttZWV0aW5nLmNvbS9jb252ZXJ0ZXIvMjQxNjI3ODgxCkxBU1QtTU9ESUZJRUQ6MjAyNTAyMjhU
+MTE0MDE1WgpMT0NBVElPTjpodHRwczovL2p1bGllcm9iZXJ0c29uNzQzLmNsaWNrbWVldGluZy5j
+b20vc3luYy1iZWZvcmUtamFzb24taG9sDQogaWRheS1zb2Z0d2FyZS1kZXZlbG9wbWVudC1wcm9n
+cmVzcy1hbmQtaW5zaWdodHM/YW89QlF4MFp3cGxaeE84WUtrTnEyNXpMeg0KIFM1THpTMHAzTWxy
+S1NOcGFTdW9QNXVwenFOc1AxOERSTzhZS2tOcUtBSUlRWjJJU0lOc1AxOERRU05zUDE4RE5fX19f
+ClNFUVVFTkNFOjAKU1RBVFVTOkNPTkZJUk1FRApTVU1NQVJZOlN5bmMgYmVmb3JlIEphc29uIGhv
+bGlkYXk6IFNvZnR3YXJlIERldmVsb3BtZW50IFByb2dyZXNzIGFuZCBJbnNpDQogZ2h0cwpUUkFO
+U1A6T1BBUVVFCkVORDpWRVZFTlQKRU5EOlZDQUxFTkRBUg==
+
+--=_dbf9508e428c54860ff35365c705a703--
+
